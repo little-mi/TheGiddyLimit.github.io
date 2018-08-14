@@ -132,13 +132,13 @@
 			"page": 290
 		},
 		{
-			"name": "Invisible",
+			"name": "隱形[Invisible]",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.",
-						"Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage."
+						"隱形的生物不能為肉眼所見，需要借助魔法或其他特殊觸感才能看見。就隱匿而言，隱形的生物視作被重度遮蔽。他依然能留下其他線索暴露位置，例如發出聲響或留下足跡。",
+						"對該生物的攻擊有劣勢，該生物的攻擊有優勢。"
 					]
 				}
 			],
@@ -146,14 +146,14 @@
 			"page": 291
 		},
 		{
-			"name": "Paralyzed",
+			"name": "麻痺[Paralyzed]",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A paralyzed creature is {@condition incapacitated} and can't move or speak.",
-						"The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage.",
-						"Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+						"被麻痺的生物乏力，不能移動或說話。",
+						"該生物自動敗於力量和敏捷豁免，對該生物的攻擊骰帶有優勢。",
+						"任何命中的攻擊皆為重擊，只要攻擊者位處該生物的5 尺內。"
 					]
 				}
 			],
