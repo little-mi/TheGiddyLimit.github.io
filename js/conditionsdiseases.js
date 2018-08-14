@@ -7,7 +7,7 @@ window.onload = function load () {
 };
 
 function conditionDiseaseTypeToFull (type) {
-	return type === "c" ? "Condition" : "Disease";
+	return type === "c" ? "狀態" : "疾病";
 }
 
 const sourceFilter = getSourceFilter();
