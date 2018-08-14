@@ -363,7 +363,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"此法術可讓一種動物知道你對他無害。選擇在射程內的動物，它必須聽得到看的到你。如果此動物的智力是 4 或以上，此法術自動失敗。如果沒有，此動物需要做感知豁免不然就會被你迷惑({@condition charmed})。如果你或是你的夥伴攻擊這動物，此法術會失效。"
+				"此法術可讓一種動物知道你對他無害。選擇在射程內的動物，它必須聽得到看的到你。如果此動物的智力是 4 或以上，此法術自動失敗。如果沒有，此動物需要做感知豁免不然就會被你{@condition 迷惑[Charmed]}。如果你或是你的夥伴攻擊這動物，此法術會失效。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -971,7 +971,7 @@
 					"type": "entries",
 					"name": "Antipathy",
 					"entries": [
-						"The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become {@condition frightened}. The creature remains {@condition frightened} while it can see the target or is within 60 feet of it. While {@condition frightened} by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer {@condition frightened}, but the creature becomes {@condition frightened} again if it regains sight of the target or moves within 60 feet of it."
+						"The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become {@condition 恐慌[Frightened]}. The creature remains {@condition 恐慌[Frightened]} while it can see the target or is within 60 feet of it. While {@condition 恐慌[Frightened]} by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer {@condition 恐慌[Frightened]}, but the creature becomes {@condition 恐慌[Frightened]} again if it regains sight of the target or moves within 60 feet of it."
 					]
 				},
 				{
@@ -1648,7 +1648,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, and {@condition stunned}."
+				"Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: {@condition 盲目[Blinded]}, {@condition 迷惑[Charmed]}, {@condition deafened}, {@condition 恐慌[Frightened]}, {@condition paralyzed}, {@condition poisoned}, and {@condition stunned}."
 			],
 			"page": 216,
 			"damageResist": [
@@ -1756,7 +1756,7 @@
 			"source": "PHB",
 			"entries": [
 				"After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human's. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.",
-				"The awakened beast or plant is {@condition charmed} by you for 30 days or until you or your companions do anything harmful to it. When the {@condition charmed} condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was {@condition charmed}."
+				"The awakened beast or plant is {@condition 迷惑[Charmed]} by you for 30 days or until you or your companions do anything harmful to it. When the {@condition 迷惑[Charmed]} condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was {@condition 迷惑[Charmed]}."
 			],
 			"page": 216,
 			"permanentEffects": true
@@ -1926,7 +1926,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra {@dice 5d10} force damage to the target. Additionally, if this attack reduces the target to 50 hit points or fewer, you banish it. If the target is native to a different plane of existence than the one you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is {@condition incapacitated}. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied."
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra {@dice 5d10} force damage to the target. Additionally, if this attack reduces the target to 50 hit points or fewer, you banish it. If the target is native to a different plane of existence than the one you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is {@condition 乏力[Incapacitated]}. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied."
 			],
 			"page": 216,
 			"damageInflict": [
@@ -2094,7 +2094,7 @@
 			"source": "PHB",
 			"entries": [
 				"You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma saving throw or be banished.",
-				"If the target is native to the plane of existence you're on, you banish the target to a harmless demiplane. While there, the target is {@condition incapacitated}. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+				"If the target is native to the plane of existence you're on, you banish the target to a harmless demiplane. While there, the target is {@condition 乏力[Incapacitated]}. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
 				"If the target is native to a different plane of existence than the one you're on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn't return."
 			],
 			"entriesHigherLevel": [
@@ -2940,8 +2940,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"法術終止前，你下一次以近戰武器攻擊命中某生物時，你的武器爆發出強光，對目標額外造成 {@dice 3d8} radiant 傷害。另外，目標必須進行一次體魄豁免，失敗則目盲({@condition blinded})直到法術終止。",
-				"因此法術而目盲({@condition blinded})的生物在他的每個回合結束時進行一次體魄豁免，成功則不再目盲({@condition blinded})。"
+				"法術終止前，你下一次以近戰武器攻擊命中某生物時，你的武器爆發出強光，對目標額外造成 {@dice 3d8} radiant 傷害。另外，目標必須進行一次體魄豁免，失敗則({@condition 盲目[Blinded]})直到法術終止。",
+				"因此法術而({@condition 盲目[Blinded]})的生物在他的每個回合結束時進行一次體魄豁免，成功則不再({@condition 盲目[Blinded]})。"
 			],
 			"page": 219,
 			"damageInflict": [
@@ -3044,7 +3044,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你嘗試令敵人目盲或耳聾。選擇一個射程內對你可見的生物。他必須進行一次體魄豁免，失敗則在法術持續時間內目盲({@condition blinded})或耳聾({@condition deafened})（由你選擇）。在目標的每個回合結束時，他可以通過一次體魄豁免，成功則法術終止。"
+				"你嘗試令敵人目盲或耳聾。選擇一個射程內對你可見的生物。他必須進行一次體魄豁免，失敗則在法術持續時間內({@condition 盲目[Blinded]})或({@condition 耳聾[Deafened]})（由你選擇）。在目標的每個回合結束時，他可以通過一次體魄豁免，成功則法術終止。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -3631,7 +3631,7 @@
 			"source": "PHB",
 			"entries": [
 				"你試圖抑制一群人的強烈情感。選擇射程內一個點，20 尺半徑球形區域內的每個類人生物必須進行一次魅力豁免。受術生物可以自願放棄豁免。如果某生物豁免失敗，選擇下面兩項效果之一。",
-				"你可以選擇壓制任何使目標魅惑({@condition charmed})或恐慌({@condition frightened})的效果。當安定心神終止時，如果被壓制的效果持續時間仍未完結，則該效果恢復。",
+				"你可以選擇壓制任何使目標{@condition 迷惑[Charmed]}或({@condition 恐慌[Frightened]})的效果。當安定心神終止時，如果被壓制的效果持續時間仍未完結，則該效果恢復。",
 				"你也可以選擇使目標改變對某個生物的態度，由敵對變為冷漠。如果目標被攻擊，被有害法術影響，或發現他的盟友被損害，此效果終止。當安定心神終止時，除非 DM 另行裁決，否則目標的態度恢復敵對。"
 			],
 			"page": 221,
@@ -3788,7 +3788,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你嘗試迷惑射程內的一名類人。他要進行一次感知豁免，如果你的同伴在跟他戰鬥的話這豁免帶有優勢。如果他豁免失敗，他被你迷惑({@condition charmed})到法術終結或直到你或你的同伴傷害他。被迷惑({@condition charmed})的生物視你為知己。當法術終結時，該生物會知道他被你所迷惑({@condition charmed})。"
+				"你嘗試迷惑射程內的一名類人。他要進行一次感知豁免，如果你的同伴在跟他戰鬥的話這豁免帶有優勢。如果他豁免失敗，他被你{@condition 迷惑[Charmed]}到法術終結或直到你或你的同伴傷害他。被{@condition 迷惑[Charmed]}的生物視你為知己。當法術終結時，該生物會知道他被你所{@condition 迷惑[Charmed]}。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -4488,7 +4488,7 @@
 			"source": "PHB",
 			"entries": [
 				"一片耀眼的彩色光芒從你的手上閃出。投 {@dice 6d10} 決定你能影響到的生物的總生命值。以你為源頭的15尺錐形空間內，生物按生命值從小到大決定是否受影響（忽略昏迷({@condition unconscious})和看不見的生物）。",
-				"從影響范圍內當前生命值最低的生物開始，被影響的生物目盲({@condition blinded})直到法術結束。在決定下一個生物是否受影響前，從擲出的總生命值中減去被影響的生物的當前生命值之和。當前生命值小於等於剩余生命總值的生物受到影響。"
+				"從影響范圍內當前生命值最低的生物開始，被影響的生物({@condition 盲目[Blinded]})直到法術結束。在決定下一個生物是否受影響前，從擲出的總生命值中減去被影響的生物的當前生命值之和。當前生命值小於等於剩余生命總值的生物受到影響。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -5076,7 +5076,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be {@condition charmed}. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving throw to try to end the effect.",
+				"Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be {@condition 迷惑[Charmed]}. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving throw to try to end the effect.",
 				"A target isn't compelled to move into an obviously deadly hazard, such as a fire or pit, but it will provoke opportunity attacks to move in the designated direction."
 			],
 			"page": 224,
@@ -6006,7 +6006,7 @@
 					"type": "entries",
 					"name": "Blinding Sickness",
 					"entries": [
-						"Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is {@condition blinded}."
+						"Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is {@condition 盲目[Blinded]}."
 					]
 				},
 				{
@@ -6974,8 +6974,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你指定射程內你能看到的一個人形生物進行感知豁免，失敗則被你魅惑({@condition charmed})。當目標以之這種方式被魅惑({@condition charmed})時，它的頭上出現一個扭曲的鋸齒冠冕眼中發出瘋狂的光芒。",
-				"被魅惑({@condition charmed})的目標在它的回合必須在移動前對你用精神指定的除它自己以外的生物進行近戰攻擊。如果它的觸及範圍內沒有生物或你不指定，目標在它的回合正常行動。",
+				"你指定射程內你能看到的一個人形生物進行感知豁免，失敗則被你{@condition 迷惑[Charmed]}。當目標以之這種方式被{@condition 迷惑[Charmed]}時，它的頭上出現一個扭曲的鋸齒冠冕眼中發出瘋狂的光芒。",
+				"被{@condition 迷惑[Charmed]}的目標在它的回合必須在移動前對你用精神指定的除它自己以外的生物進行近戰攻擊。如果它的觸及範圍內沒有生物或你不指定，目標在它的回合正常行動。",
 				"在接下來的回合，你必須用動作維持對目標的控制，否則法術結束。同樣的，目標在它每回合結束前可以進行感知豁免，成功則法術結束。"
 			],
 			"page": 229,
@@ -8600,7 +8600,7 @@
 					"type": "entries",
 					"name": "Break Enchantment",
 					"entries": [
-						"As your action, you touch a creature you can reach that is {@condition charmed}, {@condition frightened}, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer {@condition charmed}, {@condition frightened}, or possessed by such creatures."
+						"As your action, you touch a creature you can reach that is {@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer {@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}, or possessed by such creatures."
 					]
 				},
 				{
@@ -8771,7 +8771,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你可以選擇在範圍內聽的到的生物並用暗語傳達不協調的曲子給他聽，使他感受到痛苦。此生物必須做感知豁免。如果失敗，此生物將受到 {@dice 3d6} psychic 傷害，如果他還有反應動作那他將立即啟動這動作，以他的速度為準，此生物一定要跑遠離你。此生物不會移動到危險之處，如火或地坑。如果成功，他只會受到一半的傷害，不會跑遠離你。聽不見的({@condition deafened})生物會直接成功。"
+				"你可以選擇在範圍內聽的到的生物並用暗語傳達不協調的曲子給他聽，使他感受到痛苦。此生物必須做感知豁免。如果失敗，此生物將受到 {@dice 3d6} psychic 傷害，如果他還有反應動作那他將立即啟動這動作，以他的速度為準，此生物一定要跑遠離你。此生物不會移動到危險之處，如火或地坑。如果成功，他只會受到一半的傷害，不會跑遠離你。({@condition 耳聾[Deafened]})生物會直接成功。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -8972,8 +8972,8 @@
 					"type": "list",
 					"items": [
 						"50 hit points or fewer: {@condition deafened} for 1 minute",
-						"40 hit points or fewer: {@condition deafened} and {@condition blinded} for 10 minutes",
-						"30 hit points or fewer: {@condition blinded}, {@condition deafened}, and {@condition stunned} for 1 hour",
+						"40 hit points or fewer: {@condition deafened} and {@condition 盲目[Blinded]} for 10 minutes",
+						"30 hit points or fewer: {@condition 盲目[Blinded]}, {@condition deafened}, and {@condition stunned} for 1 hour",
 						"20 hit points or fewer: killed instantly"
 					]
 				},
@@ -9101,8 +9101,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You attempt to beguile a beast that you can see within range. It must succeed on a Wisdom saving throw or be {@condition charmed} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
-				"While the beast is {@condition charmed}, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
+				"You attempt to beguile a beast that you can see within range. It must succeed on a Wisdom saving throw or be {@condition 迷惑[Charmed]} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
+				"While the beast is {@condition 迷惑[Charmed]}, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
 				"You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.",
 				"Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
 			],
@@ -9173,8 +9173,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You attempt to beguile a creature that you can see within range. It must succeed on a Wisdom saving throw or be {@condition charmed} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
-				"While the creature is {@condition charmed}, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
+				"You attempt to beguile a creature that you can see within range. It must succeed on a Wisdom saving throw or be {@condition 迷惑[Charmed]} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
+				"While the creature is {@condition 迷惑[Charmed]}, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
 				"You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.",
 				"Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
 			],
@@ -9353,8 +9353,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be {@condition charmed} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
-				"While the target is {@condition charmed}, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
+				"You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be {@condition 迷惑[Charmed]} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
+				"While the target is {@condition 迷惑[Charmed]}, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
 				"You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.",
 				"Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
 			],
@@ -9914,7 +9914,7 @@
 					"type": "entries",
 					"name": "貓之優雅",
 					"entries": [
-						"目標在敏捷檢定上獲得優勢，並且非乏力({@condition incapacitated})狀態下，不會受到 20 英尺以內墜落傷害。"
+						"目標在敏捷檢定上獲得優勢，並且非({@condition 乏力[Incapacitated]})狀態下，不會受到 20 英尺以內墜落傷害。"
 					]
 				},
 				{
@@ -10276,7 +10276,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你編織了一段使人分心的文字，使得你選擇的一個你可看見的、可聽見你的生物通過一個感知豁免檢定。任何在這個豁免檢定上成功的生物都不會被魅惑({@condition charmed})，如果你或你的同伴正在和其戰鬥，則這個生物在這個豁免上有優勢。如果失敗，目標在察覺除你以外生物的感知（觀察）檢定上有劣勢，直到法術結束或目標不再聽得見你。如果你變為乏力({@condition incapacitated})狀態或不能再說話，這個法術結束。"
+				"你編織了一段使人分心的文字，使得你選擇的一個你可看見的、可聽見你的生物通過一個感知豁免檢定。任何在這個豁免檢定上成功的生物都不會被{@condition 迷惑[Charmed]}，如果你或你的同伴正在和其戰鬥，則這個生物在這個豁免上有優勢。如果失敗，目標在察覺除你以外生物的感知（觀察）檢定上有劣勢，直到法術結束或目標不再聽得見你。如果你變為({@condition 乏力[Incapacitated]})狀態或不能再說話，這個法術結束。"
 			],
 			"page": 238,
 			"savingThrow": [
@@ -10589,7 +10589,7 @@
 					"type": "entries",
 					"name": "Panicked",
 					"entries": [
-						"The target is {@condition frightened} of you. On each of its turns, the {@condition frightened} creature must take the Dash action and move away from you by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends."
+						"The target is {@condition 恐慌[Frightened]} of you. On each of its turns, the {@condition 恐慌[Frightened]} creature must take the Dash action and move away from you by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends."
 					]
 				},
 				{
@@ -11011,8 +11011,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你制造一個目標最懼怕的幻象。 30 尺內的所有生物必須通過一個感知豁免，否則會丟棄他所持有的物品並且在法術持續時間內變為驚恐({@condition frightened})狀態。",
-				"被法術所驚恐({@condition frightened})的目標在其行動輪內必須使用疾行動作來遠離施法者，逃到最安全的地方，除非他無路可逃。當目標逃到看不到施法者的地方時，目標可以進行感知豁免，如果豁免成功，則該目標的法術效果結束。"
+				"你制造一個目標最懼怕的幻象。 30 尺內的所有生物必須通過一個感知豁免，否則會丟棄他所持有的物品並且在法術持續時間內變為({@condition 恐慌[Frightened]})狀態。",
+				"被法術所({@condition 恐慌[Frightened]})的目標在其行動輪內必須使用疾行動作來遠離施法者，逃到最安全的地方，除非他無路可逃。當目標逃到看不到施法者的地方時，目標可以進行感知豁免，如果豁免成功，則該目標的法術效果結束。"
 			],
 			"page": 239,
 			"savingThrow": [
@@ -11224,7 +11224,7 @@
 			},
 			"entries": [
 				"你觸摸一個自願生物，並將他變成死去一般僵硬。",
-				"在法術持續時間內，或你再次接觸目標消解該法術，目標的外在表象和死亡完全一致同時根據目標受到的其他法術來決定擁有的額外狀態。目標目盲({@condition blinded})同時乏力({@condition incapacitated})，移動速度降低為 0。目標對除了精神以外的所有傷害有抗性。如果施法時，目標有疾病或中毒({@condition poisoned})，在該法術持續時間內這些效果無效。"
+				"在法術持續時間內，或你再次接觸目標消解該法術，目標的外在表象和死亡完全一致同時根據目標受到的其他法術來決定擁有的額外狀態。目標({@condition 盲目[Blinded]})同時({@condition 乏力[Incapacitated]})，移動速度降低為 0。目標對除了精神以外的所有傷害有抗性。如果施法時，目標有疾病或中毒({@condition poisoned})，在該法術持續時間內這些效果無效。"
 			],
 			"page": 240,
 			"damageResist": [
@@ -12850,7 +12850,7 @@
 			"source": "PHB",
 			"entries": [
 				"在法術持續時間內，你將一個你觸摸的自願生物連同他穿著和帶著的所有東西轉化為一團模糊的雲霧。當生物的生命值下降到 0 時法術結束。非實體的生物不受影響。",
-				"在這種形態下，目標唯一的行動方式就是以 10 尺的速度飛行。目標可以進入並停留在被一個生物佔據的空間。目標抵抗非魔法傷害並在進行力量、敏捷和體質豁免時有優勢。目標可以穿過小洞、狹縫、甚至小裂紋，但對它來說液體就像固體表面一樣。目標即使被擊暈({@condition stunned})或者乏力({@condition incapacitated})的時候也不會墜落，並且懸停在空中。",
+				"在這種形態下，目標唯一的行動方式就是以 10 尺的速度飛行。目標可以進入並停留在被一個生物佔據的空間。目標抵抗非魔法傷害並在進行力量、敏捷和體質豁免時有優勢。目標可以穿過小洞、狹縫、甚至小裂紋，但對它來說液體就像固體表面一樣。目標即使被擊暈({@condition stunned})或者({@condition 乏力[Incapacitated]})的時候也不會墜落，並且懸停在空中。",
 				"在模糊的雲霧形態下，目標不能講話或操縱物品，同時它帶著或拿著的物品不會掉落，不能被使用，或者與之互動。目標不能攻擊或施法。"
 			],
 			"page": 244
@@ -12982,7 +12982,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become {@condition charmed} by you for the duration. While the creature is {@condition charmed} by you, it takes {@dice 5d10} psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can't understand you is unaffected by the spell.",
+				"You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become {@condition 迷惑[Charmed]} by you for the duration. While the creature is {@condition 迷惑[Charmed]} by you, it takes {@dice 5d10} psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can't understand you is unaffected by the spell.",
 				"You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.",
 				"You can end the spell early by using an action to dismiss it. A remove curse, greater restoration, or wish spell also ends it."
 			],
@@ -13743,7 +13743,7 @@
 				{
 					"type": "list",
 					"items": [
-						"One effect that {@condition charmed} or {@condition petrified} the target",
+						"One effect that {@condition 迷惑[Charmed]} or {@condition petrified} the target",
 						"One curse, including the target's attunement to a cursed magic item",
 						"Any reduction to one of the target's ability scores",
 						"One effect reducing the target's hit point maximum"
@@ -14320,13 +14320,13 @@
 			"source": "PHB",
 			"entries": [
 				"You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell. The affected area is subject to the following effects.",
-				"First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature {@condition charmed}, {@condition frightened}, or possessed by such a creature is no longer {@condition charmed}, {@condition frightened}, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.",
+				"First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature {@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}, or possessed by such a creature is no longer {@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.",
 				"Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the DM. Some of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as orcs or trolls. When a creature that would be affected enters the spell's area for the first time on a turn or starts its turn there, it can make a Charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.",
 				{
 					"type": "entries",
 					"name": "Courage",
 					"entries": [
-						"Affected creatures can't be {@condition frightened} while in the area."
+						"Affected creatures can't be {@condition 恐慌[Frightened]} while in the area."
 					]
 				},
 				{
@@ -14375,7 +14375,7 @@
 					"type": "entries",
 					"name": "Fear",
 					"entries": [
-						"Affected creatures are {@condition frightened} while in the area."
+						"Affected creatures are {@condition 恐慌[Frightened]} while in the area."
 					]
 				},
 				{
@@ -15017,7 +15017,7 @@
 			"source": "PHB",
 			"entries": [
 				"You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this hour is over. Up to twelve other creatures can partake of the feast.",
-				"A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being {@condition frightened}, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by {@dice 2d10}, and it gains the same number of hit points. These benefits last for 24 hours."
+				"A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being {@condition 恐慌[Frightened]}, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by {@dice 2d10}, and it gains the same number of hit points. These benefits last for 24 hours."
 			],
 			"page": 250,
 			"damageImmune": [
@@ -15101,7 +15101,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"一個自願生物經你接觸後充滿了勇氣。直到法術結束前，該生物免疫恐慌({@condition frightened})，並且在它的每回合開始時它獲得臨時生命，其數值等同於你的施法關鍵屬性調整值。當法術結束時，目標失去任何尚存的由此法術提供的臨時生命值。"
+				"一個自願生物經你接觸後充滿了勇氣。直到法術結束前，該生物免疫({@condition 恐慌[Frightened]})，並且在它的每回合開始時它獲得臨時生命，其數值等同於你的施法關鍵屬性調整值。當法術結束時，目標失去任何尚存的由此法術提供的臨時生命值。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -15543,7 +15543,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light in a 5-foot radius and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be {@condition blinded} until the spell ends."
+				"Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light in a 5-foot radius and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be {@condition 盲目[Blinded]} until the spell ends."
 			],
 			"page": 251,
 			"savingThrow": [
@@ -15592,7 +15592,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你打開一個通道，通往群星間的黑暗之處，遍布未知的恐怖存在之地。以射程內一點為中心，一個半徑 20 英尺的黑暗寒冷的球形孔洞出現並持續到法術結束。這個虛無之洞充斥著 30 英尺內都能聽到的不和諧的耳語和啜哺咀嚼的噪音。光芒、魔法和其他手段都無法照亮這個區域，完全處於區域內的生物處於目盲({@condition blinded})狀態。",
+				"你打開一個通道，通往群星間的黑暗之處，遍布未知的恐怖存在之地。以射程內一點為中心，一個半徑 20 英尺的黑暗寒冷的球形孔洞出現並持續到法術結束。這個虛無之洞充斥著 30 英尺內都能聽到的不和諧的耳語和啜哺咀嚼的噪音。光芒、魔法和其他手段都無法照亮這個區域，完全處於區域內的生物處於({@condition 盲目[Blinded]})狀態。",
 				"這個空洞將空間結構扭曲，區域內為困難地形。任何在區域內開始它的回合的生物受到 {@dice 2d6} cold 傷害。任何在區域內結束它的回合的生物必須成功通過一次敏捷豁免，否則會由於異界軟體觸手的觸碰而受到 {@dice 2d6} acid 傷害。"
 			],
 			"page": 251,
@@ -15757,7 +15757,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你在射程內邊長 30 英尺的立方體范圍內創造出不斷穿梭往返的五顏六色的旋轉圖案。圖案閃爍不定若隱若現，區域內每個看到圖案的生物都必須進行一次感知豁免，失敗則在法術持續時間內被魅惑({@condition charmed})。當被此法術魅惑({@condition charmed})時，目標生物處於乏力（{@condition incapacitated}）狀態並且速度為 0 。",
+				"你在射程內邊長 30 英尺的立方體范圍內創造出不斷穿梭往返的五顏六色的旋轉圖案。圖案閃爍不定若隱若現，區域內每個看到圖案的生物都必須進行一次感知豁免，失敗則在法術持續時間內被{@condition 迷惑[Charmed]}。當被此法術{@condition 迷惑[Charmed]}時，目標生物處於({@condition 乏力[Incapacitated]})狀態並且速度為 0 。",
 				"若受影響的生物受到任何傷害，或者他人將其從恍惚中搖醒，則該生物身上的法術效果結束。"
 			],
 			"page": 252,
@@ -17047,7 +17047,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你觸摸一名目標，並能終結正在影響他的一項疾病或狀態。狀態可以是目盲({@condition blinded})、耳聾({@condition deafened})、麻痺({@condition paralyzed})、中毒({@condition poisoned})。"
+				"你觸摸一名目標，並能終結正在影響他的一項疾病或狀態。狀態可以是({@condition 盲目[Blinded]})、({@condition 耳聾[Deafened]})、麻痺({@condition paralyzed})、中毒({@condition poisoned})。"
 			],
 			"page": 255,
 			"races": [
@@ -17973,7 +17973,7 @@
 					"items": [
 						"該類生物不能通過非魔法手段主動進入圓柱區域。如果該類生物試圖使用傳送或位面旅行進入此區域，它必須先成功通過一次魅力豁免。",
 						"該類生物對圓柱區域內的生物進行攻擊時，其攻擊骰獲得劣勢。",
-						"圓柱區域內的目標不會被該類生物魅惑({@condition charmed})、驚嚇（{@condition frightened}）或附身。"
+						"圓柱區域內的目標不會被該類生物{@condition 迷惑[Charmed]}、驚嚇（{@condition 恐慌[Frightened]}）或附身。"
 					]
 				},
 				"當你施展此法術時，你可以選擇讓魔力作用於相反的方向來阻止特定類別生物離開圓柱區域，並保護區域外的目標。"
@@ -18506,7 +18506,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them {@condition blinded} or {@condition deafened}. This spell has no effect on undead or constructs."
+				"A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them {@condition 盲目[Blinded]} or {@condition deafened}. This spell has no effect on undead or constructs."
 			],
 			"page": 258
 		},
@@ -18622,7 +18622,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You suggest a course of activity (limited to a sentence or two) and magically influence up to twelve creatures of your choice that you can see within range and that can hear and understand you. Creatures that can't be {@condition charmed} are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act automatically negates the effect of the spell.",
+				"You suggest a course of activity (limited to a sentence or two) and magically influence up to twelve creatures of your choice that you can see within range and that can hear and understand you. Creatures that can't be {@condition 迷惑[Charmed]} are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act automatically negates the effect of the spell.",
 				"Each target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.",
 				"You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a group of soldiers give all their money to the first beggar they meet. If the condition isn't met before the spell ends, the activity isn't performed.",
 				"If you or any of your companions damage a creature affected by this spell, the spell ends for that creature."
@@ -19039,7 +19039,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the {@condition charmed} condition. The spell even foils wish spells and spells or effects of similar power used to affect the target's mind or to gain information about the target."
+				"Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the {@condition 迷惑[Charmed]} condition. The spell even foils wish spells and spells or effects of similar power used to affect the target's mind or to gain information about the target."
 			],
 			"page": 259,
 			"damageInflict": [
@@ -19355,7 +19355,7 @@
 			"entries": [
 				"You become {@condition invisible} at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends if you attack or cast a spell.",
 				"You can use your action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose.",
-				"You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are {@condition blinded} and {@condition deafened} in regard to your own surroundings."
+				"You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are {@condition 盲目[Blinded]} and {@condition deafened} in regard to your own surroundings."
 			],
 			"page": 260
 		},
@@ -19545,7 +19545,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes {@condition charmed} by you for the duration. The {@condition charmed} target is {@condition incapacitated} and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.",
+				"You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes {@condition 迷惑[Charmed]} by you for the duration. The {@condition 迷惑[Charmed]} target is {@condition 乏力[Incapacitated]} and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.",
 				"While this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.",
 				"You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.",
 				"A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.",
@@ -20298,7 +20298,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Choose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration. Creatures that can't be {@condition charmed} are immune to this spell.",
+				"Choose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration. Creatures that can't be {@condition 迷惑[Charmed]} are immune to this spell.",
 				"A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an action, a dancing creature makes a Wisdom saving throw to regain control of itself. On a successful save, the spell ends."
 			],
 			"page": 264,
@@ -20617,7 +20617,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes {@condition frightened} for the duration. At the end of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take {@dice 4d10} psychic damage. On a successful save, the spell ends."
+				"You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes {@condition 恐慌[Frightened]} for the duration. At the end of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take {@dice 4d10} psychic damage. On a successful save, the spell ends."
 			],
 			"entriesHigherLevel": [
 				{
@@ -21198,7 +21198,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is {@condition charmed}, {@condition frightened}, {@condition paralyzed}, or {@condition stunned}, the condition ends. If the creature is {@condition prone}, it can use its reaction to stand up. This spell has no effect on undead or constructs."
+				"A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is {@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}, {@condition paralyzed}, or {@condition stunned}, the condition ends. If the creature is {@condition prone}, it can use its reaction to stand up. This spell has no effect on undead or constructs."
 			],
 			"page": 266
 		},
@@ -21532,7 +21532,7 @@
 					"type": "entries",
 					"name": "7-Violet",
 					"entries": [
-						"On a failed save, the target is {@condition blinded}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)"
+						"On a failed save, the target is {@condition 盲目[Blinded]}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer {@condition 盲目[Blinded]}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)"
 					]
 				},
 				{
@@ -21599,7 +21599,7 @@
 			"source": "PHB",
 			"entries": [
 				"A shimmering, multicolored plane of light forms a vertical opaque wall\u2014up to 90 feet long, 30 feet high, and 1 inch thick\u2014centered on a point you can see within range. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range. The wall remains in place for the duration. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your action and the spell slot are wasted.",
-				"The wall sheds bright light out to a range of 100 feet and dim light for an additional 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature that can see the wall moves to within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or become {@condition blinded} for 1 minute.",
+				"The wall sheds bright light out to a range of 100 feet and dim light for an additional 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature that can see the wall moves to within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or become {@condition 盲目[Blinded]} for 1 minute.",
 				"The wall consists of seven layers, each with a different color. When a creature attempts to reach into or pass through the wall, it does so one layer at a time through all the wall's layers. As it passes or reaches through each layer, the creature must make a Dexterity saving throw or be affected by that layer's properties as described below.",
 				"The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. An antimagic field has no effect on a prismatic wall.",
 				{
@@ -21649,7 +21649,7 @@
 					"type": "entries",
 					"name": "Violet",
 					"entries": [
-						"On a failed save, the creature is {@condition blinded}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a dispel magic spell or a similar spell of equal or higher level that can end spells and magical effects."
+						"On a failed save, the creature is {@condition 盲目[Blinded]}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM's choosing and is no longer {@condition 盲目[Blinded]}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a dispel magic spell or a similar spell of equal or higher level that can end spells and magical effects."
 					]
 				}
 			],
@@ -21837,7 +21837,7 @@
 			"entries": [
 				"You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location within range that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you but is intangible. If the illusion takes any damage, it disappears, and the spell ends.",
 				"You can use your action to move this illusion up to twice your speed, and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.",
-				"You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are {@condition blinded} and {@condition deafened} in regard to your own surroundings.",
+				"You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are {@condition 盲目[Blinded]} and {@condition deafened} in regard to your own surroundings.",
 				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature."
 			],
 			"page": 270,
@@ -22178,7 +22178,7 @@
 			"source": "PHB",
 			"entries": [
 				"直到法術結束，一個你觸摸的自願生物對抗某些種類的生物時受到保護：異怪、天界生物、元素生物、精類生物、邪魔和不死生物。",
-				"這種保護給予幾項好處。那些種類的生物對目標生物的攻擊骰獲得劣勢。目標也不能被他們({@condition charmed})、驚懼({@condition frightened})或支配。如果目標已經被這樣的生物魅惑({@condition charmed})、驚懼({@condition frightened})或支配，目標之後對抗相關效果的豁免檢定獲得優勢。"
+				"這種保護給予幾項好處。那些種類的生物對目標生物的攻擊骰獲得劣勢。目標也不能被他們{@condition 迷惑[Charmed]}、({@condition 恐慌[Frightened]})或支配。如果目標已經被這樣的生物{@condition 迷惑[Charmed]}、({@condition 恐慌[Frightened]})或支配，目標之後對抗相關效果的豁免檢定獲得優勢。"
 			],
 			"page": 270
 		},
@@ -24961,7 +24961,7 @@
 			"entries": [
 				"此術使多名生物陷入魔法性的沉睡。投擲 ({@dice 5d8})；總數成為此法術能影響的生物的生命值總量。射程內你所選擇的一處的 20 尺內的每一名生物依照牠的當前生命值由少至多順序受影響（忽略昏迷({@condition unconscious})的生物）。",
 				"先從現有最少生命值的生物開始，每一名受影響的生物都陷入昏迷({@condition unconscious})到法術終結，到他受傷，或到有人用一次動作弄醒他為止。從總量中扣去他的生命值，然後到下一名現有最少生命值的生物。生物的生命值必需等於或少於剩餘的總量才會受影響。",
-				"不死和其他免疫迷惑({@condition charmed})的生物不受此法術影響。"
+				"不死和其他免疫{@condition 迷惑[Charmed]}的生物不受此法術影響。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -26415,7 +26415,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你提議一套行動（最長一到兩句），以魔法影響射程內的一名可以聽見和理解你的生物。無法被迷惑({@condition charmed})的生物免疫此效應。這提議必需聽上去合理。要求目標刺自己、撲向長槍、自焚、或其他明顯自殘的活動會終結此術。",
+				"你提議一套行動（最長一到兩句），以魔法影響射程內的一名可以聽見和理解你的生物。無法被{@condition 迷惑[Charmed]}的生物免疫此效應。這提議必需聽上去合理。要求目標刺自己、撲向長槍、自焚、或其他明顯自殘的活動會終結此術。",
 				"目標要進行一次感知豁免。失敗的話他會盡最大能力實行你的提案。這實行可能持續到時效結束。如果提案能在更短的時間內完成，法術會在目標完成提案的時候終結。",
 				"你也可以指定一項條件去觸發一些特殊行動。例如你可以提議一位騎士將他的駿馬送給他首位遇上的乞丐。如果條件沒有在時效內成立，目標不會採取提案。",
 				"如果你或你的伙伴傷害目標，法術立刻終結。"
@@ -26493,7 +26493,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes {@dice 6d8} radiant damage and is {@condition blinded} until your next turn. On a successful save, it takes half as much damage and isn't {@condition blinded} by this spell. Undead and oozes have disadvantage on this saving throw.",
+				"A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes {@dice 6d8} radiant damage and is {@condition 盲目[Blinded]} until your next turn. On a successful save, it takes half as much damage and isn't {@condition 盲目[Blinded]} by this spell. Undead and oozes have disadvantage on this saving throw.",
 				"You can create a new line of radiance as your action on any turn until the spell ends.",
 				"For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight."
 			],
@@ -26550,8 +26550,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Brilliant sunlight flashes in a 60-foot radius centered on a point you choose within range. Each creature in that light must make a Constitution saving throw. On a failed save, a creature takes {@dice 12d6} radiant damage and is {@condition blinded} for 1 minute. On a successful save, it takes half as much damage and isn't {@condition blinded} by this spell. Undead and oozes have disadvantage on this saving throw.",
-				"A creature {@condition blinded} by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer {@condition blinded}.",
+				"Brilliant sunlight flashes in a 60-foot radius centered on a point you choose within range. Each creature in that light must make a Constitution saving throw. On a failed save, a creature takes {@dice 12d6} radiant damage and is {@condition 盲目[Blinded]} for 1 minute. On a successful save, it takes half as much damage and isn't {@condition 盲目[Blinded]} by this spell. Undead and oozes have disadvantage on this saving throw.",
+				"A creature {@condition 盲目[Blinded]} by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer {@condition 盲目[Blinded]}.",
 				"This spell dispels any darkness in its area that was created by a spell."
 			],
 			"page": 279,
@@ -26684,7 +26684,7 @@
 					"type": "entries",
 					"name": "Fear",
 					"entries": [
-						"Each target must make a Wisdom saving throw and becomes {@condition frightened} for 1 minute on a failed save. While {@condition frightened}, the target drops whatever it is holding and must move at least 30 feet away from the glyph on each of its turns, if able."
+						"Each target must make a Wisdom saving throw and becomes {@condition 恐慌[Frightened]} for 1 minute on a failed save. While {@condition 恐慌[Frightened]}, the target drops whatever it is holding and must move at least 30 feet away from the glyph on each of its turns, if able."
 					]
 				},
 				{
@@ -26705,7 +26705,7 @@
 					"type": "entries",
 					"name": "Pain",
 					"entries": [
-						"Each target must make a Constitution saving throw and becomes {@condition incapacitated} with excruciating pain for 1 minute on a failed save."
+						"Each target must make a Constitution saving throw and becomes {@condition 乏力[Incapacitated]} with excruciating pain for 1 minute on a failed save."
 					]
 				},
 				{
@@ -26795,7 +26795,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你選擇法術距離內一個你能看見的生物。如果該生物受到了法術的影響，則一切事物在該生物眼中都變得滑稽可笑，使它開始狂笑起來。目標進行一次感知豁免，若失敗就倒在地上({@condition prone})，在法術時效內陷入乏力({@condition incapacitated})並且無法站起來。智力值為 4 或更低的生物不受影響。",
+				"你選擇法術距離內一個你能看見的生物。如果該生物受到了法術的影響，則一切事物在該生物眼中都變得滑稽可笑，使它開始狂笑起來。目標進行一次感知豁免，若失敗就倒在地上({@condition prone})，在法術時效內陷入({@condition 乏力[Incapacitated]})並且無法站起來。智力值為 4 或更低的生物不受影響。",
 				"目標在它的每回合結束時以及受到傷害時可以再進行一次感知豁免。如果是受到傷害導致這次豁免，則目標對這次豁免擁有優勢。若豁免成功，則法術結束。"
 			],
 			"page": 280,
@@ -29217,7 +29217,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes {@condition frightened} for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the {@condition frightened} creature's turns, it must succeed on a Wisdom saving throw or take {@dice 4d10} psychic damage. On a successful save, the spell ends for that creature."
+				"Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes {@condition 恐慌[Frightened]} for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the {@condition 恐慌[Frightened]} creature's turns, it must succeed on a Wisdom saving throw or take {@dice 4d10} psychic damage. On a successful save, the spell ends for that creature."
 			],
 			"page": 288,
 			"damageInflict": [
@@ -29268,7 +29268,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You and up to ten willing creatures you can see within range assume a gaseous form for the duration, appearing as wisps of cloud. While in this cloud form, a creature has a flying speed of 300 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the Dash action or to revert to its normal form. Reverting takes 1 minute, during which time a creature is {@condition incapacitated} and can't move. Until the spell ends, a creature can revert to cloud form, which also requires the 1-minute transformation.",
+				"You and up to ten willing creatures you can see within range assume a gaseous form for the duration, appearing as wisps of cloud. While in this cloud form, a creature has a flying speed of 300 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the Dash action or to revert to its normal form. Reverting takes 1 minute, during which time a creature is {@condition 乏力[Incapacitated]} and can't move. Until the spell ends, a creature can revert to cloud form, which also requires the 1-minute transformation.",
 				"If a creature is in cloud form and flying when the effect ends, the creature descends 60 feet per round for 1 minute until it lands, which it does safely. If it can't land after 1 minute, the creature falls the remaining distance."
 			],
 			"page": 288
@@ -29606,7 +29606,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"在法術失效前，當你的近戰武器攻擊下一次命中時，你的攻擊對目標造成額外的 ({@dice 1d6}) psychic 傷害。除此之外，如果目標是一個生物，它必須進行一次感知豁免。若失敗，則目標生物將在法術結束前陷入恐慌 ({@condition frightened})。該生物可以花費一個動作進行感知檢定對抗你的法術豁免 DC ，來嘗試重拾鬥志，若成功則法術即刻結束。"
+				"在法術失效前，當你的近戰武器攻擊下一次命中時，你的攻擊對目標造成額外的 ({@dice 1d6}) psychic 傷害。除此之外，如果目標是一個生物，它必須進行一次感知豁免。若失敗，則目標生物將在法術結束前陷入({@condition 恐慌[Frightened]})。該生物可以花費一個動作進行感知檢定對抗你的法術豁免 DC ，來嘗試重拾鬥志，若成功則法術即刻結束。"
 			],
 			"page": 289,
 			"damageInflict": [
