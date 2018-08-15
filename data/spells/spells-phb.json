@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "酸液濺爆 Acid Splash",
+			"name": "酸液濺爆[Acid Splash]",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -53,7 +53,7 @@
 			"scalingEffects": true
 		},
 		{
-			"name": "援助 Aid",
+			"name": "援助[Aid]",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -137,7 +137,7 @@
 			"page": 211
 		},
 		{
-			"name": "警報術 Alarm",
+			"name": "警報術[Alarm]",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -195,7 +195,7 @@
 			"page": 211
 		},
 		{
-			"name": "變身術 Alter Self",
+			"name": "變身術[Alter Self]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -303,7 +303,7 @@
 			]
 		},
 		{
-			"name": "動物之友 Animal Friendship",
+			"name": "動物之友[Animal Friendship]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -386,7 +386,7 @@
 			]
 		},
 		{
-			"name": "動物信使 Animal Messenger",
+			"name": "動物信使[Animal Messenger]",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -499,7 +499,7 @@
 			"page": 212
 		},
 		{
-			"name": "操縱死屍 Animate Dead",
+			"name": "操縱死屍[Animate Dead]",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -1146,7 +1146,7 @@
 			"page": 214
 		},
 		{
-			"name": "魔法鎖 Arcane Lock",
+			"name": "魔法鎖[Arcane Lock]",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -1213,7 +1213,7 @@
 			]
 		},
 		{
-			"name": "艾嘉西斯之鎧 Armor of Agathys",
+			"name": "艾嘉西斯之鎧[Armor of Agathys]",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -1231,7 +1231,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a cup of water"
+				"m": "一杯水"
 			},
 			"duration": [
 				{
@@ -1302,7 +1302,7 @@
 					"type": "entries",
 					"name": "升環效果",
 					"entries": [
-						"當你使用 2 環或更高的法術位施展這個法術時，每環節額外增加 5 點臨時生命和寒冷(cold)傷害。"
+						"當你使用 2 環或更高的法術位施展這個法術時，每環節額外增加 5 點臨時生命和 寒冷(cold)傷害。"
 					]
 				}
 			],
@@ -1326,7 +1326,7 @@
 			]
 		},
 		{
-			"name": "哈達之臂 Arms of Hadar",
+			"name": "哈達之臂[Arms of Hadar]",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -1451,7 +1451,7 @@
 			"page": 215
 		},
 		{
-			"name": "卜筮 Augury",
+			"name": "卜筮[Augury]",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -1648,7 +1648,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: {@condition 盲目[Blinded]}, {@condition 迷惑[Charmed]}, {@condition deafened}, {@condition 恐慌[Frightened]}, {@condition paralyzed}, {@condition poisoned}, and {@condition stunned}."
+				"Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: {@condition 盲目[Blinded]}, {@condition 迷惑[Charmed]}, {@condition 耳聾[Deafened]}, {@condition 恐慌[Frightened]}, {@condition paralyzed}, {@condition poisoned}, and {@condition stunned}."
 			],
 			"page": 216,
 			"damageResist": [
@@ -1656,7 +1656,7 @@
 			]
 		},
 		{
-			"name": "活力靈光 Aura of Vitality",
+			"name": "活力靈光[Aura of Vitality]",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -1762,7 +1762,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "災禍術 Bane",
+			"name": "災禍術[Bane]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -2112,7 +2112,7 @@
 			]
 		},
 		{
-			"name": "樹膚術 Barkskin",
+			"name": "樹膚術[Barkskin]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -2184,7 +2184,7 @@
 			"page": 217
 		},
 		{
-			"name": "希望信標 Beacon of Hope",
+			"name": "希望信標[Beacon of Hope]",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -2271,7 +2271,7 @@
 			"page": 217
 		},
 		{
-			"name": "野獸知覺 Beast Sense",
+			"name": "野獸知覺[Beast Sense]",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -2321,7 +2321,7 @@
 			"page": 217
 		},
 		{
-			"name": "降咒 Bestow Curse",
+			"name": "降咒[Bestow Curse]",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -2597,7 +2597,7 @@
 			]
 		},
 		{
-			"name": "劍刃防護 Blade Ward",
+			"name": "劍刃防護[Blade Ward]",
 			"level": 0,
 			"school": "A",
 			"time": [
@@ -2657,7 +2657,7 @@
 			]
 		},
 		{
-			"name": "祝福 Bless",
+			"name": "祝福[Bless]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -2890,7 +2890,7 @@
 			]
 		},
 		{
-			"name": "致盲斬 Blinding Smite",
+			"name": "致盲斬[Blinding Smite]",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -2940,8 +2940,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"法術終止前，你下一次以近戰武器攻擊命中某生物時，你的武器爆發出強光，對目標額外造成 {@dice 3d8} radiant 傷害。另外，目標必須進行一次體魄豁免，失敗則({@condition 盲目[Blinded]})直到法術終止。",
-				"因此法術而({@condition 盲目[Blinded]})的生物在他的每個回合結束時進行一次體魄豁免，成功則不再({@condition 盲目[Blinded]})。"
+				"法術終止前，你下一次以近戰武器攻擊命中某生物時，你的武器爆發出強光，對目標額外造成 {@dice 3d8} radiant 傷害。另外，目標必須進行一次體魄豁免，失敗則{@condition 盲目[Blinded]}直到法術終止。",
+				"因此法術而{@condition 盲目[Blinded]}的生物在他的每個回合結束時進行一次體魄豁免，成功則不再{@condition 盲目[Blinded]}。"
 			],
 			"page": 219,
 			"damageInflict": [
@@ -2952,7 +2952,7 @@
 			]
 		},
 		{
-			"name": "目盲/耳聾術 Blindness/Deafness",
+			"name": "目盲/耳聾術[Blindness/Deafness]",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -3044,7 +3044,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你嘗試令敵人目盲或耳聾。選擇一個射程內對你可見的生物。他必須進行一次體魄豁免，失敗則在法術持續時間內({@condition 盲目[Blinded]})或({@condition 耳聾[Deafened]})（由你選擇）。在目標的每個回合結束時，他可以通過一次體魄豁免，成功則法術終止。"
+				"你嘗試令敵人目盲或耳聾。選擇一個射程內對你可見的生物。他必須進行一次體魄豁免，失敗則在法術持續時間內{@condition 盲目[Blinded]}或{@condition 耳聾[Deafened]}（由你選擇）。在目標的每個回合結束時，他可以通過一次體魄豁免，成功則法術終止。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -3061,7 +3061,7 @@
 			]
 		},
 		{
-			"name": "閃現術 Blink",
+			"name": "閃現術[Blink]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -3155,7 +3155,7 @@
 			"page": 219
 		},
 		{
-			"name": "朦朧 Blur",
+			"name": "朦朧[Blur]",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -3229,7 +3229,7 @@
 			"page": 219
 		},
 		{
-			"name": "印記斬 Branding Smite",
+			"name": "印記斬[Branding Smite]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -3299,7 +3299,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"法術終止前，你下一次以武器攻擊命中某生物時，你的武器閃爍如明星，對目標額外造成 {@dice 2d6} radiant 傷害。如果目標處於隱形({@condition invisible})狀態，則他顯形，且因周身散發出５尺半徑的微光而無法隱形({@condition invisible})，直到法術終止。"
+				"法術終止前，你下一次以武器攻擊命中某生物時，你的武器閃爍如明星，對目標額外造成 {@dice 2d6} radiant 傷害。如果目標處於{@condition 隱形[Invisible]}狀態，則他顯形，且因周身散發出５尺半徑的微光而無法{@condition 隱形[Invisible]}，直到法術終止。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -3330,7 +3330,7 @@
 			]
 		},
 		{
-			"name": "燃燒之手 Burning Hands",
+			"name": "燃燒之手[Burning Hands]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -3469,7 +3469,7 @@
 			]
 		},
 		{
-			"name": "召雷術 Call Lightning",
+			"name": "召雷術[Call Lightning]",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -3564,7 +3564,7 @@
 			]
 		},
 		{
-			"name": "安定心神 Calm Emotions",
+			"name": "安定心神[Calm Emotions]",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -3701,7 +3701,7 @@
 			]
 		},
 		{
-			"name": "迷惑人類 Charm Person",
+			"name": "迷惑人類[Charm Person]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -3831,7 +3831,7 @@
 			]
 		},
 		{
-			"name": "凍寒之觸 Chill Touch",
+			"name": "凍寒之觸[Chill Touch]",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -3912,7 +3912,7 @@
 			]
 		},
 		{
-			"name": "繁彩球 Chromatic Orb",
+			"name": "繁彩球[Chromatic Orb]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -4113,7 +4113,7 @@
 			"page": 221
 		},
 		{
-			"name": "鷹眼術 Clairvoyance",
+			"name": "鷹眼術[Clairvoyance]",
 			"level": 3,
 			"school": "D",
 			"time": [
@@ -4244,7 +4244,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "匕首之雲 Cloud of Daggers",
+			"name": "匕首之雲[Cloud of Daggers]",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -4443,7 +4443,7 @@
 			]
 		},
 		{
-			"name": "七彩噴射 Color Spray",
+			"name": "七彩噴射[Color Spray]",
 			"level": 1,
 			"school": "I",
 			"time": [
@@ -4487,8 +4487,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"一片耀眼的彩色光芒從你的手上閃出。投 {@dice 6d10} 決定你能影響到的生物的總生命值。以你為源頭的15尺錐形空間內，生物按生命值從小到大決定是否受影響（忽略昏迷({@condition unconscious})和看不見的生物）。",
-				"從影響范圍內當前生命值最低的生物開始，被影響的生物({@condition 盲目[Blinded]})直到法術結束。在決定下一個生物是否受影響前，從擲出的總生命值中減去被影響的生物的當前生命值之和。當前生命值小於等於剩余生命總值的生物受到影響。"
+				"一片耀眼的彩色光芒從你的手上閃出。投 {@dice 6d10} 決定你能影響到的生物的總生命值。以你為源頭的15尺錐形空間內，生物按生命值從小到大決定是否受影響（忽略{@condition 昏迷[Unconscious]}和{@condition 盲目[Blinded]}的生物）。",
+				"從影響范圍內當前生命值最低的生物開始，被影響的生物{@condition 盲目[Blinded]}直到法術結束。在決定下一個生物是否受影響前，從擲出的總生命值中減去被影響的生物的當前生命值之和。當前生命值小於等於剩余生命總值的生物受到影響。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -4502,7 +4502,7 @@
 			"page": 222
 		},
 		{
-			"name": "命令 Command",
+			"name": "命令[Command]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -4653,7 +4653,7 @@
 					"type": "entries",
 					"name": "伏地",
 					"entries": [
-						"目標倒地({@condition prone})，然後結束回合。"
+						"目標{@condition 倒地[Prone]}，然後結束回合。"
 					]
 				},
 				{
@@ -4862,7 +4862,7 @@
 			"page": 224
 		},
 		{
-			"name": "強行決鬥 Compelled Duel",
+			"name": "強行決鬥[Compelled Duel]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -4942,7 +4942,7 @@
 			]
 		},
 		{
-			"name": "通曉語言 Comprehend Languages",
+			"name": "通曉語言[Comprehend Languages]",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -5356,7 +5356,7 @@
 			]
 		},
 		{
-			"name": "召喚動物 Conjure Animals",
+			"name": "召喚動物[Conjure Animals]",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -5448,7 +5448,7 @@
 			"page": 225
 		},
 		{
-			"name": "召喚箭雨 Conjure Barrage",
+			"name": "召喚箭雨[Conjure Barrage]",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -6103,7 +6103,7 @@
 			"page": 227
 		},
 		{
-			"name": "不滅明焰 Continual Flame",
+			"name": "不滅明焰[Continual Flame]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -6509,7 +6509,7 @@
 			]
 		},
 		{
-			"name": "反制法術 Counterspell",
+			"name": "反制法術[Counterspell]",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -6588,7 +6588,7 @@
 			"page": 228
 		},
 		{
-			"name": "創造食糧 Create Food and Water",
+			"name": "創造食糧[Create Food and Water]",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -6709,7 +6709,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "造水/枯水術 Create or Destroy Water",
+			"name": "造水/枯水術[Create or Destroy Water]",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -6910,7 +6910,7 @@
 			"page": 229
 		},
 		{
-			"name": "瘋狂冠冕 Crown of Madness",
+			"name": "瘋狂冠冕[Crown of Madness]",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -6998,7 +6998,7 @@
 			]
 		},
 		{
-			"name": "十字軍斗篷 Crusader's Mantle",
+			"name": "十字軍斗篷[Crusader's Mantle]",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -7067,7 +7067,7 @@
 			]
 		},
 		{
-			"name": "治療傷勢 Cure Wounds",
+			"name": "治療傷勢[Cure Wounds]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -7185,7 +7185,7 @@
 			]
 		},
 		{
-			"name": "舞光 Dancing Lights",
+			"name": "舞光[Dancing Lights]",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -7260,7 +7260,7 @@
 			]
 		},
 		{
-			"name": "黑暗 Darkness",
+			"name": "黑暗[Darkness]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -7426,7 +7426,7 @@
 			]
 		},
 		{
-			"name": "黑暗視覺 Darkvision",
+			"name": "黑暗視覺[Darkvision]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -7486,7 +7486,7 @@
 			"page": 230
 		},
 		{
-			"name": "晝明術 Daylight",
+			"name": "晝明術[Daylight]",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -7596,7 +7596,7 @@
 			"entries": [
 				"你選擇一處，光亮由此彌漫至半徑 60 英尺的球狀空間。這個明亮的球體還在其外提供了 60 英尺的昏暗照明。",
 				"如果你施法的對象是一件物品，這件物品不能是正穿在或帶在身上的但可以正拿在你手上。光亮將隨著這件物品的移動而移動。如果這件物品被完全覆蓋，比如一個碗或一個頭盔，則會遮擋光亮的影響。",
-				"如果法術區域內有任何 3 環或更低環的{@spell 黑暗 Darkness}魔法，則其會被晝明術反制。"
+				"如果法術區域內有任何 3 環或更低環的{@spell 黑暗[Darkness]}魔法，則其會被晝明術反制。"
 			],
 			"page": 230,
 			"races": [
@@ -7938,7 +7938,7 @@
 			]
 		},
 		{
-			"name": "偵測善惡 Detect Evil and Good",
+			"name": "偵測善惡[Detect Evil and Good]",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -7987,7 +7987,7 @@
 			"page": 231
 		},
 		{
-			"name": "偵察魔法 Detect Magic",
+			"name": "偵察魔法[Detect Magic]",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -8077,7 +8077,7 @@
 			]
 		},
 		{
-			"name": "偵測毒性和疾病 Detect Poison and Disease",
+			"name": "偵測毒性和疾病[Detect Poison and Disease]",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -8138,7 +8138,7 @@
 			"page": 231
 		},
 		{
-			"name": "偵測思想 Detect Thoughts",
+			"name": "偵測思想[Detect Thoughts]",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -8331,7 +8331,7 @@
 			]
 		},
 		{
-			"name": "自我易容 Disguise Self",
+			"name": "自我易容[Disguise Self]",
 			"level": 1,
 			"school": "I",
 			"time": [
@@ -8620,7 +8620,7 @@
 			]
 		},
 		{
-			"name": "解除魔法 Dispel Magic",
+			"name": "解除魔法[Dispel Magic]",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -8725,7 +8725,7 @@
 			"page": 234
 		},
 		{
-			"name": "噪音暗語 Dissonant Whispers",
+			"name": "噪音暗語[Dissonant Whispers]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -8771,7 +8771,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你可以選擇在範圍內聽的到的生物並用暗語傳達不協調的曲子給他聽，使他感受到痛苦。此生物必須做感知豁免。如果失敗，此生物將受到 {@dice 3d6} psychic 傷害，如果他還有反應動作那他將立即啟動這動作，以他的速度為準，此生物一定要跑遠離你。此生物不會移動到危險之處，如火或地坑。如果成功，他只會受到一半的傷害，不會跑遠離你。({@condition 耳聾[Deafened]})生物會直接成功。"
+				"你可以選擇在範圍內聽的到的生物並用暗語傳達不協調的曲子給他聽，使他感受到痛苦。此生物必須做感知豁免。如果失敗，此生物將受到 {@dice 3d6} psychic 傷害，如果他還有反應動作那他將立即啟動這動作，以他的速度為準，此生物一定要跑遠離你。此生物不會移動到危險之處，如火或地坑。如果成功，他只會受到一半的傷害，不會跑遠離你。{@condition 耳聾[Deafened]}生物會直接成功。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -8864,7 +8864,7 @@
 			"page": 234
 		},
 		{
-			"name": "神恩 Divine Favor",
+			"name": "神恩[Divine Favor]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -8971,9 +8971,9 @@
 				{
 					"type": "list",
 					"items": [
-						"50 hit points or fewer: {@condition deafened} for 1 minute",
-						"40 hit points or fewer: {@condition deafened} and {@condition 盲目[Blinded]} for 10 minutes",
-						"30 hit points or fewer: {@condition 盲目[Blinded]}, {@condition deafened}, and {@condition stunned} for 1 hour",
+						"50 hit points or fewer: {@condition 耳聾[Deafened]} for 1 minute",
+						"40 hit points or fewer: {@condition 耳聾[Deafened]} and {@condition 盲目[Blinded]} for 10 minutes",
+						"30 hit points or fewer: {@condition 盲目[Blinded]}, {@condition 耳聾[Deafened]}, and {@condition stunned} for 1 hour",
 						"20 hit points or fewer: killed instantly"
 					]
 				},
@@ -9496,7 +9496,7 @@
 			]
 		},
 		{
-			"name": "德魯伊伎倆 Druidcraft",
+			"name": "德魯伊伎倆[Druidcraft]",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -9627,7 +9627,7 @@
 			]
 		},
 		{
-			"name": "魔能爆 Eldritch Blast",
+			"name": "魔能爆[Eldritch Blast]",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -9675,7 +9675,7 @@
 			"scalingEffects": true
 		},
 		{
-			"name": "元素武器 Elemental Weapon",
+			"name": "元素武器[Elemental Weapon]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -9797,7 +9797,7 @@
 			]
 		},
 		{
-			"name": "強化屬性 Enhance Ability",
+			"name": "強化屬性[Enhance Ability]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -9914,7 +9914,7 @@
 					"type": "entries",
 					"name": "貓之優雅",
 					"entries": [
-						"目標在敏捷檢定上獲得優勢，並且非({@condition 乏力[Incapacitated]})狀態下，不會受到 20 英尺以內墜落傷害。"
+						"目標在敏捷檢定上獲得優勢，並且非{@condition 乏力[Incapacitated]}狀態下，不會受到 20 英尺以內墜落傷害。"
 					]
 				},
 				{
@@ -9951,7 +9951,7 @@
 			"page": 237
 		},
 		{
-			"name": "變巨/縮小術 Enlarge/Reduce",
+			"name": "變巨/縮小術[Enlarge/Reduce]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -10061,7 +10061,7 @@
 			]
 		},
 		{
-			"name": "誘捕打擊 Ensnaring Strike",
+			"name": "誘捕打擊[Ensnaring Strike]",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -10111,15 +10111,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"在法術結束前，下次用武器攻擊一個生物，在攻擊點上會出現一團扭曲的多刺藤蔓。目標必須通過一個成功的力量豁免檢定，否則就會被魔法藤蔓變為束縛({@condition restrained})狀態，直到法術結束。大型或更大的生物在這個豁免上有優勢，如果豁免成功，藤蔓枯萎。",
-				"當被這個法術束縛({@condition restrained})，目標每個回合開始時受到 {@dice 1d6} 穿刺 (piercing) 傷害。被藤蔓束縛({@condition restrained})的生物或能夠接觸到它的生物，可以使用一個動作通過一個力量檢定對抗法術豁免 DC。成功則目標解除狀態。"
+				"在法術結束前，下次用武器攻擊一個生物，在攻擊點上會出現一團扭曲的多刺藤蔓。目標必須通過一個成功的力量豁免檢定，否則就會被魔法藤蔓變為{@condition 束縛[Restrained]}狀態，直到法術結束。大型或更大的生物在這個豁免上有優勢，如果豁免成功，藤蔓枯萎。",
+				"當被這個法術{@condition 束縛[Restrained]}，目標每個回合開始時受到 {@dice 1d6} 穿刺 (piercing) 傷害。被藤蔓{@condition 束縛[Restrained]}的生物或能夠接觸到它的生物，可以使用一個動作通過一個力量檢定對抗法術豁免 DC。成功則目標解除狀態。"
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "升環效果",
 					"entries": [
-						"當你使用2環或更高法術位施放這個法術，每環節增加 {@dice 1d6} 傷害。"
+						"當你使用 2 環或更高法術位施放這個法術，每環節增加 {@dice 1d6} 傷害。"
 					]
 				}
 			],
@@ -10135,7 +10135,7 @@
 			]
 		},
 		{
-			"name": "糾纏術 Entangle",
+			"name": "糾纏術[Entangle]",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -10209,7 +10209,7 @@
 			"source": "PHB",
 			"entries": [
 				"選擇一處，其 20 英尺平方的范圍內長出雜草和葡萄藤，這片被植物覆蓋的區域變為困難地形。",
-				"在你施放法術時，這個區域的生物必須成功通過一次力量豁免，否則會因為這些纏繞的植物成為束縛({@condition restrained})狀態，直到法術結束。一個被這些植物束縛({@condition restrained})的生物可以使用一個動作通過力量檢定對抗法術豁免DC，成功則擺脫束縛。 ",
+				"在你施放法術時，這個區域的生物必須成功通過一次力量豁免，否則會因為這些纏繞的植物成為{@condition 束縛[Restrained]}狀態，直到法術結束。一個被這些植物{@condition 束縛[Restrained]}的生物可以使用一個動作通過力量檢定對抗法術豁免DC，成功則擺脫{@condition 束縛[Restrained]}。 ",
 				"法術結束時，這些魔法植物會枯萎掉。"
 			],
 			"page": 238,
@@ -10221,7 +10221,7 @@
 			]
 		},
 		{
-			"name": "注目術 Enthrall",
+			"name": "注目術[Enthrall]",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -10276,7 +10276,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你編織了一段使人分心的文字，使得你選擇的一個你可看見的、可聽見你的生物通過一個感知豁免檢定。任何在這個豁免檢定上成功的生物都不會被{@condition 迷惑[Charmed]}，如果你或你的同伴正在和其戰鬥，則這個生物在這個豁免上有優勢。如果失敗，目標在察覺除你以外生物的感知（觀察）檢定上有劣勢，直到法術結束或目標不再聽得見你。如果你變為({@condition 乏力[Incapacitated]})狀態或不能再說話，這個法術結束。"
+				"你編織了一段使人分心的文字，使得你選擇的一個你可看見的、可聽見你的生物通過一個感知豁免檢定。任何在這個豁免檢定上成功的生物都不會被{@condition 迷惑[Charmed]}，如果你或你的同伴正在和其戰鬥，則這個生物在這個豁免上有優勢。如果失敗，目標在察覺除你以外生物的感知（觀察）檢定上有劣勢，直到法術結束或目標不再聽得見你。如果你變為{@condition 乏力[Incapacitated]}狀態或不能再說話，這個法術結束。"
 			],
 			"page": 238,
 			"savingThrow": [
@@ -10458,7 +10458,7 @@
 			]
 		},
 		{
-			"name": "腳底摸油 Expeditious Retreat",
+			"name": "腳底摸油[Expeditious Retreat]",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -10675,7 +10675,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "妖火 Faerie Fire",
+			"name": "妖火[Faerie Fire]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -10751,7 +10751,7 @@
 			"source": "PHB",
 			"entries": [
 				"在射程內的一個20 尺方內的每一件物體被藍、綠、或紫光包圍，色彩由你選擇。範圍內的任何生物如果敏捷豁免失敗的話也會被光圍繞。受術的物體和生物在時效內發出 10 尺半徑的微光。",
-				"受術者不能從隱形({@condition invisible})得益，而且當他們被攻擊時，只要攻擊者可以看見他，這次攻擊就帶有優勢。"
+				"受術者不能從{@condition 隱形[Invisible]}得益，而且當他們被攻擊時，只要攻擊者可以看見他，這次攻擊就帶有優勢。"
 			],
 			"page": 239,
 			"savingThrow": [
@@ -10773,7 +10773,7 @@
 			]
 		},
 		{
-			"name": "虛假生命 False Life",
+			"name": "虛假生命[False Life]",
 			"level": 1,
 			"school": "N",
 			"time": [
@@ -10872,7 +10872,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你獲得死靈給予的額外生命力。法術持續時間內，你獲得 {@dice 1d4+4} 臨時生命。"
+				"你獲得死靈給予的額外生命力。法術持續時間內，你獲得 {@dice 1d4 + 4} 臨時生命。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -10886,7 +10886,7 @@
 			"page": 239
 		},
 		{
-			"name": "恐懼術 Fear",
+			"name": "恐懼術[Fear]",
 			"level": 3,
 			"school": "I",
 			"time": [
@@ -11011,8 +11011,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你制造一個目標最懼怕的幻象。 30 尺內的所有生物必須通過一個感知豁免，否則會丟棄他所持有的物品並且在法術持續時間內變為({@condition 恐慌[Frightened]})狀態。",
-				"被法術所({@condition 恐慌[Frightened]})的目標在其行動輪內必須使用疾行動作來遠離施法者，逃到最安全的地方，除非他無路可逃。當目標逃到看不到施法者的地方時，目標可以進行感知豁免，如果豁免成功，則該目標的法術效果結束。"
+				"你制造一個目標最懼怕的幻象。 30 尺內的所有生物必須通過一個感知豁免，否則會丟棄他所持有的物品並且在法術持續時間內變為{@condition 恐慌[Frightened]}狀態。",
+				"被法術所{@condition 恐慌[Frightened]}的目標在其行動輪內必須使用疾行動作來遠離施法者，逃到最安全的地方，除非他無路可逃。當目標逃到看不到施法者的地方時，目標可以進行感知豁免，如果豁免成功，則該目標的法術效果結束。"
 			],
 			"page": 239,
 			"savingThrow": [
@@ -11020,7 +11020,7 @@
 			]
 		},
 		{
-			"name": "羽落術 Feather Fall",
+			"name": "羽落術[Feather Fall]",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -11147,7 +11147,7 @@
 			]
 		},
 		{
-			"name": "假死術 Feign Death",
+			"name": "假死術[Feign Death]",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -11224,7 +11224,7 @@
 			},
 			"entries": [
 				"你觸摸一個自願生物，並將他變成死去一般僵硬。",
-				"在法術持續時間內，或你再次接觸目標消解該法術，目標的外在表象和死亡完全一致同時根據目標受到的其他法術來決定擁有的額外狀態。目標({@condition 盲目[Blinded]})同時({@condition 乏力[Incapacitated]})，移動速度降低為 0。目標對除了精神以外的所有傷害有抗性。如果施法時，目標有疾病或中毒({@condition poisoned})，在該法術持續時間內這些效果無效。"
+				"在法術持續時間內，或你再次接觸目標消解該法術，目標的外在表象和死亡完全一致同時根據目標受到的其他法術來決定擁有的額外狀態。目標{@condition 盲目[Blinded]}同時{@condition 乏力[Incapacitated]}，移動速度降低為 0。目標對除了精神以外的所有傷害有抗性。如果施法時，目標有疾病或{@condition 中毒[Poisoned]}，在該法術持續時間內這些效果無效。"
 			],
 			"page": 240,
 			"damageResist": [
@@ -11243,7 +11243,7 @@
 			]
 		},
 		{
-			"name": "獲得魔寵 Find Familiar",
+			"name": "獲得魔寵[Find Familiar]",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -11298,7 +11298,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "尋獲坐騎 Find Steed",
+			"name": "尋獲坐騎[Find Steed]",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -11342,7 +11342,7 @@
 			"page": 240
 		},
 		{
-			"name": "尋找陷阱 Find Traps",
+			"name": "尋找陷阱[Find Traps]",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -11504,7 +11504,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "火焰箭 Fire Bolt",
+			"name": "火焰箭[Fire Bolt]",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -11718,7 +11718,7 @@
 			]
 		},
 		{
-			"name": "火球 Fireball",
+			"name": "火球[Fireball]",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -11821,7 +11821,7 @@
 			]
 		},
 		{
-			"name": "火焰刀 Flame Blade",
+			"name": "火焰刀[Flame Blade]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -12030,7 +12030,7 @@
 			]
 		},
 		{
-			"name": "烈焰法球 Flaming Sphere",
+			"name": "烈焰法球[Flaming Sphere]",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -12206,7 +12206,7 @@
 			]
 		},
 		{
-			"name": "飛行 Fly",
+			"name": "飛行[Fly]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -12272,7 +12272,7 @@
 			"page": 243
 		},
 		{
-			"name": "雲霧術 Fog Cloud",
+			"name": "雲霧術[Fog Cloud]",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -12694,7 +12694,7 @@
 			"page": 244
 		},
 		{
-			"name": "交友術 Friends",
+			"name": "交友術[Friends]",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -12774,7 +12774,7 @@
 			]
 		},
 		{
-			"name": "氣化形體 Gaseous Form",
+			"name": "氣化形體[Gaseous Form]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -12850,7 +12850,7 @@
 			"source": "PHB",
 			"entries": [
 				"在法術持續時間內，你將一個你觸摸的自願生物連同他穿著和帶著的所有東西轉化為一團模糊的雲霧。當生物的生命值下降到 0 時法術結束。非實體的生物不受影響。",
-				"在這種形態下，目標唯一的行動方式就是以 10 尺的速度飛行。目標可以進入並停留在被一個生物佔據的空間。目標抵抗非魔法傷害並在進行力量、敏捷和體質豁免時有優勢。目標可以穿過小洞、狹縫、甚至小裂紋，但對它來說液體就像固體表面一樣。目標即使被擊暈({@condition stunned})或者({@condition 乏力[Incapacitated]})的時候也不會墜落，並且懸停在空中。",
+				"在這種形態下，目標唯一的行動方式就是以 10 尺的速度飛行。目標可以進入並停留在被一個生物佔據的空間。目標抵抗非魔法傷害並在進行力量、敏捷和體質豁免時有優勢。目標可以穿過小洞、狹縫、甚至小裂紋，但對它來說液體就像固體表面一樣。目標即使被{@condition 昏迷[Unconscious]}或者({@condition 乏力[Incapacitated]})的時候也不會墜落，並且懸停在空中。",
 				"在模糊的雲霧形態下，目標不能講話或操縱物品，同時它帶著或拿著的物品不會掉落，不能被使用，或者與之互動。目標不能攻擊或施法。"
 			],
 			"page": 244
@@ -13004,7 +13004,7 @@
 			]
 		},
 		{
-			"name": "遺體防腐 Gentle Repose",
+			"name": "遺體防腐[Gentle Repose]",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -13264,7 +13264,7 @@
 			"page": 245
 		},
 		{
-			"name": "守衛結界 Glyph of Warding",
+			"name": "守衛結界[Glyph of Warding]",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -13386,7 +13386,7 @@
 			]
 		},
 		{
-			"name": "神莓 Goodberry",
+			"name": "神莓[Goodberry]",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -13496,7 +13496,7 @@
 			]
 		},
 		{
-			"name": "油膩術 Grease",
+			"name": "油膩術[Grease]",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -13537,7 +13537,7 @@
 			"source": "PHB",
 			"entries": [
 				"光滑的油脂覆蓋在以射程內 1 點為中心 10 尺平方的地上，在持續時間內把它變為困難地形。",
-				"當油脂出現的時候，每一個站在它的范圍內的生物必須成功通過敏捷豁免否則倒地({@condition prone})。進入這個區域或在裡面結束回合的生物也必須成功通過一次敏捷豁免否則倒地({@condition prone})。"
+				"當油脂出現的時候，每一個站在它的范圍內的生物必須成功通過敏捷豁免否則{@condition 倒地[Prone]}。進入這個區域或在裡面結束回合的生物也必須成功通過一次敏捷豁免否則{@condition 倒地[Prone]}。"
 			],
 			"page": 246,
 			"savingThrow": [
@@ -13979,7 +13979,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "指導 Guidance",
+			"name": "指導[Guidance]",
 			"level": 0,
 			"school": "D",
 			"time": [
@@ -14027,7 +14027,7 @@
 			"page": 248
 		},
 		{
-			"name": "光導箭 Guiding Bolt",
+			"name": "光導箭[Guiding Bolt]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -14108,7 +14108,7 @@
 			]
 		},
 		{
-			"name": "造風術 Gust of Wind",
+			"name": "造風術[Gust of Wind]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -14207,7 +14207,7 @@
 			]
 		},
 		{
-			"name": "棘雹術 Hail of Thorns",
+			"name": "棘雹術[Hail of Thorns]",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -14543,7 +14543,7 @@
 			]
 		},
 		{
-			"name": "加速 Haste",
+			"name": "加速[Haste]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -14724,7 +14724,7 @@
 			"page": 250
 		},
 		{
-			"name": "醫療真言 Healing Word",
+			"name": "醫療真言[Healing Word]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -14780,7 +14780,7 @@
 			"page": 250
 		},
 		{
-			"name": "灼熱金屬 Heat Metal",
+			"name": "灼熱金屬[Heat Metal]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -14878,7 +14878,7 @@
 			]
 		},
 		{
-			"name": "煉獄叱喝 Hellish Rebuke",
+			"name": "煉獄叱喝[Hellish Rebuke]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -15025,7 +15025,7 @@
 			]
 		},
 		{
-			"name": "英雄氣概 Heroism",
+			"name": "英雄氣概[Heroism]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -15101,7 +15101,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"一個自願生物經你接觸後充滿了勇氣。直到法術結束前，該生物免疫({@condition 恐慌[Frightened]})，並且在它的每回合開始時它獲得臨時生命，其數值等同於你的施法關鍵屬性調整值。當法術結束時，目標失去任何尚存的由此法術提供的臨時生命值。"
+				"一個自願生物經你接觸後充滿了勇氣。直到法術結束前，該生物免疫{@condition 恐慌[Frightened]}，並且在它的每回合開始時它獲得臨時生命，其數值等同於你的施法關鍵屬性調整值。當法術結束時，目標失去任何尚存的由此法術提供的臨時生命值。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -15115,7 +15115,7 @@
 			"page": 250
 		},
 		{
-			"name": "脆弱詛咒 Hex",
+			"name": "脆弱詛咒[Hex]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -15328,7 +15328,7 @@
 			]
 		},
 		{
-			"name": "人類定身 Hold Person",
+			"name": "人類定身[Hold Person]",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -15483,7 +15483,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"選擇你能看見的射程內的一名類人。目標需要通過一次感知豁免，否則會被麻痺({@condition paralyzed})到時效結束。在目標的每一回合結束時他都可以再次進行豁免。成功的話他身上的此法術結束。"
+				"選擇你能看見的射程內的一名類人。目標需要通過一次感知豁免，否則會被{@condition 麻痺[Paralyzed]}到時效結束。在目標的每一回合結束時他都可以再次進行豁免。成功的話他身上的此法術結束。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -15551,7 +15551,7 @@
 			]
 		},
 		{
-			"name": "哈達之欲 Hunger of Hadar",
+			"name": "哈達之欲[Hunger of Hadar]",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -15592,7 +15592,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你打開一個通道，通往群星間的黑暗之處，遍布未知的恐怖存在之地。以射程內一點為中心，一個半徑 20 英尺的黑暗寒冷的球形孔洞出現並持續到法術結束。這個虛無之洞充斥著 30 英尺內都能聽到的不和諧的耳語和啜哺咀嚼的噪音。光芒、魔法和其他手段都無法照亮這個區域，完全處於區域內的生物處於({@condition 盲目[Blinded]})狀態。",
+				"你打開一個通道，通往群星間的黑暗之處，遍布未知的恐怖存在之地。以射程內一點為中心，一個半徑 20 英尺的黑暗寒冷的球形孔洞出現並持續到法術結束。這個虛無之洞充斥著 30 英尺內都能聽到的不和諧的耳語和啜哺咀嚼的噪音。光芒、魔法和其他手段都無法照亮這個區域，完全處於區域內的生物處於{@condition 盲目[Blinded]}狀態。",
 				"這個空洞將空間結構扭曲，區域內為困難地形。任何在區域內開始它的回合的生物受到 {@dice 2d6} cold 傷害。任何在區域內結束它的回合的生物必須成功通過一次敏捷豁免，否則會由於異界軟體觸手的觸碰而受到 {@dice 2d6} acid 傷害。"
 			],
 			"page": 251,
@@ -15605,7 +15605,7 @@
 			]
 		},
 		{
-			"name": "獵人印記 Hunter's Mark",
+			"name": "獵人印記[Hunter's Mark]",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -15673,7 +15673,7 @@
 			]
 		},
 		{
-			"name": "催眠圖紋 Hypnotic Pattern",
+			"name": "催眠圖紋[Hypnotic Pattern]",
 			"level": 3,
 			"school": "I",
 			"time": [
@@ -15757,7 +15757,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你在射程內邊長 30 英尺的立方體范圍內創造出不斷穿梭往返的五顏六色的旋轉圖案。圖案閃爍不定若隱若現，區域內每個看到圖案的生物都必須進行一次感知豁免，失敗則在法術持續時間內被{@condition 迷惑[Charmed]}。當被此法術{@condition 迷惑[Charmed]}時，目標生物處於({@condition 乏力[Incapacitated]})狀態並且速度為 0 。",
+				"你在射程內邊長 30 英尺的立方體范圍內創造出不斷穿梭往返的五顏六色的旋轉圖案。圖案閃爍不定若隱若現，區域內每個看到圖案的生物都必須進行一次感知豁免，失敗則在法術持續時間內被{@condition 迷惑[Charmed]}。當被此法術{@condition 迷惑[Charmed]}時，目標生物處於{@condition 乏力[Incapacitated]}狀態並且速度為 0 。",
 				"若受影響的生物受到任何傷害，或者他人將其從恍惚中搖醒，則該生物身上的法術效果結束。"
 			],
 			"page": 252,
@@ -15885,7 +15885,7 @@
 			]
 		},
 		{
-			"name": "鑑定 Identify",
+			"name": "鑑定[Identify]",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -15968,7 +15968,7 @@
 			"page": 252
 		},
 		{
-			"name": "迷幻手稿 Illusory Script",
+			"name": "迷幻手稿[Illusory Script]",
 			"level": 1,
 			"school": "I",
 			"time": [
@@ -16190,7 +16190,7 @@
 			]
 		},
 		{
-			"name": "造成傷勢 Inflict Wounds",
+			"name": "造成傷勢[Inflict Wounds]",
 			"level": 1,
 			"school": "N",
 			"time": [
@@ -16452,7 +16452,7 @@
 			]
 		},
 		{
-			"name": "隱身 Invisibility",
+			"name": "隱身[Invisibility]",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -16542,7 +16542,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你所觸摸的一名自願生物隱形({@condition invisible})，直到法術終結。目標在穿載著或攜帶著的所有東西也保持隱形({@condition invisible})直到不再在他身上。如果目標作出攻擊或者施展法術，此法術會終結。"
+				"你所觸摸的一名自願生物{@condition 隱形[Invisible]}，直到法術終結。目標在穿載著或攜帶著的所有東西也保持{@condition 隱形[Invisible]}直到不再在他身上。如果目標作出攻擊或者施展法術，此法術會終結。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -16594,7 +16594,7 @@
 			]
 		},
 		{
-			"name": "跳躍術 Jump",
+			"name": "跳躍術[Jump]",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -16690,7 +16690,7 @@
 			]
 		},
 		{
-			"name": "解鎖 Knock",
+			"name": "解鎖[Knock]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -16897,7 +16897,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "李歐蒙小屋 Leomund's Tiny Hut",
+			"name": "李歐蒙小屋[Leomund's Tiny Hut]",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -16951,7 +16951,7 @@
 			"page": 255
 		},
 		{
-			"name": "次級復原 Lesser Restoration",
+			"name": "次級復原[Lesser Restoration]",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -17047,7 +17047,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你觸摸一名目標，並能終結正在影響他的一項疾病或狀態。狀態可以是({@condition 盲目[Blinded]})、({@condition 耳聾[Deafened]})、麻痺({@condition paralyzed})、中毒({@condition poisoned})。"
+				"你觸摸一名目標，並能終結正在影響他的一項疾病或狀態。狀態可以是{@condition 盲目[Blinded]}、{@condition 耳聾[Deafened]}、{@condition 麻痺[Paralyzed]}、{@condition 中毒[Poisoned]}。"
 			],
 			"page": 255,
 			"races": [
@@ -17058,7 +17058,7 @@
 			]
 		},
 		{
-			"name": "浮空 Levitate",
+			"name": "浮空[Levitate]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -17139,7 +17139,7 @@
 			]
 		},
 		{
-			"name": "亮光 Light",
+			"name": "亮光[Light]",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -17228,7 +17228,7 @@
 			]
 		},
 		{
-			"name": "閃電箭 Lightning Arrow",
+			"name": "閃電箭[Lightning Arrow]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -17289,7 +17289,7 @@
 			]
 		},
 		{
-			"name": "閃電箭 Lightning Bolt",
+			"name": "閃電箭[Lightning Bolt]",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -17383,7 +17383,7 @@
 			]
 		},
 		{
-			"name": "動植物定位術 Locate Animals or Plants",
+			"name": "動植物定位術[Locate Animals or Plants]",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -17554,7 +17554,7 @@
 			"page": 256
 		},
 		{
-			"name": "物品定位術 Locate Object",
+			"name": "物品定位術[Locate Object]",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -17633,7 +17633,7 @@
 			"page": 256
 		},
 		{
-			"name": "大步奔行 Longstrider",
+			"name": "大步奔行[Longstrider]",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -17702,7 +17702,7 @@
 			"page": 256
 		},
 		{
-			"name": "法師護甲 Mage Armor",
+			"name": "法師護甲[Mage Armor]",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -17750,7 +17750,7 @@
 			"page": 256
 		},
 		{
-			"name": "法師之手 Mage Hand",
+			"name": "法師之手[Mage Hand]",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -17858,7 +17858,7 @@
 			]
 		},
 		{
-			"name": "召喚法陣 Magic Circle",
+			"name": "召喚法陣[Magic Circle]",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -17973,7 +17973,7 @@
 					"items": [
 						"該類生物不能通過非魔法手段主動進入圓柱區域。如果該類生物試圖使用傳送或位面旅行進入此區域，它必須先成功通過一次魅力豁免。",
 						"該類生物對圓柱區域內的生物進行攻擊時，其攻擊骰獲得劣勢。",
-						"圓柱區域內的目標不會被該類生物{@condition 迷惑[Charmed]}、驚嚇（{@condition 恐慌[Frightened]}）或附身。"
+						"圓柱區域內的目標不會被該類生物{@condition 迷惑[Charmed]}、{@condition 恐慌[Frightened]}或附身。"
 					]
 				},
 				"當你施展此法術時，你可以選擇讓魔力作用於相反的方向來阻止特定類別生物離開圓柱區域，並保護區域外的目標。"
@@ -18048,7 +18048,7 @@
 			]
 		},
 		{
-			"name": "魔法飛彈 Magic Missile",
+			"name": "魔法飛彈[Magic Missile]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -18130,7 +18130,7 @@
 			]
 		},
 		{
-			"name": "魔嘴術 Magic Mouth",
+			"name": "魔嘴術[Magic Mouth]",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -18187,7 +18187,7 @@
 			"page": 257
 		},
 		{
-			"name": "魔化武器 Magic Weapon",
+			"name": "魔化武器[Magic Weapon]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -18320,7 +18320,7 @@
 			"page": 257
 		},
 		{
-			"name": "高等幻像 Major Image",
+			"name": "高等幻像[Major Image]",
 			"level": 3,
 			"school": "I",
 			"time": [
@@ -18506,12 +18506,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them {@condition 盲目[Blinded]} or {@condition deafened}. This spell has no effect on undead or constructs."
+				"A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them {@condition 盲目[Blinded]} or {@condition 耳聾[Deafened]}. This spell has no effect on undead or constructs."
 			],
 			"page": 258
 		},
 		{
-			"name": "群體醫療真言 Mass Healing Word",
+			"name": "群體醫療真言[Mass Healing Word]",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -18689,7 +18689,7 @@
 			"page": 258
 		},
 		{
-			"name": "融身入石 Meld into Stone",
+			"name": "融身入石[Meld into Stone]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -18757,7 +18757,7 @@
 			]
 		},
 		{
-			"name": "馬友夫強酸箭 Melf's Acid Arrow",
+			"name": "馬友夫強酸箭[Melf's Acid Arrow]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -18826,7 +18826,7 @@
 			]
 		},
 		{
-			"name": "修復術 Mending",
+			"name": "修復術[Mending]",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -18883,7 +18883,7 @@
 			"page": 259
 		},
 		{
-			"name": "傳訊術 Message",
+			"name": "傳訊術[Message]",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -19050,7 +19050,7 @@
 			]
 		},
 		{
-			"name": "小幻象 Minor Illusion",
+			"name": "小幻象[Minor Illusion]",
 			"level": 0,
 			"school": "I",
 			"time": [
@@ -19205,7 +19205,7 @@
 			"page": 260
 		},
 		{
-			"name": "鏡影術 Mirror Image",
+			"name": "鏡影術[Mirror Image]",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -19355,12 +19355,12 @@
 			"entries": [
 				"You become {@condition invisible} at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends if you attack or cast a spell.",
 				"You can use your action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose.",
-				"You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are {@condition 盲目[Blinded]} and {@condition deafened} in regard to your own surroundings."
+				"You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are {@condition 盲目[Blinded]} and {@condition 耳聾[Deafened]} in regard to your own surroundings."
 			],
 			"page": 260
 		},
 		{
-			"name": "迷霧步 Misty Step",
+			"name": "迷霧步[Misty Step]",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -19567,7 +19567,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "月華之光 Moonbeam",
+			"name": "月華之光[Moonbeam]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -19941,7 +19941,7 @@
 			"page": 263
 		},
 		{
-			"name": "回避偵測 Nondetection",
+			"name": "回避偵測[Nondetection]",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -19960,7 +19960,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "一撮價值至少 25gp 的鑽石粉末，撒在目標身上。法術會消耗這些材料",
+					"text": "一撮價值至少 25 gp 的鑽石粉末，撒在目標身上。法術會消耗這些材料",
 					"cost": 25,
 					"consume": true
 				}
@@ -20014,12 +20014,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"在持續時間內，你將你接觸的一個目標隱藏起來，遮斷了預言({@spell divination})的偵測。目標可以是一個自願生物或一個地方或一個在各個方向上都不超過 10 英尺的物體。在持續時間內，目標不能成為預言({@spell divination})魔法的目標，也不能通過探知({@spell Scrying})探測器手段察覺。"
+				"在持續時間內，你將你接觸的一個目標隱藏起來，遮斷了{@spell 預言[divination]}的偵測。目標可以是一個自願生物或一個地方或一個在各個方向上都不超過 10 英尺的物體。在持續時間內，目標不能成為{@spell 預言[divination]}魔法的目標，也不能通過{@spell 探知[Scrying]}的探測器手段察覺。"
 			],
 			"page": 263
 		},
 		{
-			"name": "涅斯圖魔法靈光 Nystul's Magic Aura",
+			"name": "涅斯圖魔法靈光[Nystul's Magic Aura]",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -20307,7 +20307,7 @@
 			]
 		},
 		{
-			"name": "行蹤無跡 Pass without Trace",
+			"name": "行蹤無跡[Pass without Trace]",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -20466,7 +20466,7 @@
 			"page": 264
 		},
 		{
-			"name": "魅影之力 Phantasmal Force",
+			"name": "魅影之力[Phantasmal Force]",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -20637,7 +20637,7 @@
 			]
 		},
 		{
-			"name": "魅影駒 Phantom Steed",
+			"name": "魅影駒[Phantom Steed]",
 			"level": 3,
 			"school": "I",
 			"time": [
@@ -20923,7 +20923,7 @@
 			]
 		},
 		{
-			"name": "植物滋長 Plant Growth",
+			"name": "植物滋長[Plant Growth]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -21021,7 +21021,7 @@
 			"page": 266
 		},
 		{
-			"name": "毒氣噴 Poison Spray",
+			"name": "毒氣噴[Poison Spray]",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -21309,7 +21309,7 @@
 			]
 		},
 		{
-			"name": "治療禱告 Prayer of Healing",
+			"name": "治療禱告[Prayer of Healing]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -21357,7 +21357,7 @@
 			"page": 267
 		},
 		{
-			"name": "魔法技倆 Prestidigitation",
+			"name": "魔法技倆[Prestidigitation]",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -21670,7 +21670,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "燃火術 Produce Flame",
+			"name": "燃火術[Produce Flame]",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -21837,7 +21837,7 @@
 			"entries": [
 				"You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location within range that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you but is intangible. If the illusion takes any damage, it disappears, and the spell ends.",
 				"You can use your action to move this illusion up to twice your speed, and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.",
-				"You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are {@condition 盲目[Blinded]} and {@condition deafened} in regard to your own surroundings.",
+				"You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are {@condition 盲目[Blinded]} and {@condition 耳聾[Deafened]} in regard to your own surroundings.",
 				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature."
 			],
 			"page": 270,
@@ -21846,7 +21846,7 @@
 			]
 		},
 		{
-			"name": "防護能量傷害 Protection from Energy",
+			"name": "防護能量傷害[Protection from Energy]",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -22010,7 +22010,7 @@
 			]
 		},
 		{
-			"name": "防護善惡 Protection from Evil and Good",
+			"name": "防護善惡[Protection from Evil and Good]",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -22178,12 +22178,12 @@
 			"source": "PHB",
 			"entries": [
 				"直到法術結束，一個你觸摸的自願生物對抗某些種類的生物時受到保護：異怪、天界生物、元素生物、精類生物、邪魔和不死生物。",
-				"這種保護給予幾項好處。那些種類的生物對目標生物的攻擊骰獲得劣勢。目標也不能被他們{@condition 迷惑[Charmed]}、({@condition 恐慌[Frightened]})或支配。如果目標已經被這樣的生物{@condition 迷惑[Charmed]}、({@condition 恐慌[Frightened]})或支配，目標之後對抗相關效果的豁免檢定獲得優勢。"
+				"這種保護給予幾項好處。那些種類的生物對目標生物的攻擊骰獲得劣勢。目標也不能被他們{@condition 迷惑[Charmed]}、{@condition 恐慌[Frightened]}或支配。如果目標已經被這樣的生物{@condition 迷惑[Charmed]}、{@condition 恐慌[Frightened]}或支配，目標之後對抗相關效果的豁免檢定獲得優勢。"
 			],
 			"page": 270
 		},
 		{
-			"name": "防護毒素 Protection from Poison",
+			"name": "防護毒素[Protection from Poison]",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -22259,8 +22259,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你觸摸一個生物。如果它中毒({@condition poisoned})了，你中和此毒素。如果超過一種毒素折磨著目標，你中和出現的毒素中一種你了解的或一種隨機的。",
-				"在持續時間內，目標在對抗中毒({@condition poisoned})的豁免中獲得優勢，並且對毒素傷害獲得抗性。"
+				"你觸摸一個生物。如果它{@condition 中毒[Poisoned]}了，你中和此毒素。如果超過一種毒素折磨著目標，你中和出現的毒素中一種你了解的或一種隨機的。",
+				"在持續時間內，目標在對抗{@condition 中毒[Poisoned]}的豁免中獲得優勢，並且對毒素傷害獲得抗性。"
 			],
 			"page": 270,
 			"damageResist": [
@@ -22268,7 +22268,7 @@
 			]
 		},
 		{
-			"name": "淨化食糧 Purify Food and Drink",
+			"name": "淨化食糧[Purify Food and Drink]",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -22455,7 +22455,7 @@
 			"page": 270
 		},
 		{
-			"name": "衰弱射線 Ray of Enfeeblement",
+			"name": "衰弱射線[Ray of Enfeeblement]",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -22563,7 +22563,7 @@
 			]
 		},
 		{
-			"name": "冷凍射線 Ray of Frost",
+			"name": "冷凍射線[Ray of Frost]",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -22642,7 +22642,7 @@
 			]
 		},
 		{
-			"name": "致病射線 Ray of Sickness",
+			"name": "致病射線[Ray of Sickness]",
 			"level": 1,
 			"school": "N",
 			"time": [
@@ -22703,7 +22703,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"一道致病的綠色光線沖向一個射程內的生物。你對目標進行一次遠程法術攻擊。如果命中，則目標受到 {@dice 2d8} poison 傷害，並且必須進行一次體魄豁免。若豁免失敗，則受術者在你的下一回合結束前陷入中毒({@condition poisoned})狀態。"
+				"一道致病的綠色光線沖向一個射程內的生物。你對目標進行一次遠程法術攻擊。如果命中，則目標受到 {@dice 2d8} poison 傷害，並且必須進行一次體魄豁免。若豁免失敗，則受術者在你的下一回合結束前陷入{@condition 中毒[Poisoned]}狀態。"
 			],
 			"entriesHigherLevel": [
 				{
@@ -22996,7 +22996,7 @@
 			"page": 271
 		},
 		{
-			"name": "移除詛咒 Remove Curse",
+			"name": "移除詛咒[Remove Curse]",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -23047,7 +23047,7 @@
 			"page": 271
 		},
 		{
-			"name": "抗力 Resistance",
+			"name": "抗力[Resistance]",
 			"level": 0,
 			"school": "A",
 			"time": [
@@ -23220,7 +23220,7 @@
 			]
 		},
 		{
-			"name": "回生 Revivify",
+			"name": "回生[Revivify]",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -23324,7 +23324,7 @@
 			"page": 272
 		},
 		{
-			"name": "魔繩術 Rope Trick",
+			"name": "魔繩術[Rope Trick]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -23417,7 +23417,7 @@
 			"page": 272
 		},
 		{
-			"name": "聖焰 Sacred Flame",
+			"name": "聖焰[Sacred Flame]",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -23452,8 +23452,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"如同火焰般的輝光向法術射程內你能看見的一個生物傾瀉而下。目標必須要進行一次敏捷豁免檢定，若失敗則受到({@dice 1d8}) radiant 傷害。目標在這次豁免檢定中不享受掩蔽帶來的加值。",
-				"法術的傷害隨等級提升： 5級 ({@dice 2d8}), 11級 ({@dice 3d8}), 17級 ({@dice 4d8})。"
+				"如同火焰般的輝光向法術射程內你能看見的一個生物傾瀉而下。目標必須要進行一次敏捷豁免檢定，若失敗則受到 {@dice 1d8} radiant 傷害。目標在這次豁免檢定中不享受掩蔽帶來的加值。",
+				"法術的傷害隨等級提升： 5級 {@dice 2d8} , 11級 {@dice 3d8}, 17級 {@dice 4d8}。"
 			],
 			"page": 272,
 			"damageInflict": [
@@ -23465,7 +23465,7 @@
 			"scalingEffects": true
 		},
 		{
-			"name": "聖域術 Sanctuary",
+			"name": "聖域術[Sanctuary]",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -23541,7 +23541,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你保護一位在施法範圍內被受攻擊的生物。在有效法術時間內，每位要對此生物攻擊或施展傷害法術必須先做感知檢定。如果失敗了，攻擊者必須選新的目標不然會失去攻擊行動或法術。此法術無法保護範圍性的攻擊，如火球術{@spell fireball}的爆炸範圍。",
+				"你保護一位在施法範圍內被受攻擊的生物。在有效法術時間內，每位要對此生物攻擊或施展傷害法術必須先做感知檢定。如果失敗了，攻擊者必須選新的目標不然會失去攻擊行動或法術。此法術無法保護範圍性的攻擊，如{@spell 火球[Fireball]}的爆炸範圍。",
 				"如果已被保護的生物對其他生物造成攻擊傷害或是法術傷害，此法術就會停止。"
 			],
 			"page": 272,
@@ -23550,7 +23550,7 @@
 			]
 		},
 		{
-			"name": "灼熱射線 Scorching Ray",
+			"name": "灼熱射線[Scorching Ray]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -23818,7 +23818,7 @@
 			]
 		},
 		{
-			"name": "熾焰斬 Searing Smite",
+			"name": "熾焰斬[Searing Smite]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -23898,14 +23898,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"在法術失效前，當你下一次用武器擊中一個生物時，你的武器上閃現出白熱的光芒。這次攻擊對目標造成額外的 ({@dice 1d6}) fire 傷害，並且會使目標著火。在法術結束之前，目標在它的每一個回合開始時都要進行一次體質豁免。若失敗，則它受到  ({@dice 1d6}) fire 傷害。若成功，則法術結束。如果目標或它身邊 5 英尺內的另一個生物使用一個動作來撲滅它身上的火焰，或有其他某種效果熄滅了火焰（例如目標跳入水中），則法術結束。"
+				"在法術失效前，當你下一次用武器擊中一個生物時，你的武器上閃現出白熱的光芒。這次攻擊對目標造成額外的 {@dice 1d6} fire 傷害，並且會使目標著火。在法術結束之前，目標在它的每一個回合開始時都要進行一次體質豁免。若失敗，則它受到  {@dice 1d6} fire 傷害。若成功，則法術結束。如果目標或它身邊 5 英尺內的另一個生物使用一個動作來撲滅它身上的火焰，或有其他某種效果熄滅了火焰（例如目標跳入水中），則法術結束。"
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "升環效果",
 					"entries": [
-						"當你使用 2 環或更高的法術位施放該法術時，每環都使最初一次攻擊造成的額外傷害增加 ({@dice 1d6})。"
+						"當你使用 2 環或更高的法術位施放該法術時，每環都使最初一次攻擊造成的額外傷害增加 {@dice 1d6}。"
 					]
 				}
 			],
@@ -23932,7 +23932,7 @@
 			]
 		},
 		{
-			"name": "識破隱形 See Invisibility",
+			"name": "識破隱形[See Invisibility]",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -23979,7 +23979,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"在法術時效內，你能夠看見任何隱形({@condition invisible})的生物和物體，如同它們是正常可見狀態一樣。你還能夠看見以太界。以太界的生物和物體在你眼中會以幽靈般的半透明狀出現。"
+				"在法術時效內，你能夠看見任何{@condition 隱形[Invisible]}的生物和物體，如同它們是正常可見狀態一樣。你還能夠看見以太界。以太界的生物和物體在你眼中會以幽靈般的半透明狀出現。"
 			],
 			"page": 274
 		},
@@ -24097,7 +24097,7 @@
 			]
 		},
 		{
-			"name": "短訊術 Sending",
+			"name": "短訊術[Sending]",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -24278,7 +24278,7 @@
 			"page": 274
 		},
 		{
-			"name": "震裂 Shatter",
+			"name": "震裂[Shatter]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -24379,14 +24379,14 @@
 			]
 		},
 		{
-			"name": "護盾術 Shield",
+			"name": "護盾術[Shield]",
 			"level": 1,
 			"school": "A",
 			"time": [
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "當你被攻擊命中或者成為{@spell 魔法飛彈 Magic Missile}的目標時"
+					"condition": "當你被攻擊命中或者成為{@spell 魔法飛彈[Magic Missile]}的目標時"
 				}
 			],
 			"range": {
@@ -24464,7 +24464,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"一度隱形的魔法屏障現身保護你。直到你下回合開始前，你的 AC +5 ，包括對觸發的攻擊在內，並且你不受{@spell 魔法飛彈 Magic Missile}所傷。"
+				"一度隱形的魔法屏障現身保護你。直到你下回合開始前，你的 AC +5 ，包括對觸發的攻擊在內，並且你不受{@spell 魔法飛彈[Magic Missile]}所傷。"
 			],
 			"page": 275,
 			"races": [
@@ -24483,7 +24483,7 @@
 			]
 		},
 		{
-			"name": "虔誠護盾 Shield of Faith",
+			"name": "虔誠護盾[Shield of Faith]",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -24559,7 +24559,7 @@
 			"page": 275
 		},
 		{
-			"name": "橡棍術 Shillelagh",
+			"name": "橡棍術[Shillelagh]",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -24616,7 +24616,7 @@
 			"page": 275
 		},
 		{
-			"name": "電爪 Shocking Grasp",
+			"name": "電爪[Shocking Grasp]",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -24680,7 +24680,7 @@
 			"scalingEffects": true
 		},
 		{
-			"name": "靜默 Silence",
+			"name": "靜默[Silence]",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -24770,7 +24770,7 @@
 			"page": 275
 		},
 		{
-			"name": "無聲幻象 Silent Image",
+			"name": "無聲幻象[Silent Image]",
 			"level": 1,
 			"school": "I",
 			"time": [
@@ -24879,7 +24879,7 @@
 			"page": 276
 		},
 		{
-			"name": "睡眠 Sleep",
+			"name": "睡眠[Sleep]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -24959,8 +24959,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"此術使多名生物陷入魔法性的沉睡。投擲 ({@dice 5d8})；總數成為此法術能影響的生物的生命值總量。射程內你所選擇的一處的 20 尺內的每一名生物依照牠的當前生命值由少至多順序受影響（忽略昏迷({@condition unconscious})的生物）。",
-				"先從現有最少生命值的生物開始，每一名受影響的生物都陷入昏迷({@condition unconscious})到法術終結，到他受傷，或到有人用一次動作弄醒他為止。從總量中扣去他的生命值，然後到下一名現有最少生命值的生物。生物的生命值必需等於或少於剩餘的總量才會受影響。",
+				"此術使多名生物陷入魔法性的沉睡。投擲 {@dice 5d8}；總數成為此法術能影響的生物的生命值總量。射程內你所選擇的一處的 20 尺內的每一名生物依照牠的當前生命值由少至多順序受影響（忽略{@condition 昏迷[Unconscious]}的生物）。",
+				"先從現有最少生命值的生物開始，每一名受影響的生物都陷入{@condition 昏迷[Unconscious]}到法術終結，到他受傷，或到有人用一次動作弄醒他為止。從總量中扣去他的生命值，然後到下一名現有最少生命值的生物。生物的生命值必需等於或少於剩餘的總量才會受影響。",
 				"不死和其他免疫{@condition 迷惑[Charmed]}的生物不受此法術影響。"
 			],
 			"entriesHigherLevel": [
@@ -24968,14 +24968,14 @@
 					"type": "entries",
 					"name": "升環效果",
 					"entries": [
-						"當你用 2 環或以上的法術位施放此法術時，每環增加 ({@dice 2d8}) 生命值總量。"
+						"當你用 2 環或以上的法術位施放此法術時，每環增加 {@dice 2d8} 生命值總量。"
 					]
 				}
 			],
 			"page": 276
 		},
 		{
-			"name": "雪風暴 Sleet Storm",
+			"name": "雪風暴[Sleet Storm]",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -25048,7 +25048,7 @@
 			"source": "PHB",
 			"entries": [
 				"你選定法術距離內一點。在以該點為中心、半徑 40 英尺、高 20 英尺的區域內，寒冷刺骨的凍雨和冰雹傾瀉而下，直到法術結束。該區域視為受到重度遮蔽，並且該區域內的一切明火都將熄滅。",
-				"該區域內的地面上覆著一層光滑的冰，使地面變成困難地形。當一個生物在一回合中第一次進入法術區域或在法術區域內開始它的回合時，它必須要進行一次敏捷豁免檢定，如果失敗就滑倒在地({@condition prone})。",
+				"該區域內的地面上覆著一層光滑的冰，使地面變成困難地形。當一個生物在一回合中第一次進入法術區域或在法術區域內開始它的回合時，它必須要進行一次敏捷豁免檢定，如果失敗就滑倒成為{@condition 倒地[Prone]}狀態。",
 				"如果法術區域內有一個生物正進行專注，該生物必須進行一次體魄豁免檢定，若失敗則失去專注。"
 			],
 			"page": 276,
@@ -25058,7 +25058,7 @@
 			]
 		},
 		{
-			"name": "緩慢術 Slow",
+			"name": "緩慢術[Slow]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -25148,7 +25148,7 @@
 			]
 		},
 		{
-			"name": "垂死回生 Spare the Dying",
+			"name": "垂死回生[Spare the Dying]",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -25201,7 +25201,7 @@
 			]
 		},
 		{
-			"name": "動物交談 Speak with Animals",
+			"name": "動物交談[Speak with Animals]",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -25277,7 +25277,7 @@
 			"page": 277
 		},
 		{
-			"name": "死者交談 Speak with Dead",
+			"name": "死者交談[Speak with Dead]",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -25369,7 +25369,7 @@
 			"page": 277
 		},
 		{
-			"name": "植物交談 Speak with Plants",
+			"name": "植物交談[Speak with Plants]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -25420,12 +25420,12 @@
 				"你可以使由於植物生長造成的困難地形（如灌木叢）在法術時效內變為普通地形。或者你也可以將有植物生存的普通地形變成困難地形——例如讓藤蔓和樹枝來阻礙你身後的追兵。",
 				"根據 DM 的判斷，植物也可能會為你做其他的事情。這道法術無法讓植物拔根而起、自由移動，但它們可以自由活動自己的樹枝、藤蔓和莖稈。",
 				"如果法術區域內有一個植物生物，你可以如同你們有共同語言一般與它交流，但你並沒有任何能影響它立場的魔力。",
-				"這道法術能讓糾纏術創造出來的植物放開一個被束縛({@condition restrained})的生物。"
+				"這道法術能讓糾纏術創造出來的植物放開一個被{@condition 束縛[Restrained]}的生物。"
 			],
 			"page": 277
 		},
 		{
-			"name": "蛛爬 Spider Climb",
+			"name": "蛛爬[Spider Climb]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -25525,7 +25525,7 @@
 			]
 		},
 		{
-			"name": "荊棘叢生 Spike Growth",
+			"name": "荊棘叢生[Spike Growth]",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -25627,7 +25627,7 @@
 			]
 		},
 		{
-			"name": "靈體守衛 Spirit Guardians",
+			"name": "靈體守衛[Spirit Guardians]",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -25712,7 +25712,7 @@
 			]
 		},
 		{
-			"name": "靈體武器 Spiritual Weapon",
+			"name": "靈體武器[Spiritual Weapon]",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -25926,7 +25926,7 @@
 			]
 		},
 		{
-			"name": "臭雲術 Stinking Cloud",
+			"name": "臭雲術[Stinking Cloud]",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -26286,7 +26286,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A churning storm cloud forms, centered on a point you can see and spreading to a radius of 360 feet. Lightning flashes in the area, thunder booms, and strong winds roar. Each creature under the cloud (no more than 5,000 feet beneath the cloud) when it appears must make a Constitution saving throw. On a failed save, a creature takes {@dice 2d6} thunder damage and becomes {@condition deafened} for 5 minutes.",
+				"A churning storm cloud forms, centered on a point you can see and spreading to a radius of 360 feet. Lightning flashes in the area, thunder booms, and strong winds roar. Each creature under the cloud (no more than 5,000 feet beneath the cloud) when it appears must make a Constitution saving throw. On a failed save, a creature takes {@dice 2d6} thunder damage and becomes {@condition 耳聾[Deafened]} for 5 minutes.",
 				"Each round you maintain concentration on this spell, the storm produces additional effects on your turn.",
 				{
 					"type": "entries",
@@ -26331,7 +26331,7 @@
 			]
 		},
 		{
-			"name": "暗示 Suggestion",
+			"name": "暗示[Suggestion]",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -26738,7 +26738,7 @@
 			]
 		},
 		{
-			"name": "塔莎狂笑術 Tasha's Hideous Laughter",
+			"name": "塔莎狂笑術[Tasha's Hideous Laughter]",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -26795,7 +26795,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"你選擇法術距離內一個你能看見的生物。如果該生物受到了法術的影響，則一切事物在該生物眼中都變得滑稽可笑，使它開始狂笑起來。目標進行一次感知豁免，若失敗就倒在地上({@condition prone})，在法術時效內陷入({@condition 乏力[Incapacitated]})並且無法站起來。智力值為 4 或更低的生物不受影響。",
+				"你選擇法術距離內一個你能看見的生物。如果該生物受到了法術的影響，則一切事物在該生物眼中都變得滑稽可笑，使它開始狂笑起來。目標進行一次感知豁免，若失敗就{@condition 倒地[Prone]}，在法術時效內陷入{@condition 乏力[Incapacitated]}並且無法站起來。智力值為 4 或更低的生物不受影響。",
 				"目標在它的每回合結束時以及受到傷害時可以再進行一次感知豁免。如果是受到傷害導致這次豁免，則目標對這次豁免擁有優勢。若豁免成功，則法術結束。"
 			],
 			"page": 280,
@@ -27201,7 +27201,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "譚森浮碟術 Tenser's Floating Disk",
+			"name": "譚森浮碟術[Tenser's Floating Disk]",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -27265,7 +27265,7 @@
 			]
 		},
 		{
-			"name": "奇術 Thaumaturgy",
+			"name": "奇術[Thaumaturgy]",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -27395,7 +27395,7 @@
 			]
 		},
 		{
-			"name": "刺鞭術 Thorn Whip",
+			"name": "刺鞭術[Thorn Whip]",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -27444,7 +27444,7 @@
 			"scalingEffects": true
 		},
 		{
-			"name": "雷鳴斬 Thunderous Smite",
+			"name": "雷鳴斬[Thunderous Smite]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -27504,7 +27504,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"在法術失效前，當你下一次用近戰武器攻擊擊中一個生物時，你的武器發出方圓 300 英尺內都能聽見的雷霆巨響。這次攻擊對目標造成額外的 ({@dice 2d6}) thunder 傷害。另外，如果目標是一個生物，它必須要進行一次力量豁免，若失敗就會被推離 10 英尺並且倒地不起({@condition prone})。"
+				"在法術失效前，當你下一次用近戰武器攻擊擊中一個生物時，你的武器發出方圓 300 英尺內都能聽見的雷霆巨響。這次攻擊對目標造成額外的 {@dice 2d6} thunder 傷害。另外，如果目標是一個生物，它必須要進行一次力量豁免，若失敗就會被推離 10 英尺並且{@condition 倒地[Prone]}。"
 			],
 			"page": 282,
 			"damageInflict": [
@@ -27515,7 +27515,7 @@
 			]
 		},
 		{
-			"name": "雷鳴波 Thunderwave",
+			"name": "雷鳴波[Thunderwave]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -27595,7 +27595,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"一度雷鳴波從你開始橫掃出去。以你為起源點的 15 尺立方內的每一名生物都要進行體質豁免。失敗的話受到 ({@dice 2d8}) thunder 傷害並被你推離 10 尺。成功的話受到一半傷害並不被推離。",
+				"一度雷鳴波從你開始橫掃出去。以你為起源點的 15 尺立方內的每一名生物都要進行體質豁免。失敗的話受到 {@dice 2d8} thunder 傷害並被你推離 10 尺。成功的話受到一半傷害並不被推離。",
 				"效應範圍內的沒有固定好的物品自動被你推離 10 尺，而且本術會發出 300 尺以內可聞的雷聲。"
 			],
 			"entriesHigherLevel": [
@@ -27603,7 +27603,7 @@
 					"type": "entries",
 					"name": "升環效果",
 					"entries": [
-						"當你用 2 環或以上的法術位施放此法術時，每環增加 ({@dice 1d8}) 傷害。"
+						"當你用 2 環或以上的法術位施放此法術時，每環增加 {@dice 1d8} 傷害。"
 					]
 				}
 			],
@@ -27667,7 +27667,7 @@
 			"page": 283
 		},
 		{
-			"name": "巧言術 Tongues",
+			"name": "巧言術[Tongues]",
 			"level": 3,
 			"school": "D",
 			"time": [
@@ -28049,7 +28049,7 @@
 			"page": 284
 		},
 		{
-			"name": "克敵機先 True Strike",
+			"name": "克敵機先[True Strike]",
 			"level": 0,
 			"school": "D",
 			"time": [
@@ -28169,7 +28169,7 @@
 			]
 		},
 		{
-			"name": "隱形僕役 Unseen Servant",
+			"name": "隱形僕役[Unseen Servant]",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -28220,14 +28220,14 @@
 				"ritual": true
 			},
 			"entries": [
-				"這道法術創造出一股不可見 ({@condition invisible})、無心智、無形體的力量。在法術結束之前，你可以指揮它進行簡單的工作。僕役被創造出來後出現在法術距離內的一塊空地上。它有 AC 10 ，生命值 1 ，力量 2 ，而且不能攻擊。若僕役的生命值降到0，則法術結束。",
+				"這道法術創造出一股{@condition 隱形[Invisible]}、無心智、無形體的力量。在法術結束之前，你可以指揮它進行簡單的工作。僕役被創造出來後出現在法術距離內的一塊空地上。它有 AC 10 ，生命值 1 ，力量 2 ，而且不能攻擊。若僕役的生命值降到0，則法術結束。",
 				"你可以在你的每個回合內使用一個附贈動作在心中對僕役下達命令，使它移動最多 15 英尺並與一個物體進行互動。僕役可以做人類僕人能做到的簡單工作，例如拿取東西、打掃衛生、修補東西、疊衣服、點火、上菜、倒酒等。一旦你下達了命令，僕役就會盡全力去做你命令它做的工作，直到完成，隨後它便會等待你的下一個命令。",
 				"如果你命令僕役做一件需要它離開你身邊 60 英尺的工作，則法術立刻結束。"
 			],
 			"page": 284
 		},
 		{
-			"name": "吸血鬼之觸 Vampiric Touch",
+			"name": "吸血鬼之觸[Vampiric Touch]",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -28352,7 +28352,7 @@
 			]
 		},
 		{
-			"name": "公然侮辱 Vicious Mockery",
+			"name": "公然侮辱[Vicious Mockery]",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -28837,7 +28837,7 @@
 			]
 		},
 		{
-			"name": "聯結守護 Warding Bond",
+			"name": "聯結守護[Warding Bond]",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -28907,7 +28907,7 @@
 			"page": 287
 		},
 		{
-			"name": "水下呼吸 Water Breathing",
+			"name": "水下呼吸[Water Breathing]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -28994,7 +28994,7 @@
 			"page": 287
 		},
 		{
-			"name": "水上行走 Water Walk",
+			"name": "水上行走[Water Walk]",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -29083,7 +29083,7 @@
 			"page": 287
 		},
 		{
-			"name": "蛛網 Web",
+			"name": "蛛網[Web]",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -29153,8 +29153,8 @@
 			"entries": [
 				"你在射程內選擇一點，以該點為中心召喚出20 尺半徑立方的又厚又黏的網持續到時效結束。網是困難地形並有輕度遮蔽。",
 				"如果這網沒有被兩件相對的固體支撐（例如兩棵樹），或者沒有在地面、牆壁、天花等表面之上層疊，這法術會在你的下回合開始時終結。在表面上層疊的蛛網厚5尺。",
-				"每一名在網內開始回合的生物，或在自己的回合內進入網的生物，都要進行一次敏捷豁免。失敗的話，該生物被束縛({@condition restrained})直到脫離或直到破網而出。",
-				"被此網束縛的生物可以用它的動作進行一次力量檢定對抗你的法術豁免 DC 。如果他成功，他不再受到束縛({@condition restrained})。",
+				"每一名在網內開始回合的生物，或在自己的回合內進入網的生物，都要進行一次敏捷豁免。失敗的話，該生物被{@condition 束縛[Restrained]}直到脫離或直到破網而出。",
+				"被此網束縛的生物可以用它的動作進行一次力量檢定對抗你的法術豁免 DC 。如果他成功，他不再受到{@condition 束縛[Restrained]}。",
 				"這網是易燃的。任何暴露於火焰之下的 5 尺立方的網會在一輪內燒燬，對在火焰內開始回合的任何生物做成 {@dice 2d4} fire 傷害。"
 			],
 			"page": 287,
@@ -29274,7 +29274,7 @@
 			"page": 288
 		},
 		{
-			"name": "風牆術 Wind Wall",
+			"name": "風牆術[Wind Wall]",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -29417,7 +29417,7 @@
 			]
 		},
 		{
-			"name": "巫術箭 Witch Bolt",
+			"name": "巫術箭[Witch Bolt]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -29466,14 +29466,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"一道劈啪作響的藍色能量射線如同長矛一般射向射程內的一個生物，在你和目標之間形成一道持久的閃電弧。對目標生物進行一次遠程法術攻擊。若命中，則目標受到 ({@dice 1d12}) lightning 傷害；而且在法術時效內，你在你的每個回合中都可以花費一個動作來自動對目標造成 ({@dice 1d12}) lightning 傷害。如果你使用你的動作來做其他任何事情，則法術即刻結束。此外，如果目標位於法術射程外或對你有全掩蔽，法術同樣會結束。"
+				"一道劈啪作響的藍色能量射線如同長矛一般射向射程內的一個生物，在你和目標之間形成一道持久的閃電弧。對目標生物進行一次遠程法術攻擊。若命中，則目標受到 {@dice 1d12} lightning 傷害；而且在法術時效內，你在你的每個回合中都可以花費一個動作來自動對目標造成 {@dice 1d12} lightning 傷害。如果你使用你的動作來做其他任何事情，則法術即刻結束。此外，如果目標位於法術射程外或對你有全掩蔽，法術同樣會結束。"
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "升環效果",
 					"entries": [
-						"當你使用 2 環或更高的法術位施放該法術時，使用的法術位每高 1 環，法術傷害就增加 ({@dice 1d12})。"
+						"當你使用 2 環或更高的法術位施放該法術時，使用的法術位每高 1 環，法術傷害就增加 {@dice 1d12}。"
 					]
 				}
 			],
@@ -29526,7 +29526,7 @@
 			"page": 289
 		},
 		{
-			"name": "激憤斬 Wrathful Smite",
+			"name": "激憤斬[Wrathful Smite]",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -29606,7 +29606,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"在法術失效前，當你的近戰武器攻擊下一次命中時，你的攻擊對目標造成額外的 ({@dice 1d6}) psychic 傷害。除此之外，如果目標是一個生物，它必須進行一次感知豁免。若失敗，則目標生物將在法術結束前陷入({@condition 恐慌[Frightened]})。該生物可以花費一個動作進行感知檢定對抗你的法術豁免 DC ，來嘗試重拾鬥志，若成功則法術即刻結束。"
+				"在法術失效前，當你的近戰武器攻擊下一次命中時，你的攻擊對目標造成額外的 {@dice 1d6} psychic 傷害。除此之外，如果目標是一個生物，它必須進行一次感知豁免。若失敗，則目標生物將在法術結束前陷入{@condition 恐慌[Frightened]}。該生物可以花費一個動作進行感知檢定對抗你的法術豁免 DC ，來嘗試重拾鬥志，若成功則法術即刻結束。"
 			],
 			"page": 289,
 			"damageInflict": [
@@ -29620,7 +29620,7 @@
 			]
 		},
 		{
-			"name": "誠實之域 Zone of Truth",
+			"name": "誠實之域[Zone of Truth]",
 			"level": 2,
 			"school": "E",
 			"time": [
