@@ -665,7 +665,7 @@
 						"col-xs-2",
 						"col-xs-1 text-align-center",
 						"col-xs-1 text-align-center",
-						"col-xs-6",
+						"col-xs-4",
 						"col-xs-1 text-align-center",
 						"col-xs-1 text-align-center"
 					],
@@ -732,7 +732,7 @@
 			]
 		},
 		{
-			"name": "Antilife Shell",
+			"name": "防生物護罩[Antilife Shell]",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -814,9 +814,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration.",
-				"The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.",
-				"If you move so that an affected creature is forced to pass through the barrier, the spell ends."
+				"閃爍著微光的護罩環繞在你周圍 10 尺並以你為中心移動，阻絕除不死生物和構裝體之外的生物。護罩持續到法術終止。",
+				"護罩阻止受影響的生物進入，但受影響的生物可以使用法術，使用遠程武器，或是使用長武器攻擊護罩內部。",
+				"如果你移動迫使受影響的生物進入護罩范圍，則法術終止。"
 			],
 			"page": 213
 		},
@@ -1876,7 +1876,7 @@
 			]
 		},
 		{
-			"name": "Banishing Smite",
+			"name": "放逐斬[Banishing Smite]",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -1926,7 +1926,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra {@dice 5d10} force damage to the target. Additionally, if this attack reduces the target to 50 hit points or fewer, you banish it. If the target is native to a different plane of existence than the one you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is {@condition 乏力[Incapacitated]}. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied."
+				"法術終止前，你下一次以武器攻擊命中某生物時，你的武器爆出巨力，該次攻擊對目標額外造成  {@dice 5d10} force 傷害。另外，如果此次攻擊將目標的生命值降低到５０以下，該生物被放逐。如果目標不是你所處位面的原住民，則他被放逐回他的家園位面。如果目標是你所處位面的原住民，則他被放逐到一個無害的半位面。在半位面期間，該生物處於{@condition 乏力[Incapacitated]}狀態。法術終止時，目標在他被放逐前的位置出現。如果該位置被佔據，則他在最近的未被佔據空間出現。"
 			],
 			"page": 216,
 			"damageInflict": [
@@ -2450,7 +2450,7 @@
 			]
 		},
 		{
-			"name": "Bigby's Hand",
+			"name": "比格畢之掌[Bigby's Hand]",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -2469,7 +2469,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "an eggshell and a snakeskin glove"
+				"m": "一塊蛋殼和一只蛇皮手套"
 			},
 			"duration": [
 				{
@@ -2491,44 +2491,44 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand.",
-				"The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn't fill its space.",
-				"When you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it.",
+				"你在視野內對你可見的某處未被佔據的空間創造出一只閃爍著微光的巨手。巨手存在到法術終止，並聽從你的指示模仿你手掌移動的方式移動。",
+				"巨手視為物體，其 AC 為 20 ，生命值等於你的生命值上限。如果它的生命值降低到 0 則法術終止。它的力量為 26 （+8），敏捷為 10 （+0）。巨手並不佔據它所在的空間。",
+				"當你施展此法術時，以及在你接下來的回合中以一個附贈動作，你可以令巨手移動至多 60 尺並造成下列效果中的某個。",
 				{
 					"type": "entries",
-					"name": "Clenched Fist",
+					"name": "金剛拳",
 					"entries": [
-						"The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes {@dice 4d8} force damage."
+						"巨手攻擊五尺內的生物或物體。用你的數據進行一次近戰法術攻擊，命中則造成 {@dice 4d8} force 傷害。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Forceful Hand",
+					"name": "飛擊掌",
 					"entries": [
-						"The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it."
+						"巨手嘗試按你選定的方向推 5 尺內的一名生物。用巨手的力量檢定對抗目標的力量（運動）檢定。如果目標為中型或更小則你在檢定上具有優勢。對抗成功則目標被推開 5 + 5 × 你的施法屬性調整值英尺距離。巨手隨著目標一起移動，保持 5 尺距離。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Grasping Hand",
+					"name": "擒拿掌",
 					"entries": [
-						"The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to {@dice 2d6} + your spellcasting ability modifier."
+						"巨手嘗試擒抱 5 尺內的一名超大型或更小的生物。在計算擒抱時使用巨手的力量值。如果目標為中型或更小則你在檢定上具有優勢。在巨手擒抱住目標期間，你可以使用一個附贈動作命令目標擠壓他，對目標造成 {@dice 2d6} + 你的施法屬性調整 鈍擊(bludgeoning)傷害。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Interposing Hand",
+					"name": "護身掌",
 					"entries": [
-						"The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target."
+						"巨手阻擋在你和一名你選擇生物中間，直到你給他另一個命令。巨手不斷移動保持在你和目標中間，使得你對目標具有半掩蔽。如果目標的力量值小於或低於巨手的力量值，那麼他就無法通過巨手的阻擋。如果他的力量值高於巨手，則他可以穿過巨手所在的空間，但該空間對目標視為困難地形。"
 					]
 				}
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "升環效果",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by {@dice 2d8} and the damage from the grasping hand increases by {@dice 2d6} for each slot level above 5th."
+						"當你使用 6 環或更高的法術位施展這個法術時，每環節使你金剛拳的傷害提高 {@dice 2d8} ，擒拿掌的傷害提高 {@dice 2d6} 。"
 					]
 				}
 			],
@@ -4047,7 +4047,7 @@
 			]
 		},
 		{
-			"name": "Circle of Power",
+			"name": "原力法陣[Circle of Power]",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -4108,7 +4108,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw."
+				"你身上發出神聖的能量，扭曲和抑制了你周圍 30 尺的魔法能量。這個以你為中心的球形空間隨你移動，直到法術結束。持續時間內，范圍內的每個友方生物對魔法的豁免有優勢，並且對豁免成功受半傷的法術豁免成功不受傷。"
 			],
 			"page": 221
 		},
@@ -4314,7 +4314,7 @@
 			]
 		},
 		{
-			"name": "Cloudkill",
+			"name": "死雲術[Cloudkill]",
 			"level": 5,
 			"school": "C",
 			"time": [
@@ -4421,16 +4421,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.",
-				"When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes {@dice 5d8} poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.",
-				"The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings."
+				"你以射程內一點為中心創造出黃綠色有毒霧氣充滿半徑 20 尺的球形空間。毒霧可以彌漫過拐角。法術持續到時間結束或毒霧被強風吹散使法術結束。法術范圍內視線嚴重模糊。",
+				"進入或在范圍內開始回合的生物過體質豁免，失敗受 {@dice 5d8} poison 傷害，成功半傷。即使屏住呼吸或不需要呼吸的生物也會受到影響。",
+				"在你每回合開始的時候，毒霧沿地面翻滾遠離你 10 尺。毒霧比空氣重，總是向低處移動，甚至會流到洞裡。"
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "升環效果",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
+						"當你使用 6 環或更高的法術位施展這個法術時，每環節使法術傷害額外增加 {@dice 1d8}。"
 					]
 				}
 			],
@@ -4760,7 +4760,7 @@
 			"page": 223
 		},
 		{
-			"name": "Commune with Nature",
+			"name": "問道自然[Commune with Nature]",
 			"level": 5,
 			"school": "D",
 			"time": [
@@ -4845,19 +4845,19 @@
 				"ritual": true
 			},
 			"entries": [
-				"You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn't function where nature has been replaced by construction, such as in dungeons and towns.",
-				"You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:",
+				"你暫時的進入了天人合一的境界，並從周圍的地域獲得知識。在野外，法術提供你周圍 3 英裡范圍內的土地知識。在洞穴和其他自然地下結構裡，半徑被限制在 300 尺。法術在像城鎮或地城這些自然被替換或改造的地方無法成功。",
+				"你立刻獲得與區域相關的下列主題中你選擇的至多 3 個主題的知識：",
 				{
 					"type": "list",
 					"items": [
-						"terrain and bodies of water",
-						"prevalent plants, minerals, animals, or peoples",
-						"powerful celestials, fey, fiends, elementals, or undead",
-						"influence from other planes of existence",
-						"buildings"
+						"地形與水體",
+						"主要的植物、礦物、動物和人",
+						"強大的天界(celestials)、精類(fey)、邪魔(fiends)、元素(elementals)或不死生物(undead)",
+						"其他位面影響的存在",
+						"建築"
 					]
 				},
-				"For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns."
+				"例如，你可以判斷出區域內強大的不死生物的位置，主要的安全飲用水源的位置，附近城鎮的位置。"
 			],
 			"page": 224
 		},
@@ -5085,7 +5085,7 @@
 			]
 		},
 		{
-			"name": "Cone of Cold",
+			"name": "寒冰錐[Cone of Cold]",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -5104,7 +5104,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a small crystal or glass cone"
+				"m": "細小的水晶或玻璃錐"
 			},
 			"duration": [
 				{
@@ -5168,15 +5168,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes {@dice 8d8} cold damage on a failed save, or half as much damage on a successful one.",
-				"A creature killed by this spell becomes a frozen statue until it thaws."
+				"你的雙手噴出一道寒氣。每一名位處一個60 尺錐形內的生物都要進行一次體質豁免。豁免失敗的生物受到 {@dice 8d8} cold 傷害，成功豁免的話一半傷害。",
+				"被此法術殺死的生物會變成冰雕像直到溶解。"
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "升環效果",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
+						"當你使用 6 環或以上法術位施放此法術時，每環節額外增加 {@dice 1d8} 傷害。"
 					]
 				}
 			],
@@ -5548,7 +5548,7 @@
 			"page": 225
 		},
 		{
-			"name": "Conjure Elemental",
+			"name": "召喚元素生物[Conjure Elemental]",
 			"level": 5,
 			"school": "C",
 			"time": [
@@ -5567,7 +5567,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water"
+				"m": "點燃的熏香對應氣元素，軟質粘土對應土元素，硫磺和磷對應火元素，水和沙對應水元素"
 			},
 			"duration": [
 				{
@@ -5606,17 +5606,17 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You call forth an elemental servant. Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An {@filter elemental of challenge rating 5 or lower|bestiary|cr=0;1/8;1/4;1/2;1;2;3;4;5|type=elemental|miscellaneous=!swarm} appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a {@creature fire elemental} emerges from a bonfire, and an {@creature earth elemental} rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends.",
-				"The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions.",
-				"If your concentration is broken, the elemental doesn't disappear. Instead, you lose control of the elemental, it becomes hostile toward you and your companions, and it might attack. An uncontrolled elemental can't be dismissed by you, and it disappears 1 hour after you summoned it.",
-				"The DM has the elemental's statistics."
+				"你召喚出一個元素僕人。選擇一塊射程內充滿 10 尺立方氣、土、火、水的區域。一個 {@filter 最高CR5 |bestiary|cr=0;1/8;1/4;1/2;1;2;3;4;5|type=elemental|miscellaneous=!swarm} 與你選擇區域相符的元素出現在一個距它 10 尺內的未佔據空間。例如，一個火元素{@creature fire elemental}從火堆中冒出，一個土元素{@creature earth elemental}從地上拱起。這個元素生物在法術結束時或生命值降到0時消失。",
+				"元素生物對你和你的同伴友好。精類生物有自己的行動輪，為它擲先攻。他服從你的口頭指令（你不需花費動作）。如果你不發出指令，他面對敵對生物時會自衛，但除此之外不行動。",
+				"如果你的專注被打斷，元素生物並不會消失。反而你失去去元素生物的控制，它變得對你和你的同伴敵對並可能攻擊。一個失控的元素不能被你遣散，它會在被你召喚 1 小時後消失。",
+				"該生物的數據由 DM 掌控。"
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "升環效果",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th."
+						"當你使用 6 環或更高的法術位施展這個法術時，每環節使你召喚生物的 CR 提高 1 。"
 					]
 				}
 			],
@@ -5754,7 +5754,7 @@
 			"page": 226
 		},
 		{
-			"name": "Conjure Volley",
+			"name": "萬箭齊發[Conjure Volley]",
 			"level": 5,
 			"school": "C",
 			"time": [
@@ -5773,7 +5773,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "one piece of ammunition or one thrown weapon"
+				"m": "1發彈藥或投擲武器"
 			},
 			"duration": [
 				{
@@ -5790,7 +5790,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You fire a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon into the air and choose a point within range. Hundreds of duplicates of the ammunition or weapon fall in a volley from above and then disappear. Each creature in a 40-foot-radius. 20-foot-high cylinder centered on that point must make a Dexterity saving throw. A creature takes {@dice 8d8} damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the ammunition or weapon."
+				"你扔出一把非魔法投擲武器或發射一發非魔法彈藥到空中並在射程內選擇一個點。數百把復制的武器或彈藥從上空向下齊射後消失。每個在以你選擇的點為中心 40 尺半徑 20 尺高的圓柱體空間內的生物必須進行敏捷豁免。失敗受 {@dice 8d8} 傷害，成功半傷。傷害類型與作為法術成份的武器或彈藥相同。"
 			],
 			"page": 226,
 			"savingThrow": [
@@ -5869,7 +5869,7 @@
 			"page": 226
 		},
 		{
-			"name": "Contact Other Plane",
+			"name": "異界探知[Contact Other Plane]",
 			"level": 5,
 			"school": "D",
 			"time": [
@@ -5913,8 +5913,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take {@dice 6d6} psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A greater restoration spell cast on you ends this effect.",
-				"On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as \"yes,\" \"no,\" \"maybe,\" \"never,\" \"irrelevant,\" or \"unclear\" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer."
+				"你與一個其他位面的半神、死去很久賢者的靈魂或其他神秘存在精神交流。與這個異界智能交流會扭曲甚至破壞你的心智。當你施放此法術時，進行一個DC15的智力豁免。失敗你受 {@dice 6d6} psychic 傷害並在完成長休息前精神失常。當你精神失常時，你不會動，聽不懂別人說什麼並且說出來的都是胡言亂語。一個施放在你身上的強力復原術可以個效果。",
+				"豁免成功，你可以問這個存在至多5個問題。你必須在法術結束前提問。DM用一個詞回答你的問題，比如「是」、「非」、「可能」、「從不」、「不相干」或「不清楚」（如果這個存在不知道問題的答案）。如果一個詞的答案可能導致誤解，DM可以用短語來回答。"
 			],
 			"page": 226,
 			"damageInflict": [
@@ -6798,7 +6798,7 @@
 			]
 		},
 		{
-			"name": "Creation",
+			"name": "造物術[Creation]",
 			"level": 5,
 			"school": "I",
 			"time": [
@@ -6817,7 +6817,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a tiny piece of matter of the same type of the item you plan to create"
+				"m": "一小塊你想制造的東西的同種的物質"
 			},
 			"duration": [
 				{
@@ -6860,14 +6860,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within range: soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before.",
-				"The duration depends on the object's material. If the object is composed of multiple materials, use the shortest duration.",
+				"你從幽景界扯出一縷縷的的陰影物質來在射程內制造無生命的植物質物品：紡織品、繩子、木頭或其他類似的東西。你也可以用本法術制造礦物質物品比如石頭、水晶或金屬。制造的物品體積必須小於5尺立方，並且物品必須是你見過的結構和材料。",
+				"持續時間取決於物品的材料。如果物品由多種材料組成，使用最短的持續時間。",
 				{
 					"type": "table",
-					"caption": "Creation",
+					"caption": "造物",
 					"colLabels": [
-						"Material",
-						"Duration"
+						"材料",
+						"持續時間"
 					],
 					"colStyles": [
 						"col-xs-8",
@@ -6875,35 +6875,35 @@
 					],
 					"rows": [
 						[
-							"Vegetable matter",
-							"1 day"
+							"植物材料",
+							"1 天"
 						],
 						[
-							"Stone or crystal",
-							"12 hours"
+							"石頭或水晶",
+							"12 小時"
 						],
 						[
-							"Precious metals",
-							"1 hour"
+							"貴金屬",
+							"1 小時"
 						],
 						[
-							"Gems",
-							"10 minutes"
+							"寶石",
+							"10 分鐘"
 						],
 						[
-							"Adamantine or mithral",
-							"1 minute"
+							"精金或秘銀",
+							"1分鐘"
 						]
 					]
 				},
-				"Using any material created by this spell as another spell's material component causes that spell to fail."
+				"使用任何此法術制造的物質作為其他法術的法術材料會導致法術失敗。"
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "升環效果",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th."
+						"當你使用 6 環或更高的法術位施展這個法術時，每環節使你能制造的物品體積邊長增加 5 尺。"
 					]
 				}
 			],
@@ -7839,7 +7839,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "Destructive Wave",
+			"name": "湮滅斬[Destructive Wave]",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -7925,7 +7925,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You strike the ground, creating a burst of divine energy that ripples outward from you. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw or take {@dice 5d6} thunder damage, as well as {@dice 5d6} radiant or necrotic damage (your choice), and be knocked {@condition prone}. A creature that succeeds on its saving throw takes half as much damage and isn't knocked {@condition prone}."
+				"你敲擊地面，從你身上爆發出一陣神賜能量。每個30英尺內你所選擇的生物，都要通過一個體質豁免檢定。失敗受到 {@dice 5d6} thunder 傷害以及 {@dice 5d6} radiant 或 necrotic 傷害（由你選擇）並且{@condition 倒地[Prone]}，成功則承受一半傷害，並且不會{@condition 倒地[Prone]}。"
 			],
 			"page": 231,
 			"damageInflict": [
@@ -8550,7 +8550,7 @@
 			]
 		},
 		{
-			"name": "Dispel Evil and Good",
+			"name": "反制善惡[Dispel Evil and Good]",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -8568,7 +8568,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "holy water or powdered silver and iron"
+				"m": "聖水或銀鐵粉末"
 			},
 			"duration": [
 				{
@@ -8594,20 +8594,20 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Shimmering energy surrounds and protects you from fey, undead, and creatures originating from beyond the Material Plane. For the duration, celestials, elementals, fey, fiends, and undead have disadvantage on attack rolls against you.",
-				"You can end the spell early by using either of the following special functions.",
+				"發光的能量包圍並保護你免受來自精類、不死生物和那些源於主物質位面以外的生物的傷害。天界生物(celestials)、元素(elementals)、精類(fey)、邪魔(fiends)、不死生物(undead)在針對你的攻擊骰上承受劣勢。",
+				"你可以通過以下方式提前結束這個法術。",
 				{
 					"type": "entries",
-					"name": "Break Enchantment",
+					"name": "破除附魔",
 					"entries": [
-						"As your action, you touch a creature you can reach that is {@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer {@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}, or possessed by such creatures."
+						"使用一個動作，你觸碰一個你觸及范圍內一個被{@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}或是被天界生物、元素、精類、邪魔、不死生物的附身的生物。這個生物不再{@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}或附身。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Dismissal",
+					"name": "驅逐",
 					"entries": [
-						"As your action, make a melee spell attack against a celestial, an elemental, a fey, a fiend, or an undead you can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a Charisma saving throw or be sent back to its home plane (if it isn't there already). If they aren't on their home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild."
+						"使用一個動作，以一個近戰法術攻擊，攻擊一個天界生物(celestials)、元素(elementals)、精類(fey)、邪魔(fiends)、不死生物(undead)。命中則你可以嘗試將它們驅回它們原來的位面。這個生物需要通過一個魅力豁免檢定，失敗則返回其原位面，當然它們若已在原位面則無效。比如，精類會返回妖精沃野，不死生物會返回幽影荒原。"
 					]
 				}
 			],
@@ -11891,7 +11891,7 @@
 			]
 		},
 		{
-			"name": "Flame Strike",
+			"name": "焰擊[Flame Strike]",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -11910,7 +11910,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "pinch of sulfur"
+				"m": "少許硫黃"
 			},
 			"duration": [
 				{
@@ -12009,14 +12009,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes {@dice 4d6} fire damage and {@dice 4d6} radiant damage on a failed save, or half as much damage on a successful one."
+				"一柱垂直的聖火從天上落下，降到射程內你所指定的一處。以該點為中心的 10 尺半徑、 40 尺高圓柱的範圍內的每一名生物都要進行一次敏捷豁免。失敗的話承受 {@dice 4d6} fire 傷害和 {@dice 4d6} radiant 傷害，成功的話一半傷害。"
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "升環效果",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) increases by {@dice 1d6} for each slot level above 5th."
+						"當你使用 6 環或以上法術位施放此法術時，每環節額外增加 {@dice 1d6} 火焰或光耀傷害（由你選擇）。"
 					]
 				}
 			],
@@ -14265,7 +14265,7 @@
 			]
 		},
 		{
-			"name": "Hallow",
+			"name": "聖居[Hallow]",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -14284,7 +14284,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "herbs, oils, and incense worth at least 1,000 gp, which the spell consumes",
+					"text": "草藥、油與熏香，價值至少 1,000 gp，法術會消耗這些材料",
 					"cost": 1000,
 					"consume": true
 				}
@@ -14319,77 +14319,77 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell. The affected area is subject to the following effects.",
-				"First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature {@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}, or possessed by such a creature is no longer {@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.",
-				"Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the DM. Some of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as orcs or trolls. When a creature that would be affected enters the spell's area for the first time on a turn or starts its turn there, it can make a Charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.",
+				"你接觸一點並將神聖（或邪惡）的力量注入該點周圍的區域。區域半徑至多 60 英尺，若此區域內包含了已被另一個「聖居」法術影響的區域，則施法失敗。受法術影響的區域獲得以下效果：",
+				"首先，天界生物(celestials)、元素(elementals)、精類(fey)、邪魔(fiend)和不死生物(undead)無法進入該區域，這些生物也不能魅惑、驚嚇（frighten）或附身區域內的生物。任何被這些生物魅惑、驚嚇或附身的生物只要進入聖居的區域，就不再處於{@condition 迷惑[Charmed]}、{@condition 恐慌[Frightened]}或被附身的狀態。你可以使上述生物類別中一種或更多種的生物不受此效果影響。",
+				"其次，你可以為法術區域設置一種額外的效果。從下面的列表中選擇一種效果，或者從DM提供的效果中選擇一種。這些效果中有些會影響區域內的生物；你可以設定該效果是影響全部生物還是只影響一種特定生物，例如獸人或巨魔。當一個可受影響的生物在某一回合第一次進入法術區域或是在法術區域內開始它的回合時，它可以進行一次魅力豁免。若成功，則該生物無視這個額外效果直到它離開法術區域。",
 				{
 					"type": "entries",
-					"name": "Courage",
+					"name": "勇氣",
 					"entries": [
-						"Affected creatures can't be {@condition 恐慌[Frightened]} while in the area."
+						"當受影響的生物處於區域內時不會{@condition 恐慌[Frightened]}。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkness",
+					"name": "黑暗",
 					"entries": [
-						"Darkness fills the area. Normal light, as well as magical light created by spells of a lower level than the slot you used to cast this spell, can't illuminate the area."
+						"黑暗充滿這片區域，普通光源以及由比你施展聖居所使用的法術位更低環的法術創造出來的魔法光亮都無法照亮該區域。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Daylight",
+					"name": "晝明",
 					"entries": [
-						"Bright light fills the area. Magical darkness created by spells of a lower level than the slot you used to cast this spell can't extinguish the light."
+						"明亮的光充滿這片區域，由比你施展聖居所使用的法術位更低環的法術創造出來的魔法黑暗無法壓制這種亮光。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Energy Protection",
+					"name": "能量防護",
 					"entries": [
-						"Affected creatures in the area have resistance to one damage type of your choice, except for bludgeoning, piercing, or slashing."
+						"區域內受影響的生物對一種由你選擇的傷害類型具有抗力，傷害類型不包括鈍擊(bludgeoning)、穿刺(piercing)或揮砍(slashing)。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Energy Vulnerability",
+					"name": "能量易傷",
 					"entries": [
-						"Affected creatures in the area have vulnerability to one damage type of your choice, except for bludgeoning, piercing, or slashing."
+						"區域內受影響的生物對一種由你選擇的傷害類型具有易傷，傷害類型不包括鈍擊(bludgeoning)、穿刺(piercing)或揮砍(slashing)。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Everlasting Rest",
+					"name": "永恆安息",
 					"entries": [
-						"Dead bodies interred in the area can't be turned into undead."
+						"埋葬在法術區域內的屍體不能被轉化成不死生物。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Extradimensional Interference",
+					"name": "次元干涉",
 					"entries": [
-						"Affected creatures can't move or travel using teleportation or by extradimensional or interplanar means."
+						"受影響的生物不能通過傳送，也不能通過異次元或跨位面途徑進行移動和旅行。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fear",
+					"name": "恐懼",
 					"entries": [
-						"Affected creatures are {@condition 恐慌[Frightened]} while in the area."
+						"受影響生物處於區域內時即陷入{@condition 恐慌[Frightened]}"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Silence",
+					"name": "沉默",
 					"entries": [
-						"No sound can emanate from within the area, and no sound can reach into it."
+						"區域內的聲音不能傳到區域外，區域外的聲音也不能傳到區域內。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tongues",
+					"name": "巧言",
 					"entries": [
-						"Affected creatures can communicate with any other creature in the area, even if they don't share a common language."
+						"受影響的生物可以與區域內的任何其他生物交流，即使他們之間語言不通。"
 					]
 				}
 			],
@@ -20387,7 +20387,7 @@
 			]
 		},
 		{
-			"name": "Passwall",
+			"name": "穿牆[Passwall]",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -20406,7 +20406,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of sesame seeds"
+				"m": "一些芝麻"
 			},
 			"duration": [
 				{
@@ -20460,8 +20460,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.",
-				"When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell."
+				"選擇射程內的位於木質、灰泥、或石頭表面上的一點，一條通道在該點出現，持續到時效結束。通道的尺寸由你決定：最闊 5 尺、最高 8 尺、最深 20 尺。這開口不會危害包圍著它的建築物。",
+				"當通道消失時，任何在這通道內的生物或物體會被安全地排出到最接近施法表面的閒置空間。"
 			],
 			"page": 264
 		},
@@ -22406,7 +22406,7 @@
 			"page": 270
 		},
 		{
-			"name": "Rary's Telepathic Bond",
+			"name": "拉瑞心靈聯結[Rary's Telepathic Bond]",
 			"level": 5,
 			"school": "D",
 			"time": [
@@ -22425,7 +22425,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "pieces of eggshell from two different kinds of creatures"
+				"m": "兩種不同生物的蛋殼碎片"
 			},
 			"duration": [
 				{
@@ -22449,8 +22449,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.",
-				"Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence."
+				"你選擇最多八個處於法術射程中的自願生物，在它們之間建立心靈連線。在法術時效內，其中每一個生物的心靈都和其他全部受術生物相連。智力值為2或更低的生物不受該法術影響。",
+				"在該法術失效前，所有受術生物都可以通過心靈連線與其他受術生物進行心靈交流——即使語言不通也可以。使用這種交流方式可以跨越任意長的距離進行交談，但不能跨位面。"
 			],
 			"page": 270
 		},
@@ -22793,7 +22793,7 @@
 			"page": 271
 		},
 		{
-			"name": "Reincarnate",
+			"name": "轉生術[Reincarnate]",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -22812,7 +22812,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "rare oils and unguents worth at least 1,000 gp, which the spell consumes",
+					"text": "價值至少 1,000 gp 的稀有的油和軟膏，施法時消耗",
 					"cost": 1000,
 					"consume": true
 				}
@@ -22832,14 +22832,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target's soul isn't free or willing to do so, the spell fails.",
-				"The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The DM rolls a {@dice d100} and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.",
+				"你觸碰一個類人生物的遺體或遺體的一部分。如果該生物死亡沒有超過十天，則該法術創造出一具新的成年身體，並且呼喚該生物的靈魂進入這新的身軀。如果目標生物的靈魂不能或者不願意這麼做，則法術失敗。",
+				"這道法術是要為目標生物創造出一具新的身體的，因此很可能導致該生物的種族發生變動。 DM 可以投一個 {@dice d100} 來判定該生物以何種形態復生，也可以直接由 DM 選擇一個形態。",
 				{
 					"type": "table",
-					"caption": "Reincarnate Races",
+					"caption": "轉生 種族",
 					"colLabels": [
 						"{@dice d100}",
-						"Race"
+						"種族"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center no-wrap",
@@ -22855,7 +22855,7 @@
 									"pad": true
 								}
 							},
-							"{@race Dragonborn}"
+							"龍裔{@race Dragonborn}"
 						],
 						[
 							{
@@ -22866,7 +22866,7 @@
 									"pad": true
 								}
 							},
-							"{@race dwarf (hill)|phb|Dwarf, hill}"
+							"丘陵矮人{@race dwarf (hill)|phb|Dwarf, hill}"
 						],
 						[
 							{
@@ -22876,7 +22876,7 @@
 									"max": 21
 								}
 							},
-							"{@race dwarf (mountain)|phb|Dwarf, mountain}"
+							"高山矮人{@race dwarf (mountain)|phb|Dwarf, mountain}"
 						],
 						[
 							{
@@ -22886,7 +22886,7 @@
 									"max": 25
 								}
 							},
-							"{@race elf (drow)|phb|Elf, dark}"
+							"黑暗精靈{@race elf (drow)|phb|Elf, dark}"
 						],
 						[
 							{
@@ -22896,7 +22896,7 @@
 									"max": 34
 								}
 							},
-							"{@race elf (high)|phb|Elf, high}"
+							"高等精靈{@race elf (high)|phb|Elf, high}"
 						],
 						[
 							{
@@ -22906,7 +22906,7 @@
 									"max": 42
 								}
 							},
-							"{@race elf (wood)|phb|Elf, wood}"
+							"木精靈{@race elf (wood)|phb|Elf, wood}"
 						],
 						[
 							{
@@ -22916,7 +22916,7 @@
 									"max": 46
 								}
 							},
-							"{@race gnome (forest)|phb|Gnome, forest}"
+							"林侏儒{@race gnome (forest)|phb|Gnome, forest}"
 						],
 						[
 							{
@@ -22926,7 +22926,7 @@
 									"max": 52
 								}
 							},
-							"{@race gnome (rock)|phb|Gnome, rock}"
+							"岩侏儒{@race gnome (rock)|phb|Gnome, rock}"
 						],
 						[
 							{
@@ -22936,7 +22936,7 @@
 									"max": 56
 								}
 							},
-							"{@race Half-elf}"
+							"半精靈{@race Half-elf}"
 						],
 						[
 							{
@@ -22946,7 +22946,7 @@
 									"max": 60
 								}
 							},
-							"{@race Half-orc}"
+							"半獸人{@race Half-orc}"
 						],
 						[
 							{
@@ -22956,7 +22956,7 @@
 									"max": 68
 								}
 							},
-							"{@race halfling (lightfoot)|phb|Halfling, lightfoot}"
+							"輕足半身人{@race halfling (lightfoot)|phb|Halfling, lightfoot}"
 						],
 						[
 							{
@@ -22966,7 +22966,7 @@
 									"max": 76
 								}
 							},
-							"{@race halfling (stout)|phb|Halfling, stout}"
+							"強魄半身人{@race halfling (stout)|phb|Halfling, stout}"
 						],
 						[
 							{
@@ -22976,7 +22976,7 @@
 									"max": 96
 								}
 							},
-							"{@race Human}"
+							"人類{@race Human}"
 						],
 						[
 							{
@@ -22987,11 +22987,11 @@
 									"pad": true
 								}
 							},
-							"{@race Tiefling}"
+							"提夫林{@race Tiefling}"
 						]
 					]
 				},
-				"The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly."
+				"轉生後的生物保留它前生的記憶和經驗。受術者保留原來的一切能力，但因為種族變更了，所以種族特性也要更換成新種族的。"
 			],
 			"page": 271
 		},
@@ -23764,7 +23764,7 @@
 						"豁免調整值"
 					],
 					"colStyles": [
-						"col-xs-11",
+						"col-xs-2",
 						"col-xs-1 text-align-center"
 					],
 					"rows": [
@@ -23790,7 +23790,7 @@
 						"豁免調整值"
 					],
 					"colStyles": [
-						"col-xs-11",
+						"col-xs-2",
 						"col-xs-1 text-align-center"
 					],
 					"rows": [
@@ -26563,7 +26563,7 @@
 			]
 		},
 		{
-			"name": "Swift Quiver",
+			"name": "迅捷箭鞘[Swift Quiver]",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -26581,7 +26581,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a quiver containing at least one piece of ammunition"
+				"m": "一個箭袋，裡面至少要有一發彈藥"
 			},
 			"duration": [
 				{
@@ -26603,8 +26603,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You transmute your quiver so it produces an endless supply of nonmagical ammunition, which seems to leap into your hand when you reach for it.",
-				"On each of your turns until the spell ends, you can use a bonus action to make two attacks with a weapon that uses ammunition from the quiver. Each time you make such a ranged attack, your quiver magically replaces the piece of ammunition you used with a similar piece of nonmagical ammunition. Any pieces of ammunition created by this spell disintegrate when the spell ends. If the quiver leaves your possession, the spell ends."
+				"你在你的箭袋上施放法術，使它能憑空造出無窮無盡的彈藥，你只要把手伸進箭袋裡就會有彈藥自己跳到你的手中。​",
+				"在法術結束前，你在每一回合都可以花費一個附贈動作來使用一件武器射擊兩次（該武器使用的彈藥必須是迅捷箭袋裡裝有的）。每次你這樣射擊之後，你的箭袋上的魔法便會自動創造出一發同樣的彈藥來補充剛剛用掉的那一發。在法術結束時，該法術創造出來的所有彈藥都會碎裂瓦解。如果你失去了這個箭袋，則該法術即刻結束。"
 			],
 			"page": 279,
 			"scalingEffects": true
@@ -26812,7 +26812,7 @@
 			]
 		},
 		{
-			"name": "Telekinesis",
+			"name": "心靈遙控[Telekinesis]",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -26868,24 +26868,24 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.",
+				"你靠意念就能移動或操縱生物或物體。當你施放該法術時（或在法術射程內使用一個動作），你能對法術距離內一個你能看見的生物或物體運用你的意念來造成下面詳述的效果。你可以一輪接一輪地影響同一個目標，也可以在任何時候選擇一個新的目標。如果你改變了目標，之前的目標就不再受該法術影響。",
 				{
 					"type": "entries",
-					"name": "Creature",
+					"name": "對生物",
 					"entries": [
-						"You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is {@condition restrained} in your telekinetic grip. A creature lifted upward is suspended in mid-air."
+						"你可以嘗試移動一個巨型或更小的生物。使用你的施法屬性進行一次屬性檢定來與目標生物的力量檢定進行比試。如果你在比試中勝出，你可以使該生物朝任何方向（包括豎直向上）移動 30 英尺，但不能讓它離開法術距離。在你的下一回合結束前，該生物將被你的遙控抓握{@condition 束縛[Restrained]}。被朝正上方抬起的生物會在半空中懸停。"
 					]
 				},
-				"On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.",
+				"在後面的回合中，你可以再次進行前面進行過的的比試來嘗試繼續抓住該生物（消耗一個動作）。",
 				{
 					"type": "entries",
-					"name": "Object",
+					"name": "對物體",
 					"entries": [
-						"You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell."
+						"你可以嘗試移動一個重量不超過 1,000 磅的物體。如果該物品沒有被哪個生物穿戴著或攜帶著，你可以自動使它朝任何方向移動 30 英尺，但不能讓它離開法術距離。"
 					]
 				},
-				"If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.",
-				"You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial."
+				"如果該物體正被物穿戴著或攜帶著，你必須要使用你的施法屬性進行一次屬性檢定來與目標生物的力量檢定進行比試。如果你在比試中勝出，你可以把目標物體從該生物的身上拿走，並且使該物體朝任何方向移動 30 英尺（但不能讓它離開法術距離）。",
+				"你可以使用心靈遙控來對物體進行精密操作，例如操縱一件簡單的工具、打開一扇門或一個容器、把東西放進或拿出一個打開的容器中，或者把一個小瓶子裡的東西倒出來。"
 			],
 			"page": 280
 		},
@@ -27770,7 +27770,7 @@
 			"page": 283
 		},
 		{
-			"name": "Tree Stride",
+			"name": "樹躍術[Tree Stride]",
 			"level": 5,
 			"school": "C",
 			"time": [
@@ -27845,8 +27845,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you're in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.",
-				"You can use this transportation ability once per round for the duration. You must end each turn outside a tree."
+				"你能夠進入樹木中，並從樹木內部移動到500英尺內的一棵同類樹木內。兩棵樹必須都是活的，而且至少要和你一樣大。進入一棵樹要消耗 5 英尺移動力。進入樹後，你將立刻知道 500 英尺內所有同類樹木的位置，並且作為你進入樹木使用的移動的一部分，你可以選擇進入這些同類樹木中的一棵，或走出你所在的樹木中。你將出現在出口樹木周圍 5 英尺范圍內你選擇的一點——這要另外消耗 5 英尺移動力。如果你的移動力已經用完了，你將出現在你進入的樹木周圍 5 英尺內。",
+				"在法術時效內，你每輪可以使用一次這樣的傳送能力。你必須在樹外結束你的回合。"
 			],
 			"page": 283
 		},
@@ -28540,7 +28540,7 @@
 			]
 		},
 		{
-			"name": "Wall of Force",
+			"name": "力場牆[Wall of Force]",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -28559,7 +28559,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of powder made by crushing a clear gemstone"
+				"m": "少量碾碎純淨寶石制成的粉末"
 			},
 			"duration": [
 				{
@@ -28613,8 +28613,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).",
-				"Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by dispel magic. A disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall."
+				"一面看不見的力牆出現在法術距離內你選擇的一點。這面力牆的方向由你決定：你可以使力牆成為水平或垂直的結界，亦可以使它成一定傾角。它可以浮在空中，也可以立於地上。你可以將它塑成半球體或球體（半徑最長 10 英尺），也可以塑成一個由十個十英尺見方板塊構成的平面。每塊板塊都必須要和至少一塊其他板塊相連。不管形狀如何，力牆的厚度總是四分之一英尺。力牆持續存在到法術結束為止。如果力牆形成時穿過了某個生物所佔據的空間，則該生物會被推到力牆的一側（由你決定推到哪一側）。",
+				"沒有任何事物可以以物理途徑穿過力牆。力牆免疫所有傷害，也不能被解除魔法解除，但解離術可以立即摧毀它。力牆能夠延伸進以太位面，因此連以太體的移動都能阻擋。"
 			],
 			"page": 285,
 			"damageImmune": [
@@ -28686,7 +28686,7 @@
 			]
 		},
 		{
-			"name": "Wall of Stone",
+			"name": "石牆[Wall of Stone]",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -28705,7 +28705,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a small block of granite"
+				"m": "一小塊花崗岩"
 			},
 			"duration": [
 				{
@@ -28759,12 +28759,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least one other panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick.",
-				"If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall.",
-				"The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall doesn't need to be vertical or rest on any firm foundation. It must, however, merge with and be solidly supported by existing stone. Thus, you can use this spell to bridge a chasm or create a ramp.",
-				"If you create a span greater than 20 feet in length, you must halve the size of each panel to create supports. You can crudely shape the wall to create crenellations, battlements, and so on.",
-				"The wall is an object made of stone that can be damaged and thus breached. Each panel has AC 15 and 30 hit points per inch of thickness. Reducing a panel to 0 hit points destroys it and might cause connected panels to collapse at the DM's discretion.",
-				"If you maintain your concentration on this spell for its whole duration, the wall becomes permanent and can't be dispelled. Otherwise, the wall disappears when the spell ends."
+				"一面非魔法性的石牆在你指定的射程內的一點立起。此牆厚 6 寸，由十面 10 尺乘 10 尺的石板組成。每一塊石板都要緊接最少一塊其他石板。又或者你可以做出厚 3 寸的 10 尺乘 20 尺的石板。",
+				"如果這面牆出現的時候會切入一名生物的空間，他被推到牆的其中一面（由你選擇）。如果一名生物可能被牆（及其他固體壁面）緊緊地全面圍住，他可以進行一次敏捷豁免。成功的話他可以用他的反應去移動他的速度，使他不再被這牆圍住。",
+				"這面牆可以是你想要的任何形狀，不過它不能佔據生物或物體的空間。這面牆不需要是垂直的，也不需要立在堅固的基石上。可是它必需要跟現有的能支持它的石塊融合。因此你可以用此法術做出橋或鈄坡。",
+				"如果你的牆的長度超過 20 尺，你需要將每一面石板的長度縮短一半去制作支撐結構。你可以粗略地在牆上塑做出射擊孔、城垛、或類似的構造。",
+				"這是一面可以被打穿的石牆。每一塊石板的護甲等級為 15 ，每寸有 30 生命值。將一塊石板打到 0 生命值會摧毀它，DM 也可以判斷相連的石板會不會隨它一起倒塌。",
+				"如果你在整段法術時效期間都維持專注，這牆變成永久並且不能被解除。否則，牆會在法術終結時消失。"
 			],
 			"page": 287,
 			"savingThrow": [
