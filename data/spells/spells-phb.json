@@ -1392,7 +1392,7 @@
 			]
 		},
 		{
-			"name": "Astral Projection",
+			"name": "星界投射[Astral Projection]",
 			"level": 9,
 			"school": "N",
 			"time": [
@@ -1412,7 +1412,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes",
+					"text": "需要給每名目標提供價值最少 1,000 gp 的紅鋯石，以及價值最少 100 gp 的華麗銀磚，皆會被法術消耗",
 					"cost": 1000,
 					"consume": true
 				}
@@ -1440,12 +1440,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is {@condition unconscious} and in a state of suspended animation, it doesn't need food or air and doesn't age.",
-				"Your astral body resembles your mortal form in almost every way, replicating your game statistics and possessions. The principal difference is the addition of a silvery cord that extends from between your shoulder blades and trails behind you, fading to invisibility after 1 foot. This cord is your tether to your material body. As long as the tether remains intact, you can find your way home. If the cord is cut-something that can happen only when an effect specifically states that it does-your soul and body are separated, killing you instantly.",
-				"Your astral form can freely travel through the Astral Plane and can pass through portals there leading to any other plane. If you enter a new plane or return to the plane you were on when casting this spell, your body and possessions are transported along the silver cord, allowing you to re-enter your body as you enter the new plane. Your astral form is a separate incarnation. Any damage or other effects that apply to it have no effect on your physical body, nor do they persist when you return to it.",
-				"The spell ends for you and your companions when you use your action to dismiss it. When the spell ends, the affected creature returns to its physical body, and it awakens.",
-				"The spell might also end early for you or one of your companions. A successful dispel magic spell used against an astral or physical body ends the spell for that creature. If a creature's original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature's astral form back to its body, ending its state of suspended animation.",
-				"If you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points."
+				"你以及最多八名射程內的自願生物的星界靈體astral body 被投射到星界（如果你們已經在星界，法術失敗而且是次施法會被浪費掉）。你們遺留在現世的肉體陷入{@condition 昏迷[Unconscious]}和靜態；它們不需要食物或空氣，也不會衰老。",
+				"你的星界靈體跟你的肉體幾乎一模一樣，完全重現你的遊戲數值和擁有物。主要的分別是肩胛骨中間多了一條銀線，往後延伸一尺左右就漸漸消失。這是將你跟你的物質身體連結起來的繫繩。只要它保持完整，你就能回去。如果這銀線被切斷 - 只有特別說明有此能力的效應才有可能切斷它 - 你的靈魂與身體立刻分離，令你即時死亡。",
+				"你的星界靈體能自由穿梭星界和進入位面傳送門。當你進入新的位面或回到原位面時，你的靈體和靈體的物件會被銀線轉移，讓你在進入這位面時返回你的軀體。你的星界靈體獨立於跟你的軀體。任何施予它的傷害和其他效應都不影響你的肉體，也不會緊隨你返回肉身。",
+				"當你用你的動作結束此法術時，你和你的同伴的此法術會一起結束。當法術結束時，所有受影響的生物回到肉體並蘇醒。",
+				"這法術也可能在你或你的同伴身上提早結束。對靈體或肉身施以成功的解除魔法術時，該生物的此法術會提早終結。如果有生物的肉體或靈體降到0 生命值，該生物的此法術會提早結束。當法術終結時，如果銀線是完整的，它會將靈體拉回他的肉身，讓他從靜態中醒來。",
+				"如果你提早回到肉身，你的同伴會逗留在星界並需要自己找方法回來，例如掉到 0 生命值。"
 			],
 			"page": 215
 		},
@@ -12500,7 +12500,7 @@
 			]
 		},
 		{
-			"name": "Foresight",
+			"name": "預警[Foresight]",
 			"level": 9,
 			"school": "D",
 			"time": [
@@ -12518,7 +12518,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a hummingbird feather"
+				"m": "一根蜂鳥的羽毛"
 			},
 			"duration": [
 				{
@@ -12551,8 +12551,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.",
-				"This spell immediately ends if you cast it again before its duration ends."
+				"你觸摸一名自願的生物並給他有限的預視眼前未來的能力。在時效內，目標不能被突襲，並在攻擊骰、能力檢定、豁免上帶有優勢。另外，其他生物在時效內對他進行的攻擊骰帶有劣勢。",
+				"如果你在時效結束前再次施展這項法術，此術立刻終結。"
 			],
 			"page": 244
 		},
@@ -12867,7 +12867,7 @@
 			"page": 244
 		},
 		{
-			"name": "Gate",
+			"name": "門扉[Gate]",
 			"level": 9,
 			"school": "C",
 			"time": [
@@ -12887,7 +12887,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a diamond worth at least 5,000 gp",
+					"text": "價值最少 5,000 gp 的鑽石",
 					"cost": 5000
 				}
 			},
@@ -12919,10 +12919,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You conjure a portal linking an unoccupied space you can see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can orient the portal in any direction you choose. The portal lasts for the duration.",
-				"The portal has a front and a back on each plane where it appears. Travel through the portal is possible only by moving through its front. Anything that does so is instantly transported to the other plane, appearing in the unoccupied space nearest to the portal.",
-				"Deities and other planar rulers can prevent portals created by this spell from opening in their presence or anywhere within their domains.",
-				"When you cast this spell, you can speak the name of a specific creature (a pseudonym, title, or nickname doesn't work). If that creature is on a plane other than the one you are on, the portal opens in the named creature's immediate vicinity and draws the creature through it to the nearest unoccupied space on your side of the portal. You gain no special power over the creature, and it is free to act as the DM deems appropriate. It might leave, attack you, or help you."
+				"你在射程內的一處閒置空間召喚出一度傳送門，精確連結另一位面的一處地點。門是圓型的，直徑5 到20 尺（由你決定）。門的方向也由你決定。門會持續到時效結束。",
+				"兩個位面上的傳送門都各有正反兩面。只有從正面進去才能通過傳送門。任何穿過的東西都會立刻被傳到另一位面，在最接近傳送門的閒置空間出現。",
+				"神明和其他位面統治者可以阻止此法術的傳送門在祂們所在之處或在祂們的領域內打開。",
+				"當你施展此法術時，你可以說出你已得知的一名生物的名字（代號、稱號、暱稱等沒有用）。如果該生物位處跟你不同的另一位面，傳送門會在他身邊打開，把它吸到最接近你這一面的門的閒置空間。這樣做並不會給你號令該生物的能力，DM 可以自由地決定他的合理行動。他可能會離開、攻擊你、或幫助你。"
 			],
 			"page": 244
 		},
@@ -16040,7 +16040,7 @@
 			"page": 252
 		},
 		{
-			"name": "Imprisonment",
+			"name": "禁錮[Imprisonment]",
 			"level": 9,
 			"school": "A",
 			"time": [
@@ -16060,7 +16060,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500 gp per Hit Die of the target",
+					"text": "繪出目標的一卷羊皮紙或一座目標的雕像，以及由你所選的法術形式決定的特殊素材，最少價值為目標的生命骰數乘 500 gp",
 					"cost": 500
 				}
 			},
@@ -16086,57 +16086,57 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a magical restraint to hold a creature that you can see within range. The target must succeed on a Wisdom saving throw or be bound by the spell; if it succeeds, it is immune to this spell if you cast it again. While affected by this spell, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the target.",
-				"When you cast the spell, you choose one of the following forms of imprisonment.",
+				"你造出一度魔法束縛禁錮一名你可以看見的射程內的生物。目標必需通過一次感知豁免，否則被此法術禁錮；如果牠成功，牠免疫你所施展的此法術。受術者不需要呼吸吃喝，也不會衰老。探知法術不能定位或觀察受術目標。",
+				"當你施展此術時，你選擇以下禁錮形式之一。",
 				{
 					"type": "entries",
-					"name": "Burial",
+					"name": "埋葬",
 					"entries": [
-						"The target is entombed far beneath the earth in a sphere of magical force that is just large enough to contain the target. Nothing can pass through the sphere, nor can any creature teleport or use planar travel to get into or out of it."
+						"目標被一球剛好能容納目標的球狀魔法力量收納，埋在大地的深處。萬物皆不能穿透此球，也沒有生物可以用傳送或用位面旅行進出它。"
 					]
 				},
-				"The special component for this version of the spell is a small mithral orb.",
+				"此法術形式的特殊素材是一粒秘銀小珠。",
 				{
 					"type": "entries",
-					"name": "Chaining",
+					"name": "鎖鏈",
 					"entries": [
-						"Heavy chains, firmly rooted in the ground, hold the target in place. The target is {@condition restrained} until the spell ends, and it can't move or be moved by any means until then."
+						"植根入地的重形鎖鏈將目標定住。目標被{@condition 束縛[Restrained]}直到法術終結，期間牠或外間用任何方法都不能移動牠。此法術形式的特殊素材是一條用貴金屬所制的精緻鏈子。隱世監獄 此法術將目標傳送到一個細小的，免疫傳送和位面旅行的半位面。這半位面可能是個迷宮、籠子、高塔、或其他你喜歡的密閉建築或範圍。"
 					]
 				},
-				"The special component for this version of the spell is a fine chain of precious metal.",
+				"此法術形式的特殊素材是一個精細的貴金屬鏈。",
 				{
 					"type": "entries",
-					"name": "Hedged Prison",
+					"name": "禁錮囚牢",
 					"entries": [
-						"The spell transports the target into a tiny demiplane that is warded against teleportation and planar travel. The demiplane can be a labyrinth, a cage, a tower, or any similar confined structure or area of your choice."
+						"此法術形式的特殊素材是玉雕的你所選擇的監獄模型。微縮禁錮 目標的高度縮細到一寸，並被禁錮在寶石或類似的物體內。光線能如常穿透這寶石，允許目標看見外界也允許其他生物看見他，但除此以外沒有任何東西能穿越過去，包括傳送和位面旅行。在法術生效期間此寶石不能被切開或打破。"
 					]
 				},
-				"The special component for this version of the spell is a miniature representation of the prison made from jade.",
+				"此法術形式的特殊素材是由玉製成的監獄的縮影。",
 				{
 					"type": "entries",
-					"name": "Minimus Containment",
+					"name": "微型禁錮",
 					"entries": [
-						"The target shrinks to a height of 1 inch and is imprisoned inside a gemstone or similar object. Light can pass through the gemstone normally (allowing the target to see out and other creatures to see in), but nothing else can pass through, even by means of teleportation or planar travel. The gemstone can't be cut or broken while the spell remains in effect."
+						"目標縮小到1英寸的高度，並被囚禁在寶石或類似物體內。 光可以正常穿過寶石（允許目標看到和其他生物看到），但沒有其他任何東西可以通過，即使通過遠距傳送或平面旅行。 當法術保持有效時，寶石不能被切割或破碎。"
 					]
 				},
-				"The special component for this version of the spell is a large, transparent gemstone, such as a corundum, diamond, or ruby.",
+				"此法術形式的特殊素材是一大塊透明寶石，例如剛玉、鑽石、紅寶石。",
 				{
 					"type": "entries",
-					"name": "Slumber",
+					"name": "沉眠",
 					"entries": [
-						"The target falls asleep and can't be awoken."
+						"目標沉眠，不能被弄醒。"
 					]
 				},
-				"The special component for this version of the spell consists of rare soporific herbs.",
+				"此法術形式的特殊素材是稀有的催眠草藥。",
 				{
 					"type": "entries",
-					"name": "Ending the Spell",
+					"name": "終結此術",
 					"entries": [
-						"During the casting of the spell, in any of its versions, you can specify a condition that will cause the spell to end and release the target. The condition can be as specific or as elaborate as you choose, but the DM must agree that the condition is reasonable and has a likelihood of coming to pass. The conditions can be based on a creature's name, identity, or deity but otherwise must be based on observable actions or qualities and not based on intangibles such as level, class, or hit points."
+						"當你施展此法術時，不論形式你都必需指定一項使法術終結並釋放目標的條件。你喜歡把它弄多複雜都可以，但 DM 必需同意這條件是合理的，有可能發生的。條件可以基於目標的名字，身分，或信仰，除此之外只能基於可以觀察的舉止或事件，不能基於等級、職業、生命值等概念。"
 					]
 				},
-				"A dispel magic spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.",
-				"You can use a particular special component to create only one prison at a time. If you cast the spell again using the same component, the target of the first casting is immediately freed from its binding."
+				"以９環施展的解除魔法術可以終結此術，其目標必需是這監牢或用以創造它的特定素材。",
+				"同一份素材只能維持一座監牢。如果你用同一份素材施展此術，前次施法的目標將立刻從禁錮中被釋放。"
 			],
 			"page": 252,
 			"savingThrow": [
@@ -18482,7 +18482,7 @@
 			"page": 258
 		},
 		{
-			"name": "Mass Heal",
+			"name": "群體醫療[Mass Heal]",
 			"level": 9,
 			"school": "V",
 			"time": [
@@ -18517,7 +18517,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them {@condition 盲目[Blinded]} or {@condition 耳聾[Deafened]}. This spell has no effect on undead or constructs."
+				"一波治療的能量從你流向你身邊的傷患。你恢復最多700 生命值，隨你喜好分配給射程內任意數量的生物。受此法術治療的生物也被移除所有疾病和任何令他們{@condition 盲目[Blinded]}或{@condition 耳聾[Deafened]}的效應。此法術對不死和構裝無效。"
 			],
 			"page": 258
 		},
@@ -18956,7 +18956,7 @@
 			]
 		},
 		{
-			"name": "Meteor Swarm",
+			"name": "隕石術[Meteor Swarm]",
 			"level": 9,
 			"school": "V",
 			"time": [
@@ -18995,8 +18995,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a Dexterity saving throw. The sphere spreads around corners. A creature takes {@dice 20d6} fire damage and {@dice 20d6} bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.",
-				"The spell damages objects in the area and ignites flammable objects that aren't being worn or carried."
+				"熾熱的火球轟炸地面上你所選的射程內的四點。位處每一點的 40 尺範圍內的每一名生物都要進行一次敏捷豁免。豁免失敗的生物受到  {@dice 20d6} fire 傷害和 {@dice 20d6} 鈍擊(bludgeoning) 傷害，成功豁免的話只受一半傷害。位處多次爆發之內的生物只受影響一次。",
+				"此法術會損害範圍內的物體並會燃點範圍內非被穿載著或攜帶著的易燃物體。"
 			],
 			"page": 259,
 			"damageInflict": [
@@ -21175,7 +21175,7 @@
 			]
 		},
 		{
-			"name": "Power Word Heal",
+			"name": "醫療真言[Power Word Heal]",
 			"level": 9,
 			"school": "V",
 			"time": [
@@ -21209,12 +21209,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is {@condition 迷惑[Charmed]}, {@condition 恐慌[Frightened]}, {@condition 麻痺[Paralyzed]}, or {@condition 震攝[Stunned]}, the condition ends. If the creature is {@condition prone}, it can use its reaction to stand up. This spell has no effect on undead or constructs."
+				"一波治療能量沖刷過你觸摸的生物。目標回復它所有的生命值。如果此生物被{@condition 迷惑[Charmed]}、{@condition 恐慌[Frightened]}、{@condition 麻痺[Paralyzed]}或{@condition 震攝[Stunned]}，狀態終止。如果此生物是{@condition 倒地[Prone]}狀態，它可以使用他的反應動作站起來。此法術對不死生物和構裝生物沒有作用。"
 			],
 			"page": 266
 		},
 		{
-			"name": "Power Word Kill",
+			"name": "死亡真言[Power Word Kill]",
 			"level": 9,
 			"school": "E",
 			"time": [
@@ -21260,7 +21260,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You utter a word of power that can compel one creature you can see within range to die instantly. If the creature you choose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect."
+				"你說出一句威力真言，可以使射程內你能看見的一名生物立刻死亡。如果你所選的生物有 100 生命值或以下，它即時死亡。否則此法術沒有效果。"
 			],
 			"page": 266
 		},
@@ -21570,7 +21570,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "Prismatic Wall",
+			"name": "虹光法墻[Prismatic Wall]",
 			"level": 9,
 			"school": "A",
 			"time": [
@@ -21609,58 +21609,58 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A shimmering, multicolored plane of light forms a vertical opaque wall\u2014up to 90 feet long, 30 feet high, and 1 inch thick\u2014centered on a point you can see within range. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range. The wall remains in place for the duration. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your action and the spell slot are wasted.",
-				"The wall sheds bright light out to a range of 100 feet and dim light for an additional 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature that can see the wall moves to within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or become {@condition 盲目[Blinded]} for 1 minute.",
-				"The wall consists of seven layers, each with a different color. When a creature attempts to reach into or pass through the wall, it does so one layer at a time through all the wall's layers. As it passes or reaches through each layer, the creature must make a Dexterity saving throw or be affected by that layer's properties as described below.",
-				"The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. An antimagic field has no effect on a prismatic wall.",
+				"由光構成的閃光多彩平面構成一面以射程內你能看到的一點為中心，至多90尺長30尺高1英寸厚，垂直於地面的不透明墻壁。或者，你可以將此墻塑造成以射程內你能看到的一點為中心至多30尺直徑的球形。法墻在持續時間內留在原地。如果你定位法墻的位置會穿過有生物占據的空間，法術失敗，並且你的動作和法術位會被浪費。",
+				"法墻發出100尺範圍的明亮光線和100尺範圍的昏暗光線。你和你施放此法術時指出的生物可以穿過法墻並且停留在法墻附近不被傷害。如果其他可以看到法墻的生物移動到距它20尺內或在那開始它的回合，此生物必須成功通過體魄豁免否則{@condition 盲目[Blinded]} 1 分鐘。",
+				"法墻由7層組成，每一光層有一種不同的顏色。當一個生物試圖進入或穿過法墻，它一次一層穿過法墻的所有光層，必須進行一次敏捷豁免否則會被下列光層的特性影響。",
+				"法墻可以被摧毀，也是按由紅到紫的順序，一次一個光層通過具體每一層。一但一個光層被摧毀，它在持續時間內保持被摧毀狀態。一個消抹權杖法術可以摧毀一個虹光法墻，但反魔法力場無法影響它。",
 				{
 					"type": "entries",
-					"name": "Red",
+					"name": "紅色",
 					"entries": [
-						"The creature takes {@dice 10d6} fire damage on a failed save, or half as much damage on a successful one. While this layer is in place, nonmagical ranged attacks can't pass through the wall. The layer can be destroyed by dealing at least 25 cold damage to it."
+						"生物豁免失敗受 {@dice 10d6} fire 傷害，豁免成功受半傷。當此光層在時，非魔法遠程攻擊無法穿過法墻。此光層可以通過對它造成至少 25 cold 傷害來摧毀。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Orange",
+					"name": "橙色",
 					"entries": [
-						"The creature takes {@dice 10d6} acid damage on a failed save, or half as much damage on a successful one. While this layer is in place, magical ranged attacks can't pass through the wall. The layer is destroyed by a strong wind."
+						"生物豁免失敗受 {@dice 10d6} acid 傷害，豁免成功受半傷。當此光層在時，魔法遠程攻擊不能穿過法墻。此光層可以被一陣強風摧毀。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Yellow",
+					"name": "黃色",
 					"entries": [
-						"The creature takes {@dice 10d6} lightning damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 60 force damage to it."
+						"生物豁免失敗受 {@dice 10d6} lightning 傷害，豁免成功受半傷。此光層可以通過對它造成至少 60 force 傷害來摧毀。 "
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Green",
+					"name": "綠色",
 					"entries": [
-						"The creature takes {@dice 10d6} poison damage on a failed save, or half as much damage on a successful one. A passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer."
+						"生物豁免失敗受 {@dice 10d6} poison 傷害，豁免成功受半傷。一個穿墻術法術或其它同環或更高環的能在固體表面開入口的法術可以摧毀此光層。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Blue",
+					"name": "藍色",
 					"entries": [
-						"The creature takes {@dice 10d6} cold damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 25 fire damage to it."
+						"生物豁免失敗受 {@dice 10d6} cold 傷害，豁免成功受半傷。此光層可以通過對它造成至少 25 fire 傷害來摧毀。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Indigo",
+					"name": "靛色",
 					"entries": [
-						"On a failed save, the creature is {@condition restrained}. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the {@condition petrified} condition. The successes and failures don't need to be consecutive; keep track of both until the creature collects three of a kind.",
-						"While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a daylight spell or a similar spell of equal or higher level."
+						"豁免失敗，生物被{@condition 束縛[Restrained]}。它必須在它每回合結束時進行一次體魄豁免。如果豁免成功3次，法術終止。如果豁免失敗3次，它被永久變成石頭，進入{@condition 石化[Peterified]}狀態。豁免成功和失敗不需要連續；記下兩邊的數量直到目標達到3次其中一種。",
+						"當此光層在時，法術無法穿過法墻。此光層會被一個日光術或一個同環或更高環的類似法術發出的明亮光線摧毀。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Violet",
+					"name": "紫色",
 					"entries": [
-						"On a failed save, the creature is {@condition 盲目[Blinded]}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM's choosing and is no longer {@condition 盲目[Blinded]}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a dispel magic spell or a similar spell of equal or higher level that can end spells and magical effects."
+						"豁免失敗，目標{@condition 盲目[Blinded]}。它必須在你下回合開始時進行一次感知豁免。豁免成功目盲狀態終止。豁免失敗，此生物被傳送到另一個DM指定的位面並且不再{@condition 盲目[Blinded]}。（典型情況是，不在家鄉位面的生物被驅逐回家，而其他生物通常會被傳送到星界或靈界。）此光層可以被一個解除魔法法術或一個同環或更高環的能終止法術和魔法效果的類似法術摧毀。"
 					]
 				}
 			],
@@ -24232,7 +24232,7 @@
 			"page": 274
 		},
 		{
-			"name": "Shapechange",
+			"name": "形體變化[Shapechange]",
 			"level": 9,
 			"school": "T",
 			"time": [
@@ -24251,7 +24251,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell",
+					"text": "價值不低於 1,500 gp 的玉環，施法時戴在頭上",
 					"cost": 1500
 				}
 			},
@@ -24279,12 +24279,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You assume the form of a different creature for the duration. The new form can be of any creature with a challenge rating equal to your level or lower. The creature can't be a construct or an undead, and you must have seen the sort of creature at least once. You transform into an average example of that creature, one without any class levels or the Spellcasting trait.",
-				"Your game statistics are replaced by the statistics of the chosen creature, though you retain your alignment and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus listed in its statistics is higher than yours, use the creature's bonus in place of yours. You can't use any legendary actions or lair actions of the new form.",
-				"You assume the hit points and Hit Dice of the new form. When you revert to your normal form, you return to the number of hit points you had before you transformed. If you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
-				"You retain the benefit of any features from your class, race, or other source and can use them, provided that your new form is physically capable of doing so. You can't use any special senses you have (for example, darkvision) unless your new form also has that sense. You can only speak if the creature can normally speak.",
-				"When you transform, you choose whether your equipment falls to the ground, merges into the new form, or is worn by it. Worn equipment functions as normal. The DM determines whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change shape or size to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge into your new form. Equipment that merges has no effect in that state.",
-				"During this spell's duration, you can use your action to assume a different form following the same restrictions and rules for the original form, with one exception: if your new form has more hit points than your current one, your hit points remain at their current value."
+				"你在法術時效內變形為另一個生物。你的新形態可以是任何挑戰等級等於或低於你的等級的生物。此種生物不能是構裝體或不死生物，而且你必須見過此種生物至少一次。你變形成此種生物中一個普通的個體，沒有任何職業等級，也沒有「施法 (Spellcasting) 」特質。",
+				"你的游戲數據被目標生物的數據取代，但你的陣營、智力值、感知值和魅力值不變。你同樣保留你的所有技能熟練和豁免熟練，而且還能獲得目標生物的技能熟練和豁免熟練。如果目標生物和你都有某項熟練，而且目標生物在這一項上的熟練加值比你的高，則你在這一項的檢定上使用它的熟練加值而非你自己的。你不能使用新形態的傳奇動作和巢穴動作。",
+				"你的生命值和生命骰變成和新形態一樣。當你變回原形時，你的生命值變回變形前你所擁有的。如果你是因為生命值降到0以下而變回原形的，那麼任何多余的傷害都會轉嫁到你的正常形態上。只要多余的傷害不足以把你在正常形態下的生命值也降到0，你就不會{@condition 昏迷[Unconscious]}。",
+				"你依然享受你的職業特性、種族特性和其他特性帶來的好處，只要你的新形態在物理上能夠做到這些事。你不能使用任何你之前享有的特殊感官（例如黑暗視覺），除非你的新形態也有這種感官。如果你變形成的生物通常不能說話，那麼你也不能說話。",
+				"當你變形時，你可以選擇你的裝備是要掉到地上，融入新的形體中，還是繼續穿戴著。繼續穿戴的裝備依然擁有正常情況下的功能。DM要根據新形態的外形和大小來判斷你在新形態下是否能夠繼續穿戴你身上的每件裝備；新形態下不能穿戴的裝備只能掉到地上或融入新的形體中。融入新形體的裝備將不會產生任何效果。",
+				"在法術時效內，你可以花費你的動作來轉換為另一個形態。重新變形的規則與限制與第一次變形相同，只有一點不同：如果新形態的生命值比你當前的形態要多，那麼你的生命值保持為當前值不變。"
 			],
 			"page": 274
 		},
@@ -26258,7 +26258,7 @@
 			]
 		},
 		{
-			"name": "Storm of Vengeance",
+			"name": "復仇風暴[Storm of Vengeance]",
 			"level": 9,
 			"school": "C",
 			"time": [
@@ -26297,34 +26297,34 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A churning storm cloud forms, centered on a point you can see and spreading to a radius of 360 feet. Lightning flashes in the area, thunder booms, and strong winds roar. Each creature under the cloud (no more than 5,000 feet beneath the cloud) when it appears must make a Constitution saving throw. On a failed save, a creature takes {@dice 2d6} thunder damage and becomes {@condition 耳聾[Deafened]} for 5 minutes.",
-				"Each round you maintain concentration on this spell, the storm produces additional effects on your turn.",
+				"以你能看見的一點為中心，一團翻騰攪動的烏雲逐漸成形，並且一直擴散到半徑360英尺。這片區域內電閃雷鳴、狂風呼嘯。在雲團出現時，所有位於雲團下方的生物（處於雲團下方5,000英尺內）必須要進行一次體質豁免檢定。若失敗，該生物將受到 {@dice 2d6} thunder 傷害並且會{@condition 耳聾[Deafened]} 5 分鐘。",
+				"你每維持一輪該法術的專注，這風暴就會在你的回合中產生新的效果：",
 				{
 					"type": "entries",
-					"name": "Round 2",
+					"name": "第二輪",
 					"entries": [
-						"Acidic rain falls from the cloud. Each creature and object under the cloud takes {@dice 1d6} acid damage."
+						"雲層中降下酸雨。所有位於雲團下方的生物和物體受到 {@dice 1d6} acid 傷害。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Round 3",
+					"name": "第三輪",
 					"entries": [
-						"You call six bolts of lightning from the cloud to strike six creatures or objects of your choice beneath the cloud. A given creature or object can't be struck by more than one bolt. A struck creature must make a Dexterity saving throw. The creature takes {@dice 10d6} lightning damage on a failed save, or half as much damage on a successful one."
+						"從雲中召下六道雷電擊向你選中的六個位於雲團下的生物或物體。任何一個生物或物體都不會被雷電擊中兩次。遭到雷擊的生物必須要進行一次敏捷豁免檢定，若失敗則受到 {@dice 10d6} lightning 傷害，若豁免成功則傷害減半。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Round 4",
+					"name": "第四輪",
 					"entries": [
-						"Hailstones rain down from the cloud. Each creature under the cloud takes {@dice 2d6} bludgeoning damage."
+						"冰雹從雲團中傾瀉而下。所有位於雲團下方的生物受到 {@dice 2d6} 鈍擊(bludgeoning) 傷害。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Round 5\u201310",
+					"name": "第五到第十輪",
 					"entries": [
-						"Gusts and freezing rain assail the area under the cloud. The area becomes difficult terrain and is heavily obscured. Each creature there takes {@dice 1d6} cold damage. Ranged weapon attacks in the area are impossible. The wind and rain count as a severe distraction for the purposes of maintaining concentration on spells. Finally, gusts of strong wind (ranging from 20 to 50 miles per hour) automatically disperse fog, mists, and similar phenomena in the area, whether mundane or magical."
+						"狂風和凍雨朝著雲團下的區域襲來。這片區域變為困難地形並受到重度遮蔽。這片區域內的所有生物受到 {@dice 1d6} cold 傷害。在這片區域中無法進行遠程武器攻擊。這裡的強風和暴雨在維持法術專注時視為嚴重干擾。還有，這片區域中的烈風（風速在每小時20英裡到50英裡之間）會自動吹散區域內的一切煙、霧和其他類似的現象，包括魔法的和非魔法的。"
 					]
 				}
 			],
@@ -26946,7 +26946,7 @@
 			"page": 281
 		},
 		{
-			"name": "傳送法陣[Teleport]",
+			"name": "傳送[Teleport]",
 			"level": 7,
 			"school": "C",
 			"time": [
@@ -26988,17 +26988,17 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature.",
-				"The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls {@dice d100} and consults the table.",
+				"此法術會將你和最多八名你能看見的射程內的自願生物立刻傳到你所指定的目的地。如果你包括一件物體作為目標，它必需不大於10 尺邊長的立方，而且它不能被非自願的生物握持著或攜帶著。",
+				"你必需認識你所選的目的地，而且它必需跟你處於相同的位面。你對目的地的熟識程度決定你會不會成功抵步。DM 投擲一粒 {@dice 1d100} 並參考下表。",
 				{
 					"type": "table",
 					"caption": "Teleportation",
 					"colLabels": [
-						"Familiarity",
-						"Mishap",
-						"Similar Area",
-						"Off Target",
-						"On Target"
+						"熟識度",
+						"災禍",
+						"類近",
+						"偏離",
+						"抵步"
 					],
 					"colStyles": [
 						"col-xs-8",
@@ -27009,49 +27009,49 @@
 					],
 					"rows": [
 						[
-							"Permanent circle",
+							"永久傳送陣",
 							"\u2014",
 							"\u2014",
 							"\u2014",
 							"01\u2013100"
 						],
 						[
-							"Associated object",
+							"有關物體",
 							"\u2014",
 							"\u2014",
 							"\u2014",
 							"01\u2013100"
 						],
 						[
-							"Very familiar",
+							"非常熟識",
 							"01\u201305",
 							"06\u201313",
 							"14\u201324",
 							"25\u2013100"
 						],
 						[
-							"Seen casually",
+							"不經意地見過",
 							"01\u201333",
 							"34\u201343",
 							"44\u201353",
 							"54\u2013100"
 						],
 						[
-							"Viewed once",
+							"見過一次",
 							"01\u201343",
 							"44\u201353",
 							"54\u201373",
 							"74\u2013100"
 						],
 						[
-							"Description",
+							"只知道形容",
 							"01\u201343",
 							"44\u201353",
 							"54\u201373",
 							"74\u2013100"
 						],
 						[
-							"False destination",
+							"假目的地",
 							"01\u201350",
 							"51\u2013100",
 							"\u2014",
@@ -27061,39 +27061,39 @@
 				},
 				{
 					"type": "entries",
-					"name": "Familiarity",
+					"name": "熟識度",
 					"entries": [
-						"\"Permanent circle\" means a permanent teleportation circle whose sigil sequence you know. \"Associated object\" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb."
+						"永久傳送陣 指一處你知道符文序列的永久傳送法陣。有關物體 指你持有在六個月之內從目的地拿走的一件物體，例如法師書庫的一本書、皇家套房的床單、或巫妖的秘密墓穴的一塊大理石。"
 					]
 				},
-				"\"Very familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. \"Seen casually\" is someplace you have seen more than once but with which you aren't very familiar. \"Viewed once\" is a place you have seen once, possibly using magic. \"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map.",
-				"\"False destination\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.",
+				"非常熟識 指一度你常常去的，或者曾經仔細觀察過的，或者在施法時能夠看見的地方。不經意地見過 指你去過多於一次但不太熟識的地方。見過一次 指你見過一次的地方，例如透過魔法。只知道形容 是一處別人形容給你的地點，例如一幅地圖。",
+				"假目的地 是不存在的地方。也許你窺探敵人的巢穴時看見了幻象，或者你想傳送到一處再也不存在的熟識之地。",
 				{
 					"type": "entries",
-					"name": "On Target",
+					"name": "抵步",
 					"entries": [
-						"You and your group (or the target object) appear where you want to."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Off Target",
-					"entries": [
-						"You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is {@dice 1d10} × {@dice 1d10} percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two {@dice d10}s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a {@dice d8} and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble."
+						"你們（或目標物體）抵逹你想去的地方。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Similar Area",
+					"name": "偏離",
 					"entries": [
-						"You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane."
+						"你們（或目標物體）抵逹你想去的地方，但往隨機方向偏離隨機的距離。偏離的距離是傳送距離的 {@dice 1d10} x {@dice 1d10}%。例如你們想傳送120 里，偏離了，{@dice d10} 分別投出5 和3，結果是你們偏離了15%也就是18 里。DM {@dice d8} 隨機決定方向，1 為北，2 為東北，照羅盤的八方位如此類推。如果你想傳送到一個沿岸城市但結果去到離岸18 里的海洋，你可能有麻煩了。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Mishap",
+					"name": "類近",
 					"entries": [
-						"The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes {@dice 3d10} force damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time)."
+						"你們（或目標物體）去到一個視覺上或主題上跟目的地相似的地點。假如你想回到自己的實驗室，你可能會去到另一名法師的實驗室或者有很多相同器材的煉金品店。一般而言，你會去到最近的類近地點，但法術本身並沒有距離限制，所以你可能去到位面上的任何地方。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "災禍",
+					"entries": [
+						"此法術的無常魔法令到旅程變得困難。每一名被傳送的生物或目標物體承受 {@dice 3d10} force 傷害，然後 DM 重投一次看看你們被傳送到甚麼地方（可能會發生多次災禍，每次都使你們受傷）。"
 					]
 				}
 			],
@@ -27635,7 +27635,7 @@
 			]
 		},
 		{
-			"name": "Time Stop",
+			"name": "時間停止[Time Stop]",
 			"level": 9,
 			"school": "T",
 			"time": [
@@ -27672,8 +27672,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take {@dice 1d4+1} turns in a row, during which you can use actions and move as normal.",
-				"This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it."
+				"你暫時停止除你以外的所有人的時間流動。其他人的時間都靜止，而你連續採取 {@dice 1d4+1} 回合，在這時間內你可以如常動作和移動。",
+				"在這段期間，如果你採取的動作之一或你所創造的任何效應干涉到其他人或被其他人穿載著或攜帶著的物體，此術會結束。另外，如果你離開施法地點超過1,000 尺，法術也會結束。"
 			],
 			"page": 283
 		},
@@ -27862,7 +27862,7 @@
 			"page": 283
 		},
 		{
-			"name": "True Polymorph",
+			"name": "完全變形術[True Polymorph]",
 			"level": 9,
 			"school": "T",
 			"time": [
@@ -27881,7 +27881,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a drop of mercury, a dollop of gum arabic, and a wisp of smoke"
+				"m": "一滴水銀，一團阿拉伯樹膠*2以及一縷煙"
 			},
 			"duration": [
 				{
@@ -27911,31 +27911,31 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Choose one creature or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into an object, or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation lasts until it is dispelled.",
-				"This spell has no effect on a shapechanger or a creature with 0 hit points. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.",
+				"選擇法術距離內一個你能看見的生物或物體。你將目標生物變成另一個生物，將目標生物變成一個物體，或將目標物體變成一個生物（該物體必須沒有被任何生物穿戴著或攜帶著）。這個變形效果持續到法術時效結束、目標的生命值降到0或目標死亡為止。如果你在整個法術時效內一直保持該法術的專注，則變形將永久有效。",
+				"變形怪不受該法術影響。不願被變形的生物可以進行一次感知豁免檢定，成功就不受該法術影響。",
 				{
 					"type": "entries",
-					"name": "Creature into Creature",
+					"name": "生物變生物",
 					"entries": [
-						"If you turn a creature into another kind of creature, the new form can be any kind you choose whose challenge rating is equal to or less than the target's (or its level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the new form. It retains its alignment and personality."
+						"如果你將一個生物變形成另一種生物，它的新形態可以是你選擇的任何挑戰等級等於或低於受術者挑戰等級（或人物等級，如果受術者沒有挑戰等級）的物種。受術者的游戲數據（包括精神屬性值）被新形態的數據取代，但陣營和性格不變。"
 					]
 				},
-				"The target assumes the hit points of its new form, and when it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked {@condition unconscious}.",
-				"The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech unless its new form is capable of such actions.",
-				"The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.",
+				"受術者的生命值和生命骰變成和新形態一樣。當受術者變回原形時，其生命值變回變形前它所擁有的。如果受術者是因為生命值降到0以下而變回原形的，那麼任何多余的傷害都會轉嫁到它的正常形態上。只要多余的傷害不足以把受術者在正常形態下的生命值也降到0，它就不會{@condition 昏迷[Unconscious]}。",
+				"受術生物的行為能力將受到新形態的性質限制，而且它不能說話、施法或進行任何需要手勢或語言的動作，除非它的新形態能做到這些。",
+				"受術者的裝備將融入新的形體中。受術者不能啟動、使用、揮舞或以其他任何方式受益於它的任何裝備。",
 				{
 					"type": "entries",
-					"name": "Object into Creature",
+					"name": "物體變生物",
 					"entries": [
-						"You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature's challenge rating is 9 or lower. The creature is friendly to you and your companions. It acts on each of your turns. You decide what action it takes and how it moves. The DM has the creature's statistics and resolves all of its actions and movement."
+						"你可以將一個物體變成任何一種符合下列要求的生物：生物的體積不能大於原物體，並且生物的挑戰等級必須低於或等於9。變形出的生物對你和你的同伴是友好的。戰斗中它會在你的回合中行動。你決定它如何行動。DM手裡有該生物的數據，由DM來判定它的行動結果如何。"
 					]
 				},
-				"If the spell becomes permanent, you no longer control the creature. It might remain friendly to you, depending on how you have treated it.",
+				"如果這道法術變成永久有效，則你不再能控制該生物。它也許依然會對你友好——這取決於你怎樣對待它。",
 				{
 					"type": "entries",
-					"name": "Creature into Object",
+					"name": "生物變物體",
 					"entries": [
-						"If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form. The creature's statistics become those of the object, and the creature has no memory of time spent in this form, after the spell ends and it returns to its normal form."
+						"如果你將一個生物變形成一個物體，則它連帶它穿著和帶著的一切東西變成新的形態。受術者的數據變成和該物體一樣。在法術結束、受術者變回原形後，它不會記得在變成物體時發生的任何事。"
 					]
 				}
 			],
@@ -27946,7 +27946,7 @@
 			"permanentEffects": true
 		},
 		{
-			"name": "True Resurrection",
+			"name": "完全復活[True Resurrection]",
 			"level": 9,
 			"school": "N",
 			"time": [
@@ -27965,7 +27965,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes",
+					"text": "一點聖水和價值最少 25,000 gp 的鑽石，會被法術消耗",
 					"cost": 25000,
 					"consume": true
 				}
@@ -27989,9 +27989,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. If the creature's soul is free and willing, the creature is restored to life with all its hit points.",
-				"This spell closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was undead, it is restored to its non-undead form.",
-				"The spell can even provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you."
+				"你觸摸一名死去不超過200 年，並且非因衰老致死的目標。如果目標的靈魂願意並能自由地回來，目標以滿生命值復活。",
+				"此法術會治療所有傷口、清除任何毒素、治療所有疾病、及解除目標在死的時候遭受的任何詛咒。此法術會復原失去的器官和肢體。",
+				"如果目標的原軀體不再存在，此術甚至可以重新做一副，你只需要說出該生物的名字。然後他在距離你10 尺範圍內的一處你所選的閒置空間出現。"
 			],
 			"page": 284
 		},
@@ -29188,7 +29188,7 @@
 			]
 		},
 		{
-			"name": "Weird",
+			"name": "怪影殺手[Weird]",
 			"level": 9,
 			"school": "I",
 			"time": [
@@ -29228,7 +29228,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes {@condition 恐慌[Frightened]} for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the {@condition 恐慌[Frightened]} creature's turns, it must succeed on a Wisdom saving throw or take {@dice 4d10} psychic damage. On a successful save, the spell ends for that creature."
+				"你利用一群生物最恐懼的事物，在它們的心中創造出一只只有它們自己能看見的虛幻之獸。以法術距離內你選中的一點為球心，一個半徑30英尺圓球區域內的所有生物都要進行一次感知豁免檢定。若一個生物豁免失敗，則該生物在法術結束前陷入{@condition 恐慌[Frightened]}中。這道法術造出的幻像能喚出受術者心中最深的恐懼，使它最恐怖的噩夢顯現為一個永遠無法擺脫的威脅。若一個生物因該法術陷入{@condition 恐慌[Frightened]}，則它在自己的每回合開始時要進行一次感知豁免檢定，若失敗則受到 {@dice 4d10} psychic 傷害。若豁免成功，則法術對該生物結束。"
 			],
 			"page": 288,
 			"damageInflict": [
@@ -29355,7 +29355,7 @@
 			]
 		},
 		{
-			"name": "Wish",
+			"name": "祈願術[Wish]",
 			"level": 9,
 			"school": "C",
 			"time": [
@@ -29392,20 +29392,20 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires.",
-				"The basic use of this spell is to duplicate any other spell of 8th level or lower. You don't need to meet any requirements in that spell, including costly components. The spell simply takes effect. Alternatively, you can create one of the following effects of your choice:",
+				"祈願術是凡間生物能夠施展的最強大的法術。你只需要大聲說出你的願望就能將現實世界的根基操弄於手中。",
+				"這道法術最基礎的用法是用來模仿任意一個8環或更低的法術。你不需要滿足那法術所需的任何前提條件——包括昂貴的法術材料——就可以讓那法術起效。除此之外，你也可以選擇創造下列效果中的一種：",
 				{
 					"type": "list",
 					"items": [
-						"You create one object of up to 25,000 gp in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.",
-						"You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the greater restoration spell.",
-						"You grant up to ten creatures that you can see resistance to a damage type you choose.",
-						"You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your companions immune to a lich's life drain attack.",
-						"You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll."
+						"你創造出一個價值不超過 25,000 gp 的物體。該物體不能是魔法物品，並且在任何一個維度上都不能超過300英尺。它將出現在你能看見的一處空地上",
+						"你讓最多二十個你能看見的生物回復全部生命值，並且終止它們身上的一切在高等復原術中描述過的效果。",
+						"你讓最多十個你能看見的生物獲得對你選擇的一種傷害類型的抗力。",
+						"你讓最多十個你能看見的生物在八小時內免疫單獨一種法術或其他魔法效果。舉例來說，你可以使你自己和你的所有同伴免疫巫妖的吸取生命攻擊。",
+						"你撤銷一件剛剛發生的事件。你強行重投在上一輪中（包括你的前一回合）進行的任何擲骰。現實將自己改變來適應新的擲骰結果。舉例來說，祈願術可以撤銷對手的成功豁免、敵人的重擊或同伴的失敗豁免。你可以迫使檢定者在重投中擁有優勢或劣勢，並且你可以選擇是使用重投後的結果還是使用原來的結果。"
 					]
 				},
-				"You might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item's current owner.",
-				"The stress of casting this spell to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a long rest, you take {@dice 1d10} necrotic damage per level of that spell. This damage can't be reduced or prevented in any way. In addition, your Strength drops to 3, if it isn't 3 or lower already, for {@dice 2d4} days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a 33 percent chance that you are unable to cast wish ever again if you suffer this stress."
+				"你也許能靠這道法術達成上述效果以外的結果。你要盡量准確地向DM說出你的願望。在這種情況下，DM在決定祈願結果時有很大的自由度；你的願望越大，出錯的概率就越大。也許法術會直接失敗，也許你想要的效果只有部分達成，或者你可能會因為表述願望時措辭不當而遭到意想不到的結果。舉例來說，許願讓一個壞人死掉可能會讓你穿越到多年之後該壞人已死的一個時間段，使你相當於離開了游戲一樣。與此類似，許願獲得一件傳說中的魔法物品或神器可能立即將你傳送到該物品當前的持有者身邊。",
+				"施放該法術來達成除了模仿其他法術外的任何目的都會使你承受極大的負擔。承受這種負擔之後，直到你完成一次長休息之前，你每次施放法術時都要受到一定傷害（傷害數值與施放法術的環數相關，每環 {@dice 1d10} necrotic 傷害）。你無法以任何方式減輕或防止這種傷害。另外，你的力量值在 2d4 天內降低到3——除非它已經是 3 或更低。在這段時間內，你每花一整天休息（不從事任何費力的工作），恢復需要的天數就減少 2 天。最後，如果你承受了這種負擔，你將有33%的概率再也無法施放祈願術。"
 			],
 			"page": 288,
 			"damageInflict": [
