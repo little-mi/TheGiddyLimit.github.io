@@ -33,64 +33,64 @@ function currentPage () {
 }
 
 function navigation () {
-	LI('navbar', '5etools.html', 'Home');
+	LI('navbar', '5etools.html', '首頁');
 
 	LIDropdown('navbar', 'rules', 'dropdown');
-	A('rules', 'ruleOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Rules <span class='caret'></span>");
+	A('rules', 'ruleOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "規則 <span class='caret'></span>");
 	UL('rules', 'ul_rules', 'dropdown-menu');
-	LI('ul_rules', 'quickreference.html', 'Quick Reference');
-	LI('ul_rules', 'variantrules.html', 'Variant & Optional Rules');
+	LI('ul_rules', 'quickreference.html', '重點規則');
+	LI('ul_rules', 'variantrules.html', '變體&可選規則');
 	LIDivider('ul_rules');
-	LI('ul_rules', 'book.html', "Dungeon Master's Guide", "DMG");
-	LI('ul_rules', 'book.html', "Monster Manual", "MM");
-	LI('ul_rules', 'book.html', "Player's Handbook", "PHB");
+	LI('ul_rules', 'book.html', "城主手冊", "DMG");
+	LI('ul_rules', 'book.html', "怪物圖鑑", "MM");
+	LI('ul_rules', 'book.html', "玩家手冊", "PHB");
 	LIDivider('ul_rules');
 	LI('ul_rules', 'book.html', "Mordenkainen's Tome of Foes", "MTF");
 	LI('ul_rules', 'book.html', "Sword Coast Adventurer's Guide", "SCAG");
 	LI('ul_rules', 'book.html', "Volo's Guide to Monsters", "VGM");
 	LI('ul_rules', 'book.html', "Xanathar's Guide to Everything", "XGE");
 	LIDivider('ul_rules');
-	LI('ul_rules', 'book.html', "Adventurers League", "AL");
+	LI('ul_rules', 'book.html', "冒險者聯盟", "AL");
 
 	LIDropdown('navbar', 'players', 'dropdown');
-	A('players', 'playerOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Player Options <span class='caret'></span>");
+	A('players', 'playerOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "創角專用 <span class='caret'></span>");
 	UL('players', 'ul_players', 'dropdown-menu');
-	LI('ul_players', 'classes.html', 'Classes');
-	LI('ul_players', 'backgrounds.html', 'Backgrounds');
-	LI('ul_players', 'feats.html', 'Feats');
-	LI('ul_players', 'invocations.html', 'Invocations');
-	LI('ul_players', 'races.html', 'Races');
-	LI('ul_players', 'lifegen.html', 'This Is Your Life');
-	LI('ul_players', 'names.html', 'Names');
+	LI('ul_players', 'classes.html', '職業');
+	LI('ul_players', 'backgrounds.html', '背景');
+	LI('ul_players', 'feats.html', '專長');
+	LI('ul_players', 'invocations.html', '魔能祈喚');
+	LI('ul_players', 'races.html', '種族');
+	LI('ul_players', 'lifegen.html', '角色產生器');
+	LI('ul_players', 'names.html', '名稱產生器');
 
 	LIDropdown('navbar', 'dms', 'dropdown');
-	A('dms', 'dmOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "DM Tools <span class='caret'></span>");
+	A('dms', 'dmOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "DM 專用 <span class='caret'></span>");
 	UL('dms', 'ul_dms', 'dropdown-menu');
-	LI('ul_dms', 'adventures.html', 'Adventures');
-	LI('ul_dms', 'crcalculator.html', 'CR Calculator');
+	LI('ul_dms', 'adventures.html', '劇本模組');
+	LI('ul_dms', 'crcalculator.html', 'CR 計算機');
 	LI('ul_dms', 'cultsboons.html', 'Cults & Demonic Boons');
-	LI('ul_dms', 'dmscreen.html', 'DM Screen');
-	LISpecial('ul_dms', 'https://kobold.club', 'Encounter Builder', '_blank', 'We could literally never build something better than Kobold Fight Club');
-	LI('ul_dms', 'encountergen.html', 'Encounter Generator');
-	LI('ul_dms', 'lootgen.html', 'Loot Generator');
-	LI('ul_dms', 'objects.html', 'Objects');
-	LI('ul_dms', 'trapshazards.html', 'Traps & Hazards');
+	LI('ul_dms', 'dmscreen.html', 'DM 壁障');
+	LISpecial('ul_dms', 'https://kobold.club', '遭遇製造器', '_blank', '如果要更有要得遭遇產生器可以試試看 Kobold Fight Club');
+	LI('ul_dms', 'encountergen.html', '遭遇產生器');
+	LI('ul_dms', 'lootgen.html', '寶物產生器');
+	LI('ul_dms', 'objects.html', '裝置');
+	LI('ul_dms', 'trapshazards.html', '陷阱&天然災害');
 
 	LIDropdown('navbar', 'references', 'dropdown');
-	A('references', 'references', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "References <span class='caret'></span>");
+	A('references', 'references', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "DM 參考 <span class='caret'></span>");
 	UL('references', 'ul_references', 'dropdown-menu');
-	LI('ul_references', 'bestiary.html', 'Bestiary');
-	LI('ul_references', 'conditionsdiseases.html', 'Conditions & Diseases');
-	LI('ul_references', 'deities.html', 'Deities');
-	LI('ul_references', 'items.html', 'Items');
-	LI('ul_references', 'rewards.html', 'Other Rewards');
-	LI('ul_references', 'psionics.html', 'Psionics');
-	LI('ul_references', 'spells.html', 'Spells');
+	LI('ul_references', 'bestiary.html', '怪物圖鑑');
+	LI('ul_references', 'conditionsdiseases.html', '狀態&疾病');
+	LI('ul_references', 'deities.html', '諸神');
+	LI('ul_references', 'items.html', '物品');
+	LI('ul_references', 'rewards.html', '其他獎勵');
+	LI('ul_references', 'psionics.html', '靈能');
+	LI('ul_references', 'spells.html', '法術');
 
-	LI('navbar', 'statgen.html', 'Statgen', "rolled");
+	LI('navbar', 'statgen.html', '屬性產生器', "rolled");
 
 	LIDropdown('navbar', 'utils', 'dropdown');
-	A('utils', 'utils', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Utilities <span class='caret'></span>");
+	A('utils', 'utils', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "其他工具 <span class='caret'></span>");
 	UL('utils', 'ul_utils', 'dropdown-menu');
 	LI('ul_utils', 'blacklist.html', 'Content Blacklist');
 	LI('ul_utils', 'converter.html', 'Stat Block to JSON');
@@ -98,7 +98,7 @@ function navigation () {
 	LI('ul_utils', 'roll20.html', 'Roll20 Script Help');
 	LI('ul_utils', 'makeshaped.html', 'Roll20 Shaped Sheet JS Builder');
 
-	LISwitcher('navbar', 'daynightMode', 'nightModeToggle', '#', 'styleSwitcher.toggleActiveStyleSheet(); return false;');
+	LISwitcher('navbar', '日間模式', 'nightModeToggle', '#', 'styleSwitcher.toggleActiveStyleSheet(); return false;');
 
 	/**
 	 * Adds a link for the LIDropdowns
@@ -214,7 +214,7 @@ function navigation () {
 		a.href = a_href;
 		a.className = a_class;
 		a.setAttribute('onclick', a_onclick);
-		a.innerHTML = styleSwitcher.getActiveStyleSheet() === StyleSwitcher.STYLE_DAY ? "Night Mode" : "Day Mode";
+		a.innerHTML = styleSwitcher.getActiveStyleSheet() === StyleSwitcher.STYLE_DAY ? "夜間模式" : "日間模式";
 
 		const li = document.createElement('li');
 		li.id = li_id;
