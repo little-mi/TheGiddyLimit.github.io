@@ -2424,7 +2424,7 @@
 			]
 		},
 		{
-			"name": "Bountiful Luck",
+			"name": "慷慨吉運[Bountiful Luck]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2437,13 +2437,13 @@
 			"source": "XGE",
 			"page": 73,
 			"entries": [
-				"Your people have extraordinary luck, which you have learned to mystically lend to your companions when you see them falter. You're not sure how you do it; you just wish it, and it happens. Surely a sign of fortune's favor!",
-				"When an ally you can see within 30 feet of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll",
-				"When you use this ability, you can't use your Lucky racial trait before the end of your next turn."
+				"你的民族有著非同尋常的好運，且你學過如何在看到同伴難堪之時將其秘密地借給他們。你也不知道你是怎麽做到的。你只是想想，那就實現了，這是命運的贈禮！",
+				"如果一個三十尺內你可以看見的隊友在攻擊骰，技能檢定或者豁免上扔了個1，你可以以一個反應讓他重扔一次，隊友必須接受新的結果。",
+				"當你使用這個能力，直到下回合結束你都不能再次使用。"
 			]
 		},
 		{
-			"name": "Dragon Fear",
+			"name": "龍族恐怖[Dragon Fear]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2456,29 +2456,18 @@
 			"source": "XGE",
 			"page": 74,
 			"entries": [
-				"When angered, you radiate menace. You gain the following benefits:",
+				"氣憤之時，你展露威懾之力。你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes {@condition frightened} of you for 1 minute. If the {@condition frightened} target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
+						"力量，體質或者魅力+1，不能超過20。",
+						"你可以使用咆哮並消耗你的噴吐武器使三十尺內你選擇的每個生物通過一個感知豁免檢定（DC＝8+你的熟練加值+魅力調整值）取代噴射毀滅性能量。聽不到或看不到你的目標單位自動通過此檢定。如果豁免失敗，目標{@condition 恐慌[Frightened]}一分鐘。如果{@condition 恐慌[Frightened]}的目標受到任何傷害，他可以重投豁免檢定，直到通過為止。"
 					]
 				}
-			],
-			"ability": {
-				"choose": [
-					{
-						"from": [
-							"str",
-							"con",
-							"cha"
-						],
-						"amount": 1
-					}
-				]
-			}
+			]
 		},
 		{
-			"name": "Dragon Hide",
+			"name": "龍族皮膚[Dragon Hide]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2491,30 +2480,19 @@
 			"source": "XGE",
 			"page": 74,
 			"entries": [
-				"You manifest scales and claws reminiscent of your draconic ancestors. You gain the following benefits:",
+				"你顯出自你龍族先祖的利爪與鱗片，你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"Your scales harden. While you aren't wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.",
-						"You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike."
+						"你的力量，體質或者魅力+1，不能超過20。",
+						"你的皮膚硬化，如果你沒穿盔甲則你的AC變為13+敏捷調整值。你可以在持握盾牌時仍獲得此好處。",
+						"你的指尖長出可伸縮的利爪，伸出或縮回爪子不消耗動作，爪子是可以用來徒手打擊的天生武器，如果你用他們發動攻擊，你造成 {@dice 1d4} +你的力量調整值的揮砍(slashing)傷害，以代替正常徒手打擊造成的鈍擊(bludgeoning)傷害。"
 					]
 				}
-			],
-			"ability": {
-				"choose": [
-					{
-						"from": [
-							"str",
-							"con",
-							"cha"
-						],
-						"amount": 1
-					}
-				]
-			}
+			]
 		},
 		{
-			"name": "Drow High Magic",
+			"name": "高等卓爾魔法[Drow High Magic]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2528,11 +2506,11 @@
 			"source": "XGE",
 			"page": 74,
 			"entries": [
-				"You learn more of the magic typical of dark elves. You learn the {@spell detect magic} spell and can cast it at will, without expending a spell slot. You also learn {@spell levitate} and {@spell dispel magic}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells."
+				"你學到了更多種類的黑暗精靈魔法。你學會{@spell 偵察魔法[Detect Magic]}並可以任意釋放他，而不會消耗法術位。你學會{@spell 浮空[Levitate]}和{@spell 解除魔法[Dispel Magic]}，你可以釋放每種一次不消耗法術位。直到你完成一次長休息你才可以再度釋放他們。魅力是你施放這三個法術的施法主屬性。"
 			]
 		},
 		{
-			"name": "Dwarven Fortitude",
+			"name": "矮人堅毅[Dwarven Fortitude]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2545,11 +2523,12 @@
 			"source": "XGE",
 			"page": 74,
 			"entries": [
-				"You have the blood of dwarf heroes flowing through your veins. You gain the following benefits:",
+				"你的血脈中流淌著矮人英雄的血液。你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1)."
+						"你的體質+1，最大20。",
+						"當你在戰鬥中使用回避動作時，你可以消耗一顆生命骰來治愈自己。扔一顆骰子，加上你的體質調整值，恢復相同的生命（最少為1）。"
 					]
 				}
 			],
@@ -2558,7 +2537,7 @@
 			}
 		},
 		{
-			"name": "Elven Accuracy",
+			"name": "精靈之準[Elven Accuracy]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2574,30 +2553,18 @@
 			"source": "XGE",
 			"page": 74,
 			"entries": [
-				"The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:",
+				"精靈之準是一種傳說，尤其以弓箭手和施法者為甚，你在依賴精確度而非蠻力的攻擊檢定上有著奇妙的準頭，你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once."
+						"你的敏捷，智力，感知或魅力+1，最大20。",
+						"當你在依靠敏捷，智力，感知或者魅力進行的攻擊骰上有優勢的時候，你可以重扔其中一個骰子。"
 					]
 				}
-			],
-			"ability": {
-				"choose": [
-					{
-						"from": [
-							"dex",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				]
-			}
+			]
 		},
 		{
-			"name": "Fade Away",
+			"name": "逐漸消失[Fade Away]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2610,28 +2577,18 @@
 			"source": "XGE",
 			"page": 74,
 			"entries": [
-				"Your people are clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm. You gain the following benefits:",
+				"你的族人在幻術系魔法的技巧上很有天賦。你學過一種在你受到傷害時逐漸隱去的魔法技巧。你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can't do so again until you finish a short or long rest."
+						"你的敏捷或智力+1，最大20。",
+						"當你受到傷害，你可以用一個反應來用魔法把自己變成隱形，直到你攻擊，造成傷害或使別人通過豁免檢定或者下個回合。你只能使用一次這個能力，直到你進行一次短休息或者長休息。"
 					]
 				}
-			],
-			"ability": {
-				"choose": [
-					{
-						"from": [
-							"dex",
-							"int"
-						],
-						"amount": 1
-					}
-				]
-			}
+			]
 		},
 		{
-			"name": "Fey Teleportation",
+			"name": "精類位移[Fey Teleportation]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2645,29 +2602,19 @@
 			"source": "XGE",
 			"page": 74,
 			"entries": [
-				"Your study of high elven lore has unlocked fey power that few other elves possess, except your eladrin cousins. Drawing on your fey ancestry, you can momentarily stride through the Feywild to shorten your path from one place to another. You gain the following benefits:",
+				"你的高等精靈學識研究已然解鎖了一些其他精靈掌控的精類力量，而非你的艾拉德林表親。利用你的精類先祖，你可以大步邁入妖精荒野來減短你從一個地方到另一個地方的道路，你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"You learn to speak, read, and write Sylvan.",
-						"You learn the {@spell misty step} spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell."
+						"你的智力或者魅力+1，最大20。",
+						"你學會說讀寫木族語[Sylvan]。",
+						"你學會了{@spell 迷霧步[Misty Step]}並且可以不消耗法術位釋放他。直到你進行一次短休息或者長休息你才能再度使用此能力。智力是你的施法主屬性。"
 					]
 				}
-			],
-			"ability": {
-				"choose": [
-					{
-						"from": [
-							"int",
-							"cha"
-						],
-						"amount": 1
-					}
-				]
-			}
+			]
 		},
 		{
-			"name": "Flames of Phlegethos",
+			"name": "弗萊格索斯之焰[Flames of Phlegethos]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2680,29 +2627,19 @@
 			"source": "XGE",
 			"page": 74,
 			"entries": [
-				"You learn to call on hellfire to serve your commands. You gain the following benefits:",
+				"你學會了召喚地獄火來聽從你的指揮，你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.",
-						"Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don't harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage."
+						"智力或者魅力+1，最大20。",
+						"當你施展法術扔火焰傷害的傷害骰時，你可以重扔任何被扔到 1 的骰子，你必須接受新結果哪怕那也只是個 1。",
+						"當你施展造成火焰傷害的法術時，你可以讓火焰環繞於你，直到你的下個回合結束。那些火焰不會對你或者你的物品造成傷害。他們提供30尺明亮照明和額外30尺昏暗照明，只要處於火焰現形之時，任何在你五尺內對你近戰攻擊的生物都會受到 {@dice 1d4} 火焰傷害。"
 					]
 				}
-			],
-			"ability": {
-				"choose": [
-					{
-						"from": [
-							"int",
-							"cha"
-						],
-						"amount": 1
-					}
-				]
-			}
+			]
 		},
 		{
-			"name": "Infernal Constitution",
+			"name": "惡魔體質[Infernal Constitution]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2715,21 +2652,19 @@
 			"source": "XGE",
 			"page": 75,
 			"entries": [
-				"Fiendish blood runs strong in you, unlocking a resilience akin to that possessed by some fiends. You gain the following benefits:",
+				"惡魔之血支撐著你，解鎖一些類似惡魔領主擁有的韌性。你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"You have resistance to cold and poison damage.",
-						"You have advantage on saving throws against being {@condition poisoned}."
+						"體質+1，不能超過20。",
+						"你獲得對寒冷[cold]與毒性[poison]的抗性。",
+						"你在對抗{@condition 中毒[Poisoned]}時有優勢。"
 					]
 				}
-			],
-			"ability": {
-				"con": 1
-			}
+			]
 		},
 		{
-			"name": "Orcish Fury",
+			"name": "獸人式狂怒[Orcish Fury]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2742,29 +2677,19 @@
 			"source": "XGE",
 			"page": 75,
 			"entries": [
-				"Your fury burns tirelessly. You gain the following benefits:",
+				"你的狂怒爆發時不知疲倦，你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"When you hit with an attack using a simple or martial weapon, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type. Once you use this ability, you can't use it again until you finish a short or long rest.",
-						"Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack."
+						"力量或者體質+1，最高20。",
+						"當你用簡易或者軍用武器進行一次攻擊命中時，你可以再扔一個武器傷害骰並且用武器傷害同樣的傷害類型將它加入額外傷害。你只能使用一次，直到你進行一次短休息或者長休息。",
+						"在你進行堅韌不屈特性之後，你可以立即以反應進行一次武器攻擊。"
 					]
 				}
-			],
-			"ability": {
-				"choose": [
-					{
-						"from": [
-							"str",
-							"con"
-						],
-						"amount": 1
-					}
-				]
-			}
+			]
 		},
 		{
-			"name": "Prodigy",
+			"name": "奇才[Prodigy]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2783,18 +2708,18 @@
 			"source": "XGE",
 			"page": 75,
 			"entries": [
-				"You have a knack for learning new things. You gain the following benefits:",
+				"你擁有學習新鮮事物的本領，你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.",
-						"Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
+						"你獲得一種自選技能的熟練，一種自選工具的熟練，且嫻熟於一種自選的語言。",
+						"選擇一種你已經熟練於其的技能。你獲得這種技能的專精，這意味著你在以其進行的任何技能檢定上獲得雙倍熟練值。你選擇的這個技能必須未在任何特性上獲得雙倍熟練的好處，例如專精。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Second Chance",
+			"name": "二次機會[Second Chance]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2807,29 +2732,18 @@
 			"source": "XGE",
 			"page": 75,
 			"entries": [
-				"Fortune favors you when someone tries to strike you. You gain the following benefits:",
+				"命運在有人想要傷害你時眷顧於你，你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can't use it again until you roll initiative at the start of combat or until you finish a short or long rest."
+						"敏捷，體質或者魅力+1，最大20。",
+						"當一個你可以看到的生物對你進行攻擊骰命中時，你可以用一個反應讓那個生物重骰。一旦你使用此能力，直到你進行一次短休息或者長休息你才能再度使用此能力。"
 					]
 				}
-			],
-			"ability": {
-				"choose": [
-					{
-						"from": [
-							"dex",
-							"con",
-							"cha"
-						],
-						"amount": 1
-					}
-				]
-			}
+			]
 		},
 		{
-			"name": "Squat Nimbleness",
+			"name": "低身之機敏[Squat Nimbleness]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2845,30 +2759,20 @@
 			"source": "XGE",
 			"page": 75,
 			"entries": [
-				"You are uncommonly nimble for your race. You gain the following benefits:",
+				"你有這在你族群中不尋常的機敏，你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"Increase your walking speed by 5 feet.",
-						"You gain proficiency in the {@skill Acrobatics} or {@skill Athletics} skill (your choice).",
-						"You have advantage on any Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check you make to escape from being {@condition grappled}."
+						"你的力量或者敏捷+1，最大20。",
+						"你的速度提升5尺。",
+						"你獲得(運動)或者(特技動作)的熟練（由你選擇）。",
+						"你在進行的脫離{@condition 被擒[Grappled]}狀態的力量（運動）或者敏捷（特技動作）的檢定上獲得優勢。"
 					]
 				}
-			],
-			"ability": {
-				"choose": [
-					{
-						"from": [
-							"str",
-							"dex"
-						],
-						"amount": 1
-					}
-				]
-			}
+			]
 		},
 		{
-			"name": "Wood Elf Magic",
+			"name": "木精靈魔法[Wood Elf Magic]",
 			"prerequisite": [
 				{
 					"race": [
@@ -2882,7 +2786,7 @@
 			"source": "XGE",
 			"page": 75,
 			"entries": [
-				"You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the {@spell longstrider} and {@spell pass without trace} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
+				"你學會由你的族人保護和尊敬的原初之木的魔法。你學會一種任選的德魯伊戲法，你同時學會{@spell 大步奔行[Longstrider]}和{@spell 行蹤無跡[Pass without Trace]}。你可以釋放他們各一次而不消耗法術位，直到一次長休息或者短休息，你才可以再次通過此能力施法。這三個法術的施法主屬性是感知。"
 			]
 		},
 		{
