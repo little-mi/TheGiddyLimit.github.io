@@ -5013,7 +5013,7 @@
 			"page": 224
 		},
 		{
-			"name": "強制移動[Compulsion]",
+			"name": "強迫術[Compulsion]",
 			"level": 4,
 			"school": "E",
 			"time": [
@@ -7986,7 +7986,7 @@
 			"page": 231
 		},
 		{
-			"name": "偵察魔法[Detect Magic]",
+			"name": "偵測魔法[Detect Magic]",
 			"level": 1,
 			"school": "D",
 			"time": [

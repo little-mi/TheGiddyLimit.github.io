@@ -1,12 +1,12 @@
 {
 	"invocation": [
 		{
-			"name": "Agonizing Blast",
+			"name": "痛苦沖擊[Agonizing Blast]",
 			"prerequisites": {
-				"spell": "Eldritch Blast"
+				"spell": "魔能爆[eldritch blast]"
 			},
 			"entries": [
-				"When you cast {@spell eldritch blast}, add your Charisma modifier to the damage it deals on a hit."
+				"當你施展 {@spell 魔能爆[eldritch blast]}, 你可以將你的魅力調整值加在攻擊命中後的傷害上。"
 			],
 			"source": "PHB",
 			"page": 110
@@ -23,20 +23,20 @@
 			"page": 3
 		},
 		{
-			"name": "Armor of Shadows",
+			"name": "暗影鎧甲[Armor of Shadows]",
 			"entries": [
-				"You can cast {@spell mage armor} on yourself at will, without expending a spell slot or material components."
+				"你可以對自己隨意施展{@spell 法師護甲[mage armor]}，並且無需支付法術位和材料成分。"
 			],
 			"source": "PHB",
 			"page": 110
 		},
 		{
-			"name": "Ascendant Step",
+			"name": "躍升步伐[Ascendant Step]",
 			"prerequisites": {
 				"level": 9
 			},
 			"entries": [
-				"You can cast {@spell levitate} on yourself at will, without expending a spell slot or material components."
+				"你可以對自己隨意施展{@spell 浮空[levitate]}，並且無需支付法術位和材料成分。"
 			],
 			"source": "PHB",
 			"page": 110
@@ -64,40 +64,40 @@
 			"page": 5
 		},
 		{
-			"name": "Beast Speech",
+			"name": "野獸之語[Beast Speech]",
 			"entries": [
-				"You can cast {@spell speak with animals} at will, without expending a spell slot."
+				"你可以隨意施展 {@spell 動物交談[speak with animals]}，並且無需支付法術位。"
 			],
 			"source": "PHB",
 			"page": 110
 		},
 		{
-			"name": "Beguiling Influence",
+			"name": "欺瞞話術[Beguiling Influence]",
 			"entries": [
-				"You gain proficiency in the Deception and Persuasion skills."
+				"你獲得了對於欺瞞[Deception]和說服[Persuasion]的熟練。"
 			],
 			"source": "PHB",
 			"page": 110
 		},
 		{
-			"name": "Bewitching Whispers",
+			"name": "惑人低語[Bewitching Whispers]",
 			"prerequisites": {
 				"level": 7
 			},
 			"entries": [
-				"You can cast {@spell compulsion} once using a warlock spell slot. You can't do so again until you finish a long rest."
+				"你可以使用魔導士法術位施展一次{@spell 強迫術[Compulsion]}。但是直到完成一次長休息之前你都不能再次施展。"
 			],
 			"source": "PHB",
 			"page": 110
 		},
 		{
-			"name": "Book of Ancient Secrets",
+			"name": "遠古奧秘卷冊[Book of Ancient Secrets]",
 			"prerequisites": {
 				"pact": "Tome"
 			},
 			"entries": [
-				"You can now inscribe magical rituals in your Book of Shadows. Choose two {@filter 1st-level spells that have the ritual tag from any class's spell list|spells|tag=ritual|level=1}. The spells needn't be from the same spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.",
-				"On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it."
+				"現在你可以把魔法儀式抄錄進你的影之書。你可以從任何法術列表中選擇2個{@filter 1環儀式|spells|level=1|tag=ritual}。所選法術會出現在影之書中，並且這些法術不計入你的已知法術數量。只要影之書在你的手中，你便可以施展所選的儀式法術。你不能通過除了儀式以外的方式施展這些法術，除非你已經通過其他方式習得了這些法術。並且你可以把帶有儀式描述的魔導士法術作為一個儀式施展。",
+				"在冒險之中，你可以添加其他儀式法術到你的影之書之中。當你發現一個這樣的法術時，如果該法術的環數等於或低於你魔導士等級的一半（向上取整）並且你能抽出時間抄錄此法術時，你便可以把此法術添加進影之書。抄錄法術每環都需要花費2小時和50GP的珍惜墨水。"
 			],
 			"source": "PHB",
 			"page": 110
@@ -125,13 +125,13 @@
 			"page": 3
 		},
 		{
-			"name": "Chains of Carceri",
+			"name": "卡瑟利之縛[Chains of Carceri]",
 			"prerequisites": {
 				"pact": "Chain",
 				"level": 15
 			},
 			"entries": [
-				"You can cast {@spell hold monster} at will\u2014targeting a celestial, fiend, or elemental\u2014without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."
+				"你可以隨意施展針對於天族[celestial]、邪魔[fiend]、以及元素[elemental]的{@spell 怪物定身術[hold monster]}，並且無需支付法術位和材料成分。你必須完成一次長休息才能再次使用此祈喚作用到同一生物上。"
 			],
 			"source": "PHB",
 			"page": 110
@@ -183,19 +183,6 @@
 			"page": 3
 		},
 		{
-			"name": "Cloak of Flies v2",
-			"prerequisites": {
-				"level": 5
-			},
-			"entries": [
-				"As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura includes your space, extends 5 feet from you in every direction, and is blocked by total cover. It lasts until you're {@condition incapacitated} or you dismiss it with a bonus action.",
-				"The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
-			],
-			"source": "UARevisedClassOptions",
-			"page": 5
-		},
-		{
 			"name": "Curse Bringer",
 			"prerequisites": {
 				"pact": "Blade",
@@ -209,67 +196,55 @@
 			"page": 4
 		},
 		{
-			"name": "Devil's Sight",
+			"name": "魔鬼之眼[Devil's Sight]",
 			"entries": [
-				"You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet."
+				"你在黑暗之中擁有 120 英尺的視野距離，無論這是魔法黑暗還是非魔法黑暗。"
 			],
 			"source": "PHB",
 			"page": 110
 		},
 		{
-			"name": "Dreadful Word",
+			"name": "恐懼言語[Dreadful Word]",
 			"prerequisites": {
 				"level": 7
 			},
 			"entries": [
-				"You can cast {@spell confusion} once using a warlock spell slot. You can't do so again until you finish a long rest."
+				"你可以使用魔導士法術位施展一次{@spell 困惑術[confusion]}。但是直到完成一次長休息之前你都不能再次施展。"
 			],
 			"source": "PHB",
 			"page": 110
 		},
 		{
-			"name": "Eldritch Sight",
+			"name": "魔能視界[Eldritch Sight]",
 			"entries": [
-				"You can cast {@spell detect magic} at will, without expending a spell slot."
+				"你可以隨意施展{@spell 偵測魔法[detect magic]}，並且無需支付法術位。"
 			],
 			"source": "PHB",
 			"page": 110
 		},
 		{
-			"name": "Eldritch Smite v2",
+			"name": "魔能光束[Eldritch Spear]",
 			"prerequisites": {
-				"pact": "Blade",
-				"level": 5
+				"spell": "魔能爆[Eldritch blast]"
 			},
 			"entries": [
-				"Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot. If the target takes any of this damage, you can knock the target {@condition prone} if it is Huge or smaller."
-			],
-			"source": "UARevisedClassOptions",
-			"page": 6
-		},
-		{
-			"name": "Eldritch Spear",
-			"prerequisites": {
-				"spell": "Eldritch Blast"
-			},
-			"entries": [
-				"When you cast {@spell eldritch blast}, its range is 300 feet."
+				"當你施展{@spell 魔能爆[Eldritch blast]}時，它的射程為300英尺。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Eyes of the Rune Keeper",
+			"name": "符文師之眼[Eyes of the Rune Keeper]",
 			"entries": [
-				"You can read all writing."
+				"你可以讀懂任何文字。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Fiendish Vigor",
+			"name": "煉獄精力[Fiendish Vigor]",
 			"entries": [
-				"You can cast {@spell false life} on yourself at will as a 1st-level spell, without expending a spell slot or material components."
+				"你可以將{@spell 虛假生命[false life]}作為1環法術隨意對自己施放，並且無需支付法術位和材料成分。"
 			],
 			"source": "PHB",
 			"page": 111
@@ -310,9 +285,9 @@
 			"page": 4
 		},
 		{
-			"name": "Gaze of Two Minds",
+			"name": "聯心之視[Gaze of Two Minds]",
 			"entries": [
-				"You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are {@condition blinded} and {@condition deafened} to your own surroundings."
+				"你可以用你的動作去觸摸一個自願的類人生物，直到你的下個回合結束之前你都可以通過對方的感官感知世界。只要你和該生物還處於一個位面之中，那麽你就可以使用你的動作在接下來的時間之中維持這種連接，延長時間直到你的下個回合結束時結束。在通過其他生物的感官的時候，你受益於該生物具有的任何特殊感官，但是你對於自身所處的環境屬於{@condition 盲目[Blinded]}及{@condition 耳聾[Deafened]}。"
 			],
 			"source": "PHB",
 			"page": 111
@@ -433,13 +408,13 @@
 			"page": 6
 		},
 		{
-			"name": "Lifedrinker",
+			"name": "飲命者[Lifedrinker]",
 			"prerequisites": {
 				"level": 12,
 				"pact": "Blade"
 			},
 			"entries": [
-				"When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum of 1)."
+				"當你使用契約武器命中一個生物時，它額外受到相當於你魅力調整值的 necrotic 傷害（最少為1）。"
 			],
 			"source": "PHB",
 			"page": 111
@@ -468,50 +443,50 @@
 			"page": 6
 		},
 		{
-			"name": "Mask of Many Faces",
+			"name": "千面之臉[Mask of Many Faces]",
 			"entries": [
-				"You can cast {@spell disguise self} at will, without expending a spell slot."
+				"你可以隨意施展{@spell 自我易容[disguise self]}，並且無需支付法術位。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Master of Myriad Forms",
+			"name": "萬形之主[Master of Myriad Forms]",
 			"prerequisites": {
 				"level": 15
 			},
 			"entries": [
-				"You can cast {@spell alter self} at will, without expending a spell slot."
+				"你可以隨意施展{@spell 變身術[alter self]}，並且無需支付法術位。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Minions of Chaos",
+			"name": "混沌僕役[Minions of Chaos]",
 			"prerequisites": {
 				"level": 9
 			},
 			"entries": [
-				"You can cast {@spell conjure elemental} once using a warlock spell slot. You can't do so again until you finish a long rest."
+				"你可以使用你的魔導士法術位施展一次{@spell 召喚元素生物[conjure elemental]}。但是直到完成一次長休息之前你都不能再次施展。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Mire the Mind",
+			"name": "心靈泥沼[Mire the Mind]",
 			"prerequisites": {
 				"level": 5
 			},
 			"entries": [
-				"You can cast {@spell slow} once using a warlock spell slot. You can't do so again until you finish a long rest."
+				"你可以使用你的魔導士法術位施展一次{@spell 緩慢術[slow]}。但是直到完成一次長休息之前你都不能再次施展。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Misty Visions",
+			"name": "迷霧幻影[Misty Visions]",
 			"entries": [
-				"You can cast {@spell silent image} at will, without expending a spell slot or material components."
+				"你可以隨意施展{@spell 無聲幻象[Silent Image]}，並且無需支付法術位和材料成分。"
 			],
 			"source": "PHB",
 			"page": 111
@@ -529,23 +504,23 @@
 			"page": 4
 		},
 		{
-			"name": "One with Shadows",
+			"name": "融身入影[One with Shadows]",
 			"prerequisites": {
 				"level": 5
 			},
 			"entries": [
-				"When you are in an area of dim light or darkness, you can use your action to become {@condition invisible} until you move or take an action or a reaction."
+				"當你身處微光環境或黑暗環境時，你可以使用你的動作{@condition 隱形[Invisible]}，直到移動、使用了動作、或是使用了反應動作時此效果終止。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Otherworldly Leap",
+			"name": "超凡跳躍[Otherworldly Leap]",
 			"prerequisites": {
 				"level": 9
 			},
 			"entries": [
-				"You can cast {@spell jump} on yourself at will, without expending a spell slot or material components."
+				"你可以對自己隨意施展{@spell 跳躍術[jump]}，並且無需支付法術位和材料成分。"
 			],
 			"source": "PHB",
 			"page": 111
@@ -597,23 +572,23 @@
 			"page": 6
 		},
 		{
-			"name": "Repelling Blast",
+			"name": "斥力沖擊[Repelling Blast]",
 			"prerequisites": {
-				"spell": "Eldritch Blast"
+				"spell": "魔能爆[Eldritch Blast]"
 			},
 			"entries": [
-				"When you hit a creature with {@spell eldritch blast}, you can push the creature up to 10 feet away from you in a straight line."
+				"當你施展{@spell 魔能爆[Eldritch Blast]}命中一個生物時，你可以把它在一條直線上推離 10 尺。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Sculptor of Flesh",
+			"name": "重塑血肉[Sculptor of Flesh]",
 			"prerequisites": {
 				"level": 7
 			},
 			"entries": [
-				"You can cast {@spell polymorph} once using a warlock spell slot. You can't do so again until you finish a long rest."
+				"你可以使用你的魔導士法術位施展一次{@spell 變形術[polymorph]}。但是直到完成一次長休息之前你都不能再次施展。"
 			],
 			"source": "PHB",
 			"page": 111
@@ -665,12 +640,12 @@
 			"page": 5
 		},
 		{
-			"name": "Signs of Ill Omen",
+			"name": "兇兆符記[Signs of Ill Omen]",
 			"prerequisites": {
 				"level": 5
 			},
 			"entries": [
-				"You can cast {@spell bestow curse} once using a warlock spell slot. You can't do so again until you finish a long rest."
+				"你可以使用你的魔導士法術位施展一次{@spell 降咒[bestow curse]}。但是直到完成一次長休息之前你都不能再次施展。"
 			],
 			"source": "PHB",
 			"page": 111
@@ -688,21 +663,21 @@
 			"page": 5
 		},
 		{
-			"name": "Thief of Five Fates",
+			"name": "命運竊賊[Thief of Five Fates]",
 			"entries": [
-				"You can cast {@spell bane} once using a warlock spell slot. You can't do so again until you finish a long rest."
+				"你可以使用你的魔導士法術位施展一次{@spell 災禍術[bane]}。但是直到完成一次長休息之前你都不能再次施展。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Thirsting Blade",
+			"name": "饑渴刀鋒[Thirsting Blade]",
 			"prerequisites": {
 				"pact": "Blade",
 				"level": 5
 			},
 			"entries": [
-				"You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn."
+				"當你在你的回合中用契約武器使用攻擊動作時，你可以攻擊兩次而不是一次。"
 			],
 			"source": "PHB",
 			"page": 111
@@ -755,209 +730,209 @@
 			"page": 5
 		},
 		{
-			"name": "Visions of Distant Realms",
+			"name": "穹宇盡視[Visions of Distant Realms]",
 			"prerequisites": {
 				"level": 15
 			},
 			"entries": [
-				"You can cast {@spell arcane eye} at will, without expending a spell slot."
+				"你可以隨意施展{@spell 魔法眼[arcane eye]}，並且無需支付法術位。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Voice of the Chain Master",
+			"name": "縛主之音[Voice of the Chain Master]",
 			"prerequisites": {
 				"pact": "Chain"
 			},
 			"entries": [
-				"You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech."
+				"只要你和你的魔寵還處於同一位面，那麽你就可以用心靈感應與你的魔寵溝通，並用它的感官感知世界。此外，當你通過魔寵的感官感知時，你可以通過魔寵用你自己的聲音說話，即使你的魔寵一般來說不能說話。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Whispers of the Grave",
+			"name": "墳墓低語[Whispers of the Grave]",
 			"prerequisites": {
 				"level": 9
 			},
 			"entries": [
-				"You can cast {@spell speak with dead} at will, without expending a spell slot."
+				"你可以隨意施展{@spell 死者交談[speak with dead]}，並且無需支付法術位。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Witch Sight",
+			"name": "魔女視界[Witch Sight]",
 			"prerequisites": {
 				"level": 15
 			},
 			"entries": [
-				"You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight."
+				"你可以看到 30 尺內並處於你視線範圍中的任何變形亞種或被幻術和變化系魔法改變的生物的真實外貌。"
 			],
 			"source": "PHB",
 			"page": 111
 		},
 		{
-			"name": "Aspect of the Moon",
+			"name": "月之儀態[Aspect of the Moon]",
 			"prerequisites": {
 				"pact": "Tome"
 			},
 			"entries": [
-				"You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch."
+				"你不再需要睡眠，同樣不能以任何手段強制入夢。為了獲得長休息的益處，你可以花費8小時執行輕度的工作，例如閱讀你的影之書和放哨。"
 			],
 			"source": "XGE",
 			"page": 56
 		},
 		{
-			"name": "Cloak of Flies",
+			"name": "飛蠅鬥篷[Cloak of Flies]",
 			"prerequisites": {
 				"level": 5
 			},
 			"entries": [
-				"As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're {@condition incapacitated} or you dismiss it as a bonus action.",
-				"The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"以一個附贈動作，你周身環繞起外觀如同紛飛蚊蠅般的魔法靈光。靈光從你四周散發5英尺，但不會穿過全掩蔽。靈光持續到你{@condition 乏力[Incapacitated]}或以一個附贈動作解消它。",
+				"靈光給予你在魅力（威嚇）檢定的優勢，但你在所有其他魅力檢定上遭受劣勢。任何在靈光內開始回合的生物，受到等於你魅力調整值的毒素傷害（最小為0）。",
+				"當你使用此魔能祈喚後，在完成一次短休或長休前，你無法再次使用這祈喚。"
 			],
 			"source": "XGE",
 			"page": 56
 		},
 		{
-			"name": "Eldritch Smite",
+			"name": "魔能斬[Eldritch Smite]",
 			"prerequisites": {
 				"pact": "Blade",
 				"level": 5
 			},
 			"entries": [
-				"Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target {@condition prone} if it is Huge or smaller."
+				"每回合一次，當你以契約武器命中一個生物，你可以消耗一個契術師法術位，對目標造成額外 1d8 + 每法術位等級 1d8 的 force 傷害，如果目標體型是巨型或更小，你可以使它{@condition 倒地[Prone]}。"
 			],
 			"source": "XGE",
 			"page": 56
 		},
 		{
-			"name": "Ghostly Gaze",
+			"name": "幽魂凝視[Ghostly Gaze]",
 			"prerequisites": {
 				"level": 7
 			},
 			"entries": [
-				"As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don't already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"以一個動作，你得到看穿30尺範圍的固態物體的能力。這種特殊的視覺持續1分鐘，或直到你的專注終止（如同你專注於一個法術）。在此期間，你觀察物體所看到的是影子般的、透明的畫面。",
+				"當你使用此魔能祈喚後，在完成一次短休或長休前，你無法再次使用這祈喚。"
 			],
 			"source": "XGE",
 			"page": 56
 		},
 		{
-			"name": "Gift of the Depths",
+			"name": "深海贈禮[Gift of the Depths]",
 			"prerequisites": {
 				"level": 5
 			},
 			"entries": [
-				"You can breathe underwater, and you gain a swimming speed equal to your walking speed.",
-				"You can also cast {@spell water breathing} once without expending a spell slot. You regain the ability to do so when you finish a long rest."
+				"你可以在水下呼吸，並且你得到等於你步行速度的遊泳速度。",
+				"你可以施展一次{@spell 水下呼吸[water breathing]}法術，而無需消耗法術位。當你結束一次長休後，你重新獲得此能力。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Gift of the Ever-Living Ones",
+			"name": "永生者贈禮[Gift of the Ever-Living Ones]",
 			"prerequisites": {
 				"pact": "Chain"
 			},
 			"entries": [
-				"Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you."
+				" 當你的魔寵距離你100英尺內時，若你恢復生命值，所有決定你恢復生命值點數的骰子，都被視為骰出了最大值。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Grasp of Hadar",
+			"name": "哈達之攫[Grasp of Hadar]",
 			"prerequisites": {
-				"spell": "Eldritch Blast"
+				"spell": "魔能爆[Eldritch blast]"
 			},
 			"entries": [
-				"Once on each of your turns when you hit a creature with your {@spell eldritch blast}, you can move that creature in a straight line 10 feet closer to you."
+				"每回合一次，當你以{@spell 魔能爆[Eldritch blast]}擊中一個生物時，你可以讓此生物直線向你移動10英尺。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Improved Pact Weapon",
+			"name": "進階契約武器[Improved Pact Weapon]",
 			"prerequisites": {
 				"pact": "Blade"
 			},
 			"entries": [
-				"You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.",
-				"In addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.",
-				"Finally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow."
+				"你可以使用任何鋒刃魔契職業特性召喚出來的武器作為契術師法術的法器。",
+				"除此之外，武器在攻擊骰和傷害骰上獲得+1加值，除非它是一件已經有攻擊骰和傷害骰加值的魔法武器。",
+				"最後，你塑造的武器可以是短弓、長弓、輕弩或者重弩。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Lance of Lethargy",
+			"name": "怠惰之槍[Lance of Lethargy]",
 			"prerequisites": {
-				"spell": "Eldritch Blast"
+				"spell": "魔能爆[Eldritch blast]"
 			},
 			"entries": [
-				"Once on each of your turns when you hit a creature with your {@spell eldritch blast}, you can reduce that creature's speed by 10 feet until the end of your next turn."
+				"每回合一次，當你以{@spell 魔能爆[Eldritch blast]}擊中一個生物時，你可以降低目標10英尺的速度，直到你的下個回合結束。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Maddening Hex",
+			"name": "癲狂巫咒[Maddening Hex]",
 			"prerequisites": {
 				"level": 5,
 				"spell": "Hex/Curse"
 			},
 			"entries": [
-				"As a bonus action, you cause a psychic disturbance around the target cursed by your {@spell hex} spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice that you can see within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you."
+				"以一個附贈動作，對你以{@spell 脆弱詛咒[hex]}或咒劍詛咒、兇兆符記等魔導師特性所詛咒的目標，你向他施加一種精神干擾。當你如此做時，你對詛咒目標和所有距他5英尺內的、你所選擇的生物造成精神傷害。精神傷害值等於你的魅力調整值（最低為1）。為了使用此祈喚，你必須能看到詛咒目標，且他必須距你30英尺以內。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Relentless Hex",
+			"name": "殘酷巫咒[Relentless Hex]",
 			"prerequisites": {
 				"level": 7,
 				"spell": "Hex/Curse"
 			},
 			"entries": [
-				"Your curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your {@spell hex} spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target."
+				"你的詛咒為你和你的目標間建立了短暫的鏈接。以一個附贈動作，你可以魔法性質地傳送到詛咒目標5英尺以內的、你能看到的未占據空間，傳送距離最多30英尺。為了實現此方式的傳送，你必須可以看到詛咒目標。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Shroud of Shadow",
+			"name": "暗影壽衣[Shroud of Shadow]",
 			"prerequisites": {
 				"level": 15
 			},
 			"entries": [
-				"You can cast {@spell invisibility} at will, without expending a spell slot."
+				"你可以施展{@spell 隱身[invisibility]}法術，而無需消耗法術位。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Tomb of Levistus",
+			"name": "萊維斯圖斯之墓[Tomb of Levistus]",
 			"prerequisites": {
 				"level": 5
 			},
 			"entries": [
-				"As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are {@condition incapacitated}. These effects, including any remaining temporary hit points, all end when the ice melts.",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"當你受到傷害時，你可以以一個反應將自己封鎖在冰墓中，冰墓會在你的下一個回合結束時融解。你得到每魔導師等級10點的臨時生命值，此生命值會盡可能優先地抵消最初的傷害。你受到傷害的當下會立即得到對火焰傷害的易傷，速度降低至0，並且陷入{@condition 乏力[Incapacitated]}狀態。這些效果，以及剩餘的臨時生命值，會在冰墓融解時終止。",
+				"  當你使用此魔能祈喚後，在完成一次短休或長休前，你無法再次使用這祈喚。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Trickster's Escape",
+			"name": "魔導師的逃脫術[Trickster's Escape]",
 			"prerequisites": {
 				"level": 7
 			},
 			"entries": [
-				"You can cast {@spell freedom of movement} once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest."
+				"你可以對自己施展一次{@spell 行動自如[Freedom of Movement]}法術，而無需消耗法術位。當你結束一次長休後，你重新獲得此能力。"
 			],
 			"source": "XGE",
 			"page": 57
