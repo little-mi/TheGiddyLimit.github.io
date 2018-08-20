@@ -1,53 +1,53 @@
 {
 	"background": [
 		{
-			"name": "Acolyte",
+			"name": "侍僧[Acolyte]",
 			"source": "PHB",
 			"page": 127,
 			"skillProficiencies": "Insight, Religion",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Insight, Religion"
+						"察言觀色[Insight]、宗教[Religion] "
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"Two of your choice"
+						"自選兩種"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A {@item holy symbol|phb} (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of {@item common clothes|phb}, and a belt common {@item pouch|phb} containing 15 gp"
+						"{@item 聖徽[holy symbol]|phb} (當你成為侍僧時得到的禮物), 禱經或經輪, 五支焚香, 祭服, {@item 便服[common clothes]|phb}, and {@item 腰包[pouch]|phb}及 15 gp。"
 					]
 				},
 				{
-					"name": "Feature: Shelter of the Faithful",
+					"name": "特性：信徒之家[Shelter of the Faithful]",
 					"type": "entries",
 					"entries": [
-						"As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
-						"You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+						"作為待僧，你受同信仰的人尊敬，並能進行自已信仰的宗教儀式。你和你的冒險伙伴可以從教內的聖殿，廟宇，或其他教派的立足點中獲得免費的治療和照料，但你必需提供法術所需的物質素材。同信仰的人可以供給你謙謹的生活（也只供給你）。",
+						"你也可能跟所屬教派的特定一座聖殿有關係，在那兒有居所。這可能是你事奉過的廟，如果有保持友好關係，也可以是你在教內的新家。當身處這聖殿附近時你可以請求祭司援助，假如提供的援助沒有危險性並且你跟他們關係良好。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
-						"Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+						"待僧的生命是受聖廟或其他宗教群體所塑造。他們對信仰和歷史的研究，以及他們跟聖殿、廟宇、架構的關係會影響他們的做人處世和理念。他們的缺點可能是隱蔽的偽信或異端想法，也可能是過分執著的理念或羈絆。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -56,35 +56,35 @@
 							"rows": [
 								[
 									"1",
-									"I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."
+									"我崇拜我教的一名英雄，常引述他的事跡榜樣。"
 								],
 								[
 									"2",
-									"I can find common ground between the fiercest enemies, empathizing with them and always working toward peace."
+									"我可以找出仇敵間的共通點，同情雙方，努力帶來和平。"
 								],
 								[
 									"3",
-									"I see omens in every event and action. The gods try to speak to us, we just need to listen."
+									"萬物皆是預兆。神在啓示我們，我們應當聽。"
 								],
 								[
 									"4",
-									"Nothing can shake my optimistic attitude."
+									"我堅定不移地抱樂觀態度，絕不動搖。"
 								],
 								[
 									"5",
-									"I quote (or misquote) sacred texts and proverbs in almost every situation."
+									"我何時何地都能引述（或錯述）經文和箴言。"
 								],
 								[
 									"6",
-									"I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods."
+									"我包容（或不包容）其他宗教，尊重（或譴斥）敬拜異神。"
 								],
 								[
 									"7",
-									"I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me."
+									"我曾經跟廟內的高層一起享受美酒佳餚，富貴人生。勞苦的生活只會折磨我。"
 								],
 								[
 									"8",
-									"I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+									"我在聖廟住太久了，以致我缺乏對外界的實際經驗。"
 								]
 							]
 						},
@@ -92,7 +92,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -101,27 +101,27 @@
 							"rows": [
 								[
 									"1",
-									"Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)"
+									"傳統。必需持守敬拜和獻祭的傳統。（守序）"
 								],
 								[
 									"2",
-									"Charity. I always try to help those in need, no matter what the personal cost. (Good)"
+									"善行。我必定幫忙有需要的人，不論付出多少。（善良）"
 								],
 								[
 									"3",
-									"Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)"
+									"轉變。我們必需傳揚神的工作，改變全世界。（混亂）"
 								],
 								[
 									"4",
-									"Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)"
+									"權力。我將來必定爬到教會的最高點。（守序）"
 								],
 								[
 									"5",
-									"Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)"
+									"信心。我相信神會指引我路。我相信我只要努力就會有好結果。（守序）"
 								],
 								[
 									"6",
-									"Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any)"
+									"抱負。我要照神的教導去行，證明自已配得上神旳恩寵。（任何）"
 								]
 							]
 						},
@@ -129,7 +129,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -138,27 +138,27 @@
 							"rows": [
 								[
 									"1",
-									"I would die to recover an ancient relic of my faith that was lost long ago."
+									"我會冒死收復一件失落已久的我教聖物。"
 								],
 								[
 									"2",
-									"I will someday get revenge on the corrupt temple hierarchy who branded me a heretic."
+									"總有一天我會向判我為異端的腐敗教會報仇。"
 								],
 								[
 									"3",
-									"I owe my life to the priest who took me in when my parents died."
+									"收養父母雙亡的我的祭司，我的生命是欠他的。"
 								],
 								[
 									"4",
-									"Everything I do is for the common people."
+									"我為民請命。"
 								],
 								[
 									"5",
-									"I will do anything to protect the temple where I served."
+									"我會不惜一切保護我所待奉的聖廟。"
 								],
 								[
 									"6",
-									"I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+									"我的使命是保存一分聖經，仇敵視它為異端，想要毀滅它。"
 								]
 							]
 						},
@@ -166,7 +166,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺點"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -175,27 +175,27 @@
 							"rows": [
 								[
 									"1",
-									"I judge others harshly, and myself even more severely."
+									"我會嚴厲批判他人，更加嚴以律己。"
 								],
 								[
 									"2",
-									"I put too much trust in those who wield power within my temple's hierarchy."
+									"我過分信任我教的掌權者。"
 								],
 								[
 									"3",
-									"My piety sometimes leads me to blindly trust those that profess faith in my god."
+									"虔敬的我盲目地相信任何聲稱歸信我教的人。"
 								],
 								[
 									"4",
-									"I am inflexible in my thinking."
+									"我固執己見。"
 								],
 								[
 									"5",
-									"I am suspicious of strangers and expect the worst of them."
+									"我提防及懷疑陌生人，他們沒一個是好東西。"
 								],
 								[
 									"6",
-									"Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+									"當我選定了目標，我就會深陷其中，其他的一切都可以抛下。"
 								]
 							]
 						}
@@ -204,52 +204,52 @@
 			]
 		},
 		{
-			"name": "Charlatan",
+			"name": "詐騙高手[Charlatan]",
 			"source": "PHB",
 			"page": 128,
 			"skillProficiencies": "Deception, Sleight of Hand",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Deception, Sleight of Hand"
+						"欺瞞[Deception], 扒手[Sleight of Hand]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"Disguise Kit, Forgery Kit"
+						"易容盒[Disguise Kit], 偽造工具組[Forgery Kit]"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A set of {@item fine clothes|phb}, a {@item disguise kit|phb}, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt {@item pouch|phb} containing 15 gp"
+						"{@item 高級衣服[fine clothes]|phb}, {@item 易容盒[disguise kit]|phb}, 一種騙人道具(十瓶不一樣顏色的水、一組灌鉛的骰子、一套做過標記的牌或是一只假貴族的戒指), {@item 腰包[pouch]|phb} 及 15 gp。"
 					]
 				},
 				{
-					"name": "Feature: False Identity",
+					"name": "特性：假身份[False Identity]",
 					"type": "entries",
 					"entries": [
-						"You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy."
+						"你可以偽造一個第二身份，這需要身份證明、建設人際網以及喬裝打扮來讓你進入角色。另外，你可以偽造包括官方紙張和私人筆蹟的文書，只要你曾經見過此種文件的範例以及你試圖模仿的手寫筆跡。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Favorite Schemes",
+					"name": "專業",
 					"type": "entries",
 					"entries": [
-						"Every charlatan has an angle he or she uses in preference to other schemes. Choose a favorite scam or roll on the table below.",
+						"每個詐騙高手都有一個擅長把戲，他或她會優先使用此把戲大於其他方案。 在下表中選擇一個最喜歡的把戲或用骰的。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Scam"
+								"把戲"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -258,42 +258,42 @@
 							"rows": [
 								[
 									"1",
-									"I cheat at games of chance."
+									"凡賭必作弊。"
 								],
 								[
 									"2",
-									"I shave coins or forge documents."
+									"做假鈔跟假公文。"
 								],
 								[
 									"3",
-									"I insinuate myself into people's lives to prey on their weakness and secure their fortunes."
+									"利用他人的弱點來巴結他，偷取他的錢財。"
 								],
 								[
 									"4",
-									"I put on new identities like clothes."
+									"換身分跟換衣服一樣快。"
 								],
 								[
 									"5",
-									"I run sleight-of-hand cons on street corners."
+									"街邊角落扒手。"
 								],
 								[
 									"6",
-									"I convince people that worthless junk is worth their hard-earned money."
+									"說服他人花大錢買一文不值的東西。"
 								]
 							]
 						}
 					]
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
-						"Charlatans are colorful characters who conceal their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues.",
+						"詐騙高手將真實身分隱藏在各式面具後的多面手。他們能夠表現出人們想看到的、想相信的、以及他們如何看待世界。但他們真實的自我有時會受到良心不安、宿敵或根深蒂固的信任問題的困擾。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -302,35 +302,35 @@
 							"rows": [
 								[
 									"1",
-									"I fall in and out of love easily, and am always pursuing someone."
+									"我是一位對感情善變的人，永遠都在追求他人。"
 								],
 								[
 									"2",
-									"I have a joke for every occasion, especially occasions where humor is inappropriate."
+									"我在每個場合都有一種笑話，尤其是那種很嚴肅的場合。"
 								],
 								[
 									"3",
-									"Flattery is my preferred trick for getting what I want."
+									"拍馬屁是我最常用的把戲。"
 								],
 								[
 									"4",
-									"I'm a born gambler who can't resist taking a risk for a potential payoff."
+									"天生就愛賭，我什麼都要用賭的。"
 								],
 								[
 									"5",
-									"I lie about almost everything, even when there's no reason to."
+									"我大部分時間都是在說謊，就算沒有說謊的必要。"
 								],
 								[
 									"6",
-									"Sarcasm and insults are my weapons of choice."
+									"諷刺跟侮辱是我最強的武器。"
 								],
 								[
 									"7",
-									"I keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment."
+									"身上掛著很多不同種的聖物，什麼神對我有幫助就可以使用。"
 								],
 								[
 									"8",
-									"I pocket anything I see that might have some value."
+									"只要有價值的東西我都要扒。"
 								]
 							]
 						},
@@ -338,7 +338,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -347,27 +347,27 @@
 							"rows": [
 								[
 									"1",
-									"Independence. I am a free spirit\u2014no one tells me what to do. (Chaotic)"
+									"獨立，自由之魂，誰都不能命令我。(混亂)"
 								],
 								[
 									"2",
-									"Fairness. I never target people who can't afford to lose a few coins. (Lawful)"
+									"公平，我不會去針對那些生活困苦的人。(守序)"
 								],
 								[
 									"3",
-									"Charity. I distribute the money I acquire to the people who really need it. (Good)"
+									"公益，我喜歡劫富濟貧。(善良)"
 								],
 								[
 									"4",
-									"Creativity. I never run the same con twice. (Chaotic)"
+									"創意，我絕不會重複我做過的把戲。(混亂)"
 								],
 								[
 									"5",
-									"Friendship. Material goods come and go. Bonds of friendship last forever. (Good)"
+									"友情，生不帶來，死不帶走，友情才是永恆。 (善良)"
 								],
 								[
 									"6",
-									"Aspiration. I'm determined to make something of myself. (Any)"
+									"願望，我意志要讓自己成大業。(任何)"
 								]
 							]
 						},
@@ -375,7 +375,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -384,27 +384,27 @@
 							"rows": [
 								[
 									"1",
-									"I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about."
+									"我招惹錯人，現在必須確定那個人遇到我還有我關心的人。"
 								],
 								[
 									"2",
-									"I owe everything to my mentor\u2014a horrible person who's probably rotting in jail somewhere."
+									"我對師父充滿恩情 - 現在他應該在某個監獄吃牢飯。"
 								],
 								[
 									"3",
-									"Somewhere out there, I have a child who doesn't know me. I'm making the world better for him or her."
+									"在外某個地方，有一位小孩不知道我是他爸爸，我為他把這世界變得更好。"
 								],
 								[
 									"4",
-									"I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me."
+									"我曾經是個貴族，有一天我會奪回我的土地及身分。"
 								],
 								[
 									"5",
-									"A powerful person killed someone I love. Some day soon, I'll have my revenge."
+									"一位很有權力的人殺了我心愛的人，君子報仇十年不晚。"
 								],
 								[
 									"6",
-									"I swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself."
+									"我不小心傷害到了一個無辜的人，我需要對我的罪刑得到赦免但我可能永遠無法原諒自己。"
 								]
 							]
 						},
@@ -412,7 +412,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺點"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -421,27 +421,27 @@
 							"rows": [
 								[
 									"1",
-									"I can't resist a pretty face."
+									"遇到長到好看的人我的心就軟了。"
 								],
 								[
 									"2",
-									"I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in."
+									"永遠在欠債，花得比我\"得到\"的快。"
 								],
 								[
 									"3",
-									"I'm convinced that no one could ever fool me the way I fool others."
+									"我相信沒有其他人跟像我一樣那麼會騙人，怎樣都騙不了我。"
 								],
 								[
 									"4",
-									"I'm too greedy for my own good. I can't resist taking a risk if there's money involved."
+									"我太貪心了，只要有錢拿的事情，我都控制不住自己。"
 								],
 								[
 									"5",
-									"I can't resist swindling people who are more powerful than me."
+									"我無法克制自己去騙比我有權力的人。"
 								],
 								[
 									"6",
-									"I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough."
+									"我不想承認但也恨自己這一點... 只要事情變得太困難，我一定優先救自己。"
 								]
 							]
 						}
@@ -647,52 +647,52 @@
 			]
 		},
 		{
-			"name": "Criminal",
+			"name": "罪犯[Criminal]",
 			"source": "PHB",
 			"page": 129,
 			"skillProficiencies": "Deception, Stealth",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Deception, Stealth"
+						"欺暪[Deception]、隱藏[Stealth]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"One type of gaming set, thieves' tools"
+						"一種遊戲組、盜賊工具[thieves' tools]"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A {@item crowbar|phb}, a set of dark {@item common clothes|phb} including a hood, and a belt {@item pouch|phb} containing 15 gp"
+						"{@item 撬棍[crowbar]|phb}, {@item 便服[common clothes]|phb}一件連帽黑衣, {@item 腰包[pouch]|phb} 及 15 gp。"
 					]
 				},
 				{
-					"name": "Feature: Criminal Contact",
+					"name": "特性: 地下聯絡人[Criminal Contact]",
 					"type": "entries",
 					"entries": [
-						"You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you."
+						"你有一名可靠可信的中介，他能聯絡犯罪網絡上的其他罪犯。你知曉如何跟他保持遠距離通訊；具體而言，你知道那一些本地信使，見不得光的旅隊之主，或鬼崇的水手能替你傳達訊息。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Specialty",
+					"name": "專業",
 					"type": "entries",
 					"entries": [
-						"There are many kinds of criminals, and within a thieves' guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others. Choose the role you played in your criminal life, or roll on the table below.",
+						"罪犯有很多種，在一個小偷公會或者類以的犯罪組織裡，每名成員都有自己的專長。即使是獨行的罪犯都會偏好某類型的犯罪。選擇你的犯罪生涯中的職業，或者從下表擇一。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Specialty"
+								"專業"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -701,50 +701,50 @@
 							"rows": [
 								[
 									"1",
-									"Blackmailer"
+									"勒索者"
 								],
 								[
 									"2",
-									"Burglar"
+									"盜竊賊"
 								],
 								[
 									"3",
-									"Enforcer"
+									"威迫者"
 								],
 								[
 									"4",
-									"Fence"
+									"銷贓者"
 								],
 								[
 									"5",
-									"Highway robber"
+									"劫匪"
 								],
 								[
 									"6",
-									"Hired killer"
+									"殺手"
 								],
 								[
 									"7",
-									"Pickpocket"
+									"扒手"
 								],
 								[
 									"8",
-									"Smuggler"
+									"走私客"
 								]
 							]
 						}
 					]
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
-						"Criminals might seem like villains on the surface, and many of them are villainous to the core. But some have an abundance of endearing, if not redeeming, characteristics. There might be honor among thieves, but criminals rarely show any respect for law or authority.",
+						"從表面上看，罪犯似乎是惡棍，他們中的許多人從本質上看都是邪惡的。但有些人有很多討人喜愛的特質，如果不能彌補的話。盜賊之間可能有榮譽，但罪犯很少尊重法律或權威。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -753,35 +753,35 @@
 							"rows": [
 								[
 									"1",
-									"I always have a plan for when things go wrong."
+									"當出事時，我總會有應變計劃。"
 								],
 								[
 									"2",
-									"I am always calm, no matter what the situation. I never raise my voice or let my emotions control me."
+									"我無時無刻都總能保持冷靜。我永不大聲叫或失去理性。"
 								],
 								[
 									"3",
-									"The first thing I do in a new place is note the locations of everything valuable\u2014or where such things could be hidden."
+									"每次去到新地方，我第一件做的事是記住值錢的東西在那兒 - 或可以藏起它們的地方。"
 								],
 								[
 									"4",
-									"I would rather make a new friend than a new enemy."
+									"我寧可多一個朋友，不願意多一個敵人。 5 我很難信任人。表面上最良善的人通常有最多秘密。"
 								],
 								[
 									"5",
-									"I am incredibly slow to trust. Those who seem the fairest often have the most to hide."
+									"我很難信任人。表面上最良善的人通常有最多秘密。"
 								],
 								[
 									"6",
-									"I don't pay attention to the risks in a situation. Never tell me the odds."
+									"我不在意失敗的風險。別告訴我成功率。"
 								],
 								[
 									"7",
-									"The best way to get me to do something is to tell me I can't do it."
+									"說我做不到，我就會去做。"
 								],
 								[
 									"8",
-									"I blow up at the slightest insult."
+									"最輕微的侮辱就足以使我狂怒。"
 								]
 							]
 						},
@@ -789,7 +789,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -798,27 +798,27 @@
 							"rows": [
 								[
 									"1",
-									"Honor. I don't steal from others in the trade. (Lawful)"
+									"名譽。我永不盜竊同行的東西。（守序）"
 								],
 								[
 									"2",
-									"Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)"
+									"自由。束縛是用來破開的，如同施予束縛的人。（混亂）"
 								],
 								[
 									"3",
-									"Charity. I steal from the wealthy so that I can help people in need. (Good)"
+									"善行。我劫富濟貧。（善良）"
 								],
 								[
 									"4",
-									"Greed. I will do whatever it takes to become wealthy. (Evil)"
+									"貪婪。為了錢，我會不擇手段。（邪惡）"
 								],
 								[
 									"5",
-									"People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)"
+									"朋友。我只在乎我的朋友，不管甚麼理念，鬼才管其餘的人怎樣。（中立）"
 								],
 								[
 									"6",
-									"Redemption. There's a spark of good in everyone. (Good)"
+									"救贖。人性本善。（善良）"
 								]
 							]
 						},
@@ -826,7 +826,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -835,27 +835,27 @@
 							"rows": [
 								[
 									"1",
-									"I'm trying to pay off an old debt I owe to a generous benefactor."
+									"我在努力償還欠下慷慨債主的一筆舊賬。"
 								],
 								[
 									"2",
-									"My ill-gotten gains go to support my family."
+									"我用我的不義之財養活家人。"
 								],
 								[
 									"3",
-									"Something important was taken from me, and I aim to steal it back."
+									"我珍視的一件東西被偷走了，我要偷回它。"
 								],
 								[
 									"4",
-									"I will become the greatest thief that ever lived."
+									"我將成為史上最強的神偷。"
 								],
 								[
 									"5",
-									"I'm guilty of a terrible crime. I hope I can redeem myself for it."
+									"我罪孽深重，願我能挽回它。"
 								],
 								[
 									"6",
-									"Someone I loved died because of a mistake I made. That will never happen again."
+									"我曾出錯，害死我愛的人。我誓不讓歷史重演。"
 								]
 							]
 						},
@@ -863,7 +863,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺點"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -872,27 +872,27 @@
 							"rows": [
 								[
 									"1",
-									"When I see something valuable, I can't think about anything but how to steal it."
+									"當看見值錢的東西，我滿腦子都是如何偷走它。"
 								],
 								[
 									"2",
-									"When faced with a choice between money and my friends, I usually choose the money."
+									"我重財輕友。"
 								],
 								[
 									"3",
-									"If there's a plan, I'll forget it. If I don't forget it, I'll ignore it."
+									"我會忘記任何計劃。忘不了的計劃我會無視。"
 								],
 								[
 									"4",
-									"I have a 'tell' that reveals when I'm lying."
+									"當我說謊時，我會露出特定的蛛絲馬跡。"
 								],
 								[
 									"5",
-									"I turn tail and run when things look bad."
+									"當形勢不妙時，我會自顧自地逃掉。"
 								],
 								[
 									"6",
-									"An innocent person is in prison for a crime that I committed. I'm okay with that."
+									"我犯的罪使無辜的人座牢。我覺得沒甚麼問題。"
 								]
 							]
 						}
@@ -901,52 +901,52 @@
 			]
 		},
 		{
-			"name": "Entertainer",
+			"name": "藝人[Entertainer]",
 			"source": "PHB",
 			"page": 130,
 			"skillProficiencies": "Acrobatics, Performance",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Acrobatics, Performance"
+						"特技動作[Acrobatics]、表演[Performance]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"Disguise kit, one type of musical instrument"
+						"易容盒[Disguise kit]、一種樂器[musical instrument]"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), {@item costume clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+						"自選的 {@filter 樂器[musical instrument]|items|source=phb|miscellaneous=mundane|type=instrument} , 一位粉絲的人情(信、小串頭髮、小飾品), {@item 戲服[costume clothes]|phb}, {@item 腰包[pouch]|phb} 及 15 gp。"
 					]
 				},
 				{
-					"name": "Feature: By Popular Demand",
+					"name": "特性：人見人愛[By Popular Demand]",
 					"type": "entries",
 					"entries": [
-						"You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+						"你總是能找到表演場地，通常是酒館或者客棧，但偶爾也是馬戲團、劇院，甚至是貴族廳堂。在表演處，你能獲得適度或舒適水平的免費食宿（取決於所製訂的標準），只要你每晚均演出。另外，你的表演讓你在當地人中獲得一定地位。若你進行表演的城鎮中陌生人認出你，他們通常會對你抱有好感。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Specialty",
+					"name": "專業",
 					"type": "entries",
 					"entries": [
-						"A good entertainer is versatile, spicing up every performance with a variety of different routines. Choose one to three routines or roll on the table below to define your expertise as an entertainer.",
+						"好的藝人應當是多才多藝的，在一次表演中以許多不同套路娛樂觀眾。選擇一到三種套路或擲骰決定你作為藝人的技藝。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d10",
-								"Routines"
+								"藝人技能"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -955,58 +955,58 @@
 							"rows": [
 								[
 									"1",
-									"Actor"
+									"演員"
 								],
 								[
 									"2",
-									"Dancer"
+									"舞者"
 								],
 								[
 									"3",
-									"Fire-eater"
+									"火舞"
 								],
 								[
 									"4",
-									"Jester"
+									"小丑"
 								],
 								[
 									"5",
-									"Juggler"
+									"雜耍"
 								],
 								[
 									"6",
-									"Instrumentalist"
+									"樂器高手"
 								],
 								[
 									"7",
-									"Poet"
+									"詩人"
 								],
 								[
 									"8",
-									"Singer"
+									"歌手"
 								],
 								[
 									"9",
-									"Storyteller"
+									"訴說者"
 								],
 								[
 									"10",
-									"Tumbler"
+									"翻滾者"
 								]
 							]
 						}
 					]
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
-						"Successful entertainers have to be able to capture and hold an audience's attention, so they tend to have flamboyant or forceful personalities. They're inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty.",
+						"成功的藝人必須能夠吸引和吸引觀眾的注意力，所以他們往往有華麗或強勢的個性。他們傾向於浪漫主義，經常堅持藝術實踐和審美的崇高理想。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1015,35 +1015,35 @@
 							"rows": [
 								[
 									"1",
-									"I know a story relevant to almost every situation."
+									"任何所發生的事情我都知道一個相關的故事。"
 								],
 								[
 									"2",
-									"Whenever I come to a new place, I collect local rumors and spread gossip."
+									"我只到達一個新的地方，我會開收集傳言然後散佈謠言。"
 								],
 								[
 									"3",
-									"I'm a hopeless romantic, always searching for that \"special someone\"."
+									"我渴望愛情，永遠都在找那\"夢中情人\"。"
 								],
 								[
 									"4",
-									"Nobody stays angry at me or around me for long, since I can defuse any amount of tension."
+									"在我身邊的人對我生的氣都是短暫的因為我很會舒緩氣氛。"
 								],
 								[
 									"5",
-									"I love a good insult, even one directed at me."
+									"我喜歡他人用、好的、有創意的辱罵對我。"
 								],
 								[
 									"6",
-									"I get bitter if I'm not the center of attention."
+									"如果沒人注視著我，我會不爽。"
 								],
 								[
 									"7",
-									"I'll settle for nothing less than perfection."
+									"除非完美，不然我不接受。"
 								],
 								[
 									"8",
-									"I change my mood or my mind as quickly as I change key in a song."
+									"我個心情跟想法很善變，跟翻書一樣快。"
 								]
 							]
 						},
@@ -1051,7 +1051,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1060,27 +1060,27 @@
 							"rows": [
 								[
 									"1",
-									"Beauty. When I perform, I make the world better than it was. (Good)"
+									"美德，我要用我的表演來讓世界變更好。(善良)"
 								],
 								[
 									"2",
-									"Tradition. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are. (Lawful)"
+									"傳統，那些故事、傳奇跟歌曲都是我們不能遺忘的歷史，它們讓我們認清我們自己是誰。(守序)"
 								],
 								[
 									"3",
-									"Creativity. The world is in need of new ideas and bold action. (Chaotic)"
+									"創意，這世界需要新的想法還有冒險的精神。(混亂)"
 								],
 								[
 									"4",
-									"Greed. I'm only in it for the money and fame. (Evil)"
+									"貪錢，我做這一切只是為了錢與知名度。(邪惡)"
 								],
 								[
 									"5",
-									"People. I like seeing the smiles on people's faces when I perform. That's all that matters. (Neutral)"
+									"人民，我只在乎我的表演能讓他人微笑。 (中立)"
 								],
 								[
 									"6",
-									"Honesty. Art should reflect the soul; it should come from within and reveal who we really are. (Any)"
+									"誠實，藝術因該要反映我們的靈魂，因該要來至於我們的內心深處。(任何)"
 								]
 							]
 						},
@@ -1088,7 +1088,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1097,27 +1097,27 @@
 							"rows": [
 								[
 									"1",
-									"My instrument is my most treasured possession, and it reminds me of someone I love."
+									"我的樂器是最珍貴的寶物也讓我想起我所愛的人。"
 								],
 								[
 									"2",
-									"Someone stole my precious instrument, and someday I'll get it back."
+									"有人偷走我最寶貝的樂器，有一天我一定會搶回來的。"
 								],
 								[
 									"3",
-									"I want to be famous, whatever it takes."
+									"我要紅，不管用什麼手段。"
 								],
 								[
 									"4",
-									"I idolize a hero of the old tales and measure my deeds against that person's."
+									"我崇拜故事裡的英雄，我所做的一切都會跟他做比較。"
 								],
 								[
 									"5",
-									"I will do anything to prove myself superior to my hated rival."
+									"我會做出任何是事情去證明我比我的對手強。"
 								],
 								[
 									"6",
-									"I would do anything for the other members of my old troupe."
+									"我會為我的舊團員做任何事情。"
 								]
 							]
 						},
@@ -1125,7 +1125,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺點"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1134,27 +1134,27 @@
 							"rows": [
 								[
 									"1",
-									"I'll do anything to win fame and renown."
+									"我會為了得到名氣與聲望什麼事都做得出來。"
 								],
 								[
 									"2",
-									"I'm a sucker for a pretty face."
+									"遇到長到好看的人我的心就軟了。"
 								],
 								[
 									"3",
-									"A scandal prevents me from ever going home again. That kind of trouble seems to follow me around."
+									"之前發生過一件事讓我無法回家鄉，這問題常出現在我人生中。"
 								],
 								[
 									"4",
-									"I once satirized a noble who still wants my head. It was a mistake that I will likely repeat."
+									"我曾經嘲諷一位貴族，現在還想要我的頭顱，這種錯我很有可能再犯一次。"
 								],
 								[
 									"5",
-									"I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble."
+									"我沒有辦法將我的真實情緒隱藏起來，我的言語通常會發生問題。"
 								],
 								[
 									"6",
-									"Despite my best efforts, I am unreliable to my friends."
+									"不管我多麼努力，在我朋友眼裡我還是沒那麼可靠。"
 								]
 							]
 						}
@@ -1454,52 +1454,52 @@
 			]
 		},
 		{
-			"name": "Folk Hero",
+			"name": "人民英雄[Folk Hero]",
 			"source": "PHB",
 			"page": 131,
 			"skillProficiencies": "Animal Handling, Survival",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Animal Handling, Survival"
+						"馴服動物[Animal Handling]、求生[Survival]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"One type of artisan's tools, vehicles (land)"
+						"一種匠人工具[artisan's tools]、載具（陸行）"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} (one of your choice), a {@item shovel|phb}, an {@item iron pot|phb}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+						"自選的 {@filter 匠人工具[artisan's tools]|items|source=phb|miscellaneous=mundane|type=artisan tool} , {@item 鏟子[shovel]|phb}, {@item 鐵煲[iron pot]|phb}, {@item 便服[common clothes]|phb}, {@item 腰包[pouch]|phb} 及 10 gp。"
 					]
 				},
 				{
-					"name": "Feature: Rustic Hospitality",
+					"name": "特性:好客鄉民[Rustic Hospitality]",
 					"type": "entries",
 					"entries": [
-						"Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+						"你出身平凡，因此能輕易融入平民。你可以在民間找到休息或藏身的居所，除非他們認為你是個危害。他們會庇護你，助你不被執法者或者其他人發現，但不會為你捨身。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Specialty",
+					"name": "專業",
 					"type": "entries",
 					"entries": [
-						"You previously pursued a simple profession among the peasantry, perhaps as a farmer, miner, servant, shepherd, woodcutter, or gravedigger. But something happened that set you on a different path and marked you for greater things. Choose or randomly determine a defining event that marked you as a hero of the people.",
+						"你曾經安於作為基層，例如作為農夫、礦工、待從、牧羊人、伐木工、掘墓人等。但有些事發生了，改變了你的生命，注定你不再平凡。選擇或投擲使你變成人民英雄的成名事件。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d10",
-								"Defining Event"
+								"成名事件[Defining Event]"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1508,58 +1508,58 @@
 							"rows": [
 								[
 									"1",
-									"I stood up to a tyrant's agents."
+									"我反抗了暴君的爪牙。"
 								],
 								[
 									"2",
-									"I saved people during a natural disaster."
+									"我拯救了受天災所襲的人。"
 								],
 								[
 									"3",
-									"I stood alone against a terrible monster."
+									"我孤身奮戰可怕的魔物。"
 								],
 								[
 									"4",
-									"I stole from a corrupt merchant to help the poor."
+									"我劫富濟貧。"
 								],
 								[
 									"5",
-									"I led a militia to fight of an invading army."
+									"我率領民兵抵擋住侵略者。"
 								],
 								[
 									"6",
-									"I broke into a tyrant's castle and stole weapons to arm the people."
+									"我硬闖暴君的城堡，偷走武器武裝民眾。"
 								],
 								[
 									"7",
-									"I trained the peasantry to use farming implements as weapons against a tyrant's soldiers."
+									"我教會平民用農具作武器跟暴君的士兵爭戰。"
 								],
 								[
 									"8",
-									"A lord rescinded an unpopular decree after I led a symbolic act of protest against it."
+									"我的象徵式抗議使主君收回成命，萬民皆歡。"
 								],
 								[
 									"9",
-									"A celestial, fey, or similar creature gave me a blessing or revealed my secret origin."
+									"一名天族、精族、或類似的生物來祝福我，披露我的神秘血緣。"
 								],
 								[
 									"10",
-									"Recruited into a lord's army, I rose to leadership and was commended for my heroism."
+									"我奉召入伍，登臺拜將，勇氣過人備受嘉許。"
 								]
 							]
 						}
 					]
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
-						"A folk hero is one of the common people, for better or for worse. Most folk heroes look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.",
+						"無論好壞，民間英雄都是普通人中的一員。大多數民間英雄把他們卑微的出身視為美德，而不是缺點，他們的家鄉對他們來說仍然非常重要。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1568,35 +1568,35 @@
 							"rows": [
 								[
 									"1",
-									"I judge people by their actions, not their words."
+									"我看一個人，看的是他的行動，而不是他的話。"
 								],
 								[
 									"2",
-									"If someone is in trouble, I'm always ready to lend help."
+									"當有人遇上麻煩，我必定伸出援手。"
 								],
 								[
 									"3",
-									"When I set my mind to something, I follow through no matter what gets in my way."
+									"只要我決定了去做，我定必排除萬難堅持到底。"
 								],
 								[
 									"4",
-									"I have a strong sense of fair play and always try to find the most equitable solution to arguments."
+									"我很在意公平，總會在爭論中設法找出最公正的解決方案。"
 								],
 								[
 									"5",
-									"I'm confident in my own abilities and do what I can to instill confidence in others."
+									"我對自己有信心，亦鼓勵他人對自己有信心。"
 								],
 								[
 									"6",
-									"Thinking is for other people. I prefer action."
+									"思考是別人作的事。我喜歡行動。"
 								],
 								[
 									"7",
-									"I misuse long words in an attempt to sound smarter."
+									"我亂用生僻字，以為聽上去比較酷。"
 								],
 								[
 									"8",
-									"I get bored easily. When am I going to get on with my destiny?"
+									"我只有三分鐘熱度。我何時才會踏上我的使命？"
 								]
 							]
 						},
@@ -1604,7 +1604,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1613,27 +1613,27 @@
 							"rows": [
 								[
 									"1",
-									"Respect. People deserve to be treated with dignity and respect. (Good)"
+									"尊敬。人民值得有尊嚴和被尊敬（善良）"
 								],
 								[
 									"2",
-									"Fairness. No one should get preferential treatment before the law, and no one is above the law. (Lawful)"
+									"公正。法律面前人人平等，天子犯法與庶民同罪。（守序）"
 								],
 								[
 									"3",
-									"Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)"
+									"自由。不能任由暴君鎮壓人民。（混亂）"
 								],
 								[
 									"4",
-									"Might. If I become strong, I can take what I want\u2014what I deserve. (Evil)"
+									"力量。只要我夠強，我想要甚麼就能有甚麼，這是我應得的。（邪惡）"
 								],
 								[
 									"5",
-									"Sincerity. There's no good in pretending to be something I'm not. (Neutral)"
+									"真摯。迷失真我不會有好結果。（中立）"
 								],
 								[
 									"6",
-									"Destiny. Nothing and no one can steer me away from my higher calling. (Any)"
+									"命運。我的天命天經地義無人能擋。（任何）"
 								]
 							]
 						},
@@ -1641,7 +1641,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1650,27 +1650,27 @@
 							"rows": [
 								[
 									"1",
-									"I have a family, but I have no idea where they are. One day, I hope to see them again."
+									"我跟家人失散了。我希望將來能跟他們團聚。"
 								],
 								[
 									"2",
-									"I worked the land, I love the land, and I will protect the land."
+									"我耕作大地，深愛大地，守護大地。"
 								],
 								[
 									"3",
-									"A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter."
+									"一名自傲的貴族曾狠狠地教訓我。我也報復我遇上的任何欺凌者。"
 								],
 								[
 									"4",
-									"My tools are symbols of my past life, and I carry them so that I will never forget my roots."
+									"我的工具象徵著我的過去，我將它們帶在身邊提醒自己要飲水思源。"
 								],
 								[
 									"5",
-									"I protect those who cannot protect themselves."
+									"我保護弱者。"
 								],
 								[
 									"6",
-									"I wish my childhood sweetheart had come with me to pursue my destiny."
+									"但願我的青梅竹馬當時跟我一起追尋天命。"
 								]
 							]
 						},
@@ -1678,7 +1678,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺點"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1687,27 +1687,27 @@
 							"rows": [
 								[
 									"1",
-									"The tyrant who rules my land will stop at nothing to see me killed."
+									"統治我故鄉的暴君不遺餘力地追殺我。"
 								],
 								[
 									"2",
-									"I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure."
+									"我對我的天命自視過高，以致我無視我的缺點和失敗的風險。"
 								],
 								[
 									"3",
-									"The people who knew me when I was young know my shameful secret, so I can never go home again."
+									"鄉親都知道我的虧心事，因此我不能回鄉。"
 								],
 								[
 									"4",
-									"I have a weakness for the vices of the city, especially hard drink."
+									"燈紅酒綠是我的弱點。"
 								],
 								[
 									"5",
-									"Secretly, I believe that things would be better if I were a tyrant lording over the land."
+									"我心底裡相信如果我君臨天下當一個暴君，應該會比較好。"
 								],
 								[
 									"6",
-									"I have trouble trusting in my allies."
+									"我無法信靠我的盟友。"
 								]
 							]
 						}
@@ -1716,54 +1716,54 @@
 			]
 		},
 		{
-			"name": "Guild Artisan",
+			"name": "行會工匠[Guild Artisan]",
 			"source": "PHB",
 			"page": 132,
 			"skillProficiencies": "Insight, Persuasion",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "熟練技能",
 					"type": "entries",
 					"entries": [
-						"Insight, Persuasion"
+						"察言觀色[Insight]、說服[Persuasion]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "熟練工具",
 					"type": "entries",
 					"entries": [
-						"One type of artisan's tools"
+						"一種工匠工具[artisan's tools]"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} (one of your choice), a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+						"一套工匠工具 {@filter 工匠工具[artisan's tools]|items|source=phb|miscellaneous=mundane|type=artisan tool}（由你選擇）， 一封行會介紹信，一套 {@item 旅行者衣物[traveler's clothes]|phb}, {@item 腰包[pouch]|phb} 及 15 gp"
 					]
 				},
 				{
-					"name": "Feature: Guild Membership",
+					"name": "特性：行會成員[Guild Membership]",
 					"type": "entries",
 					"entries": [
-						"As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.",
-						"Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild's coffers.",
-						"You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild's good graces."
+						"作為一名受人尊敬的行會正式成員，你能享受行會提供的一些好處。行會中的同儕能為你提供食宿，萬一不幸還會幫你下葬。在某些市鎮，行會會館提供和你的同行會面的場所，這裡你可能找到潛在的贊助人、盟友或者雇工。",
+						"行會常常掌握著龐大的政治資源。如果你被卷入指控中，你的行會會全力支持你，只要能舉出證明你清白的理由，或者罪名尚有回圜余地。倘若你是行會高層，藉由行會之力你能獲取有力的政治地位。你需要向行會捐贈金錢和魔法物品來獲取如此人脈。",
+						"每個月你必須上繳 5 gp 會費。若你因故未繳，必須補齊，否則就會失去行會青睞。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Specialty",
+					"name": "專業",
 					"type": "entries",
 					"entries": [
-						"Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild. You can select your guild business from the Guild Business table or roll randomly.",
+						"通常只有那些大到足以支持許多同行工匠的城市才能發展出行會。當然，你的行會也可能是一個較大國度中，將分散在不同村鎮中的工匠們聯系起來的松散網絡。和你的 DM 一起決定你的行會類型。你可以從表格中選擇你的行會生意，或擲骰決定。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d20",
-								"Guild Business"
+								"行會生意"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1772,93 +1772,93 @@
 							"rows": [
 								[
 									"1",
-									"Alchemists and apothecaries"
+									"煉金師和藥劑師"
 								],
 								[
 									"2",
-									"Armorers, locksmiths, and finesmiths"
+									"盔甲匠、鎖匠和鍍金匠"
 								],
 								[
 									"3",
-									"Brewers, distillers, and vintners"
+									"釀酒師、蒸餾師和葡萄酒商"
 								],
 								[
 									"4",
-									"Calligraphers, scribes, and scriveners"
+									"筆記員、抄寫員和公證人"
 								],
 								[
 									"5",
-									"Carpenters, roofers, and plasterers"
+									"木匠、屋頂匠和泥水工"
 								],
 								[
 									"6",
-									"Cartographers, surveyors, and chart-makers"
+									"繪圖員、測量員和製表員"
 								],
 								[
 									"7",
-									"Cobblers and shoemakers"
+									"補鞋匠和制鞋匠"
 								],
 								[
 									"8",
-									"Cooks and bakers"
+									"廚師和面包師"
 								],
 								[
 									"9",
-									"Glassblowers and glaziers"
+									"玻璃匠和玻璃工"
 								],
 								[
 									"10",
-									"Jewelers and gemcutters"
+									"首飾匠和寶石匠"
 								],
 								[
 									"11",
-									"Leatherworkers, skinners, and tanners"
+									"皮匠、剝皮工和制革工"
 								],
 								[
 									"12",
-									"Masons and stonecutters"
+									"泥瓦匠和石匠"
 								],
 								[
 									"13",
-									"Painters, limners, and sign-makers"
+									"漆匠、畫師和紋章師"
 								],
 								[
 									"14",
-									"Potters and tile-makers"
+									"陶工和瓦匠"
 								],
 								[
 									"15",
-									"Shipwrights and sail-makers"
+									"船木工和修帆匠"
 								],
 								[
 									"16",
-									"Smiths and metal-forgers"
+									"鐵匠和鍛鐵工"
 								],
 								[
 									"17",
-									"Tinkers, pewterers, and casters"
+									"修補匠、錫匠和鑄工"
 								],
 								[
 									"18",
-									"Wagon-makers and wheelwrights"
+									"馬車匠和輪匠"
 								],
 								[
 									"19",
-									"Weavers and dyers"
+									"織布工和染工"
 								],
 								[
 									"20",
-									"Woodcarvers, coopers, and bowyers"
+									"木雕師、箍桶匠和制弓匠"
 								]
 							]
 						}
 					]
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議性格",
 					"type": "entries",
 					"entries": [
-						"Guild artisans are among the most ordinary people in the world\u2014until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they're vulnerable to sins of greed and covetousness.",
+						"行會工匠曾經和芸芸眾生無貳，直到他們放下工具、開始冒險生涯。他們明白努力耕耘的可貴，也明白團結就是力量，但是他們容易被貪婪和嫉妒蒙蔽。",
 						{
 							"type": "table",
 							"colLabels": [
@@ -1872,35 +1872,35 @@
 							"rows": [
 								[
 									"1",
-									"I believe that anything worth doing is worth doing right. I can't help it\u2014I'm a perfectionist."
+									"我確信能做的事就要做到最好。我必須做到最好——我是完美主義者。"
 								],
 								[
 									"2",
-									"I'm a snob who looks down on those who can't appreciate fine art."
+									"我瞧不起那些不懂審美的家伙。"
 								],
 								[
 									"3",
-									"I always want to know how things work and what makes people tick."
+									"我總是想搞清楚事物如何運作，人們為何奔波。"
 								],
 								[
 									"4",
-									"I'm full of witty aphorisms and have a proverb for every occasion."
+									"我有一肚子格言警句，總是能恰到好處地掉書袋。"
 								],
 								[
 									"5",
-									"I'm rude to people who lack my commitment to hard work and fair play."
+									"對那些不像我那樣努力工作、公平競爭的人，我不會以禮相待。"
 								],
 								[
 									"6",
-									"I like to talk at length about my profession."
+									"我喜歡對我的行當高談闊論。"
 								],
 								[
 									"7",
-									"I don't part with my money easily and will haggle tirelessly to get the best deal possible."
+									"我不會輕易花錢，我總是砍價砍到最低。"
 								],
 								[
 									"8",
-									"I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me."
+									"我在我這行鼎鼎有名，並且我要確保所有人都認同這點。如果人們沒聽說過我，我會大吃一驚。"
 								]
 							]
 						},
@@ -1908,7 +1908,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1917,27 +1917,27 @@
 							"rows": [
 								[
 									"1",
-									"Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)"
+									"團結。加強集體團結，保衛社區安全，是文明人應盡的義務。（守序）"
 								],
 								[
 									"2",
-									"Generosity. My talents were given to me so that I could use them to benefit the world. (Good)"
+									"慷慨。既然我有天賦，我就要造福世界。（善良）"
 								],
 								[
 									"3",
-									"Freedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)"
+									"自由。任何人都有選擇生計的自由。（混亂）"
 								],
 								[
 									"4",
-									"Greed. I'm only in it for the money. (Evil)"
+									"貪婪。幹這行？我只為錢。（邪惡）"
 								],
 								[
 									"5",
-									"People. I'm committed to the people I care about, not to ideals. (Neutral)"
+									"人民。我為我在乎的人奮斗，不是為了什麼理想。（中立）"
 								],
 								[
 									"6",
-									"Aspiration. I work hard to be the best there is at my craft. (Any)"
+									"抱負。我努力鑽研是為了成為本行中的翹楚。（任何）"
 								]
 							]
 						},
@@ -1945,7 +1945,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1954,27 +1954,27 @@
 							"rows": [
 								[
 									"1",
-									"The workshop where I learned my trade is the most important place in the world to me."
+									"我學習技藝的廠房對我來說是世界上最重要的地方。"
 								],
 								[
 									"2",
-									"I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy."
+									"我為某人造出一件絕世珍品，卻發現他配不上它。我仍在找配得上它的人。"
 								],
 								[
 									"3",
-									"I owe my guild a great debt for forging me into the person I am today."
+									"能有今天的我，行會助我良多。我欠行會的。"
 								],
 								[
 									"4",
-									"I pursue wealth to secure someone's love."
+									"我為了向某人求愛而攢錢。"
 								],
 								[
 									"5",
-									"One day I will return to my guild and prove that I am the greatest artisan of them all."
+									"終有一天，我會回到行會，而其他工匠都會尊敬地俯首。"
 								],
 								[
 									"6",
-									"I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood."
+									"那個破壞了我的工坊、毀掉了我的生活的邪惡勢力，我會向他們復仇。"
 								]
 							]
 						},
@@ -1982,7 +1982,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺陷"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1991,27 +1991,27 @@
 							"rows": [
 								[
 									"1",
-									"I'll do anything to get my hands on something rare or priceless."
+									"為了獲得某些珍貴無價之物，我會做任何事。"
 								],
 								[
 									"2",
-									"I'm quick to assume that someone is trying to cheat me."
+									"我常常很急躁地認定某人正在騙我。"
 								],
 								[
 									"3",
-									"No one must ever learn that I once stole money from guild coffers."
+									"應當沒人知道我曾經從行會金庫裡偷錢。"
 								],
 								[
 									"4",
-									"I'm never satisfied with what I have\u2014I always want more."
+									"我從未對已有之物滿足，我總是欲壑難填。"
 								],
 								[
 									"5",
-									"I would kill to acquire a noble title."
+									"我極度渴望貴族頭銜。"
 								],
 								[
 									"6",
-									"I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals."
+									"我妒忌任何手藝上勝我一籌的人。對手一直到處都是，無論我去往哪裡。"
 								]
 							]
 						}
@@ -2020,60 +2020,60 @@
 			]
 		},
 		{
-			"name": "Hermit",
+			"name": "隱士[Hermit]",
 			"source": "PHB",
 			"page": 134,
 			"skillProficiencies": "Medicine, Religion",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "熟練技能",
 					"type": "entries",
 					"entries": [
-						"Medicine, Religion"
+						"醫術[Medicine]、宗教[Religion]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "熟練工具",
 					"type": "entries",
 					"entries": [
-						"Herbalism Kit"
+						"草藥師工具[Herbalism Kit]"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"One of your choice"
+						"任選一種語言"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A scroll case stuffed full of notes from your studies or prayers, a winter {@item blanket|phb}, a set of {@item common clothes|phb}, an {@item herbalism kit|phb}, and 5 gp"
+						"一個卷軸箱，用來裝納你記錄研究成果和祈禱詞的筆記；一張冬用 {@item 毯子[blanket]|phb} , 一套 {@item 便服[common clothes]|phb}, 一個 {@item 草藥師工具[herbalism kit]|phb}, 和 5 gp "
 					]
 				},
 				{
-					"name": "Feature: Discovery",
+					"name": "特性：探索[Discovery]",
 					"type": "entries",
 					"entries": [
-						"The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society.",
-						"Work with your DM to determine the details of your discovery and its impact on the campaign."
+						"你寂寥的長期隱居令你發現了某些獨特而強大的秘密。這發現究竟為何與你的隱居原因有關。你或許尋找到了有關宇宙真相、神祗本質、異界大能或是自然偉力的偉大真理。你也可能發現了一處任何人都未曾發現的地點。你可能揭露了久被遺忘的真相，或發掘出久遠史前的遺物。你也或許發現了會妨害那些一手操持了你的流放的家伙們的情報，而那就是你重返凡世的原因。",
+						"與你的DM合作，確定你發現的詳細信息及其對戰役內容的影響。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Specialty",
+					"name": "專業",
 					"type": "entries",
 					"entries": [
-						"What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your DM to determine the exact nature of your seclusion, or you can choose or roll on the table below to determine the reason behind your seclusion.",
+						"為何你遺世獨立，而又為何你重踏紅塵？你可以和 DM 共同決定你隱居的原因，或者從下表中選擇，或者擲骰決定。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Life of Seclusion"
+								"隱居生活"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2082,50 +2082,50 @@
 							"rows": [
 								[
 									"1",
-									"I was searching for spiritual enlightenment."
+									"我在尋求靈魂的啟迪。"
 								],
 								[
 									"2",
-									"I was partaking of communal living in accordance with the dictates of a religious order."
+									"我遵守修會教規，參與集體清修。"
 								],
 								[
 									"3",
-									"I was exiled for a crime I didn't commit."
+									"我因不白之冤而被流放。"
 								],
 								[
 									"4",
-									"I retreated from society after a life-altering event."
+									"因一件改變我整個生活的大事，我棄世而去。"
 								],
 								[
 									"5",
-									"I needed a quiet place to work on my art, literature, music, or manifesto."
+									"為了潛心於我的藝術、文字或音樂，我要尋找一處僻靜所在。"
 								],
 								[
 									"6",
-									"I needed to commune with nature, far from civilization."
+									"我要與自然溝通，遠離文明世界。"
 								],
 								[
 									"7",
-									"I was the caretaker of an ancient ruin or relic."
+									"我是一座古代遺跡或一件古代遺物的看守人。"
 								],
 								[
 									"8",
-									"I was a pilgrim in search of a person, place, or relic of spiritual significance."
+									"我是一名追尋聖人、聖地和聖物的朝聖者。"
 								]
 							]
 						}
 					]
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議性格",
 					"type": "entries",
 					"entries": [
-						"Some hermits are well suited to a life of seclusion, whereas others chafe against it and long for company. Whether they embrace solitude or long to escape it, the solitary life shapes their attitudes and ideals. A few are driven slightly mad by their years apart from society.",
+						"某些隱士天生適合隱居生活，也有些人苦於寂寞隱居，久待同伴到來。無論他們選擇擁抱空寂還是敬而遠之，獨居生活都塑造了他們的態度和理念。少數人甚至會因久離人境而變得瘋瘋癲癲。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2134,35 +2134,35 @@
 							"rows": [
 								[
 									"1",
-									"I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt."
+									"在隱居生活中我已經太久不言不語，我更偏好肢體語言，偶爾咕噥幾聲。"
 								],
 								[
 									"2",
-									"I am utterly serene, even in the face of disaster."
+									"我全然心如止水，即使泰山崩於眼前。"
 								],
 								[
 									"3",
-									"The leader of my community had something wise to say on every topic, and I am eager to share that wisdom."
+									"修會的會首無論何時都能說出至理哲言，我也想分享此等睿智。"
 								],
 								[
 									"4",
-									"I feel tremendous empathy for all who suffer."
+									"我對受難者抱有巨大的同情心。"
 								],
 								[
 									"5",
-									"I'm oblivious to etiquette and social expectations."
+									"對於禮儀和社會常識，我一無所知。"
 								],
 								[
 									"6",
-									"I connect everything that happens to me to a grand, cosmic plan."
+									"我將發生在我周遭的一切視作冥冥天意的一部分。"
 								],
 								[
 									"7",
-									"I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings."
+									"我常常陷入自己的冥思中無法自拔，絲毫不顧周圍事物。"
 								],
 								[
 									"8",
-									"I am working on a grand philosophical theory and love sharing my ideas."
+									"我正致力於一套完備的哲學理論，並且喜歡與人分享理念。"
 								]
 							]
 						},
@@ -2170,7 +2170,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2179,27 +2179,27 @@
 							"rows": [
 								[
 									"1",
-									"Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)"
+									"大義。我的天賦注定要為所有人謀利，而並為一己之私。（善良）"
 								],
 								[
 									"2",
-									"Logic. Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)"
+									"邏輯。絕對不能讓情緒干擾我們對正確、真實和理智的觀念。（守序）"
 								],
 								[
 									"3",
-									"Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)"
+									"解放思想。探究精神和好奇心是學術進步的支柱。（混亂）"
 								],
 								[
 									"4",
-									"Power. Solitude and contemplation are paths toward mystical or magical power. (Evil)"
+									"力量。清修和冥想是通往神秘力量或魔法之力的道途。（邪惡）"
 								],
 								[
 									"5",
-									"Live and Let Live. Meddling in the affairs of others only causes trouble. (Neutral)"
+									"與人為善。胡亂插手他人事務只會造成麻煩。（中立）"
 								],
 								[
 									"6",
-									"Self-Knowledge. If you know yourself, there's nothing left to know. (Any)"
+									"自知。如果你能自知，那麼就無所不知。（任何）"
 								]
 							]
 						},
@@ -2207,7 +2207,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2216,27 +2216,27 @@
 							"rows": [
 								[
 									"1",
-									"Nothing is more important than the other members of my hermitage, order, or association."
+									"沒有比那些和我同處一地、一道苦修的同伴更重要的了。"
 								],
 								[
 									"2",
-									"I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them."
+									"我隱居是為了躲避那些仍在搜捕我的人。早晚我會直面他們。"
 								],
 								[
 									"3",
-									"I'm still seeking the enlightenment I pursued in my seclusion, and it still eludes me."
+									"我一直在隱居生活中尋找啟迪，然而至今仍然一無所獲。"
 								],
 								[
 									"4",
-									"I entered seclusion because I loved someone I could not have."
+									"吾愛之人注定求之不得，所以我隱居起來。"
 								],
 								[
 									"5",
-									"Should my discovery come to light, it could bring ruin to the world."
+									"倘若我的發現公諸於眾，世界就會天翻地覆。"
 								],
 								[
 									"6",
-									"My isolation gave me great insight into a great evil that only I can destroy."
+									"我的苦修向我揭示了只有我能摧毀的可怖邪惡。"
 								]
 							]
 						},
@@ -2244,7 +2244,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺陷"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2253,27 +2253,27 @@
 							"rows": [
 								[
 									"1",
-									"Now that I've returned to the world, I enjoy its delights a little too much."
+									"現在我重返了文明世界，卻有點過度沉溺於享樂。"
 								],
 								[
 									"2",
-									"I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell."
+									"我懷有即使是苦修和冥想也無法抹消的陰暗、嗜血之心。"
 								],
 								[
 									"3",
-									"I am dogmatic in my thoughts and philosophy."
+									"我的想法和哲學觀非常死板。"
 								],
 								[
 									"4",
-									"I let my need to win arguments overshadow friendships and harmony."
+									"我對爭論的求勝之心勝過了友誼和和睦之心。"
 								],
 								[
 									"5",
-									"I'd risk too much to uncover a lost bit of knowledge."
+									"為了追求失落的知識，我絲毫不顧風險。"
 								],
 								[
 									"6",
-									"I like keeping secrets and won't share them with anyone."
+									"我喜歡對一切保密，不愛與他人分享所知。"
 								]
 							]
 						}
@@ -2528,59 +2528,59 @@
 			]
 		},
 		{
-			"name": "Noble",
+			"name": "貴族[Noble]",
 			"source": "PHB",
 			"page": 135,
 			"skillProficiencies": "History, Persuasion",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"History, Persuasion"
+						"歷史[History], 說服[Persuasion]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"One type of gaming set"
+						"任何一款遊戲組"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"One of your choice"
+						"任選一種"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A set of {@item fine clothes|phb}, a {@item signet ring|phb}, a scroll of pedigree, and a purse containing 25 gp"
+						"{@item 錦衣[fine clothes]|phb}, {@item 璽戒[signet ring]|phb}, 一卷族譜, 一個錢包含有 25 gp 。"
 					]
 				},
 				{
-					"name": "Feature: Position of Privilege",
+					"name": "特性:高人一等[Position of Privilege]",
 					"type": "entries",
 					"entries": [
-						"Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a member of the same social sphere. You can secure an audience with a local noble if you need to."
+						"感謝你的貴族血統，人們會趨向優待你。上流社會歡迎你，大家都相信你理所應得此地位。平民百姓會討好遷就你，其他出身高尚的人則視你為同儕。如果有需要，你可以約見到本地的貴族。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
-						"Nobles are born and raised to a very different lifestyle than most people ever experience, and their personalities reflect that upbringing. A noble title comes with a plethora of bonds\u2014responsibilities to family, to other nobles (including the sovereign), to the people entrusted to the family's care, or even to the title itself. But this responsibility is often a good way to undermine a noble.",
+						"貴族出生和成長的生活方式與大多數人所經歷的非常不同，他們的個性反映了這種教養。一個貴族頭銜伴隨著對家庭，對其他貴族(包括君主)，對家庭照顧的人，甚至對頭銜本身的過多的責任。但這種責任往往是削弱貴族身份的好辦法。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2589,35 +2589,35 @@
 							"rows": [
 								[
 									"1",
-									"My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world."
+									"我奔走逢迎，跟我談話的人都會飄飄然，覺得自己是世界的中心。"
 								],
 								[
 									"2",
-									"The common folk love me for my kindness and generosity."
+									"我施行仁政，受平民愛載。"
 								],
 								[
 									"3",
-									"No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses."
+									"我的王者風範使人們不得不信我非凡夫俗子。"
 								],
 								[
 									"4",
-									"I take great pains to always look my best and follow the latest fashions."
+									"我不顧一切地裝扮自己，緊貼潮流。"
 								],
 								[
 									"5",
-									"I don't like to get my hands dirty, and I won't be caught dead in unsuitable accommodations."
+									"我不會弄髒自己的手，寧死不入三流住宿。"
 								],
 								[
 									"6",
-									"Despite my noble birth, I do not place myself above other folk. We all have the same blood."
+									"雖然我出身高貴，但我不會狗眼看人低。我們都流著相同的血。"
 								],
 								[
 									"7",
-									"My favor, once lost, is lost forever."
+									"我奉行一次不忠，百次不用。"
 								],
 								[
 									"8",
-									"If you do me an injury, I will crush you, ruin your name, and salt your fields."
+									"傷害我，我就會拉倒你、詆毀你、燒你房。"
 								]
 							]
 						},
@@ -2625,7 +2625,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2634,27 +2634,27 @@
 							"rows": [
 								[
 									"1",
-									"Respect. Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity. (Good)"
+									"尊敬。人們因我的地位尊敬我，但所有人不論地位都有尊嚴。（善良）"
 								],
 								[
 									"2",
-									"Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine. (Lawful)"
+									"責任。聽從主君之命是我的職責，同樣地聽從我的命是下民的職責。（守序）"
 								],
 								[
 									"3",
-									"Independence. I must prove that I can handle myself without coddling from my family. (Chaotic)"
+									"獨立。我要證明我不需家族扶持也能出人頭地。（混亂）"
 								],
 								[
 									"4",
-									"Power. If I can attain more power, no one will tell me what to do. (Evil)"
+									"權力。只要我有權，就無人敢規限我。（邪惡）"
 								],
 								[
 									"5",
-									"Family. Blood runs thicker than water. (Any)"
+									"家族。血濃於水。（任何）"
 								],
 								[
 									"6",
-									"Noble Obligation. It is my duty to protect and care for the people beneath me. (Good)"
+									"權責。保護及照顧人民是我的職責。（善良）"
 								]
 							]
 						},
@@ -2662,7 +2662,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2671,27 +2671,27 @@
 							"rows": [
 								[
 									"1",
-									"I will face any challenge to win the approval of my family."
+									"為了獲得家族的認同，我敢於面對任何挑戰。"
 								],
 								[
 									"2",
-									"My house's alliance with another noble family must be sustained at all costs."
+									"要不惜一切地維持著我家跟另一貴族的聯盟。"
 								],
 								[
 									"3",
-									"Nothing is more important than the other members of my family."
+									"親人高於一切。"
 								],
 								[
 									"4",
-									"I am in love with the heir of a family that my family despises."
+									"我愛上了另一家族的繼位者，但家人強烈反對。"
 								],
 								[
 									"5",
-									"My loyalty to my sovereign is unwavering."
+									"我對主君一片丹心，無容置疑。"
 								],
 								[
 									"6",
-									"The common folk must see me as a hero of the people."
+									"一般人視我為人民的英雄。"
 								]
 							]
 						},
@@ -2699,7 +2699,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺點"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2708,27 +2708,27 @@
 							"rows": [
 								[
 									"1",
-									"I secretly believe that everyone is beneath me."
+									"私底下，我狗眼看人低。"
 								],
 								[
 									"2",
-									"I hide a truly scandalous secret that could ruin my family forever."
+									"我藏著極度可恥之秘，足以永遠毀掉整個家族。"
 								],
 								[
 									"3",
-									"I too often hear veiled insults and threats in every word addressed to me, and I'm quick to anger."
+									"我煩躁易怒，對我說的話聽上去滿滿都是挑釁。"
 								],
 								[
 									"4",
-									"I have an insatiable desire for carnal pleasures."
+									"我是無可救藥的好色之徒。"
 								],
 								[
 									"5",
-									"In fact, the world does revolve around me."
+									"你知道嗎，世界確實是繞著我轉的。"
 								],
 								[
 									"6",
-									"By my words and actions, I often bring shame to my family."
+									"我的一言一行常常都令家族蒙羞。"
 								]
 							]
 						}
@@ -2737,59 +2737,59 @@
 			]
 		},
 		{
-			"name": "Outlander",
+			"name": "化外之民[Outlander]",
 			"source": "PHB",
 			"page": 136,
 			"skillProficiencies": "Athletics, Survival",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "熟練技能",
 					"type": "entries",
 					"entries": [
-						"Athletics, Survival"
+						"運動[Athletics]、求生[Survival]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "熟練工具",
 					"type": "entries",
 					"entries": [
-						"One type of musical instrument"
+						"一種樂器[musical instrument]"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"One of your choice"
+						"任選一種"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A {@item staff|phb}, a {@item hunting trap|phb}, a trophy from an animal you killed, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+						"一個 {@item 仗[staff]|phb}, 一個 {@item 狩獵陷阱[hunting trap]|phb}, 一件你手刃的動物身上的戰利品, 一套 {@item 旅行者衣物[traveler's clothes]|phb}, {@item 腰包[pouch]|phb} 及 10 gp"
 					]
 				},
 				{
-					"name": "Feature: Wanderer",
+					"name": "特性：漫游者[Wanderer]",
 					"type": "entries",
 					"entries": [
-						"You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+						"你對地圖和地形有令人驚訝的記憶力，並且你總能回想起地形、定居點或者其他環境特征的通常布局。另外，每天你可以為自己及最多五個隊友獲取食物和飲水，只要地形可以提供漿果、小獸、水源等資源。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Specialty",
+					"name": "專業",
 					"type": "entries",
 					"entries": [
-						"You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.",
+						"你曾到達過全然陌生的地方，見識過他人未曾探索過的事物。設計一些你曾經造訪過的遙遠地區，以及這些地區是如何塑造你的。你可以擲骰來從下表中決定身處荒野你如何維持生計，或者選擇一個最適合你的人物的。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d10",
-								"Origin"
+								"出身"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2798,58 +2798,58 @@
 							"rows": [
 								[
 									"1",
-									"Forester"
+									"巡林者"
 								],
 								[
 									"2",
-									"Trapper"
+									"設阱捕獸者"
 								],
 								[
 									"3",
-									"Homesteader"
+									"自耕農"
 								],
 								[
 									"4",
-									"Guide"
+									"向導"
 								],
 								[
 									"5",
-									"Exile or outcast"
+									"流放者"
 								],
 								[
 									"6",
-									"Bounty hunter"
+									"賞金獵人"
 								],
 								[
 									"7",
-									"Pilgrim"
+									"朝聖者"
 								],
 								[
 									"8",
-									"Tribal nomad"
+									"游牧蠻族"
 								],
 								[
 									"9",
-									"Hunter-gatherer"
+									"漁獵采集者"
 								],
 								[
 									"10",
-									"Tribal marauder"
+									"劫掠蠻族"
 								]
 							]
 						}
 					]
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議性格",
 					"type": "entries",
 					"entries": [
-						"Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders.",
+						"化外之民常常被城市居民視作粗魯蠢笨的家伙，在城市生活中往往不受尊重。化外之民們被部落、宗族、家族聯系起來，而大自然對大多數化外之民而言是最重要的羈絆，他們是她不可或缺的一角。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2858,35 +2858,35 @@
 							"rows": [
 								[
 									"1",
-									" I'm driven by a wanderlust that led me away from home"
+									"我因流浪癖的驅使而背井離鄉。"
 								],
 								[
 									"2",
-									"I watch over my friends as if they were a litter of newborn pups."
+									"我像照顧新生兒般照顧同伴。"
 								],
 								[
 									"3",
-									"I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I'd do it again if I had to."
+									"我曾馬不停蹄地跑了二十五英裡，警告宗族有獸人來襲。如果有必要，我還會這麼干。"
 								],
 								[
 									"4",
-									"I have a lesson for every situation, drawn from observing nature."
+									"我善於觀察自然，從中我得到能應對任何境況的經驗。"
 								],
 								[
 									"5",
-									"I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear."
+									"我對看重財富和禮貌的家伙不屑一顧。它們不能讓你面對一頭飢餓的梟熊。"
 								],
 								[
 									"6",
-									"I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them."
+									"我有從地上撿起些東西、漫不經心地擺弄，有的時候弄壞它們的習慣。"
 								],
 								[
 									"7",
-									"I feel far more comfortable around animals than people"
+									"相對於與人相處，和動物在一起讓我更自在。"
 								],
 								[
 									"8",
-									"I was, in fact, raised by wolves."
+									"我實際上是個狼孩。"
 								]
 							]
 						},
@@ -2894,7 +2894,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2903,27 +2903,27 @@
 							"rows": [
 								[
 									"1",
-									"Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)"
+									"改變。生命如四季流轉，變化不止，我們必須與之一道改變。（混亂）"
 								],
 								[
 									"2",
-									"Greater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Good)"
+									"大義。部落整體的幸福，是每名成員的義務。（善良）"
 								],
 								[
 									"3",
-									"Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)"
+									"榮譽。如果我玷污榮譽，就是令整個宗族蒙羞。（守序）"
 								],
 								[
 									"4",
-									"Might. The strongest are meant to rule. (Evil)"
+									"力量。最強者支配一切。（邪惡）"
 								],
 								[
 									"5",
-									"Nature. The natural world is more important than all the constructs of civilization. (Neutral)"
+									"自然。大自然比任何文明造物都要重要。（中立）"
 								],
 								[
 									"6",
-									"Glory. I must earn glory in battle, for myself and my clan. (Any)"
+									"光榮。我必須在戰斗中贏得榮耀，無論是為自己，還是為了宗族。（任何）"
 								]
 							]
 						},
@@ -2931,7 +2931,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2940,27 +2940,27 @@
 							"rows": [
 								[
 									"1",
-									"My family, clan, or tribe is the most important thing in my life, even when they are far from me."
+									"我的家族、宗族或者部落是我生命中最珍貴的，即使我與他們異地相隔。"
 								],
 								[
 									"2",
-									"An injury to the unspoiled wilderness of my home is an injury to me."
+									"對我家園原始風貌的破壞就是對我的傷害。"
 								],
 								[
 									"3",
-									"I will bring terrible wrath down on the evildoers who destroyed my homeland."
+									"我會讓那些摧毀我家鄉的惡客見識到什麼叫狂怒。"
 								],
 								[
 									"4",
-									"I am the last of my tribe, and it is up to me to ensure their names enter legend."
+									"我是部落的最後遺存，我保證令部落威名人盡皆知。"
 								],
 								[
 									"5",
-									"I suffer awful visions of a coming disaster and will do anything to prevent it."
+									"我眼前時常浮現訴說災難將至的幻景，我要盡全力阻止它發生。"
 								],
 								[
 									"6",
-									"It is my duty to provide children to sustain my tribe."
+									"撫養幼童繼承部落是我的責任。"
 								]
 							]
 						},
@@ -2968,7 +2968,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺陷"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -2977,27 +2977,27 @@
 							"rows": [
 								[
 									"1",
-									"I am too enamored of ale, wine, and other intoxicants."
+									"我過度痴迷於飲酒。"
 								],
 								[
 									"2",
-									"There's no room for caution in a life lived to the fullest."
+									"在緊張的生活中沒有謹慎的余地。"
 								],
 								[
 									"3",
-									"I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me."
+									"我記得我所受到的每一次侮辱，對任何曾經傷害過我的人，我都會默默怨恨。"
 								],
 								[
 									"4",
-									"I am slow to trust members of other races, tribes, and societies."
+									"對那些來自其他種族、部落和社會形態的人，我無法很快建立信任。"
 								],
 								[
 									"5",
-									" Violence is my answer to almost any challenge."
+									"大多時候我會選擇用暴力破解難題。"
 								],
 								[
 									"6",
-									" Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish."
+									"我不會救那些無法自救者。物競天擇，強者生存。"
 								]
 							]
 						}
@@ -3006,52 +3006,52 @@
 			]
 		},
 		{
-			"name": "Sage",
+			"name": "學者[Sage]",
 			"source": "PHB",
 			"page": 137,
 			"skillProficiencies": "Arcana, History",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Arcana, History"
+						"奧術, 歷史"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"Two of your choice"
+						"自選兩種"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+						"一瓶墨水、羽筆、小刀、離世同僚所留下的你未能解答的一封信、 {@item 便服[common clothes]|phb},  {@item 腰包[pouch]|phb} 及 10gp。"
 					]
 				},
 				{
-					"name": "Feature: Researcher",
+					"name": "特性：圖書館使用權[Researcher]",
 					"type": "entries",
 					"entries": [
-						"When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature, Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign."
+						"盡管在你的圖書館中其他人們需要經常忍受大量的面試和繳納一定的費用來獲得通用檔案室的資料，你將能免費並且能進入圖書館的大部分區域，即使是那些不對外人開放的有著太多價值的知識，魔力，或是秘密的區域。你有著你學院人員和機構的應用知識，你知道如何將兩者輕松的聯系起來。此外，你作為一個專業禮貌的學者，在世界上其他的圖書館中也可能獲得優惠待遇。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Specialty",
+					"name": "專業",
 					"type": "entries",
 					"entries": [
-						"To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below.",
+						"要決定你的學術領域，請投一粒 d8 或從下表中擇一：",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Field of Study"
+								"學術領域"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3060,50 +3060,50 @@
 							"rows": [
 								[
 									"1",
-									"Alchemist"
+									"鍊金師"
 								],
 								[
 									"2",
-									"Astronomer"
+									"天文學者"
 								],
 								[
 									"3",
-									"Discredited academic"
+									"偽學者"
 								],
 								[
 									"4",
-									"Librarian"
+									"圖書管理員"
 								],
 								[
 									"5",
-									"Professor"
+									"教授"
 								],
 								[
 									"6",
-									"Researcher"
+									"研究員"
 								],
 								[
 									"7",
-									"Wizard's apprentice"
+									"法師學徒"
 								],
 								[
 									"8",
-									"Scribe"
+									"抄寫員"
 								]
 							]
 						}
 					]
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
-						"Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly\u2014sometimes in its own right, sometimes as a means toward other ideals.",
+						"學者是由他們的廣泛研究定義的，它們的特性反映了這一生的研究。專注於學術追求，學者重視知識的價值，有時是自己的權利，有時是對其他理想的追求。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3112,35 +3112,35 @@
 							"rows": [
 								[
 									"1",
-									"I use polysyllabic words that convey the impression of great erudition."
+									"我常常抛書包，使自己顯得很宥學識。"
 								],
 								[
 									"2",
-									"I've read every book in the world's greatest libraries\u2014or I like to boast that I have."
+									"我吹噓閱讀過世界第一的圖書館的每本書。"
 								],
 								[
 									"3",
-									"I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others."
+									"我習慣幫忙比自己笨的人，向他們耐心地解釋萬事萬物。"
 								],
 								[
 									"4",
-									"There's nothing I like more than a good mystery."
+									"我喜歡有趣的迷團。"
 								],
 								[
 									"5",
-									"I'm willing to listen to every side of an argument before I make my own judgment."
+									"當發生爭報時，我會先聽取各方意見再下結論。"
 								],
 								[
 									"6",
-									"I . . . speak . . . slowly . . . when talking . . . to idiots, . . . which . . . almost . . . everyone . . . is . . . compared . . . to me."
+									"我…對著…笨蛋…會…慢慢…說，基本…上…是…對…所有…人。"
 								],
 								[
 									"7",
-									"I am horribly, horribly awkward in social situations."
+									"我無可救藥地不擅辭令。"
 								],
 								[
 									"8",
-									"I'm convinced that people are always trying to steal my secrets."
+									"我認為大家都無時無刻想偷取我的不傳之秘。"
 								]
 							]
 						},
@@ -3148,7 +3148,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3157,27 +3157,27 @@
 							"rows": [
 								[
 									"1",
-									"Knowledge. The path to power and self-improvement is through knowledge. (Neutral)"
+									"知識。知識就是力量，就是提升自我。（中立）"
 								],
 								[
 									"2",
-									"Beauty. What is beautiful points us beyond itself toward what is true. (Good)"
+									"美。美麗的事物內藏真理。（善良）"
 								],
 								[
 									"3",
-									"Logic. Emotions must not cloud our logical thinking. (Lawful)"
+									"邏輯。不能讓情感蒙蔽我們的理智。（守序）"
 								],
 								[
 									"4",
-									"No Limits. Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)"
+									"不設限。宇宙的無限可能性應該能被自由探索，不受拒束。（混亂）"
 								],
 								[
 									"5",
-									"Power. Knowledge is the path to power and domination. (Evil)"
+									"力量。知識就是力量，就是淩駕。（邪惡）"
 								],
 								[
 									"6",
-									"Self-Improvement. The goal of a life of study is the betterment of oneself. (Any)"
+									"自學。畢生的功課都是為了提升自我。（任何）"
 								]
 							]
 						},
@@ -3185,7 +3185,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3194,27 +3194,27 @@
 							"rows": [
 								[
 									"1",
-									"It is my duty to protect my students."
+									"保護學生是我的責任。"
 								],
 								[
 									"2",
-									"I have an ancient text that holds terrible secrets that must not fall into the wrong hands."
+									"我有一古卷，記載絕不能落入不法之手的巨秘。"
 								],
 								[
 									"3",
-									"I work to preserve a library, university, scriptorium, or monastery."
+									"我致力保存一所圖書館、大學、經閣、或寺院。"
 								],
 								[
 									"4",
-									"My life's work is a series of tomes related to a specific field of lore."
+									"我花了畢生撰寫關於特定學術領域的一套書。"
 								],
 								[
 									"5",
-									"I've been searching my whole life for the answer to a certain question."
+									"我窮盡一生追求一條問題的答案。"
 								],
 								[
 									"6",
-									"I sold my soul for knowledge. I hope to do great deeds and win it back."
+									"為了知識我曾出賣靈魂。但願我能用它們行大事，將它贏回。"
 								]
 							]
 						},
@@ -3222,7 +3222,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺點"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3231,27 +3231,27 @@
 							"rows": [
 								[
 									"1",
-									"I am easily distracted by the promise of information."
+									"我很易被知識吸引釣上。"
 								],
 								[
 									"2",
-									"Most people scream and run when they see a demon. I stop and take notes on its anatomy."
+									"一般人遇上惡魔時會尖叫逃跑，我卻會停下腳步筆錄牠的身體構造。"
 								],
 								[
 									"3",
-									"Unlocking an ancient mystery is worth the price of a civilization."
+									"用整個文明作代價揭露遠古奧秘？值得！"
 								],
 								[
 									"4",
-									"I overlook obvious solutions in favor of complicated ones."
+									"我捨易取難。"
 								],
 								[
 									"5",
-									"I speak without really thinking through my words, invariably insulting others."
+									"我口沒遮攔，惹眾憎。"
 								],
 								[
 									"6",
-									"I can't keep a secret to save my life, or anyone else's."
+									"為了保命，我什麼秘密都會說，包括他人的命。"
 								]
 							]
 						}
@@ -3260,52 +3260,52 @@
 			]
 		},
 		{
-			"name": "Sailor",
+			"name": "水手[Sailor]",
 			"source": "PHB",
 			"page": 139,
 			"skillProficiencies": "Athletics, Perception",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "熟練技能",
 					"type": "entries",
 					"entries": [
-						"Athletics, Perception"
+						"運動[Athletics]、觀察[Perception]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "熟練工具",
 					"type": "entries",
 					"entries": [
-						"Navigator's tools, vehicles (water)"
+						"領航員工具[Navigator's tools]、載具（水運）"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A belaying pin ({@item club|phb}), {@item silk rope (50 feet)|phb}, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+						"一個挽纜栓({@item 棍棒[club]|phb}), {@item 絲繩[silk rope] (50 feet)|phb}, 如兔腳或中央有洞的小石頭一類的護身符（或從第五章的飾物列表中擲骰決定）, 一套 {@item 便服[common clothes]|phb}, {@item 腰包[pouch]|phb} 及 10 gp。"
 					]
 				},
 				{
-					"name": "Feature: Ship's Passage",
+					"name": "特性：船路子[Ship's Passage]",
 					"type": "entries",
 					"entries": [
-						"When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage."
+						"若你需要，你能為你和你的隊友謀取免費的順風船進行旅行。你可能搭乘你曾經效力過的船，但也可能是你交好的另一艘船（可能一位你曾經的同船水手指揮的船只）。因為你是請求對方幫助（而非雇傭），所以你不能讓行程和日程全然滿足你的要求。由你的 DM 決定到達你的目的地需要多久。作為免費搭乘的報酬，你和你的隊友應當在航行中加入船員幫忙做工。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議性格",
 					"type": "entries",
 					"entries": [
-						"Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.",
+						"水手可能十分粗魯，但是各司其職的船上生活令他們十分值得信任。海上生活塑造了他們的外表，以及他們最重要的羈絆。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3314,35 +3314,35 @@
 							"rows": [
 								[
 									"1",
-									"My friends know they can rely on me, no matter what."
+									"朋友們知道他們可以依賴我，無論出現什麼困難。"
 								],
 								[
 									"2",
-									"I work hard so that I can play hard when the work is done."
+									"我努力工作，這樣休閒時就可以盡情玩樂。"
 								],
 								[
 									"3",
-									"I enjoy sailing into new ports and making new friends over a flagon of ale."
+									"我喜歡航行到新港口，在那裡以酒會友。"
 								],
 								[
 									"4",
-									"I stretch the truth for the sake of a good story."
+									"為了講述一個好故事，我常常誇大其詞。"
 								],
 								[
 									"5",
-									"To me, a tavern brawl is a nice way to get to know a new city."
+									"對我而言，酒館是了解一座陌生城市的好辦法。"
 								],
 								[
 									"6",
-									"I never pass up a friendly wager."
+									"我從不收朋友的賭注。"
 								],
 								[
 									"7",
-									"My language is as foul as an otyugh nest."
+									"我說話臭得像食腐獸的窩一樣。"
 								],
 								[
 									"8",
-									"I like a job well done, especially if I can convince someone else to do it."
+									"我喜歡出色的工作，尤其是如果我能讓別人來幹這活。/我喜歡讓別人幹活，自己看著。"
 								]
 							]
 						},
@@ -3350,7 +3350,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3359,27 +3359,27 @@
 							"rows": [
 								[
 									"1",
-									"Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)"
+									"尊重。只有船長和船員相互尊重，船才能乘風破浪。（善良）"
 								],
 								[
 									"2",
-									"Fairness. We all do the work, so we all share in the rewards. (Lawful)"
+									"公正。我們一起干活，一起拿餉。（守序）"
 								],
 								[
 									"3",
-									"Freedom. The sea is freedom\u2014the freedom to go anywhere and do anything. (Chaotic)"
+									"自由。海上生活就是自由——隨你去哪兒，隨你干什麼。（混亂）"
 								],
 								[
 									"4",
-									"Mastery. I'm a predator, and the other ships on the sea are my prey. (Evil)"
+									"征服。我是捕食者，而海上其他船則是我的獵物。（邪惡）"
 								],
 								[
 									"5",
-									"People. I'm committed to my crewmates, not to ideals. (Neutral)"
+									"人民。我為我的同伴們出力，不是為了什麼理念。（中立）"
 								],
 								[
 									"6",
-									"Aspiration. Someday, I'll own my own ship and chart my own destiny. (Any)"
+									"抱負。早晚有一天，我會有我自己的船，掌握自己的命運。（任何）"
 								]
 							]
 						},
@@ -3387,7 +3387,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3396,27 +3396,27 @@
 							"rows": [
 								[
 									"1",
-									"I'm loyal to my captain first, everything else second."
+									"我首先忠於我的船長，任何事物都要次之。"
 								],
 								[
 									"2",
-									"The ship is most important\u2014crewmates and captains come and go."
+									"船才是最重要的，無論船員還是船長都是過客。"
 								],
 								[
 									"3",
-									"I'll always remember my first ship."
+									"我總是會懷念我上過的第一艘船。"
 								],
 								[
 									"4",
-									"In a harbor town, I have a paramour whose eyes nearly stole me from the sea."
+									"在一座港口有我的情人，她的魅力幾乎能讓我拋棄海上生活和她在一起。"
 								],
 								[
 									"5",
-									"I was cheated out of my fair share of the profits, and I want to get my due."
+									"平分財寶是我的權力，而這權力被人用詭計騙走；我想要奪回我應得的那份。"
 								],
 								[
 									"6",
-									"Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me lo die. Vengeance will be mine."
+									"殘忍的海盜殺了我的船長和兄弟，搶走了我的船，只留下瀕死的我。我會復仇的。"
 								]
 							]
 						},
@@ -3424,7 +3424,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺陷"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3433,27 +3433,27 @@
 							"rows": [
 								[
 									"1",
-									"I follow orders, even if I think they're wrong."
+									"我遵守命令，即使是那些我抵觸的命令。"
 								],
 								[
 									"2",
-									"I'll say anything to avoid having to do extra work."
+									"我會絞盡腦汁避免額外勞動。"
 								],
 								[
 									"3",
-									"Once someone questions my courage, I never back down no matter how dangerous the situation."
+									"只要有人質疑我的勇氣，無論刀山火海我都會去闖。"
 								],
 								[
 									"4",
-									"Once I start drinking, it's hard for me to stop."
+									"如果我開始喝酒，那根本就停不下來。"
 								],
 								[
 									"5",
-									"I can't help but pocket loose coins and other trinkets I come across."
+									"我會無法遏制地收集自己遇到的一切硬幣或者小飾品之類的玩意兒。"
 								],
 								[
 									"6",
-									"My pride will probably lead to my destruction."
+									"我的驕傲可能會毀滅我。"
 								]
 							]
 						}
@@ -3462,52 +3462,52 @@
 			]
 		},
 		{
-			"name": "Soldier",
+			"name": "士兵[Soldier]",
 			"source": "PHB",
 			"page": 140,
 			"skillProficiencies": "Athletics, Intimidation",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Athletics, Intimidation"
+						"運動[Athletics]、威嚇[Intimidation] "
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"One type of gaming set, vehicles (land)"
+						"一種遊戲組、載具（陸行） "
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"An insignia of rank, a trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner), a bone {@item dice set|phb} or {@item playing card set|phb}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+						"軍階徽章、敵人身上取走的紀念物（匕首、短劍、橫幅等） 、一套{@item 骰子[dice set]|phb} 或 {@item 卡牌[playing card set]|phb},  {@item 便服[common clothes]|phb}, {@item 腰包[pouch]|phb} 及 10gp 。"
 					]
 				},
 				{
-					"name": "Feature: Military Rank",
+					"name": "特性: 軍階[Military Rank]",
 					"type": "entries",
 					"entries": [
-						"You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+						"你服役時獲得了軍階。對你的軍事組織忠誠的軍人依然承認你的地位和影響力，軍階低的甚至會向你請示。你可以借助軍階向士兵征用簡易裝備和馬匹作臨時使用。你也通常可以進入承認你的軍階的友方軍營和堡壘。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Specialty",
+					"name": "專業",
 					"type": "entries",
 					"entries": [
-						"During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:",
+						"當你是士兵是，你在伍中有特定的岡位。投 d8 或從下表中選擇你的岡位。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Role"
+								"角色"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3516,50 +3516,50 @@
 							"rows": [
 								[
 									"1",
-									"Officer"
+									"軍官"
 								],
 								[
 									"2",
-									"Scout"
+									"偵察兵"
 								],
 								[
 									"3",
-									"Infantry"
+									"步兵"
 								],
 								[
 									"4",
-									"Cavalry"
+									"騎兵"
 								],
 								[
 									"5",
-									"Healer"
+									"救護兵"
 								],
 								[
 									"6",
-									"Quartermaster"
+									"物資管理員"
 								],
 								[
 									"7",
-									"Standard-bearer"
+									"旗手"
 								],
 								[
 									"8",
-									"Support staff (cook, blacksmith, or the like)"
+									"後勤（伙頭兵、鐵匠等）"
 								]
 							]
 						}
 					]
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
-						"The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.",
+						"戰爭的恐怖和嚴格的軍事紀律給所有士兵留下了印記，塑造了他們的理想，建立了牢固的羈絆，常常使他們傷痕累累，在恐懼、羞恥和仇恨面前不堪一擊。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3568,35 +3568,35 @@
 							"rows": [
 								[
 									"1",
-									"I'm always polite and respectful."
+									"我彬彬有禮。"
 								],
 								[
 									"2",
-									"I'm haunted by memories of war. I can't get the images of violence out of my mind."
+									"我忘不了戰爭的惡夢。我攞脫不了那暴力場景。"
 								],
 								[
 									"3",
-									"I've lost too many friends, and I'm slow to make new ones."
+									"我失去了太多好友，現在不太熱衷交友。"
 								],
 								[
 									"4",
-									"I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation."
+									"我有很多激勵性或警世的軍伍故事，各種軍事情況都有。"
 								],
 								[
 									"5",
-									"I can stare down a hell hound without flinching."
+									"我能跟地獄犬怒目對視，毫不畏縮。"
 								],
 								[
 									"6",
-									"I enjoy being strong and like breaking things."
+									"我享受我的強壯並且喜歡砸破東西。"
 								],
 								[
 									"7",
-									"I have a crude sense of humor."
+									"我沒有幽默感。"
 								],
 								[
 									"8",
-									"I face problems head-on. A simple, direct solution is the best path to success."
+									"我辦事直截了當。簡單直接的方法最易成功。"
 								]
 							]
 						},
@@ -3604,7 +3604,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3613,27 +3613,27 @@
 							"rows": [
 								[
 									"1",
-									"Greater Good. Our lot is to lay down our lives in defense of others. (Good)"
+									"大善。我們士兵要誓死守護其他人。（善良）"
 								],
 								[
 									"2",
-									"Responsibility. I do what I must and obey just authority. (Lawful)"
+									"責任。我堅守岡位、遵從指示。（守序）"
 								],
 								[
 									"3",
-									"Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)"
+									"獨立。盲目聽令的人都間接支持暴政。（混亂）"
 								],
 								[
 									"4",
-									"Might. In life as in war, the stronger force wins. (Evil)"
+									"力量。在戰爭中，強者必得勝。（邪惡）"
 								],
 								[
 									"5",
-									"Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)"
+									"寬以待人。不值得為理念廝殺或戰爭。（中立）"
 								],
 								[
 									"6",
-									"Nation. My city, nation, or people are all that matter. (Any)"
+									"國家。一切都是為家、為國、為人民。（任何）"
 								]
 							]
 						},
@@ -3641,7 +3641,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3650,27 +3650,27 @@
 							"rows": [
 								[
 									"1",
-									"I would still lay down my life for the people I served with."
+									"我甘願為戰友捨命。"
 								],
 								[
 									"2",
-									"Someone saved my life on the battlefield. To this day, I will never leave a friend behind."
+									"戰場上有人救我一命。我今時今日都不會棄友。"
 								],
 								[
 									"3",
-									"My honor is my life."
+									"榮譽乃吾命。"
 								],
 								[
 									"4",
-									"I'll never forget the crushing defeat my company suffered or the enemies who dealt it."
+									"我永生不忘我團的慘敗，以及當時的仇敵。"
 								],
 								[
 									"5",
-									"Those who fight beside me are those worth dying for."
+									"伴在身邊的戰友都值得自己捨身奮戰。"
 								],
 								[
 									"6",
-									"I fight for those who cannot fight for themselves."
+									"我為不能戰的人而戰。"
 								]
 							]
 						},
@@ -3678,7 +3678,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺點"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3687,27 +3687,27 @@
 							"rows": [
 								[
 									"1",
-									"The monstrous enemy we faced in battle still leaves me quivering with fear."
+									"戰爭時面對的魔物依然使我恐惶悚懼。"
 								],
 								[
 									"2",
-									"I have little respect for anyone who is not a proven warrior."
+									"我看不起那些證明不了自己能戰的人。"
 								],
 								[
 									"3",
-									"I made a terrible mistake in battle that cost many lives\u2014and I would do anything to keep that mistake secret."
+									"我曾在戰爭中犯錯，死了很多人，我會不擇手段掩飾這秘史。"
 								],
 								[
 									"4",
-									"My hatred of my enemies is blinding and unreasoning."
+									"我的深仇大恨壓倒我的理智。"
 								],
 								[
 									"5",
-									"I obey the law, even if the law causes misery."
+									"我奉公守法，即使是惡法。"
 								],
 								[
 									"6",
-									"I'd rather eat my armor than admit when I'm wrong."
+									"我寧可把盔甲吃下都不願認錯。"
 								]
 							]
 						}
@@ -3763,52 +3763,52 @@
 			]
 		},
 		{
-			"name": "Urchin",
+			"name": "孤兒[Urchin]",
 			"source": "PHB",
 			"page": 141,
 			"skillProficiencies": "Sleight of Hand, Stealth",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "熟練技能",
 					"type": "entries",
 					"entries": [
-						"Sleight of Hand, Stealth"
+						"扒手[Sleight of Hand]、隱藏[Stealth]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "熟練工具",
 					"type": "entries",
 					"entries": [
-						"Disguise Kit, thieves' tools"
+						"易容工具[Disguise Kit]、盜賊工具[thieves' tools]"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+						"一把小刀、一張你成長的城市的地圖、一只寵物鼠、一件紀念你父母的象征物、一套 {@item 便服[common clothes]|phb}, {@item 腰包[pouch]|phb} 及 10 gp"
 					]
 				},
 				{
-					"name": "Feature: City Secrets",
+					"name": "特性：城市秘辛[City Secrets]",
 					"type": "entries",
 					"entries": [
-						"You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
+						"你知道城市的秘密小徑和胡同，能夠在混亂的街區中發現他人忽視的路徑。如果你們並非身處戰鬥狀態，在城市內你和你引導的同伴可以以一半於通常時間的速度在兩個地點間穿行。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Suggested Characteristics",
+					"name": "建議性格",
 					"type": "entries",
 					"entries": [
-						"Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life\u2014and maybe get some payback on all the rich people who treated them badly.",
+						"孤兒被他令人絕望的貧困生活塑造，無論是好的方面，還是壞的方面。對街頭同生共死的同伴的承諾驅使可能驅使著他們，尋找更美好生活的熱切渴望也可能引領著他們，甚至對所有曾經惡毒對待他們的富人報復也可能是孤兒的動機。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d8",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3817,35 +3817,35 @@
 							"rows": [
 								[
 									"1",
-									"I hide scraps of food and trinkets away in my pockets."
+									"我把食物碎屑和小零碎深深地藏在口袋裡。"
 								],
 								[
 									"2",
-									"I ask a lot of questions."
+									"我會常常發問。"
 								],
 								[
 									"3",
-									"I like to squeeze into small places where no one else can get to me."
+									"我喜歡鑽進別人找不到我的地方。"
 								],
 								[
 									"4",
-									"I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms."
+									"我習慣靠著牆或樹睡覺，睡時把所有的東西捆成一捆抱在懷裡。"
 								],
 								[
 									"5",
-									"I eat like a pig and have bad manners."
+									"我的吃相像豬一樣，十分沒有禮數。"
 								],
 								[
 									"6",
-									"I think anyone who's nice to me is hiding evil intent."
+									"我認為任何對我假仁假義的人都不安好心。"
 								],
 								[
 									"7",
-									"I don't like to bathe."
+									"我不喜歡洗澡。"
 								],
 								[
 									"8",
-									"I bluntly say what others are hinting at or hiding."
+									"我總是直接說出其他人暗示或者想遮掩的事情。"
 								]
 							]
 						},
@@ -3853,7 +3853,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3862,27 +3862,27 @@
 							"rows": [
 								[
 									"1",
-									"Respect. All people, rich or poor, deserve respect. (Good)"
+									"尊重。所有人，不論貧富，都應受到尊重。（善良）"
 								],
 								[
 									"2",
-									"Community. We have to take care of each other, because no one else is going to do it. (Lawful)"
+									"團結。我們必須同舟共濟，因為外人不會幫我們。（守序）"
 								],
 								[
 									"3",
-									"Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)"
+									"改變。下等人可能發跡，高貴人可能落馬，變化才是萬物的本質。（混亂）"
 								],
 								[
 									"4",
-									"Retribution. The rich need to be shown what life and death are like in the gutters. (Evil)"
+									"報復。富人們應該被按在水溝裡嘗嘗瀕死的感覺。（邪惡）"
 								],
 								[
 									"5",
-									"People. I help the people who help me\u2014that's what keeps us alive. (Neutral)"
+									"人民。我幫助那些幫了我的人——這是我們生存的根本。（中立）"
 								],
 								[
 									"6",
-									"Aspiration. I'm going to prove that I'm worthy of a better life. (Any)"
+									"抱負。我會證明我應該有更好的生活。（任何）"
 								]
 							]
 						},
@@ -3890,7 +3890,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3899,27 +3899,27 @@
 							"rows": [
 								[
 									"1",
-									"My town is my city or my home, and I'll fight to defend it."
+									"這城鎮是我的家，我會保衛它。"
 								],
 								[
 									"2",
-									"I sponsor an orphanage to keep others from enduring what I was forced to endure."
+									"我資助一所孤兒院，避免讓其他人遭受我的厄運。"
 								],
 								[
 									"3",
-									"I owe my survival to another urchin who taught me to live on the streets."
+									"我的倖存應歸功於那位教會我如何在街頭生存的孤兒。"
 								],
 								[
 									"4",
-									"I owe a debt I can never repay to the person who took pity on me."
+									"我欠了一位同情我的紳士一筆我還不起的債。"
 								],
 								[
 									"5",
-									"I escaped my life of poverty by robbing an important person, and I'm wanted for it."
+									"通過搶劫一位大人物我脫貧致富，但是也因此被通緝。"
 								],
 								[
 									"6",
-									"No one else should have to endure the hardships I've been through."
+									"不該再有人遭受我曾經的苦難了。"
 								]
 							]
 						},
@@ -3927,7 +3927,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺陷"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -3936,27 +3936,27 @@
 							"rows": [
 								[
 									"1",
-									"If I'm outnumbered, I will run away from a fight."
+									"如果敵人人多勢眾，我就會溜之大吉。"
 								],
 								[
 									"2",
-									"Gold seems like a lot of money to me, and I'll do just about anything for more of it."
+									"金子，錢，我會不擇手段賺更多。"
 								],
 								[
 									"3",
-									"I will never fully trust anyone other than myself."
+									"我不會全然相信任何人，除了自己。"
 								],
 								[
 									"4",
-									"I'd rather kill someone in their sleep than fight fair."
+									"與其公平決斗，我更喜歡趁人之危偷襲。"
 								],
 								[
 									"5",
-									"It's not stealing if I need it more than someone else."
+									"如果和原主相比我更需要，那就不算盜竊。/「拿來用用」算不上偷。"
 								],
 								[
 									"6",
-									"People who can't take care of themselves get what they deserve."
+									"自己看管不好自己的家伙們，都是自尋死路。"
 								]
 							]
 						}
@@ -4076,37 +4076,37 @@
 			]
 		},
 		{
-			"name": "Variant Criminal (Spy)",
+			"name": "變體罪犯：間諜[spy]",
 			"source": "PHB",
 			"page": 130,
 			"skillProficiencies": "Deception, Stealth",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Deception, Stealth"
+						"欺暪[Deception]、隱藏[Stealth]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"One type of gaming set, thieves' tools"
+						"一種遊戲組、盜賊工具[thieves' tools]"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A {@item crowbar|phb}, a set of dark {@item common clothes|phb} including a hood, and a belt {@item pouch|phb} containing 15 gp"
+						"{@item 撬棍[crowbar]|phb}, {@item 便服[common clothes]|phb}一件連帽黑衣, {@item 腰包[pouch]|phb} 及 15 gp。"
 					]
 				},
 				{
-					"name": "Feature: Spy Contact",
+					"name": "特性:地下聯絡人[Criminal Contact]",
 					"type": "entries",
 					"entries": [
-						"You have a reliable and trustworthy contact who acts as your liaison to a network of other spies. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you."
+						"你有一名可靠可信的中介，他能聯絡犯罪網絡上的其他罪犯。你知曉如何跟他保持遠距離通訊；具體而言，你知道那一些本地信使，見不得光的旅隊之主，或鬼崇的水手能替你傳達訊息。"
 					],
 					"data": {
 						"isFeature": true
@@ -4115,37 +4115,37 @@
 			]
 		},
 		{
-			"name": "Variant Entertainer (Gladiator)",
+			"name": "藝人變體：角鬥士[Gladiator]",
 			"source": "PHB",
 			"page": 131,
 			"skillProficiencies": "Acrobatics, Performance",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Acrobatics, Performance"
+						"特技動作[Acrobatics]、表演[Performance]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"Disguise kit, one type of musical instrument"
+						"易容盒[Disguise kit]、一種樂器[musical instrument]"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"An inexpensive but unusual weapon, such as a {@item trident|phb} or {@item net|phb} (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), {@item costume clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+						"不尋常的武器，比如 {@item 三叉戟[trident]|phb} 或 {@item 網子[net]|phb} , 一位粉絲的人情(信、小串頭髮、小飾品), {@item 戲服[costume clothes]|phb}, {@item 腰包[pouch]|phb} 及 15 gp。"
 					]
 				},
 				{
-					"name": "Feature: By Popular Demand",
+					"name": "特性：人見人愛[By Popular Demand]",
 					"type": "entries",
 					"entries": [
-						"You can find a place to perform in any place that features combat for entertainment-perhaps a gladiatorial arena or secret pit fighting club. In such an area, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+						"你可以在任何適合以戰鬥取樂的地點表演——可能是劍鬥場，或是黑拳俱樂部。在表演處，你能獲得適度或舒適水平的免費食宿（取決於所製訂的標準），只要你每晚均演出。另外，你的表演讓你在當地人中獲得一定地位。若你進行表演的城鎮中陌生人認出你，他們通常會對你抱有好感。"
 					],
 					"data": {
 						"isFeature": true
@@ -4154,39 +4154,39 @@
 			]
 		},
 		{
-			"name": "Variant Guild Artisan (Guild Merchant)",
+			"name": "行會工匠變體：行會商人[Guild Merchant]",
 			"source": "PHB",
 			"page": 133,
 			"skillProficiencies": "Insight, Persuasion",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Insight, Persuasion"
+						"察言觀色[Insight]、說服[Persuasion]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "熟練工具",
 					"type": "entries",
 					"entries": [
-						"Navigator's Tools or an additional language"
+						"領航員工具[Navigator's tools]或額外一種語言"
 					]
 				},
 				{
 					"name": "Equipment",
 					"type": "entries",
 					"entries": [
-						"A {@item mule|phb} and {@item cart|phb}, a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+						"一個{@item 騾子[mule]|phb} 和 {@item 貨車[cart]|phb}， 一封行會介紹信，一套 {@item 旅行者衣物[traveler's clothes]|phb}， {@item 腰包[pouch]|phb} 及 15 gp。"
 					]
 				},
 				{
-					"name": "Feature: Guild Membership",
+					"name": "特性：行會成員[Guild Membership]",
 					"type": "entries",
 					"entries": [
-						"As an established and respected member of a guild or large merchant consortium, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.",
-						"Guilds or consortiums often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild's coffers.",
-						"You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild's good graces."
+						"作為一名受人尊敬的行會正式成員，你能享受行會提供的一些好處。行會中的同儕能為你提供食宿，萬一不幸還會幫你下葬。在某些市鎮，行會會館提供和你的同行會面的場所，這裡你可能找到潛在的贊助人、盟友或者雇工。",
+						"行會常常掌握著龐大的政治資源。如果你被卷入指控中，你的行會會全力支持你，只要能舉出證明你清白的理由，或者罪名尚有回圜余地。倘若你是行會高層，藉由行會之力你能獲取有力的政治地位。你需要向行會捐贈金錢和魔法物品來獲取如此人脈。",
+						"每個月你必須上繳 5 gp 會費。若你因故未繳，必須補齊，否則就會失去行會青睞。"
 					],
 					"data": {
 						"isFeature": true
@@ -4195,53 +4195,53 @@
 			]
 		},
 		{
-			"name": "Variant Noble (Knight)",
+			"name": "貴族變體：騎士[Knight]",
 			"source": "PHB",
 			"page": 136,
 			"skillProficiencies": "History, Persuasion",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"History, Persuasion"
+						"歷史[History]、說服[Persuasion]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"One type of gaming set"
+						"任何一款遊戲組"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"One of your choice"
+						"任選一種"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A banner or other token from a noble lord or lady to whom you have given your heart, a set of {@item fine clothes|phb}, a {@item signet ring|phb}, a scroll of pedigree, and a purse containing 25 gp"
+						"來自貴族領主或女士的旗幟或其他象徵，你已對他們侍奉真心， 一套 {@item fine 錦衣[fine clothes]|phb}, {@item 璽戒[signet ring]|phb}, 一卷族譜 , 一個錢包含有 25 gp"
 					]
 				},
 				{
-					"name": "Variant Noble (Knight)",
+					"name": "貴族變體：騎士[Knight]",
 					"type": "entries",
 					"entries": [
-						"A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature instead of the Position of Privilege feature.",
-						"As an emblem of chivalry and the ideals of courtly love, you might include among your equipment a banner or other token from a noble lord or lady to whom you have given your heart-in a chaste sort of devotion."
+						"在大多數社會中，騎士是最低的貴族頭銜之一，但它可以成為通往更高地位的道路。如果你想成為一名騎士，選擇家臣[Retainers]特性而不是高人一等[Position of Privilege]特性。",
+						"作為騎士精神的象徵和宮廷愛情的理想，你可以在你的裝備中包括一面旗幟或來自貴族領主或女士的其他象徵，你已經將你的心奉獻給了這位貴族。"
 					]
 				},
 				{
-					"name": "Feature: Retainers",
+					"name": "特性：家臣[Retainers]",
 					"type": "entries",
 					"entries": [
-						"You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. <b>One of your retainers is a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood </b> (This person could be your bond.). Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on).",
-						"Your retainers can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
+						"你有三個忠實於你家庭的僕人。這些僕人可以是侍從或信使，其中一個可能是總監。<b>你的侍從中有一位是貴族，他是你的侍從，幫助你獲得他或她自己的騎士之路的訓練。</b>你剩下的兩個僕人可能包括一個照顧你的馬的馬夫和一個打磨你盔甲(甚至幫助你穿上它)的僕人。",
+						"你的僕人可以為你執行世俗的任務，但他們不會為你戰鬥，不會跟隨你進入明顯危險的區域(比如地牢)，如果他們經常受到威脅或虐待，他們會離開。"
 					],
 					"data": {
 						"isFeature": true
@@ -4250,37 +4250,37 @@
 			]
 		},
 		{
-			"name": "Variant Sailor (Pirate)",
+			"name": "變體水手：海盜[Pirate]",
 			"source": "PHB",
 			"page": 139,
 			"skillProficiencies": "Athletics, Perception",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "熟練技能",
 					"type": "entries",
 					"entries": [
-						"Athletics, Perception"
+						"運動[Athletics]、觀察[Perception]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "熟練工具",
 					"type": "entries",
 					"entries": [
-						"Navigator's tools, vehicles (water)"
+						"領航員工具[Navigator's tools]、載具（水運）"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A belaying pin ({@item club|phb}), {@item silk rope (50 feet)|phb}, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+						"一個挽纜栓({@item 棍棒[club]|phb}), {@item 絲繩[silk rope] (50 feet)|phb}, 如兔腳或中央有洞的小石頭一類的護身符（或從第五章的飾物列表中擲骰決定）, 一套 {@item 便服[common clothes]|phb}, {@item 腰包[pouch]|phb} 及 10 gp。"
 					]
 				},
 				{
-					"name": "Feature: Bad Reputation",
+					"name": "特性：凶名[Bad Reputation]",
 					"type": "entries",
 					"entries": [
-						"No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
+						"無論你走到哪裡，人們都會因你的惡名而恐懼。當你身處文明社區時，你可以免受一些細微的犯罪行為的指控，例如在酒館吃霸王餐或者踢壞商店的大門，因為人們不會冒險向當局告發你的劣行。"
 					],
 					"data": {
 						"isFeature": true
