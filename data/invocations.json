@@ -183,19 +183,6 @@
 			"page": 3
 		},
 		{
-			"name": "Cloak of Flies v2",
-			"prerequisites": {
-				"level": 5
-			},
-			"entries": [
-				"As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura includes your space, extends 5 feet from you in every direction, and is blocked by total cover. It lasts until you're {@condition incapacitated} or you dismiss it with a bonus action.",
-				"The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
-			],
-			"source": "UARevisedClassOptions",
-			"page": 5
-		},
-		{
 			"name": "Curse Bringer",
 			"prerequisites": {
 				"pact": "Blade",
@@ -234,18 +221,6 @@
 			],
 			"source": "PHB",
 			"page": 110
-		},
-		{
-			"name": "Eldritch Smite v2",
-			"prerequisites": {
-				"pact": "Blade",
-				"level": 5
-			},
-			"entries": [
-				"Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot. If the target takes any of this damage, you can knock the target {@condition prone} if it is Huge or smaller."
-			],
-			"source": "UARevisedClassOptions",
-			"page": 6
 		},
 		{
 			"name": "魔能光束[Eldritch Spear]",
@@ -799,165 +774,165 @@
 			"page": 111
 		},
 		{
-			"name": "Aspect of the Moon",
+			"name": "月之儀態[Aspect of the Moon]",
 			"prerequisites": {
 				"pact": "Tome"
 			},
 			"entries": [
-				"You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch."
+				"你不再需要睡眠，同樣不能以任何手段強制入夢。為了獲得長休息的益處，你可以花費8小時執行輕度的工作，例如閱讀你的影之書和放哨。"
 			],
 			"source": "XGE",
 			"page": 56
 		},
 		{
-			"name": "Cloak of Flies",
+			"name": "飛蠅鬥篷[Cloak of Flies]",
 			"prerequisites": {
 				"level": 5
 			},
 			"entries": [
-				"As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're {@condition incapacitated} or you dismiss it as a bonus action.",
-				"The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"以一個附贈動作，你周身環繞起外觀如同紛飛蚊蠅般的魔法靈光。靈光從你四周散發5英尺，但不會穿過全掩蔽。靈光持續到你{@condition 乏力[Incapacitated]}或以一個附贈動作解消它。",
+				"靈光給予你在魅力（威嚇）檢定的優勢，但你在所有其他魅力檢定上遭受劣勢。任何在靈光內開始回合的生物，受到等於你魅力調整值的毒素傷害（最小為0）。",
+				"當你使用此魔能祈喚後，在完成一次短休或長休前，你無法再次使用這祈喚。"
 			],
 			"source": "XGE",
 			"page": 56
 		},
 		{
-			"name": "Eldritch Smite",
+			"name": "魔能斬[Eldritch Smite]",
 			"prerequisites": {
 				"pact": "Blade",
 				"level": 5
 			},
 			"entries": [
-				"Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target {@condition prone} if it is Huge or smaller."
+				"每回合一次，當你以契約武器命中一個生物，你可以消耗一個契術師法術位，對目標造成額外 1d8 + 每法術位等級 1d8 的 force 傷害，如果目標體型是巨型或更小，你可以使它{@condition 倒地[Prone]}。"
 			],
 			"source": "XGE",
 			"page": 56
 		},
 		{
-			"name": "Ghostly Gaze",
+			"name": "幽魂凝視[Ghostly Gaze]",
 			"prerequisites": {
 				"level": 7
 			},
 			"entries": [
-				"As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don't already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"以一個動作，你得到看穿30尺範圍的固態物體的能力。這種特殊的視覺持續1分鐘，或直到你的專注終止（如同你專注於一個法術）。在此期間，你觀察物體所看到的是影子般的、透明的畫面。",
+				"當你使用此魔能祈喚後，在完成一次短休或長休前，你無法再次使用這祈喚。"
 			],
 			"source": "XGE",
 			"page": 56
 		},
 		{
-			"name": "Gift of the Depths",
+			"name": "深海贈禮[Gift of the Depths]",
 			"prerequisites": {
 				"level": 5
 			},
 			"entries": [
-				"You can breathe underwater, and you gain a swimming speed equal to your walking speed.",
-				"You can also cast {@spell water breathing} once without expending a spell slot. You regain the ability to do so when you finish a long rest."
+				"你可以在水下呼吸，並且你得到等於你步行速度的遊泳速度。",
+				"你可以施展一次{@spell 水下呼吸[water breathing]}法術，而無需消耗法術位。當你結束一次長休後，你重新獲得此能力。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Gift of the Ever-Living Ones",
+			"name": "永生者贈禮[Gift of the Ever-Living Ones]",
 			"prerequisites": {
 				"pact": "Chain"
 			},
 			"entries": [
-				"Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you."
+				" 當你的魔寵距離你100英尺內時，若你恢復生命值，所有決定你恢復生命值點數的骰子，都被視為骰出了最大值。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Grasp of Hadar",
+			"name": "哈達之攫[Grasp of Hadar]",
 			"prerequisites": {
-				"spell": "Eldritch Blast"
+				"spell": "魔能爆[Eldritch blast]"
 			},
 			"entries": [
-				"Once on each of your turns when you hit a creature with your {@spell eldritch blast}, you can move that creature in a straight line 10 feet closer to you."
+				"每回合一次，當你以{@spell 魔能爆[Eldritch blast]}擊中一個生物時，你可以讓此生物直線向你移動10英尺。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Improved Pact Weapon",
+			"name": "進階契約武器[Improved Pact Weapon]",
 			"prerequisites": {
 				"pact": "Blade"
 			},
 			"entries": [
-				"You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.",
-				"In addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.",
-				"Finally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow."
+				"你可以使用任何鋒刃魔契職業特性召喚出來的武器作為契術師法術的法器。",
+				"除此之外，武器在攻擊骰和傷害骰上獲得+1加值，除非它是一件已經有攻擊骰和傷害骰加值的魔法武器。",
+				"最後，你塑造的武器可以是短弓、長弓、輕弩或者重弩。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Lance of Lethargy",
+			"name": "怠惰之槍[Lance of Lethargy]",
 			"prerequisites": {
-				"spell": "Eldritch Blast"
+				"spell": "魔能爆[Eldritch blast]"
 			},
 			"entries": [
-				"Once on each of your turns when you hit a creature with your {@spell eldritch blast}, you can reduce that creature's speed by 10 feet until the end of your next turn."
+				"每回合一次，當你以{@spell 魔能爆[Eldritch blast]}擊中一個生物時，你可以降低目標10英尺的速度，直到你的下個回合結束。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Maddening Hex",
+			"name": "癲狂巫咒[Maddening Hex]",
 			"prerequisites": {
 				"level": 5,
 				"spell": "Hex/Curse"
 			},
 			"entries": [
-				"As a bonus action, you cause a psychic disturbance around the target cursed by your {@spell hex} spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice that you can see within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you."
+				"以一個附贈動作，對你以{@spell 脆弱詛咒[hex]}或咒劍詛咒、兇兆符記等魔導師特性所詛咒的目標，你向他施加一種精神干擾。當你如此做時，你對詛咒目標和所有距他5英尺內的、你所選擇的生物造成精神傷害。精神傷害值等於你的魅力調整值（最低為1）。為了使用此祈喚，你必須能看到詛咒目標，且他必須距你30英尺以內。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Relentless Hex",
+			"name": "殘酷巫咒[Relentless Hex]",
 			"prerequisites": {
 				"level": 7,
 				"spell": "Hex/Curse"
 			},
 			"entries": [
-				"Your curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your {@spell hex} spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target."
+				"你的詛咒為你和你的目標間建立了短暫的鏈接。以一個附贈動作，你可以魔法性質地傳送到詛咒目標5英尺以內的、你能看到的未占據空間，傳送距離最多30英尺。為了實現此方式的傳送，你必須可以看到詛咒目標。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Shroud of Shadow",
+			"name": "暗影壽衣[Shroud of Shadow]",
 			"prerequisites": {
 				"level": 15
 			},
 			"entries": [
-				"You can cast {@spell invisibility} at will, without expending a spell slot."
+				"你可以施展{@spell 隱身[invisibility]}法術，而無需消耗法術位。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Tomb of Levistus",
+			"name": "萊維斯圖斯之墓[Tomb of Levistus]",
 			"prerequisites": {
 				"level": 5
 			},
 			"entries": [
-				"As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are {@condition incapacitated}. These effects, including any remaining temporary hit points, all end when the ice melts.",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"當你受到傷害時，你可以以一個反應將自己封鎖在冰墓中，冰墓會在你的下一個回合結束時融解。你得到每魔導師等級10點的臨時生命值，此生命值會盡可能優先地抵消最初的傷害。你受到傷害的當下會立即得到對火焰傷害的易傷，速度降低至0，並且陷入{@condition 乏力[Incapacitated]}狀態。這些效果，以及剩餘的臨時生命值，會在冰墓融解時終止。",
+				"  當你使用此魔能祈喚後，在完成一次短休或長休前，你無法再次使用這祈喚。"
 			],
 			"source": "XGE",
 			"page": 57
 		},
 		{
-			"name": "Trickster's Escape",
+			"name": "魔導師的逃脫術[Trickster's Escape]",
 			"prerequisites": {
 				"level": 7
 			},
 			"entries": [
-				"You can cast {@spell freedom of movement} once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest."
+				"你可以對自己施展一次{@spell 行動自如[Freedom of Movement]}法術，而無需消耗法術位。當你結束一次長休後，你重新獲得此能力。"
 			],
 			"source": "XGE",
 			"page": 57
