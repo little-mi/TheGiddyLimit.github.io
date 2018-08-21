@@ -641,7 +641,7 @@
 					"name": "建議特質",
 					"entries": [
 						"使用玩家手冊中的{@background 行會工匠[Guild Artisan]}背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為朝臣的身份。",
-						"你起步時所在的貴族法庭或官僚機構直接或間接地與你的關係聯繫在一起(這可能屬於團體中的某些人，比如你的贊助人或導師)。你的理想可能與你的法庭或組織的主流哲學有關。"
+						"你起步時所在的貴族法庭或官僚機構直接或間接地與你有著深刻的羈絆(這可能屬於團體中的某些人，比如你的贊助人或導師)。你的理想可能與你的法庭或組織的主流哲學有關。"
 					]
 				}
 			]
@@ -2481,37 +2481,37 @@
 			]
 		},
 		{
-			"name": "Mercenary Veteran",
+			"name": "資深傭兵[Mercenary Veteran]",
 			"source": "SCAG",
 			"page": 152,
-			"skillProficiencies": "Athletics, Persuasion",
+			"skillProficiencies": "運動[Athletics]、說服[Persuasion]",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Athletics, Persuasion"
+						"運動[Athletics]、說服[Persuasion]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"One type of gaming set, vehicles (land)"
+						"一種遊戲組、載具（陸行）"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A uniform of your company ({@item traveler's clothes|phb} in quality), an insignia of your rank, a {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} of your choice, and a {@item pouch|phb} containing the remainder of your last wages (10 gp)."
+						"屬於你組織的 {@item 旅行者衣物[traveler's clothes]|phb} , 軍階徽章 , 一個自選的{@filter 遊戲組[gaming set]|items|source=phb|miscellaneous=mundane|type=gaming set} , {@item 腰包[pouch]|phb} 及 10 gp 。"
 					]
 				},
 				{
-					"name": "Feature: Mercenary Life",
+					"name": "特性：傭兵生活[Mercenary Life]",
 					"type": "entries",
 					"entries": [
-						"You know the mercenary life as only someone who has experienced it can. You are able to identify mercenary companies by their emblems, and you know a little about any such company, including who has hired them recently. You can find the taverns and festhalls where mercenaries abide in any area, as long as you speak the language. You can find mercenary work between adventures sufficient to maintain a comfortable lifestyle (see \"Practicing a Profession\" under \"Downtime Activities\" in chapter 8 of the Player's Handbook)."
+						"你知道傭兵的生活，只有經歷過它的人才知道。你可以根據傭兵組織的標誌來識別組織，你對任何這樣的組織都有一定的了解，包括最近誰僱傭了他們。只要你會說當地的語言，你就能在任何地方找到傭兵居住的酒館和旅店。你可以在冒險之間找到足夠的僱傭兵工作來維持舒適的生活方式(參見玩家手冊第8章的 “Practicing a Profession”、“Downtime Activities”)。"
 					],
 					"data": {
 						"isFeature": true
@@ -2519,10 +2519,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"entries": [
-						"Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a mercenary.",
-						"Your bond could be associated with the company you traveled with previously, or with some of the comrades you served with. The ideal you embrace largely depends on your worldview and your motivation for fighting."
+						"使用玩家手冊中 {@background 士兵[Soldier]} 背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為資深傭兵的身份。",
+						"你的羈絆可能​​與你以前旅行過的傭兵組織有關，也可能與你一起作戰過的同胞有關。你所信奉的理想很大程度上取決於你的世界觀和你奮鬥的動機。"
 					]
 				}
 			]
@@ -3757,7 +3757,7 @@
 					"name": "建議特質",
 					"entries": [
 						"使用玩家手冊中的{@background 罪犯[Criminal]}背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為城市賞金獵人的身份。",
-						"例如，你的人情債可能涉及其他賞金獵人或僱傭你的組織或個人。你的理想可能與你總是抓住獵物的決心或你保持可靠名聲的願望有關。"
+						"例如，你的羈絆可能涉及其他賞金獵人或僱傭你的組織或個人。你的理想可能與你總是抓住獵物的決心或你保持可靠名聲的願望有關。"
 					]
 				}
 			]
@@ -3965,57 +3965,57 @@
 			]
 		},
 		{
-			"name": "Uthgardt Tribe Member",
+			"name": "烏斯加特部落成員[Uthgardt Tribe Member]",
 			"source": "SCAG",
 			"page": 153,
-			"skillProficiencies": "Athletics, Survival",
+			"skillProficiencies": "運動[Athletics]、求生[Survival]",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "熟練技能",
 					"type": "entries",
 					"entries": [
-						"Athletics, Survival"
+						"運動[Athletics]、求生[Survival]"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"Any one of your choice"
+						"任選一種"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "熟練工具",
 					"type": "entries",
 					"entries": [
-						"One type of musical instrument or artisan's tools"
+						"一種樂器[musical instrument] 或 匠人工具[artisan's tools]"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A {@item hunting trap|phb}, a totemic token or set of tattoos marking your loyalty to Uthgar and your tribal {@item totem|phb}, a set of {@item traveler's clothes|phb}, and a {@item pouch|phb} containing 10 gp"
+						"一個 {@item 狩獵陷阱[hunting trap]|phb}, 一個圖騰標誌或一套紋身，標誌著你對烏斯加特和你的部落的忠誠 {@item totem|phb}, 一套 {@item 旅行者衣物[traveler's clothes]|phb}, {@item 腰包[pouch]|phb} 及 10 gp"
 					]
 				},
 				{
-					"name": "Feature: Uthgardt Heritage",
+					"name": "特性：烏斯加特遺產[Uthgardt Heritage]",
 					"type": "entries",
 					"entries": [
-						"You have an excellent knowledge of not only your tribe's territory, but also the terrain and natural resources of the rest of the North. You are familiar enough with any wilderness area that you can find twice as much food and water as you normally would when you forage there.",
-						"Additionally, you can call upon the hospitality of your people, and those allied with your tribe, often including members of the druid circles, tribes of nomadic elves, the Harpers, and the priesthoods devoted to the gods of the First Circle."
+						"你們不僅對你們部落的領土，而且對北方其他地區的地形和自然資源都有很好的了解。你對任何荒野地區都很熟悉，你可以找到兩倍於你通常在那裡覓食時的食物和水。",
+						"此外，當你的族群見到你時會很熱情，以及那些與你部落結盟的人，通常包括德魯伊圈子的成員，游牧精靈部落，豎琴手組織，以及供奉 First Circle 神的祭司。 ."
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"type": "section",
-					"name": "Suggested Characteristics",
+					"type": "entries",
+					"name": "建議特質",
 					"entries": [
-						"Use the tables for the {@background outlander} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of an Uthgardt tribe.",
-						"Even if you have left your tribe behind (at least for now), you hold to the traditions of your people. You will never cut down a still-living tree, and you may not countenance such an act being done in your presence. The Uthgardt ancestral mounds - great hills where the totem spirits were defeated by Uthgar and where the heroes of the tribes are interred - are sacred to you.",
-						"Your bond is undoubtedly associated with your tribe or some aspect of Uthgardt philosophy or culture (perhaps even Uthgar himself). Your ideal is a personal choice that probably hews closely to the ethos of your people and certainly doesn't contradict or compromise what being an Uthgardt stands for."
+						"使用玩家手冊中的{@background 化外之民[Outlander]}背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為烏斯加特部落成員的身份。",
+						"即使你已經離開了你的部落(至少現在)，你仍然堅持你的民族的傳統。你決不會砍倒一棵還活著的樹，在你面前這樣做，你是不會贊成的。烏斯加特祖先的土丘——圖騰精靈被烏斯加特擊敗的巨大山丘，以及部落英雄埋葬的地方——對你來說是神聖的。",
+						"你的羈絆無疑與你的部落或烏斯加特哲學或文化的某些方面有關(甚至可能與烏斯加爾本人有關)。你的理想是一種個人選擇，它可能與你的人民的精神緊密相連，當然不會與烏斯加特人的理想相抵觸或妥協。"
 					]
 				}
 			]
@@ -4070,7 +4070,7 @@
 					"name": "建議特質",
 					"entries": [
 						"使用玩家手冊中的{@background 貴族[Noble]}背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為深水城貴族或家族的身份。",
-						"像其他貴族一樣，你出生和成長在一個與大多數人所熟知的不同的世界——一個賦予你特權的世界，但同時也召喚你履行與你身份相稱的職責的世界。你的關係可能​​只與你的家庭有關，也可能與另一個支持或反對你自己的貴族家庭有關。你的理想在某種程度上取決於你如何看待你在家庭中的角色，以及你打算如何作為你家庭的代表在這個世界上表現自己。"
+						"像其他貴族一樣，你出生和成長在一個與大多數人所熟知的不同的世界——一個賦予你特權的世界，但同時也召喚你履行與你身份相稱的職責的世界。你的羈絆可能​​只與你的家庭有關，也可能與另一個支持或反對你自己的貴族家庭有關。你的理想在某種程度上取決於你如何看待你在家庭中的角色，以及你打算如何作為你家庭的代表在這個世界上表現自己。"
 					]
 				}
 			]
