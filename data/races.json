@@ -1219,7 +1219,7 @@
 			]
 		},
 		{
-			"name": "Gnome",
+			"name": "地侏[Gnome]",
 			"source": "PHB",
 			"page": 35,
 			"size": "S",
@@ -1230,44 +1230,44 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years."
+						"地侏成年的速率與人類相同，大多數的地侏預計在40歲左右定居並像成人一樣生活。他們能活到350到接近500歲。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious."
+						"地侏大多數是善良的。賢者、工程師、研究者、學者、調查者或發明家傾向於守序。那些吟游詩人、騙徒、流浪漢或是喜歡空想的珠寶匠傾向於混亂。地侏是心地善良的，甚至那些他們中間的騙徒也多數是玩笑性質的而不是惡毒的。"
 					]
 				},
 				{
+					"name": "體型[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small."
+						"地侏平均在3~4呎高，約40磅。體型為小型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"習慣了地下生活，你在黑暗和昏暗照明下擁有超常的視力。60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Gnome Cunning",
+					"name": "地侏狡黠[Gnome Cunning]",
 					"entries": [
-						"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+						"你對所有對抗魔法的智力，感知和魅力的豁免檢定有優勢。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"entries": [
-						"You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
+						"你能聽說讀寫通用語[Common]與地侏語[Gnomish]。"
 					],
 					"type": "entries"
 				}
@@ -1353,22 +1353,22 @@
 					]
 				},
 				{
-					"name": "Forest",
+					"name": "林地侏[Forest]",
 					"ability": {
 						"dex": 1
 					},
 					"entries": [
 						{
-							"name": "Natural Illusionist",
+							"name": "天生幻術師[Natural Illusionist]",
 							"entries": [
-								"You know the {@spell minor illusion} cantrip. Intelligence is your spellcasting ability for it."
+								"你懂得 {@spell 小幻象[Minor Illusion]}。相關魔法能力值是智力。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Speak with Small Beasts",
+							"name": "動物溝通[Speak with Small Beasts]",
 							"entries": [
-								"Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+								"通過聲音和手勢，你能和小型或更小的野獸簡單溝通。林地侏喜愛動物，而且經常喂養松鼠、獾、兔子、鼴鼠，啄木鳥等作為他們的心愛的寵物。"
 							],
 							"type": "entries"
 						}
@@ -1378,42 +1378,42 @@
 					]
 				},
 				{
-					"name": "Rock",
+					"name": "岩地侏[Rock]",
 					"ability": {
 						"con": 1
 					},
 					"entries": [
 						{
-							"name": "Artificer's Lore",
+							"name": "工匠知識[Artificer's Lore]",
 							"entries": [
-								"Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+								"當你進行關於魔法物品，煉金物品或是工藝元件的智力（歷史）檢定時，你可以加上兩倍的熟練加值來代替原有的熟練加值。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Tinker",
+							"name": "修補匠[Tinker]",
 							"entries": [
-								"You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
-								"When you create a device, choose one of the following options:",
+								"你熟練於匠人工具（修補工具）。用這些工具，你能用1小時時間和10金幣價值的材料來創造一個超小型的發條機械裝置（AC5,1hp）。這個裝置在24小時後停止運轉（除非你花1小時來修理它，讓它保持運行），或者當你用動作來取消它，這時你能收回用來制造它的材料。同一時間你最多能激活3個這樣的裝置。",
+								"當你製造這個裝置時，選擇下列選項之一：",
 								{
 									"type": "entries",
-									"name": "Clockwork Toy",
+									"name": "發條玩具 [Clockwork Toy]",
 									"entries": [
-										"This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
+										"這玩具可以是個機械的動物、怪物或人，例如青蛙、老鼠、鳥、龍或者士兵。當被放在地上時，這個玩具能在你的行動輪內隨機向一個方向移動5尺，玩具發出噪聲用來表現它模擬生物的叫聲。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Fire Starter",
+									"name": "打火機[Fire Starter]",
 									"entries": [
-										"The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
+										"這個裝置用產生微小的火焰，你可以用來點蠟燭，火炬或營火。使用裝置需要動作。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Music Box",
+									"name": "音樂盒[Music Box]",
 									"entries": [
-										"When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+										"當打開時，這個音樂盒以適中的音量奏響固定的一首的歌曲。當音樂播放完或者音樂盒被關閉時，便會停止。"
 									]
 								}
 							],
@@ -1773,7 +1773,7 @@
 			]
 		},
 		{
-			"name": "Half-Elf",
+			"name": "半精靈[Half-Elf]",
 			"source": "PHB",
 			"page": 38,
 			"size": "M",
@@ -1796,51 +1796,51 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years."
+						"半精靈成長的速度和人類一樣，在20歲左右成年。但他們的壽命遠比人類要長，經常能活到180歲以上。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable."
+						"半精靈繼承了他們精靈血統中的混亂傾向。他們十分重視個人自由和創造性的表達，不愛做領導者也不希望被人追隨。他們不在乎規則，討厭被別人命令，而且有時會顯得十分不可靠——或者至少是難以預測。"
 					]
 				},
 				{
+					"name": "體形[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium."
+						"半精靈的體形和人類差不多，身高在5英尺到6英尺之間。你是中體型生物。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"拜你的精靈血統所賜，你在黑暗和昏暗環境下有超出常人的視力。在昏暗環境下，你可以將你周圍60英尺內的區域視為明亮光照；在黑暗環境下，你可以將光照視為昏暗光照。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Fey Ancestry",
+					"name": "妖精先祖[Fey Ancestry]",
 					"entries": [
-						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+						"你在進行對{@condition 迷惑[charmed]}的豁免檢定時有優勢，而且魔法不能使你陷入睡眠。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Skill Versatility",
+					"name": "多才多藝[Skill Versatility]",
 					"entries": [
-						"You gain proficiency in two skills of your choice."
+						"選擇兩個技能，並對這兩個技能獲得熟練。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common, Elvish, and one extra language of your choice."
+						"你可以說、讀、寫通用語[Common]和精靈語[Elvish]，以及你選擇的一項語言。"
 					],
 					"type": "entries"
 				}
@@ -2185,7 +2185,7 @@
 			]
 		},
 		{
-			"name": "Half-Orc",
+			"name": "半獸人[Half-Orc]",
 			"source": "PHB",
 			"page": 40,
 			"size": "M",
@@ -2197,58 +2197,58 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years."
+						"半獸人比人類更快地成熟，在14歲左右便成年。他們的衰老明顯而快速，很少有能夠活得超過75歲。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil."
+						"半獸人從他們的獸人先輩處繼承了容易傾向於混亂和極少傾向於善良的血統。在獸人中成長並願意生活在其中的半獸人通常是邪惡的。"
 					]
 				},
 				{
+					"name": "體形[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Half-orcs are somewhat larger and bulkier than humans, and they range From 5 to well over 6 feet tall. Your size is Medium."
+						"半獸人比人類更大更壯，他們的身高范圍在5英尺到超過6英尺。你的體形為中型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"因為你的獸人血統，你在黑暗和昏暗的環境中擁有超出常人的視力。在昏暗環境下，你可以將你周圍60英尺內的區域視為明亮光照；在黑暗環境下，你可以將光照視為昏暗光照。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Menacing",
+					"name": "凶惡[Menacing]",
 					"entries": [
-						"You gain proficiency in the Intimidation skill."
+						"你獲得威嚇[Intimidation]技能的熟練。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Relentless Endurance",
+					"name": "殘暴耐性[Relentless Endurance]",
 					"entries": [
-						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+						"當你的HP降為0而沒有完全死亡時，你可以改為使HP降低到1。直到你完成一次長休息前你不能再使用該能力。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Savage Attacks",
+					"name": "野蠻攻擊[Savage Attacks]",
 					"entries": [
-						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+						"當你用近戰武器攻擊造成重擊，你可以額外骰一個該武器的傷害骰並將數值加入到重擊的額外傷害中。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script."
+						"你可以聽說讀寫通用語[Common]和獸人語[Orc]。獸人語是使用輔音的一種粗糙而難聽的語言。獸人語沒有自己的文字，使用矮人語進行書寫。"
 					],
 					"type": "entries"
 				}
@@ -2569,37 +2569,37 @@
 			]
 		},
 		{
-			"name": "Human",
+			"name": "人類[Human]",
 			"source": "PHB",
 			"page": 29,
 			"size": "M",
 			"speed": 30,
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Humans reach adulthood in their late teens and live less than a century."
+						"人類不到 20 歲就成年，很少活到 100 歲。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Humans tend toward no particular alignment. The best and the worst are found among them."
+						"人類並不偏向特定陣營。最好的人和最奸的人都在當中找得到。"
 					]
 				},
 				{
+					"name": "體形[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+						"人類身高差距很大，由剛好 5 尺到遠超過 6 尺。不論你有多高，你的體型為中型。"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+						"你能說、讀、寫通用語[common]和額外的一項自選語言。"
 					],
 					"type": "entries"
 				}
@@ -2634,22 +2634,22 @@
 					},
 					"entries": [
 						{
-							"name": "Skills",
+							"name": "技能[Skills]",
 							"entries": [
-								"You gain proficiency in one skill of your choice."
+								"你獲得一項你選擇的技能的熟練。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Feat",
+							"name": "專長[Feat]",
 							"entries": [
-								"You gain one feat of your choice."
+								"你獲得一個你選擇的專長。"
 							],
 							"type": "entries"
 						}
 					],
 					"traitTags": [
-						"Skill Proficiency"
+						"技能熟練"
 					]
 				},
 				{
@@ -2942,7 +2942,7 @@
 			]
 		},
 		{
-			"name": "Halfling",
+			"name": "半身人[Halfling]",
 			"source": "PHB",
 			"page": 26,
 			"size": "S",
@@ -2952,81 +2952,81 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century."
+						"半身人約 20 歲成年， 一般能活到 150 歲。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways."
+						"大部分半身人都守序善良。他們一般心地善良、和藹可親，受不住看見他人受苦，完全不能容忍壓迫。他們也很守秩序、守傳統，倚重社群和習慣。"
 					]
 				},
 				{
+					"name": "體形[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small."
+						"半身人約 3 尺高，重約 40 磅。你的體型為小型。"
 					]
 				},
 				{
-					"name": "Lucky",
+					"name": "幸運[Lucky]",
 					"entries": [
-						"When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+						"當你在攻擊骰、能力檢定、豁免上投出 1 時，你可以重投它，但必需用新的結果。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Brave",
+					"name": "勇敢[Brave]",
 					"entries": [
-						"You have advantage on saving throws against being {@condition frightened}."
+						"你的對抗{@condition 恐慌[Frightened]}的豁免帶有優勢。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Halfling Nimbleness",
+					"name": "半身人的靈巧[Halfling Nimbleness]",
 					"entries": [
-						"You can move through the space of any creature that is of a size larger than yours."
+						"你可以穿越任何體形比你大的生物所佔據的空間。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"entries": [
-						"You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
+						"你能說、讀、寫通用語[Common]和半身人語[Halfling]。"
 					],
 					"type": "entries"
 				}
 			],
 			"subraces": [
 				{
-					"name": "Lightfoot",
+					"name": "輕足[Lightfoot]",
 					"ability": {
 						"cha": 1
 					},
 					"entries": [
 						{
-							"name": "Naturally Stealthy",
+							"name": "天生善匿[Naturally Stealthy]",
 							"entries": [
-								"You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+								"當你從體形比自己大的生物獲得遮蔽時，你可以嘗試躲藏。"
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Stout",
+					"name": "強魄[Stout]",
 					"ability": {
 						"con": 1
 					},
 					"entries": [
 						{
-							"name": "Stout Resilience",
+							"name": "強魄壯體[Stout Resilience]",
 							"entries": [
-								"You have advantage on saving throws against poison, and you have resistance against poison damage."
+								"你的對抗毒素的豁免帶有優勢，你也對毒素傷害有抗力。"
 							],
 							"type": "entries"
 						}
@@ -3260,7 +3260,7 @@
 			]
 		},
 		{
-			"name": "Tiefling",
+			"name": "魔人[Tiefling]",
 			"source": "PHB",
 			"page": 42,
 			"size": "M",
@@ -3268,44 +3268,44 @@
 			"darkvision": 60,
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Tieflings mature at the same rate as humans but live a few years longer."
+						"魔人的壽命跟人類差不多，但可以多活個幾年。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment."
+						"魔人雖然不會主動偏往邪惡，但許多往往步上邪惡。不管邪不邪惡，他們通常都屬於混亂。"
 					]
 				},
 				{
+					"name": "體形[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Tieflings are about the same size and build as humans. Your size is Medium."
+						"魔人體形跟人類差不多，你是中等體型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
+					"type": "entries",
 					"entries": [
-						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。在這情況下你只能辨別黑白。"
+					]
 				},
 				{
-					"name": "Hellish Resistance",
+					"name": "煉獄抗性[Hellish Resistance]",
+					"type": "entries",
 					"entries": [
-						"You have resistance to fire damage."
-					],
-					"type": "entries"
+						"你對火[fire]傷害有抗性。"
+					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"entries": [
-						"You can speak, read, and write Common and Infernal."
+						"你能說、讀、寫通用語[Common]與煉獄語[Infernal]。"
 					],
 					"type": "entries"
 				}
@@ -3318,9 +3318,9 @@
 					},
 					"entries": [
 						{
-							"name": "Infernal Legacy",
+							"name": "煉獄傳承[Infernal Legacy]",
 							"entries": [
-								"You know the {@spell thaumaturgy} cantrip. Once you reach 3rd level, you can cast the {@spell hellish rebuke} spell as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the {@spell darkness} spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+								"你可以使用 {@spell 奇術[Thaumaturgy]} 。 當你三等時，你可以用2環法術，一天一次施{@spell 煉獄叱喝[Hellish Rebuke]}。 當你五等時，你可以一天一次施{@spell 黑暗[darkness]}。這法術能力值為魅力。"
 							],
 							"type": "entries"
 						}
