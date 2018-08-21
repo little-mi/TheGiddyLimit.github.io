@@ -1818,7 +1818,7 @@
 					"type": "list",
 					"items": [
 						"你對被你擒抱的生物的攻擊骰有優勢。",
-						"你可以用動作嘗試壓制{@condition 被擒[Grappled]}的單位。若如此做，進行另外一個擒抱檢定。若成功，你與被擒者同時進入{@condition restrained}狀態，直到擒抱終止。"
+						"你可以用動作嘗試壓制{@condition 被擒[Grappled]}的單位。若如此做，進行另外一個擒抱檢定。若成功，你與被擒者同時進入{@condition 束縛[Restrained]}狀態，直到擒抱終止。"
 					]
 				}
 			]
