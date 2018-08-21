@@ -4,13 +4,13 @@
 			"name": "侍僧[Acolyte]",
 			"source": "PHB",
 			"page": 127,
-			"skillProficiencies": "Insight, Religion",
+			"skillProficiencies": "察言觀色[Insight]、宗教[Religion]",
 			"entries": [
 				{
 					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"察言觀色[Insight]、宗教[Religion] "
+						"察言觀色[Insight]、宗教[Religion]"
 					]
 				},
 				{
@@ -207,13 +207,13 @@
 			"name": "詐騙高手[Charlatan]",
 			"source": "PHB",
 			"page": 128,
-			"skillProficiencies": "Deception, Sleight of Hand",
+			"skillProficiencies": "欺瞞[Deception], 巧手[Sleight of Hand]",
 			"entries": [
 				{
 					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"欺瞞[Deception], 扒手[Sleight of Hand]"
+						"欺瞞[Deception], 巧手[Sleight of Hand]"
 					]
 				},
 				{
@@ -450,37 +450,37 @@
 			]
 		},
 		{
-			"name": "City Watch",
+			"name": "城市守衛[City Watch]",
 			"source": "SCAG",
 			"page": 145,
-			"skillProficiencies": "Athletics, Insight",
+			"skillProficiencies": "運動[Athletics]、察言觀色[Insight]",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Athletics, Insight"
+						"運動[Athletics]、察言觀色[Insight]"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"Any two of your choice"
+						"兩種自選語言"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A uniform in the style of your unit and indicative of your rank, a {@item horn|phb} with which to summon help, a set of {@item manacles|phb}, and a {@item pouch|phb} containing 10 gp"
+						"一件你所在組織的標示你軍銜的制服，一個用來召喚幫手的{@item 號角[horn]|phb}，一副{@item 手銬[manacles]|phb}，{@item 腰包[pouch]|phb}及 10 gp 的袋子。"
 					]
 				},
 				{
-					"name": "Feature: Watcher's Eye",
+					"name": "特性：守護者之眼[Watcher's Eye]",
 					"type": "entries",
 					"entries": [
-						"Your experience in enforcing the law, and dealing with lawbreakers, gives you a feel for local laws and criminals. You can easily find the local outpost of the watch or a similar organization, and just as easily pick out the dens of criminal activity in a community, although you're more likely to be welcome in the former locations rather than the latter."
+						"你對執行法律、處理犯法者有著豐富的經驗，這給了你對法律和犯罪異常敏感的感覺。你能很容易的找到守衛的哨站或是一些類似的組織，也能輕易的發現犯罪者們活動的窩點，同時你也在前者更容易受到歡迎。"
 					],
 					"data": {
 						"isFeature": true
@@ -488,53 +488,53 @@
 				},
 				{
 					"type": "entries",
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"entries": [
-						"Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of the city watch.",
-						"Your bond is likely associated with your fellow watch members or the watch organization itself and almost certainly concerns your community. Your ideal probably involves the fostering of peace and safety. An investigator is likely to have an ideal connected to achieving justice by successfully solving crimes."
+						"使用玩家手冊中 {@background 士兵[Soldier]} 背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為城市守衛的身份。",
+						"你的羈絆可能來自於你的守衛成員或是守衛組織本身有關，但可以確定的是與你的生活環境有關。你的理想可能包括促進和平與安全。一個調查員可能有一個理想，通過成功地解決犯罪問題來實現正義。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Clan Crafter",
+			"name": "宗族工匠[Clan Crafter]",
 			"source": "SCAG",
 			"page": 145,
-			"skillProficiencies": "History, Insight",
+			"skillProficiencies": "歷史[History]、察言觀色[Insight]",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"History, Insight"
+						"歷史[History]、察言觀色[Insight]"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"One type of artisan's tools"
+						"一種自選的匠人工具[artisan's tools]"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"Dwarvish or one of your choice if you already speak Dwarvish"
+						"矮人語或者如果你已經熟悉矮人語了就自選一種語言"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} with which you are proficient, a maker's mark chisel used to mark your handiwork with the symbol of the clan of crafters you learned your skill from, a set of {@item traveler's clothes|phb}, and a {@item pouch|phb} containing 5 gp and a gem worth 10 gp"
+						"一種你所熟練的{@filter 匠人工具[artisan's tools]|items|source=phb|miscellaneous=mundane|type=artisan tool}，一個用來標示出你是從哪個宗族學習何種手工技藝的徽記，一件{@item 旅行者衣物[traveler's clothes]|phb}，{@item 腰包[pouch]|phb} 及 5gp 和一塊價值 10 gp 的寶石。"
 					]
 				},
 				{
-					"name": "Feature: Respect of the Stout Folk",
+					"name": "特性：矮人的尊敬[Respect of the Stout Folk]",
 					"type": "entries",
 					"entries": [
-						"As well respected as clan crafters are among outsiders, no one esteems them quite so highly as dwarves do. You always have free room and board in any place where shield dwarves or gold dwarves dwell, and the individuals in such a settlement might vie among themselves to determine who can offer you (and possibly your companions) the finest accommodations and assistance."
+						"沒有人會像矮人們一樣對作為宗族工匠的外來者一樣高度尊重。你通常能在盾矮人或者金矮人居住的地方免費獲得食宿，矮人們還可能會彼此競爭來決定誰提供給你（也可能是你的同胞）最好的食宿和幫助。"
 					],
 					"data": {
 						"isFeature": true
@@ -542,10 +542,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"entries": [
-						"Use the tables for the {@background guild artisan} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a clan crafter. (For instance, consider the words \"guild\" and \"clan\" to be interchangeable.)",
-						"Your bond is almost certainly related to the master or the clan that taught you, or else to the work that you produce. Your ideal might have to do with maintaining the high quality of your work or preserving the dwarven traditions of craftsmanship."
+						"使用玩家手冊中的{@background 行會工匠[Guild Artisan]}背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為宗族工匠的身份。 （例如，考慮“行會”和“宗族”這個詞是可以互換的。）",
+						"你的羈絆幾乎肯定與你的師匠或教會你的氏族有關，或者與你所做的工作有關。你的理想可能與保持高質量的工作或保存矮人的傳統工藝有關。"
 					]
 				}
 			]
@@ -600,37 +600,37 @@
 			]
 		},
 		{
-			"name": "Courtier",
+			"name": "朝臣[Courtier]",
 			"source": "SCAG",
 			"page": 146,
-			"skillProficiencies": "Insight, Persuasion",
+			"skillProficiencies": "察言觀色[Insight]、說服[Persuasion]",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Insight, Persuasion"
+						"察言觀色[Insight]、說服[Persuasion]"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"Any two of your choice"
+						"兩種自選語言"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A set of {@item fine clothes|phb} and a {@item pouch|phb} containing 5 gp"
+						"一套 {@item 錦衣[fine clothes]|phb} ， {@item 腰包[pouch]|phb} 及 5 gp"
 					]
 				},
 				{
-					"name": "Feature: Court Functionary",
+					"name": "特性：官員[Court Functionary]",
 					"type": "entries",
 					"entries": [
-						"Your knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter. You know who the movers and shakers are, whom to go to for the favors you seek, and what the current intrigues of interest in the group are."
+						"你擁有的對官場如何運作的知識讓你獲得你所遇到過的貴族政議院和政府中訪問檔案和內部運作的能力。你了解是誰在背後操縱著神秘，你知道需要支持時應該去找誰，目前這些組織感興趣的陰謀又是哪些。"
 					],
 					"data": {
 						"isFeature": true
@@ -638,10 +638,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"entries": [
-						"Use the tables for the {@background guild artisan} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a courtier.",
-						"The noble court or bureaucratic organization where you got your start is directly or indirectly associated with your bond (which could pertain to certain individuals in the group, such as your sponsor or mentor). Your ideal might be concerned with the prevailing philosophy of your court or organization."
+						"使用玩家手冊中的{@background 行會工匠[Guild Artisan]}背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為朝臣的身份。",
+						"你起步時所在的貴族法庭或官僚機構直接或間接地與你的關係聯繫在一起(這可能屬於團體中的某些人，比如你的贊助人或導師)。你的理想可能與你的法庭或組織的主流哲學有關。"
 					]
 				}
 			]
@@ -650,7 +650,7 @@
 			"name": "罪犯[Criminal]",
 			"source": "PHB",
 			"page": 129,
-			"skillProficiencies": "Deception, Stealth",
+			"skillProficiencies": "欺暪[Deception]、隱藏[Stealth]",
 			"entries": [
 				{
 					"name": "技能熟練",
@@ -904,7 +904,7 @@
 			"name": "藝人[Entertainer]",
 			"source": "PHB",
 			"page": 130,
-			"skillProficiencies": "Acrobatics, Performance",
+			"skillProficiencies": "特技動作[Acrobatics]、表演[Performance]",
 			"entries": [
 				{
 					"name": "技能熟練",
@@ -1457,7 +1457,7 @@
 			"name": "人民英雄[Folk Hero]",
 			"source": "PHB",
 			"page": 131,
-			"skillProficiencies": "Animal Handling, Survival",
+			"skillProficiencies": "馴服動物[Animal Handling]、求生[Survival]",
 			"entries": [
 				{
 					"name": "技能熟練",
@@ -1719,7 +1719,7 @@
 			"name": "行會工匠[Guild Artisan]",
 			"source": "PHB",
 			"page": 132,
-			"skillProficiencies": "Insight, Persuasion",
+			"skillProficiencies": "察言觀色[Insight]、說服[Persuasion]",
 			"entries": [
 				{
 					"name": "熟練技能",
@@ -1855,7 +1855,7 @@
 					]
 				},
 				{
-					"name": "建議性格",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
 						"行會工匠曾經和芸芸眾生無貳，直到他們放下工具、開始冒險生涯。他們明白努力耕耘的可貴，也明白團結就是力量，但是他們容易被貪婪和嫉妒蒙蔽。",
@@ -2023,7 +2023,7 @@
 			"name": "隱士[Hermit]",
 			"source": "PHB",
 			"page": 134,
-			"skillProficiencies": "Medicine, Religion",
+			"skillProficiencies": "醫術[Medicine]、宗教[Religion]",
 			"entries": [
 				{
 					"name": "熟練技能",
@@ -2117,7 +2117,7 @@
 					]
 				},
 				{
-					"name": "建議性格",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
 						"某些隱士天生適合隱居生活，也有些人苦於寂寞隱居，久待同伴到來。無論他們選擇擁抱空寂還是敬而遠之，獨居生活都塑造了他們的態度和理念。少數人甚至會因久離人境而變得瘋瘋癲癲。",
@@ -2379,37 +2379,37 @@
 			]
 		},
 		{
-			"name": "Variant City Watch (Investigator)",
+			"name": "城市守衛變體：調查員[Investigator]",
 			"source": "SCAG",
 			"page": 145,
-			"skillProficiencies": "Insight, Investigation",
+			"skillProficiencies": "察言觀色[Insight], 調查[Investigation]",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Insight, Investigation"
+						"察言觀色[Insight], 調查[Investigation]"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"Any two of your choice"
+						"兩種自選語言"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A uniform in the style of your unit and indicative of your rank, a {@item horn|phb} with which to summon help, a set of {@item manacles|phb}, and a {@item pouch|phb} containing 10 gp"
+						"一件你所在組織的標示你軍銜的制服，一個用來召喚幫手的{@item 號角[horn]|phb}，一副{@item 手銬[manacles]|phb}，{@item 腰包[pouch]|phb}及 10 gp 的袋子。"
 					]
 				},
 				{
-					"name": "Feature: Watcher's Eye",
+					"name": "特性：守護者之眼[Watcher's Eye]",
 					"type": "entries",
 					"entries": [
-						"Your experience in enforcing the law, and dealing with lawbreakers, gives you a feel for local laws and criminals. You can easily find the local outpost of the watch or a similar organization, and just as easily pick out the dens of criminal activity in a community, although you're more likely to be welcome in the former locations rather than the latter."
+						"你對執行法律、處理犯法者有著豐富的經驗，這給了你對法律和犯罪異常敏感的感覺。你能很容易的找到守衛的哨站或是一些類似的組織，也能輕易的發現犯罪者們活動的窩點，同時你也在前者更容易受到歡迎。"
 					],
 					"data": {
 						"isFeature": true
@@ -2417,54 +2417,54 @@
 				},
 				{
 					"type": "entries",
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"entries": [
-						"Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of the city watch.",
-						"Your bond is likely associated with your fellow watch members or the watch organization itself and almost certainly concerns your community. Your ideal probably involves the fostering of peace and safety. An investigator is likely to have an ideal connected to achieving justice by successfully solving crimes."
+						"使用玩家手冊中 {@background 士兵[Soldier]} 背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為城市守衛的身份。",
+						"你的羈絆可能來自於你的守衛成員或是守衛組織本身有關，但可以確定的是與你的生活環境有關。你的理想可能包括促進和平與安全。一個調查員可能有一個理想，通過成功地解決犯罪問題來實現正義。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Knight of the Order",
+			"name": "教團騎士[Knight of the Order]",
 			"source": "SCAG",
 			"page": 151,
-			"skillProficiencies": "Persuasion",
+			"skillProficiencies": "說服[Persuasion]",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Persuasion, plus one from among Arcana, History, Nature, and Religion, as appropriate for your order"
+						"說服[Persuasion]，以及從奧術[Arcana]、歷史[History]、自然[Nature]和宗教[Religion]中選擇一個適合你教團的技能"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"Your choice of a gaming set or a musical instrument"
+						"一種遊戲組或樂器[musical instrument]"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"Any one of your choice"
+						"任選一種"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"One set of {@item traveler's clothes|phb}, a signet, banner, or seal representing your place or rank in the order, and a {@item pouch|phb} containing 10 gp"
+						"一件 {@item 旅行者衣物[traveler's clothes]|phb}，一個徽記，代表你騎士團或是教團等級的旗幟或是印章，{@item 腰包[pouch]|phb} 及 10 gp。"
 					]
 				},
 				{
-					"name": "Feature: Knightly Regard",
+					"name": "特性：騎士的敬重[Knightly Regard]",
 					"type": "entries",
 					"entries": [
-						"Your receive shelter and succor from members of your knightly order and those who are sympathetic to its aims. If your order is a religious one, you can gain aid from temples and other religious communities of your deity. Knights of civic orders can get help from the community\u2014whether a lone settlement or a great nation\u2014that they serve, and knights of philosophical orders can find help from those they have aided in pursuit of their ideals, and those who share their ideals.",
-						"This help comes in the form of shelter and meals, and healing when appropriate, as well as occasionally risky assistance, such as a band of local citizens rallying to aid a sorely pressed knight, or those who support the order helping to smuggle a knight out of town when he or she is being hunted unjustly."
+						"你會獲得來自你的騎士團其他成員和那些與騎士團有著相同目標的人們的救助和避難。如果你的教團是一個宗教騎士團，你可以從信仰的神的神殿和其他宗教團體中獲得幫助。服務人民的騎士團可以從某些為自己目標服務或是為整個國家服務的團體們尋求幫助。服務於某種理念的騎士團可以從曾近幫助過追尋理念的人們和那些與騎士團分享理念的人們獲得幫助。",
+						"這些幫助的方式來自他們提供的避難和食物，在適當之時為你治療。偶爾也會有些危險，比如一群本地居民一同幫助一位在戰鬥中嚴重受傷的騎士，或是幫助一名受到不公正追捕的騎士秘密走私出城。"
 					],
 					"data": {
 						"isFeature": true
@@ -2472,10 +2472,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"entries": [
-						"Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a knight of your order.",
-						"Your bond almost always involves the order to which you belong (or at least key members of it), and it is highly unusual for a knight's ideal not to reflect the agenda, sentiment, or philosophy of one's order."
+						"使用玩家手冊中{@background 士兵[Soldier]}背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為教團騎士的身份。",
+						"你的羈絆幾乎總是涉及到你所屬的秩序(或者至少是它的關鍵成員)，對於一個騎士的理想來說，不去反映一個人的秩序、情感或哲學，這是極不尋常的。"
 					]
 				}
 			]
@@ -2531,7 +2531,7 @@
 			"name": "貴族[Noble]",
 			"source": "PHB",
 			"page": 135,
-			"skillProficiencies": "History, Persuasion",
+			"skillProficiencies": "歷史[History], 說服[Persuasion]",
 			"entries": [
 				{
 					"name": "技能熟練",
@@ -2740,7 +2740,7 @@
 			"name": "化外之民[Outlander]",
 			"source": "PHB",
 			"page": 136,
-			"skillProficiencies": "Athletics, Survival",
+			"skillProficiencies": "運動[Athletics]、求生[Survival]",
 			"entries": [
 				{
 					"name": "熟練技能",
@@ -2841,7 +2841,7 @@
 					]
 				},
 				{
-					"name": "建議性格",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
 						"化外之民常常被城市居民視作粗魯蠢笨的家伙，在城市生活中往往不受尊重。化外之民們被部落、宗族、家族聯系起來，而大自然對大多數化外之民而言是最重要的羈絆，他們是她不可或缺的一角。",
@@ -3009,13 +3009,13 @@
 			"name": "學者[Sage]",
 			"source": "PHB",
 			"page": 137,
-			"skillProficiencies": "Arcana, History",
+			"skillProficiencies": "奧術[Arcana]、歷史[History]",
 			"entries": [
 				{
 					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"奧術, 歷史"
+						"奧術[Arcana]、歷史[History]"
 					]
 				},
 				{
@@ -3263,7 +3263,7 @@
 			"name": "水手[Sailor]",
 			"source": "PHB",
 			"page": 139,
-			"skillProficiencies": "Athletics, Perception",
+			"skillProficiencies": "運動[Athletics]、觀察[Perception]",
 			"entries": [
 				{
 					"name": "熟練技能",
@@ -3297,7 +3297,7 @@
 					}
 				},
 				{
-					"name": "建議性格",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
 						"水手可能十分粗魯，但是各司其職的船上生活令他們十分值得信任。海上生活塑造了他們的外表，以及他們最重要的羈絆。",
@@ -3465,13 +3465,13 @@
 			"name": "士兵[Soldier]",
 			"source": "PHB",
 			"page": 140,
-			"skillProficiencies": "Athletics, Intimidation",
+			"skillProficiencies": "運動[Athletics]、威嚇[Intimidation]",
 			"entries": [
 				{
 					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"運動[Athletics]、威嚇[Intimidation] "
+						"運動[Athletics]、威嚇[Intimidation]"
 					]
 				},
 				{
@@ -3716,37 +3716,37 @@
 			]
 		},
 		{
-			"name": "Urban Bounty Hunter",
+			"name": "城市賞金獵人[Urban Bounty Hunter]",
 			"source": "SCAG",
 			"page": 153,
 			"skillProficiencies": "",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Choose two from among Deception, Insight, Persuasion, and Stealth"
+						"從 欺暪[Deception]、察言觀色[Insight]、說服[Persuasion]、隱藏[Stealth] 選擇兩項"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"Choose two from among one type of gaming set, one musical instrument, and thieves's tools"
+						"從 遊戲組、樂器[musical instrument]、盜賊工具[thieves's tools] 選擇兩項"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A set of clothes appropriate to your duties and a {@item pouch|phb} containing 20 gp"
+						"一套適合你職責的衣服和{@item 腰包[pouch]|phb} 及 20 gp "
 					]
 				},
 				{
-					"name": "Feature: Ear to the Ground",
+					"name": "特性：提高警覺[Ear to the Ground]",
 					"type": "entries",
 					"entries": [
-						"You are in frequent contact with people in the segment of society that your chosen quarries move through. These people might be associated with the criminal underworld, the rough-and-tumble folk of the streets, or members of high society. This connection comes in the form of a contact in any city you visit, a person who provides information about the people and places of the local area."
+						"你經常與你所選擇的獵物所在的社會階層的人接觸。這些人可能與黑社會的犯罪分子，街頭打打鬧鬧的人或上流社會的成員有關。這種聯繫的形式是在你訪問的任何一個城市的一個聯繫人，一個提供關於當地的人和地方的信息的人。"
 					],
 					"data": {
 						"isFeature": true
@@ -3754,10 +3754,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "Suggested Characteristics",
+					"name": "建議特質",
 					"entries": [
-						"Use the tables for the {@background criminal} background in the Player's Handbook as the basis for your bounty hunter's traits and motivations, modifying the entries when appropriate to suit your identity as a bounty hunter.",
-						"For instance, your bond might involve other bounty hunters or the organizations or individuals that employ you. Your ideal could be associated with your determination always to catch your quarry or your desire to maintain your reputation for being dependable."
+						"使用玩家手冊中的{@background 罪犯[Criminal]}背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為城市賞金獵人的身份。",
+						"例如，你的人情債可能涉及其他賞金獵人或僱傭你的組織或個人。你的理想可能與你總是抓住獵物的決心或你保持可靠名聲的願望有關。"
 					]
 				}
 			]
@@ -3766,13 +3766,13 @@
 			"name": "孤兒[Urchin]",
 			"source": "PHB",
 			"page": 141,
-			"skillProficiencies": "Sleight of Hand, Stealth",
+			"skillProficiencies": "巧手[Sleight of Hand]、隱藏[Stealth]",
 			"entries": [
 				{
 					"name": "熟練技能",
 					"type": "entries",
 					"entries": [
-						"扒手[Sleight of Hand]、隱藏[Stealth]"
+						"巧手[Sleight of Hand]、隱藏[Stealth]"
 					]
 				},
 				{
@@ -3800,7 +3800,7 @@
 					}
 				},
 				{
-					"name": "建議性格",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
 						"孤兒被他令人絕望的貧困生活塑造，無論是好的方面，還是壞的方面。對街頭同生共死的同伴的承諾驅使可能驅使著他們，尋找更美好生活的熱切渴望也可能引領著他們，甚至對所有曾經惡毒對待他們的富人報復也可能是孤兒的動機。",
@@ -4021,56 +4021,56 @@
 			]
 		},
 		{
-			"name": "Waterdhavian Noble",
+			"name": "深水城貴族[Waterdhavian Noble]",
 			"source": "SCAG",
 			"page": 154,
-			"skillProficiencies": "History, Persuasion",
+			"skillProficiencies": "歷史[History]、說服[Persuasion]",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"History, Persuasion"
+						"歷史[History]、說服[Persuasion]"
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"type": "entries",
 					"entries": [
-						"Any one of your choice"
+						"任選一種"
 					]
 				},
 				{
-					"name": "Tool Proficiencies",
+					"name": "工具熟練",
 					"type": "entries",
 					"entries": [
-						"One type of gaming set or one musical instrument"
+						"任何一款遊戲組或一種樂器[musical instrument]"
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"A set of {@item fine clothes|phb}, a {@item signet ring|phb} or brooch, a scroll of pedigree, a skin of fine zzar or wine, and a purse containing 20 gp"
+						" 一套{@item 錦衣[fine clothes]|phb}, {@item 璽戒[signet ring]|phb}, 一卷族譜 ,一個外觀精緻的Zzar(深水城飲料)或酒 , 一個錢包含有 20 gp 。"
 					]
 				},
 				{
-					"name": "Feature: Kept in Style",
+					"name": "特性：維持生活水準[Kept in Style]",
 					"type": "entries",
 					"entries": [
-						"While you are in Waterdeep or elsewhere in the North, your house sees to your everyday needs. Your name and signet are sufficient to cover most of your expenses; the inns, taverns, and festhalls you frequent are glad to record your debt and send an accounting to your family's estate in Waterdeep to settle what you owe.",
-						"This advantage enables you to live a comfortable lifestyle without having to pay 2 gp a day for it, or reduces the cost of a wealthy or aristocratic lifestyle by that amount. You may not maintain a less affluent lifestyle and use the difference as income\u2014the benefit is a line of credit, not an actual monetary reward."
+						"當你在深水城或在北方的其他地方，你的家族能夠照顧你的日常需求。你的姓名和圖章足以支付你的大部分開支;你經常光顧的小客棧、小酒館和小旅館都很樂意記錄你的債務，並向你在深水城的家寄去一份帳目，以清償你的債務。",
+						"這種優勢可以讓你過上舒適[comfortable]的生活方式，而不必每天支付 2 gp 的費用，或者以此減少富裕[wealthy]或貴族[aristocratic]生活方式的成本。你不能降低你的生活風格，用不同的收入作為回報，這是一種信用額度，而不是實際的貨幣獎勵。"
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"type": "section",
-					"name": "Suggested Characteristics",
+					"type": "entries",
+					"name": "建議特質",
 					"entries": [
-						"Use the tables for the {@background noble} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of a Waterdhavian family.",
-						"Like other nobles, you were born and raised in a different world from the one that most folk know - one that grants you privilege but also calls you to fulfill a duty befitting your station. Your bond might be associated with your family alone, or it could be concerned with another noble house that sides with or opposes your own. Your ideal depends to some extent on how you view your role in the family, and how you intend to conduct yourself in the world at large as a representative of your house."
+						"使用玩家手冊中的{@background 貴族[Noble]}背景中的列表為背景的基礎特徵和動機，適當的修改內容，以符合你作為深水城貴族或家族的身份。",
+						"像其他貴族一樣，你出生和成長在一個與大多數人所熟知的不同的世界——一個賦予你特權的世界，但同時也召喚你履行與你身份相稱的職責的世界。你的關係可能​​只與你的家庭有關，也可能與另一個支持或反對你自己的貴族家庭有關。你的理想在某種程度上取決於你如何看待你在家庭中的角色，以及你打算如何作為你家庭的代表在這個世界上表現自己。"
 					]
 				}
 			]
@@ -4079,7 +4079,7 @@
 			"name": "變體罪犯：間諜[spy]",
 			"source": "PHB",
 			"page": 130,
-			"skillProficiencies": "Deception, Stealth",
+			"skillProficiencies": "欺暪[Deception]、隱藏[Stealth]",
 			"entries": [
 				{
 					"name": "技能熟練",
@@ -4118,7 +4118,7 @@
 			"name": "藝人變體：角鬥士[Gladiator]",
 			"source": "PHB",
 			"page": 131,
-			"skillProficiencies": "Acrobatics, Performance",
+			"skillProficiencies": "特技動作[Acrobatics]、表演[Performance]",
 			"entries": [
 				{
 					"name": "技能熟練",
@@ -4157,7 +4157,7 @@
 			"name": "行會工匠變體：行會商人[Guild Merchant]",
 			"source": "PHB",
 			"page": 133,
-			"skillProficiencies": "Insight, Persuasion",
+			"skillProficiencies": "察言觀色[Insight]、說服[Persuasion]",
 			"entries": [
 				{
 					"name": "技能熟練",
@@ -4198,7 +4198,7 @@
 			"name": "貴族變體：騎士[Knight]",
 			"source": "PHB",
 			"page": 136,
-			"skillProficiencies": "History, Persuasion",
+			"skillProficiencies": "歷史[History]、說服[Persuasion]",
 			"entries": [
 				{
 					"name": "技能熟練",
@@ -4253,7 +4253,7 @@
 			"name": "變體水手：海盜[Pirate]",
 			"source": "PHB",
 			"page": 139,
-			"skillProficiencies": "Athletics, Perception",
+			"skillProficiencies": "運動[Athletics]、觀察[Perception]",
 			"entries": [
 				{
 					"name": "熟練技能",
