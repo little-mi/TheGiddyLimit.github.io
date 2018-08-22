@@ -244,7 +244,7 @@
 			]
 		},
 		{
-			"name": "Elf",
+			"name": "精靈[Elf]",
 			"source": "PHB",
 			"page": 21,
 			"size": "M",
@@ -255,75 +255,75 @@
 			"darkvision": 60,
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
+						"雖然精靈身體的成長速度跟人類差不多，但精靈的成年標準包含人生經驗的成長，而不單看肉體。精靈通常在 100 歲左右進行成人禮及獲得成年的名字，並可以活750 年"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not."
+						"精靈喜愛自由、多樣性、自我表逹，因此強烈傾向於混亂中溫和的一面。他們珍視自己以及他人的自由，因此一般是善良的。"
 					]
 				},
 				{
+					"name": "體形[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium."
+						"精靈 5 到 6 尺高，身形苗條。你的體型為中型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Keen Senses",
+					"name": "敏銳感覺[Keen Senses]",
 					"entries": [
-						"You have proficiency in the Perception skill."
+						"你熟練於觀察[Perception]技能。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Fey Ancestry",
+					"name": "妖精先祖[Fey Ancestry]",
 					"entries": [
-						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+						"你在進行對{@condition 迷惑[charmed]}的豁免檢定時有優勢，而且魔法不能使你陷入睡眠。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Trance",
+					"name": "冥想[Trance]",
 					"entries": [
-						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
-						"{@note If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.}"
+						"精靈不需要睡覺。取而代之，他們每天要進行四小時的深層冥想，其中會做夢。這些夢其實是經年累月培養出來的直覺式心靈訓練。",
+						"{@note 如果你在長休時冥想，你只需要4個小時就能完成。此外，你仍需遵守長休的規則;只有持續時間改變了。}"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+						"你能說、讀、寫通用語[Common]和精靈語[Elvish]。"
 					],
 					"type": "entries"
 				}
 			],
 			"subraces": [
 				{
-					"name": "Drow",
+					"name": "卓爾[Drow]",
 					"ability": {
 						"cha": 1
 					},
 					"darkvision": 120,
 					"entries": [
 						{
-							"name": "Superior Darkvision",
+							"name": "高等黑暗視覺[Superior Darkvision]",
 							"entries": [
-								"Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+								"120 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 							],
 							"data": {
 								"overwrite": "Darkvision"
@@ -331,23 +331,23 @@
 							"type": "entries"
 						},
 						{
-							"name": "Sunlight Sensitivity",
+							"name": "日光敏感[Sunlight Sensitivity]",
 							"entries": [
-								"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+								"如果你本人，你要攻擊的目標，或者你試圖察覺到的東西位於陽光直射下，你在攻擊檢定和感知（觀察）檢定上獲得劣勢。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Drow Magic",
+							"name": "卓爾魔法[Drow Magic]",
 							"entries": [
-								"You know the {@spell dancing lights} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire} spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+								"你掌握了 {@spell 舞光[Dancing Lights]} 戲法。 當你達到3級，你可以使用{@spell 妖火[Faerie Fire]}，每日一次。當你達到5級，你可以使用{@spell 黑暗[Darkness]}，每日一次。這些法術的關鍵施法屬性是魅力。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Drow Weapon Training",
+							"name": "卓爾武器訓練[Drow Weapon Training]",
 							"entries": [
-								"You have proficiency with rapiers, shortswords, and hand crossbows."
+								"你熟練於細劍[rapiers]，短劍[shortswords]和手弩[hand crossbows]。"
 							],
 							"type": "entries"
 						}
@@ -386,30 +386,30 @@
 					]
 				},
 				{
-					"name": "High",
+					"name": "高等精靈[High]",
 					"speed": 30,
 					"ability": {
 						"int": 1
 					},
 					"entries": [
 						{
-							"name": "Elf Weapon Training",
+							"name": "精靈武器訓練[Elf Weapon Training]",
 							"entries": [
-								"You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}."
+								"你熟練於使用{@item 長劍[longsword]|phb}、{@item 短劍[shortsword]|phb}、{@item 短弓[shortbow]|phb}、{@item 長弓[longbow]|phb}。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Cantrip",
+							"name": "戲法[Cantrip]",
 							"entries": [
-								"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+								"你懂得一項 {@filter 自選的法師戲法|spells|level=0|class=Wizard}。你用智力作為它的魔法能力值。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Extra Language",
+							"name": "額外語言[Extra Language]",
 							"entries": [
-								"You can speak, read, and write one extra language of your choosing."
+								"你能說、讀、寫一項額外的自選語言。"
 							],
 							"type": "entries"
 						}
@@ -419,30 +419,30 @@
 					]
 				},
 				{
-					"name": "Wood",
+					"name": "木精靈[Wood]",
 					"speed": 35,
 					"ability": {
 						"wis": 1
 					},
 					"entries": [
 						{
-							"name": "Elf Weapon Training",
+							"name": "精靈武器訓練[Elf Weapon Training]",
 							"entries": [
-								"You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}."
+								"你熟練於使用{@item 長劍[longsword]|phb}、{@item 短劍[shortsword]|phb}、{@item 短弓[shortbow]|phb}、{@item 長弓[longbow]|phb}。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Fleet of Foot",
+							"name": "輕快腳步[Fleet of Foot]",
 							"entries": [
-								"Your base walking speed increases to 35 feet."
+								"你基礎速度增加到 35 尺。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Mask of the Wild",
+							"name": "以天為屏",
 							"entries": [
-								"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+								"當你因植物、大雨、飄雪、薄霧等自然現像獲得輕度遮蔽時，你可以嘗試躲藏。"
 							],
 							"type": "entries"
 						}
@@ -857,9 +857,9 @@
 							"type": "entries"
 						},
 						{
-							"name": "Mask of the Wild",
+							"name": "以天為屏[Mask of the Wild]",
 							"entries": [
-								"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+								"當你因植物、大雨、飄雪、薄霧等自然現像獲得輕度遮蔽時，你可以嘗試躲藏。"
 							],
 							"type": "entries"
 						}
@@ -970,9 +970,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Fey Ancestry",
+					"name": "妖精先祖[Fey Ancestry]",
 					"entries": [
-						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+						"你在進行對{@condition 迷惑[charmed]}的豁免檢定時有優勢，而且魔法不能使你陷入睡眠。"
 					],
 					"type": "entries"
 				},
@@ -993,9 +993,9 @@
 					},
 					"entries": [
 						{
-							"name": "Mask of the Wild",
+							"name": "以天為屏[Mask of the Wild]",
 							"entries": [
-								"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+								"當你因植物、大雨、飄雪、薄霧等自然現像獲得輕度遮蔽時，你可以嘗試躲藏。"
 							],
 							"type": "entries"
 						},
@@ -1145,17 +1145,17 @@
 					"type": "entries"
 				},
 				{
-					"name": "Fey Ancestry",
+					"name": "妖精先祖[Fey Ancestry]",
 					"entries": [
-						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+						"你在進行對{@condition 迷惑[charmed]}的豁免檢定時有優勢，而且魔法不能使你陷入睡眠。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Trance",
+					"name": "冥想[Trance]",
 					"entries": [
-						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
-						"{@note If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.}"
+						"精靈不需要睡覺。取而代之，他們每天要進行四小時的深層冥想，其中會做夢。這些夢其實是經年累月培養出來的直覺式心靈訓練。",
+						"{@note 如果你在長休時冥想，你只需要4個小時就能完成。此外，你仍需遵守長休的規則;只有持續時間改變了。}"
 					],
 					"type": "entries"
 				},
@@ -1180,9 +1180,9 @@
 							"type": "entries"
 						},
 						{
-							"name": "Mask of the Wild",
+							"name": "以天為屏[Mask of the Wild]",
 							"entries": [
-								"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+								"當你因植物、大雨、飄雪、薄霧等自然現像獲得輕度遮蔽時，你可以嘗試躲藏。"
 							],
 							"type": "entries"
 						}
@@ -1253,7 +1253,7 @@
 				{
 					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"習慣了地下生活，你在黑暗和昏暗照明下擁有超常的視力。60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
@@ -1274,7 +1274,7 @@
 			],
 			"subraces": [
 				{
-					"name": "Deep/Svirfneblin",
+					"name": "地底地侏[Deep/Svirfneblin]",
 					"source": "SCAG",
 					"page": 115,
 					"otherSources": [
@@ -1289,39 +1289,39 @@
 					},
 					"entries": [
 						{
-							"name": "Age",
+							"name": "年齡[Age]",
 							"type": "entries",
 							"entries": [
-								"Deep gnomes are short-lived for gnomes. They mature at the same rate humans do and are considered full-grown adults by 25. They live 200 to 250 years, although hard toil and the dangers of the Underdark often claim them before their time."
+								"地底地侏對地侏來說生命是短暫的。它們的成熟速度和人類一樣，25歲時被認為是成年的。他們可以活 200 到 250 年，儘管幽暗地域[Underdark]艱苦的勞動和危險經常使他們在壽命到達之前就奪走了性命。"
 							],
 							"data": {
 								"overwrite": "Age"
 							}
 						},
 						{
-							"name": "Alignment",
+							"name": "陣營[Alignment]",
 							"type": "entries",
 							"entries": [
-								"Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others."
+								"地底地侏相信生存靠的是避免與其他生物糾纏，而不是樹敵，所以它們喜歡中立的陣營。他們很少希望別人生病，也不太可能為了別人而冒險。"
 							],
 							"data": {
 								"overwrite": "Alignment"
 							}
 						},
 						{
+							"name": "體型[Size]",
 							"type": "entries",
-							"name": "Size",
 							"entries": [
-								"A typical svirfneblin stands about 3 to 3½ feet tall and weighs 80 to 120 pounds. Your size is Small."
+								"一個典型的地底侏侏站3 - 3½英尺高,體重80到120磅。你的尺寸是小的。"
 							],
 							"data": {
 								"overwrite": "Size"
 							}
 						},
 						{
-							"name": "Superior Darkvision",
+							"name": "高等黑暗視覺[Superior Darkvision]",
 							"entries": [
-								"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+								"120 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 							],
 							"data": {
 								"overwrite": "Darkvision"
@@ -1329,16 +1329,16 @@
 							"type": "entries"
 						},
 						{
-							"name": "Stone Camouflage",
+							"name": "岩石偽裝[Stone Camouflage]",
 							"entries": [
-								"You have advantage on Dexterity (Stealth) checks to hide in rocky terrain."
+								"當你嘗試在巖石地形中躲藏時，你的敏捷（隱匿）檢定獲得優勢。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Languages",
+							"name": "語言[Languages]",
 							"entries": [
-								"You can speak, read, and write Common, Gnomish, and Undercommon. The svirfneblin dialect is more guttural than surface Gnomish, and most svirfneblin know only a little bit of Common, but those who deal with outsiders (and that includes you as an adventurer) pick up enough Common to get by in other lands."
+								"你可以說，讀，寫通用語[Common]、地侏語[Gnomish]、地底通用語[Undercommon]。"
 							],
 							"data": {
 								"overwrite": "Languages"
@@ -1466,7 +1466,7 @@
 						{
 							"name": "Superior Darkvision",
 							"entries": [
-								"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+								"120 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 							],
 							"data": {
 								"overwrite": "Darkvision"
@@ -1551,7 +1551,7 @@
 			]
 		},
 		{
-			"name": "Dragonborn",
+			"name": "龍裔[Dragonborn]",
 			"source": "PHB",
 			"page": 32,
 			"size": "M",
@@ -1562,37 +1562,37 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80."
+						"年幼的龍裔成長速度很快，在孵化後幾小時後就可以行走。在3歲的時候就達到了人類10歲兒童的體型和發育水平，15歲成年，平均活到80歲。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains."
+						"龍裔的陣營趨於極端化，在善與惡之間無盡的戰爭中作出有意識的選擇（分別通過代表巴哈姆特[Bahamut]或是提亞馬特[Tiamat]）。絕大多數龍裔是善良的，但是那些選擇支持提亞馬特的龍裔會是可怕的惡棍。"
 					]
 				},
 				{
+					"name": "體型[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium."
+						"龍裔比人類更高更重，站立時超過6英尺，平均250磅重。中體型。"
 					]
 				},
 				{
-					"name": "Draconic Ancestry",
+					"name": "龍族血統[Draconic Ancestry]",
 					"entries": [
-						"You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.",
+						"你擁有巨龍的血統。在龍族血統表中選擇一個龍類。你的噴吐武器和傷害抗性由所選擇的龍的種類所決定，如表所示。",
 						{
 							"type": "table",
-							"caption": "Draconic Ancestry",
+							"caption": "龍族血統[Draconic Ancestry]",
 							"colLabels": [
-								"Dragon",
-								"Damage Type",
-								"Breath Weapon"
+								"龍類",
+								"傷害類型",
+								"噴吐武器"
 							],
 							"colStyles": [
 								"col-xs-3 text-align-center",
@@ -1601,54 +1601,54 @@
 							],
 							"rows": [
 								[
-									"Black",
-									"Acid",
-									"5 by 30ft. line (Dex. save)"
+									"黑龍",
+									"強酸[Acid]",
+									"30尺5尺寬,線形(敏捷豁免)"
 								],
 								[
-									"Blue",
-									"Lightning",
-									"5 by 30ft. line (Dex. save)"
+									"藍龍",
+									"閃電[Lightning]",
+									"30尺5尺寬,線形(敏捷豁免)"
 								],
 								[
-									"Brass",
-									"Fire",
-									"5 by 30ft. line (Dex. save)"
+									"黃銅龍",
+									"火焰[Fire]",
+									"30尺5尺寬,線形(敏捷豁免)"
 								],
 								[
-									"Bronze",
-									"Lightning",
-									"5 by 30ft. line (Dex. save)"
+									"青銅龍",
+									"閃電[Lightning]",
+									"30尺5尺寬,線形(敏捷豁免)"
 								],
 								[
-									"Copper",
-									"Acid",
-									"5 by 30ft. line (Dex. save)"
+									"赤銅龍",
+									"強酸[Acid]",
+									"30尺5尺寬,線形(敏捷豁免)"
 								],
 								[
-									"Gold",
-									"Fire",
-									"15ft. cone (Dex. save)"
+									"金龍",
+									"火焰[Fire]",
+									"15尺,錐形(敏捷豁免)"
 								],
 								[
-									"Green",
-									"Poison",
-									"15ft. cone (Con. save)"
+									"綠龍",
+									"毒素[Poison]",
+									"15尺,錐形(敏捷豁免)"
 								],
 								[
-									"Red",
-									"Fire",
-									"15ft. cone (Dex. save)"
+									"紅龍",
+									"火焰[Fire]",
+									"15尺,錐形(敏捷豁免)"
 								],
 								[
-									"Silver",
-									"Cold",
-									"15ft. cone (Con. save)"
+									"銀龍",
+									"寒冷[Cold]",
+									"15尺,錐形(敏捷豁免)"
 								],
 								[
-									"White",
-									"Cold",
-									"15ft. cone (Con. save)"
+									"白龍",
+									"寒冷[Cold]",
+									"15尺,錐形(敏捷豁免)"
 								]
 							]
 						}
@@ -1656,25 +1656,25 @@
 					"type": "entries"
 				},
 				{
-					"name": "Breath Weapon",
+					"name": "噴吐武器[Breath Weapon]",
 					"entries": [
-						"You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.",
-						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
-						"After you use your breath weapon, you can't use it again until you complete a short or long rest."
+						"你能夠用行動來呼出破壞性的能量，你的龍族血統決定了吐息的范圍、形狀和傷害類型。",
+						"當你使用你的噴吐武器，吐息范圍內的每一個生物都必須做一次豁免檢定，豁免的類型取決於你的龍族血統。這次豁免的DC=8+你的體質調整值+你的熟練加值。如果豁免失敗，這個生物將會受到2d6點傷害，成功的話則半傷。在6級時傷害增加到3d6，在11級增加到4d6，16級增加到5d6。",
+						"當你使用過噴吐武器後，必須經過一次長休息或短休息後才能再次使用它。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Damage Resistance",
+					"name": "傷害抵抗[Damage Resistance]",
 					"entries": [
-						"You have resistance to the damage type associated with your draconic ancestry."
+						"你的龍族血統給你帶來了相應的傷害類型的抗性。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+						"你可以說、讀、寫通用語[Common]和龍語[Draconic]。"
 					],
 					"type": "entries"
 				}
@@ -1819,7 +1819,7 @@
 				{
 					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"拜你的精靈血統所賜，你在黑暗和昏暗環境下有超出常人的視力。在昏暗環境下，你可以將你周圍60英尺內的區域視為明亮光照；在黑暗環境下，你可以將光照視為昏暗光照。你在黑暗中無法分清顏色，只能看到灰色的影子。"
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
@@ -1848,46 +1848,46 @@
 			"subraces": [
 				{},
 				{
-					"name": "Wood Elf Descent",
+					"name": "木精靈後裔[Wood Elf Descent]",
 					"source": "SCAG",
 					"page": 116,
 					"entries": [
 						{
 							"type": "inset",
-							"name": "Variant Feature (Choose 1)",
+							"name": "變體特性 (選 1)",
 							"entries": [
 								{
-									"name": "Skill Versatility",
+									"name": "多才多藝[Skill Versatility]",
 									"entries": [
-										"You gain proficiency in two skills of your choice."
+										"選擇兩個技能，並對這兩個技能獲得熟練。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Keen Senses",
+									"name": "敏銳感覺[Keen Senses]",
 									"entries": [
-										"You have proficiency in the Perception skill."
+										"你熟練於觀察[Perception]技能。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Elf Weapon Training",
+									"name": "精靈武器訓練[Elf Weapon Training]",
 									"entries": [
-										"You have proficiency with the longsword, shortsword, shortbow, and longbow."
+										"你熟練於使用{@item 長劍[longsword]|phb}、{@item 短劍[shortsword]|phb}、{@item 短弓[shortbow]|phb}、{@item 長弓[longbow]|phb}。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Fleet of Foot",
+									"name": "輕快腳步[Fleet of Foot]",
 									"entries": [
-										"Your base walking speed increases to 35 feet."
+										"你基礎速度增加到 35 尺。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Mask of the Wild",
+									"name": "以天為屏[Mask of the Wild]",
 									"entries": [
-										"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+										"當你因植物、大雨、飄雪、薄霧等自然現像獲得輕度遮蔽時，你可以嘗試躲藏。"
 									],
 									"type": "entries"
 								}
@@ -1903,39 +1903,39 @@
 					]
 				},
 				{
-					"name": "Moon Elf or Sun Elf Descent",
+					"name": "月精靈或日光精靈後裔[Moon Elf or Sun Elf Descent]",
 					"source": "SCAG",
 					"page": 116,
 					"entries": [
 						{
 							"type": "inset",
-							"name": "Variant Feature (Choose 1)",
+							"name": "變體特性 (選 1)",
 							"entries": [
 								{
-									"name": "Skill Versatility",
+									"name": "多才多藝[Skill Versatility]",
 									"entries": [
-										"You gain proficiency in two skills of your choice."
+										"選擇兩個技能，並對這兩個技能獲得熟練。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Keen Senses",
+									"name": "敏銳感覺[Keen Senses]",
 									"entries": [
-										"You have proficiency in the Perception skill."
+										"你熟練於觀察[Perception]技能。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Elf Weapon Training",
+									"name": "精靈武器訓練[Elf Weapon Training]",
 									"entries": [
-										"You have proficiency with the longsword, shortsword, shortbow, and longbow."
+										"你熟練於使用{@item 長劍[longsword]|phb}、{@item 短劍[shortsword]|phb}、{@item 短弓[shortbow]|phb}、{@item 長弓[longbow]|phb}。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Cantrip",
+									"name": "戲法[Cantrip]",
 									"entries": [
-										"You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
+										"你懂得一項 {@filter 自選的法師戲法|spells|level=0|class=Wizard}。你用智力作為它的魔法能力值。"
 									],
 									"type": "entries"
 								}
@@ -1951,32 +1951,32 @@
 					]
 				},
 				{
-					"name": "Drow Descent",
+					"name": "卓爾後裔[Drow Descent]",
 					"source": "SCAG",
 					"page": 116,
 					"entries": [
 						{
 							"type": "inset",
-							"name": "Variant Feature (Choose 1)",
+							"name": "變體特性 (選 1)",
 							"entries": [
 								{
-									"name": "Skill Versatility",
+									"name": "多才多藝[Skill Versatility]",
 									"entries": [
-										"You gain proficiency in two skills of your choice."
+										"選擇兩個技能，並對這兩個技能獲得熟練。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Keen Senses",
+									"name": "敏銳感覺[Keen Senses]",
 									"entries": [
-										"You have proficiency in the Perception skill."
+										"你熟練於觀察[Perception]技能。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Drow Magic",
+									"name": "卓爾魔法[Drow Magic]",
 									"entries": [
-										"You know the {@spell dancing lights} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire} spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+										"你掌握了 {@spell 舞光[Dancing Lights]} 戲法。 當你達到3級，你可以使用{@spell 妖火[Faerie Fire]}，每日一次。當你達到5級，你可以使用{@spell 黑暗[Darkness]}，每日一次。這些法術的關鍵施法屬性是魅力。"
 									],
 									"type": "entries"
 								}
@@ -1992,7 +1992,7 @@
 					]
 				},
 				{
-					"name": "Aquatic Elf Descent",
+					"name": "水精靈後裔[Aquatic Elf Descent]",
 					"speed": {
 						"walk": 30,
 						"swim": 30
@@ -2002,26 +2002,26 @@
 					"entries": [
 						{
 							"type": "inset",
-							"name": "Variant Feature (Choose 1)",
+							"name": "變體特性 (選 1)",
 							"entries": [
 								{
-									"name": "Skill Versatility",
+									"name": "多才多藝[Skill Versatility]",
 									"entries": [
-										"You gain proficiency in two skills of your choice."
+										"選擇兩個技能，並對這兩個技能獲得熟練。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Keen Senses",
+									"name": "敏銳感覺[Keen Senses]",
 									"entries": [
-										"You have proficiency in the Perception skill."
+										"你熟練於觀察[Perception]技能。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Swim",
+									"name": "游泳[Swim]",
 									"entries": [
-										"You gain a swimming speed of 30ft."
+										"你獲得30呎的游泳速度。"
 									],
 									"type": "entries"
 								}
@@ -2220,7 +2220,7 @@
 				{
 					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"因為你的獸人血統，你在黑暗和昏暗的環境中擁有超出常人的視力。在昏暗環境下，你可以將你周圍60英尺內的區域視為明亮光照；在黑暗環境下，你可以將光照視為昏暗光照。你在黑暗中無法分清顏色，只能看到灰色的影子。"
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
@@ -2340,7 +2340,7 @@
 			]
 		},
 		{
-			"name": "Dwarf",
+			"name": "矮人[Dwarf]",
 			"source": "PHB",
 			"page": 18,
 			"size": "M",
@@ -2351,102 +2351,102 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
+						"矮人的成長速度跟人類差不多，不過直到 50 歲之前都被視為未成年。他們平均能活 350 年。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order."
+						"矮人大都是守序的，堅信井然有序的社會對大家都好。他們也趨向善良，強烈相信公平競爭，認為每個人都應該分享到秩序的益處。"
 					]
 				},
 				{
+					"name": "體形[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium."
+						"矮人約 4 到 5 呎高，重約 150 磅。你的體型為中型。"
 					]
 				},
 				{
-					"name": "Speed",
+					"name": "速度[Speed]",
 					"entries": [
-						"Your speed is not reduced by wearing heavy armor."
+						"你的速度不因穿載重甲而減低。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Dwarven Resilience",
+					"name": "矮人剛毅[Dwarven Resilience]",
 					"entries": [
-						"You have advantage on saving throws against poison, and you have resistance against poison damage."
+						"你的對抗毒素的豁免帶有優勢，你也對毒素傷害有抗力。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Dwarven Combat Training",
+					"name": "矮人戰鬥訓練[Dwarven Combat Training]",
 					"entries": [
-						"You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+						"你熟練於使用戰斧[battleaxe]、手斧[handaxe]、輕鎚[light hammer]、戰鎚[warhammer]。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Tool Proficiency",
+					"name": "工具熟練",
 					"entries": [
-						"You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools."
+						"你熟練於自選的以下匠人工具之一：鐵匠工具[smith's tools]、釀酒工具[brewer's supplies]、建築工具[mason's tools]。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Stonecunning",
+					"name": "石藝[Stonecunning]",
 					"entries": [
-						"Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+						"當要進行相關於石制品起源的智力（歷史） 檢定時，你視作熟練於歷史技能，並可以加上雙倍的熟練加值而非單倍。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言",
 					"entries": [
-						"You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+						"你能說、讀、寫通用語[Common]和矮人語[Dwarvish]。"
 					],
 					"type": "entries"
 				}
 			],
 			"subraces": [
 				{
-					"name": "Hill",
+					"name": "丘陵[Hill]",
 					"ability": {
 						"wis": 1
 					},
 					"entries": [
 						{
-							"name": "Dwarven Toughness",
+							"name": "矮人耐力[Dwarven Toughness]",
 							"entries": [
-								"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+								"你的生命值上限 +1，每當你升級時都再 +1。"
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Mountain",
+					"name": "高山[Mountain]",
 					"ability": {
 						"str": 2
 					},
 					"entries": [
 						{
-							"name": "Dwarven Armor Training",
+							"name": "護甲訓練[Dwarven Armor Training]",
 							"entries": [
-								"You have proficiency with light and medium armor."
+								"你熟練於輕甲和中甲。"
 							],
 							"type": "entries"
 						}
@@ -2456,7 +2456,7 @@
 					]
 				},
 				{
-					"name": "Duergar",
+					"name": "灰矮人[Duergar]",
 					"source": "MTF",
 					"page": 81,
 					"otherSources": [
@@ -2471,9 +2471,9 @@
 					},
 					"entries": [
 						{
-							"name": "Superior Darkvision",
+							"name": "高等黑暗視覺[Superior Darkvision]",
 							"entries": [
-								"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+								"120 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 							],
 							"data": {
 								"overwrite": "Darkvision"
@@ -2481,16 +2481,16 @@
 							"type": "entries"
 						},
 						{
-							"name": "Duergar Resilience",
+							"name": "灰矮人韌性[Duergar Resilience]",
 							"entries": [
-								"You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed} or {@condition paralyzed}."
+								"你的對抗毒素的豁免帶有優勢，你也對毒素傷害有抗力。 你在對抗幻術[illusions]和對抗會使你{@condition 迷惑[Charmed]}或者{@condition 麻痺[Paralyzed]}的豁免中得到優勢。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Languages",
+							"name": "語言",
 							"entries": [
-								"You can speak, read, and write Common, Dwarvish, and Undercommon."
+								"你能說、讀、寫通用語[Common]和矮人語[Dwarvish]、地底通用語[Undercommon]。"
 							],
 							"data": {
 								"overwrite": "Languages"
@@ -2498,16 +2498,16 @@
 							"type": "entries"
 						},
 						{
-							"name": "Duergar Magic",
+							"name": "灰矮人魔法[Duergar Magic]",
 							"entries": [
-								"When you reach 3rd level, you can cast the {@spell Enlarge/Reduce} spell on yourself once with this trait, using only the spell's enlarge option. When reach 5th level, you can cast the {@spell Invisibility} spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+								"當你到達3級時，你可以對自己施展一次變{@spell 變巨/縮小術[Enlarge/Reduce]}，但你只能選擇其中的變巨選項。當你到達5級時，你可以對自己施展一次{@spell 隱身[Invisibility]}法術。你無需滿足材料成分為這兩個法術，你不能在處於陽光直射時施展這些法術，雖然在你施展一旦施展它們以後陽光不會產生影響。你必須完成一次長休息才能再次從這個特性中施展這些法術。智力是你的施法主屬性。"
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Sunlight Sensitivity",
+							"name": "日光敏感[Sunlight Sensitivity]",
 							"entries": [
-								"You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+								"如果你本人，你要攻擊的目標，或者你試圖察覺到的東西位於陽光直射下，你在攻擊檢定和感知（觀察）檢定上獲得劣勢。"
 							],
 							"type": "entries"
 						}
@@ -2678,7 +2678,7 @@
 						{
 							"name": "Darkvision",
 							"entries": [
-								"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+								"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 							],
 							"type": "entries"
 						},
@@ -3036,7 +3036,7 @@
 					]
 				},
 				{
-					"name": "Ghostwise",
+					"name": "鬼智[Ghostwise]",
 					"source": "SCAG",
 					"page": 110,
 					"ability": {
@@ -3044,9 +3044,9 @@
 					},
 					"entries": [
 						{
-							"name": "Silent Speech",
+							"name": "鬼靈言語[Silent Speech]",
 							"entries": [
-								"You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."
+								"你可以向你30尺內的任何生物如同心靈感應般進行溝通。生物必須與你共同知曉一種語言才能理解你的發言。你通過這個方式每次只能和一名生物進行心靈溝通。"
 							],
 							"type": "entries"
 						}
@@ -3292,7 +3292,7 @@
 					"name": "黑暗視覺[Darkvision]",
 					"type": "entries",
 					"entries": [
-						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。在這情況下你只能辨別黑白。"
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					]
 				},
 				{
@@ -3330,7 +3330,7 @@
 					]
 				},
 				{
-					"name": "Variant",
+					"name": "變體",
 					"source": "SCAG",
 					"page": 118,
 					"ability": {
@@ -3348,41 +3348,41 @@
 					},
 					"entries": [
 						{
-							"name": "Appearance",
+							"name": "外觀[Appearance]",
 							"entries": [
-								"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone"
+								"你的魔人看起來或許和其他魔人很不一樣。取代玩家手冊裏你在外觀上的物理特徵，從以下特征中選擇 1d4 + 1 項：小型犄角，長或者鋒利的尖牙，分叉的舌頭，貓瞳，每只手上六根手指，山羊腿，偶蹄，分叉的尾巴，革狀或者帶鱗片的皮膚，紅色或者深藍色的皮膚，無法投下影子或者映像，發散出硫磺般的氣味。"
 							],
 							"type": "entries"
 						},
 						{
 							"type": "inset",
-							"name": "Variant Feature (Choose 1)",
+							"name": "變體特性 (選 1)",
 							"entries": [
 								{
-									"name": "Infernal Legacy (PHB)",
+									"name": "煉獄傳承[Infernal Legacy]",
 									"entries": [
-										"You know the {@spell thaumaturgy} cantrip. Once you reach 3rd level, you can cast the {@spell hellish rebuke} spell as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the {@spell darkness} spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+										"你可以使用 {@spell 奇術[Thaumaturgy]} 。 當你三等時，你可以用2環法術，一天一次施{@spell 煉獄叱喝[Hellish Rebuke]}。 當你五等時，你可以一天一次施{@spell 黑暗[darkness]}。這法術能力值為魅力。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Devil's Tongue",
+									"name": "魔鬼之舌[Devil's Tongue]",
 									"entries": [
-										"You know the {@spell vicious mockery} cantrip. When your reach 3rd level, you can cast the {@spell charm person} spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the {@spell enthrall} spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait."
+										"你知曉 {@spell 公然侮辱[Vicious Mockery]} 戲法。當你到達3級時，你可以施展一次{@spell 迷惑人類[Charm Person]}為一個2環法術。當你到達5級時，你可以施展一次 {@spell 注目術[Enthrall]}。你必須完成一次長休息才能再次從這個特性中施展這些法術。魅力是你的施法主屬性。這個特性取代了煉獄傳承[Infernal Legacy]特性。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Hellfire",
+									"name": "地獄之火[Hellfire]",
 									"entries": [
-										"You know the {@spell thaumaturgy} cantrip. Once you reach 3rd level, you can cast the {@spell burning hands} spell once per day as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the {@spell darkness} spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+										"當你達到3級時，你可以每天施展一次{@spell 燃燒之手[Burning Hands]}作為2環法術。這個特性取代了煉獄傳承[Infernal Legacy]特性中的{@spell 煉獄叱喝[Hellish Rebuke]}。"
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Winged",
+									"name": "飛翼[Winged]",
 									"entries": [
-										"You have bat-like wings sprouting from your shoulder blades. You have a flying speed of 30 feet while you aren't wearing heavy armor."
+										"你的肩胛骨長出蝙蝠般的翅膀。在你沒有穿重型護甲時，你有30英尺的飛行速度。這個特性取代了煉獄傳承[Infernal Legacy]特性。"
 									],
 									"type": "entries"
 								}
@@ -7593,9 +7593,9 @@
 							"type": "entries"
 						},
 						{
-							"name": "Mask of the Wild",
+							"name": "以天為屏[Mask of the Wild]",
 							"entries": [
-								"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+								"當你因植物、大雨、飄雪、薄霧等自然現像獲得輕度遮蔽時，你可以嘗試躲藏。"
 							],
 							"type": "entries"
 						}
