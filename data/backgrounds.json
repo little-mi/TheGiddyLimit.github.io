@@ -227,7 +227,7 @@
 					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"{@item 高級衣服[fine clothes]|phb}, {@item 易容盒[disguise kit]|phb}, 一種騙人道具(十瓶不一樣顏色的水、一組灌鉛的骰子、一套做過標記的牌或是一只假貴族的戒指), {@item 腰包[pouch]|phb} 及 15 gp。"
+						"{@item 錦衣[fine clothes]|phb}, {@item 易容盒[disguise kit]|phb}, 一種騙人道具(十瓶不一樣顏色的水、一組灌鉛的骰子、一套做過標記的牌或是一只假貴族的戒指), {@item 腰包[pouch]|phb} 及 15 gp。"
 					]
 				},
 				{
@@ -1240,7 +1240,7 @@
 					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"一套 {@item  旅行者衣物[traveler's clothes]|phb}, 任何一種 {@filter 樂器[musical instrument]|items|source=phb|miscellaneous=mundane|type=instrument} 或 {@filter 遊戲組[gaming set]|items|source=phb|miscellaneous=mundane|type=gaming set} 來自你故鄉的一張精密度很差的費倫地圖用以標記出你在何處，一小片價值 10 gp 來自你家鄉技藝制作的珠寶 ， {@item 腰包[pouch]|phb} 及 5 gp"
+						"一套 {@item 旅行者衣物[traveler's clothes]|phb}, 任何一種 {@filter 樂器[musical instrument]|items|source=phb|miscellaneous=mundane|type=instrument} 或 {@filter 遊戲組[gaming set]|items|source=phb|miscellaneous=mundane|type=gaming set} 來自你故鄉的一張精密度很差的費倫地圖用以標記出你在何處，一小片價值 10 gp 來自你家鄉技藝制作的珠寶 ， {@item 腰包[pouch]|phb} 及 5 gp"
 					]
 				},
 				{
@@ -4225,7 +4225,7 @@
 					"name": "裝備",
 					"type": "entries",
 					"entries": [
-						"來自貴族領主或女士的旗幟或其他象徵，你已對他們侍奉真心， 一套 {@item fine 錦衣[fine clothes]|phb}, {@item 璽戒[signet ring]|phb}, 一卷族譜 , 一個錢包含有 25 gp"
+						"來自貴族領主或女士的旗幟或其他象徵，你已對他們侍奉真心， 一套 {@item 錦衣[fine clothes]|phb}, {@item 璽戒[signet ring]|phb}, 一卷族譜 , 一個錢包含有 25 gp"
 					]
 				},
 				{
