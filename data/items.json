@@ -2172,7 +2172,7 @@
 			]
 		},
 		{
-			"name": "Blanket",
+			"name": "毯子[blanket]",
 			"type": "G",
 			"rarity": "None",
 			"value": "5sp",
@@ -2313,7 +2313,7 @@
 			]
 		},
 		{
-			"name": "Book",
+			"name": "書[book]",
 			"type": "G",
 			"rarity": "None",
 			"value": "25gp",
@@ -3451,7 +3451,7 @@
 			]
 		},
 		{
-			"name": "Common Clothes",
+			"name": "便服[common clothes]",
 			"type": "G",
 			"rarity": "None",
 			"value": "5sp",
@@ -3601,7 +3601,7 @@
 			]
 		},
 		{
-			"name": "Costume Clothes",
+			"name": "戲服[costume clothes]",
 			"type": "G",
 			"rarity": "None",
 			"value": "5gp",
@@ -3622,7 +3622,7 @@
 			]
 		},
 		{
-			"name": "Crowbar",
+			"name": "撬棍[crowbar]",
 			"type": "G",
 			"rarity": "None",
 			"value": "2gp",
@@ -4597,7 +4597,7 @@
 			]
 		},
 		{
-			"name": "Dice Set",
+			"name": "骰子[dice set]",
 			"type": "GS",
 			"rarity": "None",
 			"value": "1sp",
@@ -4645,7 +4645,7 @@
 			]
 		},
 		{
-			"name": "Disguise Kit",
+			"name": "易容盒[disguise kit]",
 			"type": "T",
 			"rarity": "None",
 			"value": "25gp",
@@ -5408,7 +5408,7 @@
 			]
 		},
 		{
-			"name": "Fine Clothes",
+			"name": "錦衣[fine clothes]",
 			"type": "G",
 			"rarity": "None",
 			"value": "15gp",
@@ -6156,7 +6156,7 @@
 			]
 		},
 		{
-			"name": "Herbalism Kit",
+			"name": "草藥師工具[herbalism kit]",
 			"type": "T",
 			"rarity": "None",
 			"value": "5gp",
@@ -6326,7 +6326,7 @@
 			]
 		},
 		{
-			"name": "Horn",
+			"name": "號角[Horn]",
 			"type": "INS",
 			"rarity": "None",
 			"value": "3gp",
@@ -6435,7 +6435,7 @@
 			"page": 150
 		},
 		{
-			"name": "Hunting Trap",
+			"name": "狩獵陷阱[Hunting trap]",
 			"type": "G",
 			"rarity": "None",
 			"value": "5gp",
@@ -7023,7 +7023,7 @@
 			]
 		},
 		{
-			"name": "Iron Pot",
+			"name": "鐵煲[iron pot]",
 			"type": "G",
 			"rarity": "None",
 			"value": "2gp",
@@ -7445,7 +7445,7 @@
 			"poison": true
 		},
 		{
-			"name": "Manacles",
+			"name": "手銬[manacles]",
 			"type": "G",
 			"rarity": "None",
 			"value": "2gp",
@@ -8518,7 +8518,7 @@
 			]
 		},
 		{
-			"name": "Playing Card Set",
+			"name": "卡牌[playing card set]",
 			"type": "GS",
 			"rarity": "None",
 			"value": "5sp",
@@ -9163,7 +9163,7 @@
 			]
 		},
 		{
-			"name": "Pouch",
+			"name": "腰包[pouch]",
 			"type": "G",
 			"rarity": "None",
 			"value": "5sp",
@@ -10077,7 +10077,7 @@
 			]
 		},
 		{
-			"name": "Robes",
+			"name": "長袍[robes]",
 			"type": "G",
 			"rarity": "None",
 			"value": "1gp",
@@ -10624,7 +10624,7 @@
 			]
 		},
 		{
-			"name": "Shovel",
+			"name": "鏟子[shovel]",
 			"type": "G",
 			"rarity": "None",
 			"value": "2gp",
@@ -10641,7 +10641,7 @@
 			"page": 150
 		},
 		{
-			"name": "Signet Ring",
+			"name": "璽戒[signet ring]",
 			"value": "5gp",
 			"type": "G",
 			"rarity": "None",
@@ -10649,7 +10649,7 @@
 			"page": 150
 		},
 		{
-			"name": "Silk Rope (50 feet)",
+			"name": "絲繩[silk rope] (50 feet)",
 			"type": "G",
 			"rarity": "None",
 			"value": "10gp",
@@ -12071,7 +12071,7 @@
 			"page": 151
 		},
 		{
-			"name": "Traveler's Clothes",
+			"name": "旅行者衣物[traveler's clothes]",
 			"type": "G",
 			"rarity": "None",
 			"value": "2gp",
@@ -14230,7 +14230,7 @@
 			"page": 157
 		},
 		{
-			"name": "Mule",
+			"name": "騾子[mule]",
 			"type": "MNT",
 			"rarity": "None",
 			"carryingcapacity": "420",
@@ -14398,7 +14398,7 @@
 			"page": 157
 		},
 		{
-			"name": "Cart",
+			"name": "貨車[cart]",
 			"type": "VEH",
 			"rarity": "None",
 			"value": "15gp",
@@ -16681,7 +16681,7 @@
 			]
 		},
 		{
-			"name": "Holy Symbol",
+			"name": "聖徽[Holy symbol]",
 			"type": "SCF",
 			"scfType": "holy",
 			"rarity": "None",
