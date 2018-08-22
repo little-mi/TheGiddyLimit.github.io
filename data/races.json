@@ -3878,7 +3878,7 @@
 			]
 		},
 		{
-			"name": "Bugbear",
+			"name": "熊地精[Bugbear]",
 			"source": "VGM",
 			"page": 119,
 			"size": "M",
@@ -3890,65 +3890,65 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Bugbears reach adulthood at age 16 and live up to 80 years."
+						"熊地精在16歲便成年，並可以活到80歲。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Bugbears endure a harsh existence that demands each of them to remain self-sufficient, even at the expense of their fellows. They tend to be chaotic evil."
+						"熊地精忍受惡劣的生存環境，要求每個人保持自給自足，即使這要犧牲他們的同胞。他們往往是混亂邪惡。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體形[Size]",
 					"entries": [
-						"Bugbears are between 6 and 8 feet tall and weigh between 250 and 350 pounds. Your size is Medium."
+						"熊地精身高在6至8英尺之間，體重在250至350磅之間。你的體形為中型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Long-Limbed",
+					"name": "長肢[Long-Limbed]",
 					"entries": [
-						"When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+						"當你在你的回合使用近戰攻擊時，你的觸及範圍增加5尺。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Powerful Build",
+					"name": "強壯身軀[[Powerful Build]",
 					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+						"計算負重、推、提的時候你的身型算為大一號。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Sneaky",
+					"name": "隱秘[Sneaky]",
 					"entries": [
-						"You are proficient in the Stealth skill."
+						"你熟練隱藏[Stealth]技能。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Surprise Attack",
+					"name": "突襲攻擊[Surprise Attack]",
 					"entries": [
-						"If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
+						"如果你突襲一個目標並在戰鬥中的第一回合擊中了它，這次攻擊額外造成2d6傷害。此特性只能在每場戰鬥中使用一次。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Goblin."
+						"你可以說、讀及寫通用語[​Common]和哥布林語[Goblin]。"
 					],
 					"type": "entries"
 				}
@@ -4093,7 +4093,7 @@
 			]
 		},
 		{
-			"name": "Firbolg",
+			"name": "費爾伯格[Firbolg]",
 			"source": "VGM",
 			"page": 107,
 			"size": "M",
@@ -4104,58 +4104,58 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"As humanoids related to the fey, firbolg have long lifespans. A firbolg reaches adulthood around 30, and the oldest of them can live for 500 years."
+						"作為與精類有關的類人生物，費爾伯格人有著悠長的壽命。一名費爾伯格人在30歲左右成年，他們中最年老的能活500年。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"As people who follow the rhythm of nature and see themselves as its caretakers, firbolg are typically neutral good. Evil firbolg are rare and are usually the sworn enemies of the rest of their kind."
+						"為人遵循著大自然的節奏，並把他們自己看作是它的守護者，費爾伯格人通常是中立善良的。邪惡的費爾伯格人很罕見，而且一般是他們同族的死敵。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體型[Size]",
 					"entries": [
-						"Firbolg are between 7 and 8 feet tall and weigh between 240 and 300 pounds. Your size is Medium."
+						"費爾伯格人有7到8尺高，體重在240到300磅之間。你的體型為中型。"
 					]
 				},
 				{
-					"name": "Firbolg Magic",
+					"name": "費爾伯格魔法[Firbolg Magic]",
 					"entries": [
-						"You can cast {@spell detect magic} and {@spell disguise self} with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of {@spell disguise self}, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves."
+						"你可以用這個特性施展{@spell 偵測魔法[Detect Magic]}和{@spell 自我易容[Disguise Self]}，使用感知作為你在施展它們時的施法屬性。一旦你施展了兩者中的任何一個法術，直到你完成一次短或長休息前都不能用這個特性再次施展它。當你施展這個版本的{@spell 自我易容[Disguise Self]}時，你可以看起來比平時矮3尺，讓你更容易融入人類與精靈之中。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Hidden Step",
+					"name": "神隱步[Hidden Step]",
 					"entries": [
-						"As a bonus action, you can magically turn {@condition invisible} until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest."
+						"以一個附贈動作，你能如魔法般變為{@condition 隱形[Invisible]}，直到你的下一回合開始，或者直到你攻擊，進行一次傷害骰，或者強迫某人進行一次豁免檢定。一旦你使用了這個特性，直到你完成一次短或長休息前都不能再次使用它。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Powerful Build",
+					"name": "強壯身軀[[Powerful Build]",
 					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+						"計算負重、推、提的時候你的身型算為大一號。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Speech of Beast and Leaf",
+					"name": "獸與葉之語[Speech of Beast and Leaf]",
 					"entries": [
-						"You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
+						"你有能力以有限的方式與野獸以及植物交流。它們可以理解你的話的意思，雖然你沒有特殊的能力來明白它們的回應。你在所有試圖影響它們的魅力檢定上有優勢。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common, Elvish, and Giant."
+						"你能說，讀，和寫通用語[Common]，精靈語[Elvish]，以及巨人語[Giant]。"
 					],
 					"type": "entries"
 				}
@@ -4172,7 +4172,7 @@
 			]
 		},
 		{
-			"name": "Goblin",
+			"name": "哥布林[Goblin]",
 			"source": "VGM",
 			"page": 119,
 			"size": "S",
@@ -4184,51 +4184,51 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Goblins reach adulthood at age 8 and live up to 60 years."
+						"哥布林在8歲便成年，並可以活到60歲。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Goblins are typically neutral evil, as they care only for their own needs. A few goblins might tend toward good or neutrality, but only rarely."
+						"哥布林是典型的中立邪惡，他們只在乎他們自己的須要。有少部分哥布林可能偏向中立或善良，但真的很少。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體形[Size]",
 					"entries": [
-						"Goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small."
+						"哥布林身高在3至4英尺之間，體重在40至80磅之間。你的體形為小型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Fury of the Small",
+					"name": "小型生物的怒火[Fury of the Small]",
 					"entries": [
-						"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest."
+						"當你對比你大型的生物使用攻擊或魔法，並造成傷害時，你可以對它造成額外傷害。這個額外傷害等同於你的等級。此特性在你完成一次短休息或長休息前無法再次使用。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Nimble Escape",
+					"name": "敏捷逃脫[Nimble Escape]",
 					"entries": [
-						"You can take the Disengage or Hide action as a bonus action on each of your turns."
+						"哥布林可在自己的回合，以一個附贈動作進行撤離[Disengage]或者躲藏[Hide]動作。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Goblin."
+						"你可以說、讀及寫通用語[Common]和哥布林語[Goblin]。"
 					],
 					"type": "entries"
 				}
@@ -4239,7 +4239,7 @@
 			]
 		},
 		{
-			"name": "Hobgoblin",
+			"name": "大哥布林[Hobgoblin]",
 			"source": "VGM",
 			"page": 119,
 			"size": "M",
@@ -4251,51 +4251,51 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs."
+						"大哥布林成年歲數與人類相仿，壽命亦與其相仿。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Hobgoblin society is built on fidelity to a rigid, unforgiving code of conduct. As such, they tend toward lawful evil."
+						"大哥布林的社會是建立在一個忠於嚴格無情的行為準則的基礎之上。正因如此，他們往往是守序邪惡。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體形[Size]",
 					"entries": [
-						"Hobgoblins are between 5 and 6 feet tall and weigh between 150 and 200 pounds. Your size is Medium."
+						"大哥布林身高在5至6英尺之間，體重在150至200磅之間。你的體形為中型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Martial Training",
+					"name": "軍事訓練[Martial Training]",
 					"entries": [
-						"You are proficient with two martial weapons of your choice and with light armor."
+						"你熟練使用兩項你選擇的軍用武器[martial weapons]以及輕甲[light armor]。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Saving Face",
+					"name": "挽回面子[Saving Face]",
 					"entries": [
-						"Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest."
+						"大哥布林因為害怕失去地位，小心亦亦地不在盟友面前顯示軟弱的一臉。如果你在一次攻擊檢定中打空了、能力檢定或豁免中失敗了，你將會獲得骰值加值，此次加值的數目等同於你30英尺內能見的友方數目（最多+5）。此特性在你完成一次短休息或長休息前無法再次使用。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Goblin."
+						"你可以說、讀及寫通用語[Common]和哥布林語[Goblin]。"
 					],
 					"type": "entries"
 				}
@@ -4373,7 +4373,7 @@
 			]
 		},
 		{
-			"name": "Kobold",
+			"name": "狗頭人[Kobold]",
 			"source": "VGM",
 			"page": 119,
 			"size": "S",
@@ -4385,58 +4385,58 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Kobolds reach adulthood at age 6 and can live up to 120 years but rarely do so."
+						"狗頭人在6歲便成年，並可以活到120歲，不過少之有少。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Kobolds are fundamentally selfish, making them evil, but their reliance on the strength of their group makes them trend toward law."
+						"狗頭人從根本上是自私的存在，使他們邪惡，但他們依賴他們團結的力量使他們偏向守序。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體形[Size]",
 					"entries": [
-						"Kobolds are between 2 and 3 feet tall and weigh between 25 and 35 pounds. Your size is Small."
+						"狗頭人身高在2至3英尺之間，體重在25至35磅之間。你的體形為小型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Grovel, Cower, and Beg",
+					"name": "搖尾乞憐[Grovel, Cower, and Beg]",
 					"entries": [
-						"As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that you can see. Once you uses this trait, you can't use it again until you finish a short or long rest."
+						"在你的行動回合，你可以花費一個動作，可憐地蜷縮著以分散附近的敵人的註意。直到你下個回合結束時，你的友方在攻擊你十英尺之內的敵人時獲得攻擊檢定的優勢。此特性在你完成一次短休息或長休息前無法再次使用。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Pack Tactics",
+					"name": "群體戰術[Pack Tactics]",
 					"entries": [
-						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果你有至少一個盟友在目標生物5尺範圍內且非{@condition 乏力[Incapacitated]}，你在對抗該生物的攻擊檢定上則有優勢。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Sunlight Sensitivity",
+					"name": "日光敏感[Sunlight Sensitivity]",
 					"entries": [
-						"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+						"如果你本人，你要攻擊的目標，或者你試圖察覺到的東西位於陽光直射下，你在攻擊檢定和感知（觀察）檢定上獲得劣勢。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Draconic."
+						"你可以說、讀及寫通用語[Common]和龍語[Draconic]。"
 					],
 					"type": "entries"
 				}
@@ -4447,7 +4447,7 @@
 			]
 		},
 		{
-			"name": "Lizardfolk",
+			"name": "蜥蜴人[Lizardfolk]",
 			"source": "VGM",
 			"page": 111,
 			"size": "M",
@@ -4461,72 +4461,72 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Lizardfolk reach maturity around age 14 and rarely live longer than 60 years."
+						"蜥蜴人一般14歲成年，很少活到60歲以上。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Most lizardfolk are neutral. They see the world as a place of predators and prey, where life and death are natural processes. They wish only to survive, and prefer to leave other creatures to their own devices."
+						"大多數蜥蜴人是中立的，他們認為這世界上只有捕食者和獵物，在這裏生死都只是自然的過程。他們的願望只有生存，和讓其他的生物落入他們的計劃。"
 					]
 				},
 				{
-					"name": "Swim Speed",
+					"name": "遊泳速度[Swim Speed]",
 					"entries": [
-						"You have a swimming speed of 30 feet."
+						"你擁有30尺遊泳速度。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Bite",
+					"name": "啃咬[Bite]",
 					"entries": [
-						"Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+						"你的尖牙是一件天生武器，可以用來進行徒手攻擊。如果你擊中了目標，你造成 1d6 + 你的力量調整值的穿刺[piercing]傷害，而不是普通徒手攻擊所造成的鈍擊[bludgeoning]傷害。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Cunning Artisan",
+					"name": "能工巧匠[Cunning Artisan]",
 					"entries": [
-						"As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools."
+						"作為一次短休息的一部分，你可以用從殺死的小型或更大的野獸、構裝生物、龍、怪獸，或者植物上獲取的骨頭獸皮制作以下一件物品：一面盾牌，一根棍棒，一支標槍，或者1d4支飛鏢或吹箭筒針。想要使用這個能力，你需要一把刀，例如一把匕首，或者合適的工匠工具，例如皮匠工具。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Hold Breath",
+					"name": "屏息[Hold Breath]",
 					"entries": [
-						"You can hold your breath for up to 15 minutes at a time."
+						"在上浮前你能屏住你的呼吸15分鐘。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Hunter's Lore",
+					"name": "獵人知識[Hunter's Lore]",
 					"entries": [
-						"You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival."
+						"你在以下技能中選擇兩項並獲得熟練：馴服動物[Animal Handling]，自然[Nature]，觀察[Perception]，隱藏[Stealth]和求生[Survival]。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Natural Armor",
+					"name": "自然護甲[Natural Armor]",
 					"entries": [
-						"You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+						"你有著堅韌帶鱗的皮膚，當你沒有穿戴盔甲時，你的AC是13+你的敏捷調整值。如果你穿戴的盔甲給予你的AC較低，你可以用你的天生護甲來決定你的AC。你在使用你的天生護甲時，仍能獲得盾牌的好處。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Hungry Jaws",
+					"name": "饑渴之喉[Hungry Jaws]",
 					"entries": [
-						"In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest."
+						"在戰鬥中，你能讓你自己進入一種兇狠的暴食狀態。以一個附贈動作，你能用你的嚙咬攻擊做一次特殊攻擊，如果攻擊命中，造成正常的傷害，同時你獲得等同於你的體質調整值的臨時HP（至少1點）。在你完成一次短休息或長休息前，你不能再次使用該能力。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Draconic."
+						"你能說、讀和寫通用語[Common]以及龍語[Draconic]。"
 					],
 					"type": "entries"
 				}
@@ -4542,7 +4542,7 @@
 			]
 		},
 		{
-			"name": "Orc",
+			"name": "獸人[Orc]",
 			"source": "VGM",
 			"page": 120,
 			"size": "M",
@@ -4555,58 +4555,58 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Orcs reach adulthood at age 12 and live up to 50 years."
+						"獸人在12歲便成年，並可以活到50歲。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Orcs are vicious raiders, who believe that the world should be theirs. They also respect strength above all else and believe the strong must bully the weak to ensure that weakness does not spread like a disease. They are usually chaotic evil."
+						"獸人是惡毒的掠奪者，他們相信這個世界應該屬於他們的。他們崇敬力量致上，並相信強者必須欺負弱者，以確保弱者不會像疾病一樣傳播。他們普遍是混亂邪惡。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體形[Size]",
 					"entries": [
-						"Orcs are usually over 6 feet tall and weigh between 230 and 280 pounds. Your size is Medium."
+						"獸人身高普遍在6英尺以上，體重在230至280磅之間。你的體形為中型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Aggressive",
+					"name": "好鬥[Aggressive]",
 					"entries": [
-						"As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started."
+						"以一個附贈動作，獸人向一個可見的敵對生物移動至多相當於其速度的距離。你必須在結束這個移動時，比開始移動前更接近敵人。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Menacing",
+					"name": "威脅[Menacing]",
 					"entries": [
-						"You are trained in the Intimidation skill."
+						"你的威嚇[Intimidation]技能為熟練。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Powerful Build",
+					"name": "強壯身軀[Powerful Build]",
 					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+						"計算負重、推、提的時候你的身型算為大一號。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Orc."
+						"你可以說、讀及寫通用語[Common]和獸人語[Orc]。"
 					],
 					"type": "entries"
 				}
@@ -4620,7 +4620,7 @@
 			]
 		},
 		{
-			"name": "Tabaxi",
+			"name": "斑貓人[Tabaxi]",
 			"source": "VGM",
 			"page": 113,
 			"size": "M",
@@ -4635,58 +4635,58 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Tabaxi have lifespans equivalent to humans."
+						"斑貓人的壽命與人類相仿。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Tabaxi tend toward chaotic alignments, as they let impulse and fancy guide their decisions. They are rarely evil, with most of them driven by curiosity rather than greed or other dark impulses."
+						"斑貓人趨向於混亂陣營，他們讓沖動與幻想引導著他們的決定。他們很少有邪惡的，大多數斑貓人是被好奇心驅使著，而不是貪婪或者其他黑暗的沖動。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體型[Size]",
 					"entries": [
-						"Tabaxi are taller on average than humans and relatively slender. Your size is Medium."
+						"斑貓人平均身高要比人類高，相對也更纖細。你的體型為中型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Feline Agility",
+					"name": "貓之迅捷[Feline Agility]",
 					"entries": [
-						"Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+						"你的反應和敏捷允許你能以爆發性的速度移動。當你在戰鬥中移動時，你可以讓你的速度增加一倍，直到回合結束。一旦你使用了這個特性，除非你在你的一個回合中移動0尺，否則你不能再使用它。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Cat's Claws",
+					"name": "貓之利爪[Cat's Claws]",
 					"entries": [
-						"Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+						"因為你的爪子，你有20尺的攀爬速度。此外，你的利爪視為天生武器，你可以用它來進行徒手攻擊。如果擊中了目標，你造成的揮砍[slashing]傷害等於 1d4 + 你的力量調整值，而不是普通徒手攻擊所造成的鈍擊[bludgeoning]傷害。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Cat's Talents",
+					"name": "貓之天性[Cat's Talents]",
 					"entries": [
 						"You have proficiency in the Perception and Stealth skills."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and one other language of your choice."
+						"你能說、讀和寫通用語[Common]以及任意一門你自選的語言。"
 					],
 					"type": "entries"
 				}
@@ -4702,7 +4702,7 @@
 			]
 		},
 		{
-			"name": "Triton",
+			"name": "梭螺魚人[Triton]",
 			"source": "VGM",
 			"size": "M",
 			"speed": {
@@ -4717,65 +4717,65 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Tritons reach maturity around age 15 and can live up to 200 years."
+						"梭螺魚人在15歲左右成年，能活到200歲。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Tritons tend toward lawful good. As guardians of the darkest reaches of the sea, their culture pushes them toward order and benevolence."
+						"梭螺魚人傾向於守序善良。作為最黑暗海域的守護者，他們的文化把他們推向秩序和仁慈。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體型[Size]",
 					"entries": [
-						"Tritons are slightly shorter than humans, averaging about 5 feet tall. Your size is Medium."
+						"梭螺魚人比人類稍矮，平均約5尺高。你的體型為中型。"
 					]
 				},
 				{
-					"name": "Swim Speed",
+					"name": "遊泳速度[Swim Speed]",
 					"entries": [
-						"You have a swimming speed of 30 feet."
+						"你擁有30尺的遊泳速度。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Amphibious",
+					"name": "兩棲[Amphibious]",
 					"entries": [
-						"You can breathe air and water."
+						"你能呼吸空氣和水。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Control Air and Water",
+					"name": "控風操水",
 					"entries": [
-						"A child of the sea, you can call on the magic of elemental air and water. You can cast {@spell fog cloud} with this trait. Starting at 3rd level, you can cast {@spell gust of wind} with it, and starting at 5th level, you can also cast {@spell wall of water|xge} with it. Once you cast a spell with this trait, you can't cast that spell with it again until you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"作為一位大海之子，你能呼喚氣元素和水元素的魔力。你可以用這個特性施展{@spell 雲霧術[Fog Cloud]} 。從3級開始，你能用它施展{@spell 造風術[Gust of Wind]}，從5級開始，你也能用它施展{@spell wall of water|xge}。一旦你用這個特性施展了一個法術，直到你完成一次長休息前都不能再這麽做。你的這些法術的施法能力值是魅力。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Emissary of the Sea",
+					"name": "海之使者[Emissary of the Sea]",
 					"entries": [
-						"Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return."
+						"水生野獸與你的種族有著非凡的親和力。你可以與能在水中呼吸的野獸簡單溝通交流。它們能夠理解你的話的意思，雖然你沒有特殊的能力來明白它們的回應。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Guardians of the Depths",
+					"name": "海淵守護者[Guardians of the Depths]",
 					"entries": [
-						"Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment."
+						"適應了哪怕是最極端的海洋深處，你獲得對寒冷傷害的抗力。你無視深水環境所造成的任何劣勢。"
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Primordial."
+						"你可以說，讀，寫通用語[Common]和原初語[Primordial]。"
 					],
 					"type": "entries"
 				}
@@ -4792,7 +4792,7 @@
 			]
 		},
 		{
-			"name": "Yuan-ti Pureblood",
+			"name": "純種蛇人[Yuan-ti Pureblood]",
 			"source": "VGM",
 			"page": 120,
 			"size": "M",
@@ -4804,58 +4804,58 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Purebloods mature at the same rate as humans and have lifespans similar in length to theirs."
+						"純種蛇人成年歲數與人類相仿，壽命亦與其相仿。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Purebloods are devoid of emotion and see others as tools to manipulate. They care little for law or chaos and are typically neutral evil."
+						"純種蛇人缺乏感情，把別人看作工具來操作。他們很少關心守序或混亂，通常是中立邪惡。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體形[Size]",
 					"entries": [
-						"Purebloods match humans in average size and weight. Your size is Medium."
+						"純種蛇人與人類的平均身高體重相同。你的體形為中型。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Innate Spellcasting",
+					"name": "天生施法[Innate Spellcasting]",
 					"entries": [
-						"You know the {@spell poison spray} cantrip. You can cast {@spell animal friendship} an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast {@spell suggestion} with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"你懂得{@spell 毒氣噴[Poison Spray]}戲法。你能夠無限次施展{@spell 動物之友[Animal Friendship]}，不過目標只能是蛇。從第三級開始，你能夠施展{@spell 暗示[Suggestion]}，一但你施展了它，在你完成一次短休息或長休息前無法再次使用。魅力是你的施法屬性。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Magic Resistance",
+					"name": "魔法抗性[Magic Resistance]",
 					"entries": [
-						"You have advantage on saving throws against spells and other magical effects."
+						"對抗法術和其他魔法效果時你有豁免檢定的優勢。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Poison Immunity",
+					"name": "免疫毒素[Poison Immunity]",
 					"entries": [
-						"You are immune to poison damage and the {@condition poisoned} condition."
+						"你免疫中毒的傷害和{@condition 中毒[Poisoned]}狀態。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common, Abyssal, and Draconic."
+						"你可以說、讀及寫通用語[Common]、深淵語[Abyssal]和龍語[Draconic]。"
 					],
 					"type": "entries"
 				}
