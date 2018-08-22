@@ -1689,7 +1689,7 @@
 			]
 		},
 		{
-			"name": "Goliath",
+			"name": "哥利亞[Goliath]",
 			"source": "VGM",
 			"page": 108,
 			"otherSources": [
@@ -1706,58 +1706,58 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century."
+						"哥利亞的壽命跟人類的差不多。他們在17,18歲時進入成人階段，他們通常活不過一個世紀。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Goliath society, with its clear roles and tasks, has a strong lawful bent. The goliath sense of fairness, balanced with an emphasis on self sufficiency and personal accountability, pushes them toward neutrality."
+						"哥利亞的社會非常講究職責跟任務，非常守序的社會。他們對公平的競爭還有自我約束跟自力救濟讓他們偏向中立的個性。"
 					]
 				},
 				{
+					"name": "體型[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium."
+						"哥利亞差不多在7或8呎左右，體重大約280磅至340磅。你的身型是中型。"
 					]
 				},
 				{
-					"name": "Natural Athlete",
+					"name": "運動天才[Natural Athlete]",
 					"entries": [
-						"You have proficiency in the Athletics skill."
+						"你熟練於運動[Athletics]技能。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Stone's Endurance",
+					"name": "如石般的耐力[Stone's Endurance]",
 					"entries": [
-						"You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+						"你可以專注你自己來減輕痛覺。你可以用你的反應行動來骰 d12 。將你的體魄調整值加上值骰的結果，這總數可以用來減免所受到的傷害。當你使用這特性後，你必須在短修或長修後才能再次使用。​"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Powerful Build",
+					"name": "強壯身軀[Powerful Build]",
 					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+						"計算負重、推、提的時候你的身型算為大一號。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Mountain Born",
+					"name": "出生於山[Mountain Born]",
 					"entries": [
-						"You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide."
+						"你已習慣在高海拔的環境，20,000呎(6100公尺)海拔。你也習慣在寒冷的天氣裡生活。可以看DM手冊第5章。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Giant."
+						"你會說、讀、寫通用語[Common]跟巨人語[Giant]。"
 					],
 					"type": "entries"
 				}
@@ -3962,7 +3962,7 @@
 			]
 		},
 		{
-			"name": "Aasimar",
+			"name": "阿斯莫[Aasimar]",
 			"source": "VGM",
 			"page": 104,
 			"size": "M",
@@ -3973,109 +3973,109 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Aasimar mature at the same rate as humans, but they can live up to 160 years."
+						"阿斯莫與人類成熟的速度相近，不過他們能活160年。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Imbued with celestial power, most aasimar are good. Outcast aasimar are most often neutral or even evil."
+						"充盈著天界之力，多數阿斯莫是善良的。被放逐的阿斯莫則通常是中立的甚至是邪惡的。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體形[Size]",
 					"entries": [
-						"Aasimar have the same range of height and weight as humans."
+						"阿斯莫的身高和體重與人類接近。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Celestial Resistance",
+					"name": "天界抗性[Celestial Resistance]",
 					"entries": [
-						"You have resistance to necrotic damage and radiant damage."
+						"你對光耀[radiant]和黯蝕[necrotic]傷害具有抗力。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Healing Hands",
+					"name": "治愈之手[Healing Hands]",
 					"entries": [
-						"As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest."
+						"以一個動作，你可以觸碰一個生物並使他恢復等同於你人物等級的生命值。一旦你使用了這個特性，在下次長休息完成之前你不能再次使用。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Light Bearer",
+					"name": "光輝掌者[Light Bearer]",
 					"entries": [
-						"You know the {@spell light} cantrip. Charisma is your spellcasting ability for it."
+						"你可以使用 {@spell 亮光[Light]} 。這法術能力值為魅力。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Common and Celestial."
+						"你能說，讀，寫通用語[Common]和天界語[Celestial]。"
 					],
 					"type": "entries"
 				}
 			],
 			"subraces": [
 				{
-					"name": "Fallen",
+					"name": "墮落[Fallen]",
 					"ability": {
 						"str": 1
 					},
 					"entries": [
 						{
-							"name": "Necrotic Shroud",
+							"name": "死靈壽衣[Necrotic Shroud]",
 							"entries": [
-								"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become {@condition frightened} of you until the end of your next turn.",
-								"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.",
-								"Once you use this trait, you can't use it again until you finish a long rest."
+								"從3級起，你可以使用一個動作來解放你內在的腐敗力量。你的眼睛將變為兩個漆黑的池，一對幽靈般的骨翅將從你的身後展開。在你進行轉變的同時，你周圍10尺內所有能看見你的生物必須通過魅力豁免檢定（DC=8+你的熟練值+你的魅力調整值），否則直到你的下回合結束之前他們將對你{@condition 恐慌[Frightened]}。",
+								"你的轉變持續一分鐘或直到你以一個附贈動作中止。在這期間，每個你的回合中一次，當你的攻擊或法術成功造成傷害，你將對一個目標造成額外的黯蝕傷害等同於你的人物等級。",
+								"一旦你使用這個特性，在下次長休息完成之前你不能再次使用。"
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Protector",
+					"name": "守護[Protector]",
 					"ability": {
 						"wis": 1
 					},
 					"entries": [
 						{
-							"name": "Radiant Soul",
+							"name": "光輝靈魂[Radiant Soul]",
 							"entries": [
-								"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.",
-								"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.",
-								"Once you use this trait, you can't use it again until you finish a long rest."
+								"從3級起，你可以使用一個動作來釋放你內在的神聖能量。這將使你的眼睛閃爍，並且會有兩條輝煌的純能量光翼從你的後背延展。",
+								"你的轉變持續一分鐘或直到你以一個附贈動作中止。在這期間，你得到30尺的飛行速度，並且每個你的回合中一次，當你的攻擊或法術成功造成傷害，你將對一個目標造成額外的光耀傷害等同於你的人物等級。",
+								"一旦你使用這個特性，在下次長休息完成之前你不能再次使用。"
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Scourge",
+					"name": "天罰[Scourge]",
 					"ability": {
 						"con": 1
 					},
 					"entries": [
 						{
-							"name": "Radiant Consumption",
+							"name": "光輝焚化[Radiant Consumption]",
 							"entries": [
-								"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.",
-								"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.",
-								"Once you use this trait, you can't use it again until you finish a long rest."
+								"從3級起，你可以使用一個動作使你體內的神聖能量解除拘束。灼熱的光芒將以你為中心輻射，從你的口中和眼中湧動而出，只消頃刻就會將你焚毀。",
+								"你的轉變持續一分鐘或直到你以一個附贈動作中止。在這期間，明亮的光輝會照亮你周圍10尺並給予額外10尺的昏暗照明。並且，每個你的回合結束，你和你周圍10尺內的每個生物都將受到等同於你人物等級一半的光耀傷害（向上取整）。此外，每個你的回合中一次，當你的攻擊或法術成功造成傷害，你將對一個目標造成額外的光耀傷害等同於你的人物等級。",
+								"一旦你使用這個特性，在下次長休息完成之前你不能再次使用。"
 							],
 							"type": "entries"
 						}
@@ -4306,7 +4306,7 @@
 			]
 		},
 		{
-			"name": "Kenku",
+			"name": "天狗[Kenku]",
 			"source": "VGM",
 			"page": 109,
 			"size": "M",
@@ -4317,51 +4317,51 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Kenku have shorter lifespans than humans. They reach maturity at about 12 years old and can live to 60."
+						"天狗的壽命比起人類較短。他們在12歲左右成年，通常能活到60歲。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Kenku are chaotic creatures, rarely making enduring commitments, and they care mostly for preserving their own hides. They are generally chaotic neutral in outlook."
+						"天狗是混亂的生物，他們很少做長久的承諾，並且他們最關心的是保護自己的隱匿性。他們通常處於混亂中立陣營。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "體形[Size]",
 					"entries": [
-						"Kenku are around 5 feet tall and weigh between 90 and 120 pounds. Your size is Medium."
+						"天狗大約有5英尺高，體重在90磅至120磅之間，是中體形生物。"
 					]
 				},
 				{
-					"name": "Expert Forgery",
+					"name": "專家偽造[Expert Forgery]",
 					"entries": [
-						"You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects."
+						"你可以仿造其他生物的筆跡和工藝。你在為偽造文書和復制現存物體進行的任何檢定中獲得優勢。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Kenku Training",
+					"name": "天狗訓練[Kenku Training]",
 					"entries": [
-						"You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand."
+						"你從以下技能中選擇兩項獲得熟練：特技動作[Acrobatics]、欺瞞[Deception]、隱藏[Stealth]，以及巧手[Sleight of Hand]。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Mimicry",
+					"name": "擬聲[Mimicry]",
 					"entries": [
-						"You can mimic sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check."
+						"你可以模仿你聽到的聲音，包括人的嗓音。聽到聲音的生物需要通過一個感知（察言觀色）檢定來對抗你的魅力（欺瞞）檢定，若成功將發現是模仿的。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can read and write Common and Auran, but you can only speak using your Mimicry trait."
+						"你可以讀寫通用語[Common]和氣族語[Auran]，但你只能使用你的擬聲特性來說話。"
 					],
 					"type": "entries"
 				}
@@ -5930,7 +5930,7 @@
 			]
 		},
 		{
-			"name": "Aasimar",
+			"name": "阿斯莫[Aasimar]",
 			"source": "DMG",
 			"page": 286,
 			"size": "M",
@@ -5942,51 +5942,51 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Aasimar mature at the same rate as humans but live a few years longer."
+						"阿斯莫與人類成熟的速度相近，不過他們能活160年。"
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Due to their celestial heritage, aasimar are often good. However, some aasimar fall into evil, rejecting their heritage."
+						"充盈著天界之力，多數阿斯莫是善良的。被放逐的阿斯莫則通常是中立的甚至是邪惡的。"
 					]
 				},
 				{
+					"name": "體形[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Aasimar are built like well-proportioned humans. Your size is Medium."
+						"阿斯莫的身高和體重與人類接近。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺[Darkvision]",
 					"entries": [
-						"Thanks to your celestial heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of grey."
+						"60 尺以內的微光對你而言如同亮光，黑暗如同微光。你在黑暗中無法分清顏色，只能看到灰色的影子。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Celestial Resistance",
+					"name": "天界抗性[Celestial Resistance]",
 					"entries": [
-						"You have resistance to necrotic and radiant damage."
+						"你對光耀[radiant]和黯蝕[necrotic]傷害具有抗力。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Celestial Legacy",
+					"name": "天界傳承[Celestial Legacy]",
 					"entries": [
-						"You know the {@spell light} cantrip. Once you reach 3rd level, you can cast the {@spell lesser restoration} spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the {@spell daylight} spell once with this trait as a 3rd-level spell, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"你可以使用 {@spell 亮光[Light]} 。 當你三等時，你可以用2環法術，一天一次施{@spell 次級復原[Lesser Restoration]}。 當你五等時，你可以一天一次施{@spell 晝明術[Daylight]}。這法術能力值為魅力。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Language",
+					"name": "語言[Language]",
 					"entries": [
-						"You can speak, read, and write Common and Celestial."
+						"你能說，讀，寫通用語[Common]和天界語[Celestial]。"
 					],
 					"type": "entries"
 				}
@@ -6616,7 +6616,7 @@
 			]
 		},
 		{
-			"name": "Tortle",
+			"name": "龜人[Tortle]",
 			"source": "TTP",
 			"page": 3,
 			"ability": {
@@ -6627,65 +6627,65 @@
 			"speed": 30,
 			"entries": [
 				{
-					"name": "Age",
+					"name": "年齡[Age]",
 					"type": "entries",
 					"entries": [
-						"Young tortles crawl for a few weeks after birth before learning to walk on two legs. They reach adulthood by the age of 15 and live an average of 50 years."
+						"剛出生的龜人在學習兩腳行走前，會花數星期的時間爬行。龜人一般15歲成年，平均壽命50年  "
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "陣營[Alignment]",
 					"type": "entries",
 					"entries": [
-						"Tortles tend to lead orderly, ritualistic lives. They develop customs and routines, becoming more set in their ways as they age. Most are lawful good. A few can be selfish and greedy, tending more toward evil, but it's unusual for a tortle to shuck off order in favor of chaos."
+						"龜人傾向於有序，儀式化的生活。他們發展出許多風俗和慣例，且隨著年歲增長變得因循守舊。大多數龜人是守序善良，少部分是自私貪婪並傾向邪惡陣營。但擺脫守序而走向混亂對龜人來說很不尋常。"
 					]
 				},
 				{
+					"name": "體型[Size]",
 					"type": "entries",
-					"name": "Size",
 					"entries": [
-						"Tortle adults stand 5 to 6 feet tall and average 450 pounds. Their shells account for roughly one-third of their weight. Your size is Medium"
+						"龜人身高5到6尺。平均體重450磅，龜殼約占據體重的三分之一，你的體型為中型。"
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "利爪[Claws]",
 					"entries": [
-						"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of bludgeoning damage normal for an unarmed strike."
+						"你的爪子是一件天生武器，可以用來進行徒手攻擊。如果你擊中了目標，你造成 1d4 + 你的力量調整值的揮砍[slashing]傷害，而不是普通徒手攻擊所造成的鈍擊[bludgeoning]傷害。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Hold Breath",
+					"name": "閉氣[Hold Breath]",
 					"entries": [
-						"You can hold your breath for up to 1 hour at a time. Tortles aren't natural swimmers, but they can remain underwater for some time before needing to come up for air."
+						"你能憋住呼吸長達1小時。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Natural Armor",
+					"name": "天生護甲[Natural Armor]",
 					"entries": [
-						"Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal."
+						"由於你身體的形狀和外殼，你不適合穿戴護甲。不過你的外殼提供充足的防禦，你的基礎AC是17（你的敏捷調整值不會影響這個數字）。你不獲得穿戴護甲的好處。你在使用盾牌時，仍能獲得盾牌的AC加值。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Shell Defense",
+					"name": "龜殼防禦[Shell Defense]",
 					"entries": [
-						"You can withdraw into your shell as an action. until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are {@condition prone}, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell."
+						"你能采取一個動作縮回殼內。直到你出殼，你獲得+4的AC加值， 在力量豁免與體質豁免具有優勢。當你在龜殼內時，你處於{@condition 倒地[Prone]}狀態，速度為0且不能增加。你的敏捷豁免具有劣勢，你不能執行反應，你唯一能執行的動作是以一個附贈動作從殼中出來。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Survival Instinct",
+					"name": "生存本能[Survival Instinct]",
 					"entries": [
-						"You gain proficiency in the Survival skill. Tortles have finely honed survival instincts."
+						"你的求生[Survival]技能獲得熟練。"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "語言[Languages]",
 					"entries": [
-						"You can speak, read, and write Aquan and Common."
+						"你能說、讀和寫水族語[Aquan]及通用語[Common]。"
 					],
 					"type": "entries"
 				}
