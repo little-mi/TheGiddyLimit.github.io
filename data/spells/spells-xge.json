@@ -202,7 +202,7 @@
       ]
     },
     {
-      "name": "獸之聯結 [Beast Bond]",
+      "name": "獸之聯結[Beast Bond]",
       "source": "XGE",
       "level": 1,
       "school": "D",
@@ -257,7 +257,7 @@
       ]
     },
     {
-	      "name": "地之骨 [Bones of the Earth]",
+	      "name": "地之骨[Bones of the Earth]",
       "source": "XGE",
       "level": 6,
       "school": "T",
@@ -324,7 +324,7 @@
       ]
     },
     {
-      "name": "彈射 [Catapult]",
+      "name": "彈射[Catapult]",
       "source": "XGE",
       "level": 1,
       "school": "T",
@@ -388,7 +388,7 @@
       ]
     },
     {
-      "name": "休憩術 [Catnap]",
+      "name": "休憩術[Catnap]",
       "source": "XGE",
       "level": 3,
       "school": "E",
@@ -449,7 +449,7 @@
       "page": 151
     },
     {
-      "name": "造成恐懼 [Cause Fear]",
+      "name": "造成恐懼[Cause Fear]",
       "source": "XGE",
       "level": 1,
       "school": "N",
@@ -509,7 +509,7 @@
       ]
     },
     {
-      "name": "典禮術 [Ceremony]",
+      "name": "典禮術[Ceremony]",
       "source": "XGE",
       "level": 1,
       "school": "A",
@@ -602,7 +602,7 @@
       "page": 151
     },
     {
-      "name": "混亂箭 [Chaos Bolt]",
+      "name": "混亂箭[Chaos Bolt]",
       "source": "XGE",
       "level": 1,
       "school": "V",
@@ -752,7 +752,7 @@
       ]
     },
     {
-      "name": "魅惑怪物 [Charm Monster]",
+      "name": "魅惑怪物[Charm Monster]",
       "source": "XGE",
       "level": 4,
       "school": "E",
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "name": "控火 [Control Flames]",
+      "name": "控火[Control Flames]",
       "source": "XGE",
       "level": 0,
       "school": "T",
@@ -906,7 +906,7 @@
       ]
     },
     {
-      "name": "操控風力 [Control Winds]",
+      "name": "操控風力[Control Winds]",
       "source": "XGE",
       "level": 5,
       "school": "T",
@@ -989,7 +989,7 @@
       ]
     },
     {
-      "name": "創造篝火 [Create Bonfire]",
+      "name": "創造篝火[Create Bonfire]",
       "source": "XGE",
       "level": 0,
       "school": "C",
@@ -1061,7 +1061,7 @@
       ]
     },
     {
-      "name": "創造小人 [Create Homunculus]",
+      "name": "創造小人[Create Homunculus]",
       "source": "XGE",
       "level": 6,
       "school": "T",
@@ -1108,7 +1108,7 @@
       "permanentEffects": true
     },
     {
-      "name": "眾星冠冕 [Crown of Stars]",
+      "name": "眾星冠冕[Crown of Stars]",
       "source": "XGE",
       "level": 7,
       "school": "V",
@@ -1175,7 +1175,7 @@
       ]
     },
     {
-      "name": "骷髏之舞 [Danse Macabre]",
+      "name": "骷髏之舞[Danse Macabre]",
       "source": "XGE",
       "level": 5,
       "school": "N",
@@ -1235,7 +1235,7 @@
       "page": 153
     },
     {
-      "name": "拂曉之光 [Dawn]",
+      "name": "拂曉之光[Dawn]",
       "source": "XGE",
       "level": 5,
       "school": "V",
@@ -1296,7 +1296,7 @@
       ]
     },
     {
-      "name": "龍息術 [Dragon's Breath]",
+      "name": "龍息術[Dragon's Breath]",
       "source": "XGE",
       "level": 2,
       "school": "T",
@@ -1357,7 +1357,7 @@
       ]
     },
     {
-      "name": "德魯伊林地 [Druid Grove]",
+      "name": "德魯伊林地[Druid Grove]",
       "source": "XGE",
       "level": 6,
       "school": "A",
@@ -1406,7 +1406,7 @@
           "type": "entries",
           "name": "重霧-Solid Fog",
           "entries": [
-            "你可以在地面上分布厚霧填充任意數量的5尺方格，使其處於重度隱蔽之下。霧氣高達10英尺。在穿過霧氣時每移動1英尺就要花費額外2英尺的移動力。在免疫這個效果的生物眼中，霧氣什麽也不會掩蓋，並且看起來像是漂浮在空氣中的綠色光點."
+            "你可以在地面上分布厚霧填充任意數量的5尺方格，使其處於重度隱蔽之下。霧氣高達10英尺。在穿過霧氣時每移動1英尺就要花費額外2英尺的移動力。在免疫這個效果的生物眼中，霧氣什麽也不會掩蓋，並且看起來像是漂浮在空氣中的綠色光點。"
           ]
         },
         {
@@ -1444,7 +1444,7 @@
       "permanentEffects": true
     },
     {
-      "name": "塵卷風 [Dust Devil]",
+      "name": "塵卷風[Dust Devil]",
       "source": "XGE",
       "level": 2,
       "school": "C",
@@ -1521,7 +1521,7 @@
       ]
     },
     {
-      "name": "地動 [Earth Tremor]",
+      "name": "地動[Earth Tremor]",
       "source": "XGE",
       "level": 1,
       "school": "V",
@@ -1594,7 +1594,7 @@
       ]
     },
     {
-      "name": "地縛 [Earthbind]",
+      "name": "地縛[Earthbind]",
       "source": "XGE",
       "level": 2,
       "school": "T",
@@ -1659,7 +1659,7 @@
       ]
     },
     {
-      "name": "元素災禍 [Elemental Bane]",
+      "name": "元素災禍[Elemental Bane]",
       "source": "XGE",
       "level": 4,
       "school": "T",
@@ -1737,7 +1737,7 @@
       ]
     },
     {
-      "name": "敵群環繞 [Enemies Abound]",
+      "name": "敵群環繞[Enemies Abound]",
       "source": "XGE",
       "level": 3,
       "school": "E",
@@ -1798,7 +1798,7 @@
       ]
     },
     {
-      "name": "汲能術 [Enervation]",
+      "name": "汲能術[Enervation]",
       "source": "XGE",
       "level": 5,
       "school": "N",
@@ -1879,7 +1879,7 @@
       ]
     },
     {
-      "name": "土石噴發 [Erupting Earth]",
+      "name": "土石噴發[Erupting Earth]",
       "source": "XGE",
       "level": 3,
       "school": "T",
@@ -2000,7 +2000,7 @@
       "page": 155
     },
     {
-      "name": "尋獲高等坐騎 [Find Greater Steed]",
+      "name": "尋獲高等坐騎[Find Greater Steed]",
       "source": "XGE",
       "level": 4,
       "school": "C",
@@ -2045,7 +2045,7 @@
       "permanentEffects": true
     },
     {
-      "name": "火箭 [Flame Arrows]",
+      "name": "火焰箭矢[Flame Arrows]",
       "source": "XGE",
       "level": 3,
       "school": "T",
@@ -2119,7 +2119,7 @@
       ]
     },
     {
-      "name": "霜噬 [Frostbite]",
+      "name": "霜噬[Frostbite]",
       "source": "XGE",
       "level": 0,
       "school": "V",
@@ -2185,7 +2185,7 @@
       ]
     },
     {
-      "name": "自然守衛 [Guardian of Nature]",
+      "name": "自然守衛[Guardian of Nature]",
       "source": "XGE",
       "level": 4,
       "school": "T",
@@ -2270,7 +2270,7 @@
       ]
     },
     {
-      "name": "舞風 [Gust]",
+      "name": "舞風[Gust]",
       "source": "XGE",
       "level": 0,
       "school": "T",
@@ -2339,7 +2339,7 @@
       ]
     },
     {
-      "name": "治癒之魂 [Healing Spirit]",
+      "name": "治癒之魂[Healing Spirit]",
       "source": "XGE",
       "level": 2,
       "school": "C",
@@ -2399,7 +2399,7 @@
       "page": 157
     },
     {
-      "name": "神聖武器 [Holy Weapon]",
+      "name": "神聖武器[Holy Weapon]",
       "source": "XGE",
       "level": 5,
       "school": "V",
@@ -2454,7 +2454,7 @@
       ]
     },
     {
-      "name": "冰刃 [Ice Knife]",
+      "name": "冰刃[Ice Knife]",
       "source": "XGE",
       "level": 1,
       "school": "C",
@@ -2527,7 +2527,7 @@
       ]
     },
     {
-      "name": "幻影巨龍 [Illusory Dragon]",
+      "name": "幻影巨龍[Illusory Dragon]",
       "source": "XGE",
       "level": 8,
       "school": "I",
@@ -2589,7 +2589,7 @@
       ]
     },
     {
-      "name": "焚燒 [Immolation]",
+      "name": "焚燒[Immolation]",
       "source": "XGE",
       "level": 5,
       "school": "V",
@@ -2650,7 +2650,7 @@
       ]
     },
     {
-      "name": "地獄呼喚 [Infernal Calling]",
+      "name": "地獄呼喚[Infernal Calling]",
       "source": "XGE",
       "level": 5,
       "school": "C",
@@ -2716,7 +2716,7 @@
       "page": 158
     },
     {
-      "name": "蟲群孳生 [Infestation]",
+      "name": "蟲群孳生[Infestation]",
       "source": "XGE",
       "level": 0,
       "school": "C",
@@ -2777,7 +2777,7 @@
       "scalingEffects": true
     },
     {
-      "name": "熾焰賦權 [Investiture of Flame]",
+      "name": "熾焰賦權[Investiture of Flame]",
       "source": "XGE",
       "level": 6,
       "school": "T",
@@ -2859,7 +2859,7 @@
       ]
     },
     {
-      "name": "寒冰賦權 [Investiture of Ice]",
+      "name": "寒冰賦權[Investiture of Ice]",
       "source": "XGE",
       "level": 6,
       "school": "T",
@@ -2942,7 +2942,7 @@
       ]
     },
     {
-      "name": "磐石賦權 [Investiture of Stone]",
+      "name": "磐石賦權[Investiture of Stone]",
       "source": "XGE",
       "level": 6,
       "school": "T",
@@ -3020,7 +3020,7 @@
       ]
     },
     {
-      "name": "清風賦權 [Investiture of Wind]",
+      "name": "清風賦權[Investiture of Wind]",
       "source": "XGE",
       "level": 6,
       "school": "T",
@@ -3096,7 +3096,7 @@
       ]
     },
     {
-      "name": "無敵術 [Invulnerability]",
+      "name": "無敵術[Invulnerability]",
       "source": "XGE",
       "level": 9,
       "school": "A",
@@ -3145,7 +3145,7 @@
       "page": 160
     },
     {
-      "name": "生命轉換 [Life Transference]",
+      "name": "生命轉換[Life Transference]",
       "source": "XGE",
       "level": 3,
       "school": "N",
@@ -3201,7 +3201,7 @@
       ]
     },
     {
-      "name": "瘋狂之暗 [Maddening Darkness]",
+      "name": "瘋狂之暗[Maddening Darkness]",
       "source": "XGE",
       "level": 8,
       "school": "V",
@@ -3257,7 +3257,7 @@
       ]
     },
     {
-      "name": "大漩渦 [Maelstrom]",
+      "name": "大漩渦[Maelstrom]",
       "source": "XGE",
       "level": 5,
       "school": "V",
@@ -3436,7 +3436,7 @@
       ]
     },
     {
-      "name": "麥克斯米利安的地之攫 [Maximilian's Earthen Grasp]",
+      "name": "麥克斯米利安的地之攫[Maximilian's Earthen Grasp]",
       "source": "XGE",
       "level": 2,
       "school": "T",
@@ -3504,7 +3504,7 @@
       ]
     },
     {
-      "name": "馬友夫微流星 [Melf's Minute Meteors]",
+      "name": "馬友夫微流星[Melf's Minute Meteors]",
       "source": "XGE",
       "level": 3,
       "school": "V",
@@ -3574,7 +3574,7 @@
       ]
     },
     {
-      "name": "精神監獄 [Mental Prison]",
+      "name": "精神監獄[Mental Prison]",
       "source": "XGE",
       "level": 6,
       "school": "I",
@@ -3632,7 +3632,7 @@
       ]
     },
     {
-      "name": "堅固堡壘 [Mighty Fortress]",
+      "name": "堅固堡壘[Mighty Fortress]",
       "source": "XGE",
       "level": 8,
       "school": "C",
@@ -3691,7 +3691,7 @@
       "permanentEffects": true
     },
     {
-      "name": "心靈探針 [Mind Spike]",
+      "name": "心靈探針[Mind Spike]",
       "source": "XGE",
       "level": 2,
       "school": "D",
@@ -3758,7 +3758,7 @@
       ]
     },
     {
-      "name": "塑土 [Mold Earth]",
+      "name": "塑土[Mold Earth]",
       "source": "XGE",
       "level": 0,
       "school": "T",
@@ -3827,7 +3827,7 @@
       ]
     },
     {
-      "name": "負能量洪流 [Negative Energy Flood]",
+      "name": "負能量洪流[Negative Energy Flood]",
       "source": "XGE",
       "level": 5,
       "school": "N",
@@ -3878,7 +3878,7 @@
       ]
     },
     {
-      "name": "律令痛苦 [Power Word Pain]",
+      "name": "律令痛苦[Power Word Pain]",
       "source": "XGE",
       "level": 7,
       "school": "E",
@@ -3930,7 +3930,7 @@
       ]
     },
     {
-      "name": "原初蠻擊 [Primal Savagery]",
+      "name": "原初蠻擊[Primal Savagery]",
       "source": "XGE",
       "level": 0,
       "school": "T",
@@ -3976,7 +3976,7 @@
       "scalingEffects": true
     },
     {
-      "name": "原初守護 [Primordial Ward]",
+      "name": "原初守護[Primordial Ward]",
       "source": "XGE",
       "level": 6,
       "school": "A",
@@ -4036,7 +4036,7 @@
       ]
     },
     {
-      "name": "心靈尖嘯 [Psychic Scream]",
+      "name": "心靈尖嘯[Psychic Scream]",
       "source": "XGE",
       "level": 9,
       "school": "E",
@@ -4095,7 +4095,7 @@
       ]
     },
     {
-      "name": "煙火 [Pyrotechnics]",
+      "name": "煙火[Pyrotechnics]",
       "source": "XGE",
       "level": 2,
       "school": "T",
@@ -4166,7 +4166,7 @@
       ]
     },
     {
-      "name": "散射術 [Scatter]",
+      "name": "散射術[Scatter]",
       "source": "XGE",
       "level": 6,
       "school": "C",
@@ -4216,7 +4216,7 @@
       ]
     },
     {
-      "name": "幽影刃 [Shadow Blade]",
+      "name": "幽影刃[Shadow Blade]",
       "source": "XGE",
       "level": 2,
       "school": "I",
@@ -4336,7 +4336,7 @@
       ]
     },
     {
-      "name": "操水 [Shape Water]",
+      "name": "操水[Shape Water]",
       "source": "XGE",
       "level": 0,
       "school": "T",
@@ -4414,7 +4414,7 @@
       ]
     },
     {
-      "name": "致病輻射 [Sickening Radiance]",
+      "name": "致病輻射[Sickening Radiance]",
       "source": "XGE",
       "level": 4,
       "school": "V",
@@ -4474,7 +4474,7 @@
       ]
     },
     {
-      "name": "授予技能 [Skill Empowerment]",
+      "name": "授予技能[Skill Empowerment]",
       "source": "XGE",
       "level": 5,
       "school": "T",
@@ -4527,7 +4527,7 @@
       "page": 165
     },
     {
-      "name": "寫入空中 [Skywrite]",
+      "name": "寫入空中[Skywrite]",
       "source": "XGE",
       "level": 2,
       "school": "T",
@@ -4588,7 +4588,7 @@
       ]
     },
     {
-      "name": "魔法圈套 [Snare]",
+      "name": "魔法圈套[Snare]",
       "source": "XGE",
       "level": 1,
       "school": "A",
@@ -4719,7 +4719,7 @@
       ]
     },
     {
-      "name": "靈魂牢籠 [Soul Cage]",
+      "name": "靈魂牢籠[Soul Cage]",
       "source": "XGE",
       "level": 6,
       "school": "N",
@@ -4801,7 +4801,7 @@
       "page": 165
     },
     {
-      "name": "鋼風斬 [Steel Wind Strike]",
+      "name": "鋼風斬[Steel Wind Strike]",
       "source": "XGE",
       "level": 5,
       "school": "C",
@@ -4852,7 +4852,7 @@
       ]
     },
     {
-      "name": "暴風球 [Storm Sphere]",
+      "name": "暴風球[Storm Sphere]",
       "source": "XGE",
       "level": 4,
       "school": "V",
@@ -4928,7 +4928,7 @@
       ]
     },
     {
-      "name": "召喚高等惡魔 [Summon Greater Demon]",
+      "name": "召喚高等惡魔[Summon Greater Demon]",
       "source": "XGE",
       "level": 4,
       "school": "C",
@@ -4993,7 +4993,7 @@
       ]
     },
     {
-      "name": "召喚次等惡魔 [Summon Lesser Demons]",
+      "name": "召喚次等惡魔[Summon Lesser Demons]",
       "source": "XGE",
       "level": 3,
       "school": "C",
@@ -5082,7 +5082,7 @@
             ]
           ]
         },
-        "DM選擇惡魔的種類，例如原魔Manes或者怯魔dretches，然後你選擇施法距離內可見的未被占據空間讓它們出現。被召喚的惡魔在生命值降低為0或法術結束時消失。.",
+        "DM選擇惡魔的種類，例如原魔Manes或者怯魔dretches，然後你選擇施法距離內可見的未被占據空間讓它們出現。被召喚的惡魔在生命值降低為0或法術結束時消失。",
         "惡魔對包括你在內的所有生物抱有敵意。它們擁有自己的回合，將它們整體視作一組來投擲先攻。惡魔會花費它的回合用於追逐和攻擊最近的非惡魔生物，盡其所能。",
         "作為施放此法術的一部分，你可以使用作為施法材料的血液在地上繪制一個法陣。法陣大到可以包括你在的空間。在法術的持續時間內，被召喚來的惡魔無法穿過或傷害法陣，也無法以其中的任何人作為目標。用這種方式使用的施法材料會在法術結束時被消耗。"
       ],
@@ -5098,7 +5098,7 @@
       "page": 167
     },
     {
-      "name": "突觸靜止 [Synaptic Static]",
+      "name": "突觸靜止[Synaptic Static]",
       "source": "XGE",
       "level": 5,
       "school": "E",
@@ -5158,7 +5158,7 @@
       ]
     },
     {
-      "name": "神廟術 [Temple of the Gods]",
+      "name": "神廟術[Temple of the Gods]",
       "source": "XGE",
       "level": 7,
       "school": "C",
@@ -5217,7 +5217,7 @@
       "permanentEffects": true
     },
     {
-      "name": "譚森變形術 [Tenser's Transformation]",
+      "name": "譚森變形術[Tenser's Transformation]",
       "source": "XGE",
       "level": 6,
       "school": "T",
@@ -5280,7 +5280,7 @@
       ]
     },
     {
-      "name": "雷霆步 [Thunder Step]",
+      "name": "雷霆步[Thunder Step]",
       "source": "XGE",
       "level": 3,
       "school": "C",
@@ -5343,7 +5343,7 @@
       ]
     },
     {
-      "name": "鳴雷破 [Thunderclap]",
+      "name": "鳴雷破[Thunderclap]",
       "source": "XGE",
       "level": 0,
       "school": "V",
@@ -5412,7 +5412,7 @@
       ]
     },
     {
-      "name": "潮湧 [Tidal Wave]",
+      "name": "潮湧[Tidal Wave]",
       "source": "XGE",
       "level": 3,
       "school": "C",
@@ -5473,7 +5473,7 @@
       ]
     },
     {
-      "name": "迷你僕役 [Tiny Servant]",
+      "name": "迷你僕役[Tiny Servant]",
       "source": "XGE",
       "level": 3,
       "school": "T",
@@ -5527,7 +5527,7 @@
       "page": 168
     },
     {
-      "name": "亡者喪鐘 [Toll the Dead]",
+      "name": "亡者喪鐘[Toll the Dead]",
       "source": "XGE",
       "level": 0,
       "school": "N",
@@ -5583,7 +5583,7 @@
       "scalingEffects": true
     },
     {
-      "name": "轉化巖石 [Transmute Rock]",
+      "name": "轉化巖石[Transmute Rock]",
       "source": "XGE",
       "level": 5,
       "school": "T",
@@ -5667,7 +5667,7 @@
       ]
     },
     {
-      "name": "濃酸球 [Vitriolic Sphere]",
+      "name": "濃酸球[Vitriolic Sphere]",
       "source": "XGE",
       "level": 4,
       "school": "V",
@@ -5733,7 +5733,7 @@
       ]
     },
     {
-      "name": "光墻 [Wall of Light]",
+      "name": "光墻[Wall of Light]",
       "source": "XGE",
       "level": 5,
       "school": "V",
@@ -5808,7 +5808,7 @@
       ]
     },
     {
-      "name": "沙墻 [Wall of Sand]",
+      "name": "沙墻[Wall of Sand]",
       "source": "XGE",
       "level": 3,
       "school": "V",
@@ -5860,7 +5860,7 @@
       ]
     },
     {
-      "name": "水墻 [Wall of Water]",
+      "name": "水墻[Wall of Water]",
       "source": "XGE",
       "level": 3,
       "school": "V",
@@ -5931,7 +5931,7 @@
       ]
     },
     {
-      "name": "守護之風 [Warding Wind]",
+      "name": "守護之風[Warding Wind]",
       "source": "XGE",
       "level": 2,
       "school": "V",
@@ -6003,7 +6003,7 @@
       ]
     },
     {
-      "name": "水球術 [Watery Sphere]",
+      "name": "水球術[Watery Sphere]",
       "source": "XGE",
       "level": 4,
       "school": "C",
@@ -6070,7 +6070,7 @@
       ]
     },
     {
-      "name": "旋風 [Whirlwind]",
+      "name": "旋風[Whirlwind]",
       "source": "XGE",
       "level": 7,
       "school": "V",
@@ -6142,7 +6142,7 @@
       ]
     },
     {
-      "name": "光耀禱詞 [Word of Radiance]",
+      "name": "光耀禱詞[Word of Radiance]",
       "source": "XGE",
       "level": 0,
       "school": "V",
@@ -6190,7 +6190,7 @@
       "scalingEffects": true
     },
     {
-      "name": "自然之怒 [Wrath of Nature]",
+      "name": "自然之怒[Wrath of Nature]",
       "source": "XGE",
       "level": 5,
       "school": "V",
@@ -6281,7 +6281,7 @@
       ]
     },
     {
-      "name": "西風打擊 [Zephyr Strike]",
+      "name": "西風打擊[Zephyr Strike]",
       "source": "XGE",
       "level": 1,
       "school": "T",
