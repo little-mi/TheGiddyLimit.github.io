@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "Barbarian",
+			"name": "野蠻人[Barbarian]",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -195,203 +195,204 @@
 			"classFeatures": [
 				[
 					{
-						"name": "Rage",
+						"name": "狂暴[Rage]",
 						"entries": [
-							"In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.",
-							"While raging, you gain the following benefits if you aren't wearing heavy armor:",
+							"你帶著原初的狂怒作戰。在你的回合內，你可以使用一個附贈動作進入狂暴。",
+							"在狂暴中，只要你未穿著重甲，就獲得以下好處：",
 							{
 								"type": "list",
 								"items": [
-									"You have advantage on Strength checks and Strength saving throws.",
-									"When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.",
-									"You have resistance to bludgeoning, piercing, and slashing damage."
+									"你在力量檢定和力量豁免上具有優勢。",
+									"當你進行使用力量的近戰武器攻擊時，你在傷害骰上獲得＋２加值。此加值隨著你的野蠻人等級提升。",
+									"你對鈍擊[bludgeoning]，穿刺[piercing]和揮砍[slashing]傷害具有抗性。"
 								]
 							},
-							"If you are able to cast spells, you can't cast them or concentrate on them while raging.",
-							"Your rage lasts for 1 minute. It ends early if you are knocked {@condition unconscious} or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.",
-							"Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again. You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th."
+							"如果你有施法能力，你無法在狂暴下使用法術或專注法術。",
+							"你的狂暴持續１分鐘。如果你陷入昏迷，或是從你上一回合到你這一回合結束都未攻擊任何敵對生物，也未受到傷害，則狂暴提前結束。你也可以在你的回合使用一個附贈動作終止狂暴。",
+							"根據你的野蠻人等級，野蠻人表格中給出了狂暴次數。如果你用光了這些次數，則必須進行一次長休息才能再次使用狂暴。"
 						]
 					},
 					{
-						"name": "Unarmored Defense",
+						"name": "無甲防御[Unarmored Defense]",
 						"entries": [
-							"While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit."
+							"當你未穿著任何盔甲時，你的ＡＣ等於１０＋你的敏捷調整值＋你的體魄調整值。使用盾牌不會影響你從此能力獲益。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Danger Sense",
+						"name": "魯莽攻擊[Reckless Attack]",
 						"entries": [
-							"At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be {@condition blinded}, {@condition deafened}, or {@condition incapacitated}."
-						]
-					},
-					{
-						"name": "Reckless Attack",
-						"entries": [
-							"Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn."
-						]
-					}
-				],
-				[
-					{
-						"name": "Primal Path",
-						"entries": [
-							"At 3rd level, you choose a path that shapes the nature of your rage from the list of available paths. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels."
-						],
-						"gainSubclassFeature": true
-					}
-				],
-				[
-					{
-						"name": "Ability Score Improvement",
-						"entries": [
-							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
-						]
-					}
-				],
-				[
-					{
-						"name": "Extra Attack",
-						"entries": [
-							"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+							"從２級起，你可以拋棄一切防御的執念進行狂亂的攻擊。當你進行回合內第一次攻擊時，你可以選擇采用魯莽攻擊。如果你如此做，你本回合所有使用力量的近戰武器攻擊獲得優勢，但敵人對你的攻擊骰亦獲得優勢。"
 						]
 					},
 					{
-						"name": "Fast Movement",
+						"name": "險境感知[Danger Sense]",
 						"entries": [
-							"Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor."
+							"２級時，你獲得對周遭異常情況超乎尋常的感知能力，讓你能先一步脫離危險。在對抗你可見的效果（如陷阱和法術）影響時，在敏捷豁免上具有優勢。你無法在{@condition 盲目[Blinded]}，{@condition 耳聾[Deafened]}，或是{@condition 乏力[Incapacitated]}的情況下從此能力獲益。"
 						]
 					}
+
 				],
 				[
 					{
-						"name": "Path Feature",
+						"name": "原初道途[Primal Path]",
 						"entries": [
-							"At 6th level, you gain a feature from your Primal Path."
+							"３級時，你選擇一種道途來塑造你狂怒的特質。你可以從狂戰士和圖騰武士兩種道途中選擇一種，詳見後。你在３級，６級，１０級和１４級獲得所選道途的能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Feral Instinct",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"By 7th level, your instincts are so honed that you have advantage on initiative rolls.",
-							"Additionally, if you are surprised at the beginning of combat and aren't {@condition incapacitated}, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn."
+							"當你達到４級時，你可以選擇一項屬性提升２點，或是選擇兩項屬性各提升１點。和通常一樣，你無法通過此能力讓屬性值超過２０。",
+							"如果你的DM允許你使用專長規則，你可以改為得到一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "額外攻擊[Extra Attack]",
 						"entries": [
-							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM uses the optional Feats, you can instead take a feat."
+							"從５級起，當你在自己回合進行攻擊動作時，你可以攻擊兩次而非一次。"
+						]
+					},
+					{
+						"name": "快速移動[Fast Movement]",
+						"entries": [
+							"從５級起，只要未穿著重甲，你的速度就獲得１０尺提升。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Brutal Critical (1 die)",
+						"name": "原初道途[Path Feature]",
 						"entries": [
-							"Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.",
-							"This increases to two additional dice at 13th level and three additional dice at 17th level."
-						]
-					}
-				],
-				[
-					{
-						"name": "Path feature",
-						"entries": [
-							"At 10th level, you gain a feature from your Primal Path."
+							"６級時，你獲得所選道途的能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Relentless Rage",
+						"name": "野性直覺[Feral Instinct]",
 						"entries": [
-							"Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.",
-							"Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10."
+							"７級時，你的直覺犀利非常，令你在先攻骰上具有優勢。",
+							"另外，如果戰鬥開始時你被突襲，但並未{@condition 乏力[Incapacitated]}，那麼你可以在你的第一回合正常行動。若你如此做，你必須在進行任何其他行動前進入狂暴。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM uses the optional Feats, you can instead take a feat."
+							"當你達到８級時，你可以選擇一項屬性提升２點，或是選擇兩項屬性各提升１點。和通常一樣，你無法通過此能力讓屬性值超過２０。",
+							"如果你的DM允許你使用專長規則，你可以改為得到一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Brutal Critical (2 dice)",
+						"name": "凶蠻重擊[Brutal Critical] (1 骰)",
 						"entries": [
-							"You now roll two additional weapon damage dice when determining the extra damage for a critical hit with a melee attack."
+							"從９級起，當計算近戰攻擊的重擊傷害時，你可以額外投一次武器傷害骰。",
+							"１３級時，你可以額外投兩次；１７級時，你可以額外投三次。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Path feature",
+						"name": "原初道途[Path Feature]",
 						"entries": [
-							"At 14th level, you gain a feature from your Primal Path."
+							"１０級時，你獲得所選道途的能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Persistent Rage",
+						"name": "無情狂暴[Relentless Rage]",
 						"entries": [
-							"Beginning at 15th level, your rage is so fierce that it ends early only if you fall {@condition unconscious} or if you choose to end it."
+							"從１１級起，狂暴的力量讓你即使身受重傷也能持續戰鬥。如果你的生命值降低到０但並未立即死去，你可以通過一次ＤＣ１０的體魄豁免。若豁免成功，則改為你的生命值降低到１。",
+							"在第一次使用此能力後，每當你再次使用此能力，體魄豁免DC增加５。一次短休息或長休息後DC重置為１０。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM uses the optional Feats, you can instead take a feat."
+							"當你達到１２級時，你可以選擇一項屬性提升２點，或是選擇兩項屬性各提升１點。和通常一樣，你無法通過此能力讓屬性值超過２０。",
+							"如果你的DM允許你使用專長規則，你可以改為得到一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Brutal Critical (3 dice)",
+						"name": "凶蠻重擊[Brutal Critical] (2 骰)",
 						"entries": [
-							"You now roll three additional weapon damage dice when determining the extra damage for a critical hit with a melee attack."
+							"現在當你計算近戰攻擊的重擊傷害時，你可以額外投二次武器傷害骰。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Indomitable Might",
+						"name": "原初道途[Path Feature]",
 						"entries": [
-							"Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total."
+							"１４級時，你獲得所選道途的能力。"
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "持久狂暴[Persistent Rage]",
+						"entries": [
+							"從１５級起，你的狂暴是如此強大，以至於只有當你{@condition 昏迷[Unconscious]}或是主動選擇結束狂暴時才會結束。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM uses the optional Feats, you can instead take a feat."
+							"當你達到１６級時，你可以選擇一項屬性提升２點，或是選擇兩項屬性各提升１點。和通常一樣，你無法通過此能力讓屬性值超過２０。",
+							"如果你的DM允許你使用專長規則，你可以改為得到一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Primal Champion",
+						"name": "凶蠻重擊[Brutal Critical] (3 骰)",
 						"entries": [
-							"At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24."
+							"現在當你計算近戰攻擊的重擊傷害時，你可以額外投三次武器傷害骰。"
+						]
+					}
+				],
+				[
+					{
+						"name": "不屈勇武[Indomitable Might]",
+						"entries": [
+							"從１８級起，如果你力量檢定的總值低於你的力量值，你可以用力量值代替檢定的總值。"
+						]
+					}
+				],
+				[
+					{
+						"name": "能力值提升[Ability Score Improvement]",
+						"entries": [
+							"當你達到１９級時，你可以選擇一項屬性提升２點，或是選擇兩項屬性各提升１點。和通常一樣，你無法通過此能力讓屬性值超過２０。",
+							"如果你的DM允許你使用專長規則，你可以改為得到一個專長。"
+						]
+					}
+				],
+				[
+					{
+						"name": "原初勇士[Primal Champion]",
+						"entries": [
+							"２０級時，你的存在就是野性之力的具現。你的力量和體魄各提升４。你這兩項屬性的上限變為２４。"
 						]
 					}
 				]
@@ -403,14 +404,14 @@
 					"subclassFeatures": [
 						[
 							{
-								"name": "Path of the Berserker",
+								"name": "狂戰士道途[Path of the Berserker]",
 								"entries": [
-									"For some barbarians, rage is a means to an end\u2014that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
+									"對某些野蠻人來說，狂暴是達到極致的一種方式，這種極致即是暴力。狂戰士道途是追求鮮血與無拘的狂怒的道路。當你進入狂戰士的狂暴時，你在戰斗的混沌快感中戰栗，舍生忘死般的沖殺。",
 									{
 										"type": "entries",
-										"name": "Frenzy",
+										"name": "狂怒[Frenzy]",
 										"entries": [
-											"Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of {@condition exhaustion}."
+											"從你選擇此道途的３級起，你可以在狂暴時進入狂怒。如果你如此做，在本回合之後狂暴持續時間內的每個回合，你可以使用一個附贈動作進行一次攻擊。當狂暴結束時，你承受一級{@condition 力竭[Exhaustion]}。"
 										]
 									}
 								]
@@ -421,9 +422,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Mindless Rage",
+										"name": "無我狂暴[Mindless Rage]",
 										"entries": [
-											"Beginning at 6th level, you can't be {@condition charmed} or {@condition frightened} while raging. If you are {@condition charmed} or {@condition frightened} when you enter your rage, the effect is suspended for the duration of the rage."
+											"從６級起，你在狂暴中不會被魅惑或恐慌。如果你開啟狂暴時已經被{@condition 迷惑[Charmed]}或{@condition 恐慌[Frightened]}，則該效果在你狂暴期間被壓制。"
 										]
 									}
 								]
@@ -434,10 +435,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Intimidating Presence",
+										"name": "威懾之姿[Intimidating Presence]",
 										"entries": [
-											"Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be {@condition frightened} of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the {@condition frightened} creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.",
-											"If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours."
+											"從１０級起，你可以使用一個動作，以自己可怖的姿態恐嚇他人。選擇一個３０尺內對你可見的生物。如果該生物能看見你或聽見你的聲音，則必須通過一次感知豁免（ＤＣ為８＋你的熟練加值＋你的魅力調整值），否則便對你{@condition 恐慌[Frightened]}，直到你的下一輪結束。在接下來的回合中，你可以使用你的動作延長此效果的持續時間，至你此後一輪結束。如果受影響的生物在你的視覺線外或是６０尺外結束回合，則此效果結束。",
+											"如果生物通過豁免檢定，你無法對這個生物在24小時內再次使用這個特性。"
 										]
 									}
 								]
@@ -448,9 +449,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Retaliation",
+										"name": "復仇[Retaliation]",
 										"entries": [
-											"Starting at 14th level, when you take damage from a creature that is within 5 feet of you. you can use your reaction to make a melee weapon attack against that creature."
+											"從１４級起，當你從５尺內的敵人處受到傷害時，你可以使用你的反應對該生物進行一次近戰武器攻擊。"
 										]
 									}
 								]
@@ -465,31 +466,31 @@
 					"subclassFeatures": [
 						[
 							{
-								"name": "Path of the Totem Warrior",
+								"name": "圖騰武士道途[Path of the Totem Warrior]",
 								"entries": [
-									"The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.",
-									"Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.",
+									"圖騰武士道途是靈魂修煉的旅途。走上此道的野蠻人以一種精魂獸作為他的向導，保護者，和力量源泉。在戰斗中，你的圖騰精魂將超自然的力量灌輸於你，為你的狂暴注入魔法力量。",
+									"大多數野蠻人部落將圖騰獸視為氏族的一員，因此很少有人同時擁有兩種或更多圖騰精魂，盡管這樣的特例依然存在。",
 									{
 										"type": "entries",
-										"name": "Spirit Seeker",
+										"name": "精魂尋者[Spirit Seeker]",
 										"entries": [
-											"Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the {@spell beast sense} and {@spell speak with animals} spells, but only as rituals, as described in chapter 10."
+											"你追求融入自然之道，與動物為友。在你選擇此道途的３級時，你獲得 {@spell 野獸知覺[Beast Sense]} 和 {@spell 動物交談[Speak with Animals]} 的法術，但只能以儀式施法，詳見第１０章。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Totem Spirit",
+										"name": "圖騰精魂[Totem Spirit]",
 										"entries": [
-											"At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object\u2014an amulet or similar adornment\u2014that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thick-skinned, or if your totem is the eagle, your eyes turn bright yellow.",
-											"Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.",
+											"在你選擇此道途的３級時，選擇一個圖騰精魂並獲得其能力。你必須制造或獲取一個象征圖騰獸毛，羽，爪，牙或骨的圖騰物件，可以是項鏈，也可以是其他類似的物件。如果你願意，你的外貌也會發生些微改變，讓人看到時不由得聯想起你的圖騰精魂。例如，如果選擇熊的圖騰精魂，你可能變得毛發旺盛，皮膚粗厚；如果選擇鷹的圖騰精魂，你的眼睛可能變成明亮的黃色。",
+											"你圖騰的力量取決於你所選擇的動物，可以選擇下表中的動物，或是其他類似，但更適合你故鄉環境的動物。例如，你可以用鷹或鷲代替雕。",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Bear",
+														"name": "熊[Bear]",
 														"entries": [
-															"While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment."
+															"狂暴時，你獲得對精神傷害之外任何傷害的抗力。熊之精魂令你堅韌無匹，使你無所畏懼。"
 														]
 													}
 												]
@@ -499,9 +500,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Eagle",
+														"name": "雕[Eagle]",
 														"entries": [
-															"While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease."
+															"狂暴時，如果你未穿著重甲，則其他生物在對你借機攻擊的攻擊骰上承受劣勢。另外，在你的回合你可以用附贈動作進行疾行動作。雕之精魂讓你成為在戰場中自由穿梭的獵殺者。"
 														]
 													}
 												]
@@ -511,9 +512,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Elk",
+														"name": "狼[Wolf]",
 														"entries": [
-															"While you're raging and aren't wearing heaving armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift."
+															"狂暴時，如果你周圍５尺范圍內有任何敵對生物，則你的盟友對他們的近戰攻擊骰具有優勢。狼之精魂讓你成為獵手中的領袖。"
 														]
 													}
 												]
@@ -523,9 +524,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Tiger",
+														"name": "鹿[Elk](SCAG)",
 														"entries": [
-															"While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps."
+															"狂暴時，若你未著重甲，你的步行速度增加15尺。鹿之精魂的庇佑使你格外迅捷。"
 														]
 													}
 												]
@@ -535,9 +536,84 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Wolf",
+														"name": "虎[Tiger](SCAG)",
 														"entries": [
-															"While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters."
+															"狂暴時，你增加10尺的跳躍距離和3尺的跳高距離。虎之精魂賦予你飛躍的能力。"
+														]
+													}
+												]
+											}
+
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "獸之形[Aspect of the Beast]",
+										"entries": [
+											"６級時，根據你選擇的圖騰獸，你獲得一項魔法能力。你可以選擇和３級時相同的圖騰，也可以另做選擇。",
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "熊[Bear]",
+														"entries": [
+															"你擁有熊之巨力。你的載重（包括最大負重和最大舉重）翻倍，並且你在推，拉，舉和破壞物體的力量檢定上具有優勢。"
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "雕[Eagle]",
+														"entries": [
+															"你擁有雕之銳目。你可以毫無困難的看到１英裡之內的范圍，細節之處與１００尺以內一樣清晰。另外，你在微光環境中無需承受感知（觀察）檢定上的劣勢。"
+														]
+													}
+												]
+											}
+											,
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "狼[Wolf]",
+														"entries": [
+															"你擁有狼之敏銳。你可以在快速旅行時追蹤其他生物，也可以在正常速度旅行時保持隱秘（旅行速度見第８章）。"
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "鹿[Elk](SCAG)",
+														"entries": [
+															"無論你是騎乘還是徒步，你的旅行速度變為雙倍。只要你未失能，在你周圍60尺內的最多十個同伴也能得到這個好處（參考PHB第八章得到更多有關旅行速度的信息）。鹿的精魂祝福你行得更遠。"
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "虎[Tiger](SCAG)",
+														"entries": [
+															"你從下面列表中選擇兩個技能得到熟練：運動[Athletics]，特技動作[Acrobatics]，隱藏[Stealth]，生存[Survival]。虎之精魂磨練了你的生存本能。"
 														]
 													}
 												]
@@ -552,69 +628,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Aspect of the Beast",
+										"name": "精魂行者[Spirit Walker]",
 										"entries": [
-											"At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Bear",
-														"entries": [
-															"You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Eagle",
-														"entries": [
-															"You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Elk",
-														"entries": [
-															"Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated}. The elk spirit helps you roam far and fast."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Tiger",
-														"entries": [
-															"You gain proficiency in two skills from the following list: Athletics, Acrobatics, Stealth, and Survival. The cat spirit hones your survival instincts."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Wolf",
-														"entries": [
-															"You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace."
-														]
-													}
-												]
-											}
+											"１０級時，你獲得{@spell 問道自然[Commune with Nature]}的法術，但只能以儀式施法。當你施放此法術時，你選擇的圖騰獸會以精魂形態現身，回答你的疑問。"
 										]
 									}
 								]
@@ -625,30 +641,17 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Spirit Walker",
+										"name": "精魂調諧[Totemic Attunement]",
 										"entries": [
-											"At 10th level, you can cast the {@spell commune with nature} spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Totemic Attunement",
-										"entries": [
-											"At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.",
+											"１４級時，根據你選擇的圖騰獸，你獲得一項魔法能力。你可以選擇和之前相同的圖騰，也可以另做選擇。",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Bear",
+														"name": "熊[Bear]",
 														"entries": [
-															"While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be {@condition frightened}."
+															"狂暴時，距離你５尺以內任何敵對生物攻擊時，如果他的目標不是你或另一個具有此能力的生物，則他在攻擊骰上承受劣勢。無法看到你或聽到你的聲音的生物以及{@condition 恐慌[Frightened]}的生物對此能力免疫。"
 														]
 													}
 												]
@@ -658,9 +661,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Eagle",
+														"name": "雕[Eagle]",
 														"entries": [
-															"While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
+															"狂暴時，你獲得等同於你移動速度的飛行速度。此能力只能用於短途沖刺。如果回合結束時你仍在空中且毫無憑依，你將墜落。"
 														]
 													}
 												]
@@ -670,9 +673,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Elk",
+														"name": "狼[Wolf]",
 														"entries": [
-															"While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked {@condition prone} and take bludgeoning damage equal to 1d12 + your strength modifier."
+															"狂暴時，在你的回合，你可以在近戰武器攻擊命中一名大體型或更小的生物時使用一個附贈動作使他{@condition 倒地[Prone]}。"
 														]
 													}
 												]
@@ -682,9 +685,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Tiger",
+														"name": "鹿[Elk](SCAG)",
 														"entries": [
-															"While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it."
+															"狂暴時，當你試圖穿過一個被大體型或更小的生物占據的空間，你可以使用你的附贈動作讓那個生物立即進行一次力量豁免（DC=8+你的力量調整值+你的熟練值）。若失敗，生物{@condition 倒地[Prone]}並且受到 1d12 + 你的力量調整值 的鈍擊[bludgeoning]傷害。"
 														]
 													}
 												]
@@ -694,9 +697,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Wolf",
+														"name": "虎[Tiger](SCAG)",
 														"entries": [
-															"While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature {@condition prone} when you hit it with melee weapon attack."
+															"狂暴時，如果你向一個大體型或者更小的目標直線接近至少20尺並且向它進行了一次近戰武器攻擊，你可以用附贈動作對它進行一次額外的近戰武器攻擊。"
 														]
 													}
 												]
@@ -715,24 +718,24 @@
 					"subclassFeatures": [
 						[
 							{
-								"name": "Path of the Battlerager",
+								"name": "​戰狂道途[Path of the Battlerager]",
 								"entries": [
-									"Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, {@item spiked armor|scag} and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
+									"戰狂道途通常被那些選擇追隨戰爭之神的矮人選擇，在矮人語中他們被稱作為“庫紮爾夫”（意指“斧頭笨蛋”）。他們常穿著厚重的、帶刺的盔甲沖入戰場，用他們自己的身體在戰鬥中揮灑怒火。",
 									{
 										"type": "entries",
-										"name": "Restriction - Dwarves Only",
+										"name": "限制：限定矮人",
 										"entries": [
-											"Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.",
-											"Your DM can lift this restriction to better suit the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms."
+											"只有矮人才可以選擇戰狂道途。在矮人的社會和文化中戰狂占據了一個特殊的位置。",
+											"你的DM可以調整這一規則使之更符合戰役。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Battlerager Armor",
+										"name": "戰狂裝甲[Battlerager Armor]",
 										"entries": [
-											"When you choose this path at 3rd level, you gain the ability to use {@item spiked armor|scag} as a weapon.",
-											"While you are wearing {@item spiked armor|scag} and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal 1d4 piercing damage. You use your Strength modifier for the attack and damage rolls.",
-											"Additionally, when you use the Attack action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds."
+											"從3級起，你得到將{@item 釘刺甲[spiked armor]|scag}（參照“釘刺甲”邊欄）作為武器使用的能力。",
+											"當你穿著{@item 釘刺甲[spiked armor]|scag}並在狂暴中，你可以使用你的附贈動作用釘刺甲對5尺內的目標進行一次近戰武器攻擊。若攻擊命中，釘刺將造成1d4的穿刺傷害。把你的力量調整加在武器的攻擊和傷害骰上。",
+											"另外，當你使用攻擊動作去擒抱一個生物，你在擒抱檢定成功時對他造成3點穿刺傷害。"
 										]
 									}
 								]
@@ -743,9 +746,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Reckless Abandon",
+										"name": "​兇蠻無羈[Reckless Abandon]",
 										"entries": [
-											"Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). They vanish if any of them are left when your rage ends."
+											"從6級起，若你在狂暴中使用魯莽攻擊，你可以增加等同你體質調整值的臨時生命（最少1點）。當你結束狂暴時它們消失。"
 										]
 									}
 								]
@@ -756,9 +759,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Battlerager Charge",
+										"name": "戰狂沖鋒[Battlerager Charge]",
 										"entries": [
-											"Beginning at 10th level, you can take the Dash action as a bonus action while you are raging."
+											"從10級起，你在狂暴中可以用一個附贈動作進行疾走。"
 										]
 									}
 								]
@@ -769,9 +772,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Spiked Retribution",
+										"name": "釘刺反沖[Spiked Retribution]",
 										"entries": [
-											"Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't {@condition incapacitated}, and are wearing {@item spiked armor|scag}."
+											"從14級起，每當你5尺內有生物用近戰攻擊命中你，同時你處於狂暴中且並非{@condition 乏力[Incapacitated]}，攻擊者將立即受到 3 點穿刺[piercing]傷害。你必須穿著{@item 釘刺甲[spiked armor]|scag}才能使用這個能力。"
 										]
 									}
 								]
@@ -782,386 +785,19 @@
 					"shortName": "Battlerager"
 				},
 				{
-					"name": "Path of the Ancestral Guardian (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Path of the Ancestral Guardian",
-								"entries": [
-									"Some barbarians hail from cultures that revere their ancestors. These tribes teach that the warriors of the past linger on in the world as mighty spirits who can guide and protect the living. When barbarians who follow this path rage, they cross the barrier into the spirit world and call on these guardian spirits for aid.",
-									"Barbarians who draw on their ancestral guardians fight to protect their tribes and their allies. With the spirits' help, they can hinder their foes even as they strike powerful blows against them.",
-									"In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell epic sagas of victories against terrible monsters and other fearsome rivals.",
-									{
-										"type": "entries",
-										"name": "Ancestral Protectors",
-										"entries": [
-											"Starting when you choose this path at 3rd level, spectral warriors appear when you rage. These warriors distract a foe you designate and hinder its attempts to evade you. While you're raging, you can use a bonus action on your turn to choose one creature you can see within 5 feet of you. Until the start of your next turn or until your rage ends, the chosen creature has disadvantage on any attack roll that doesn't target you, and if the creature takes the Disengage action within 5 feet of you, its speed is halved until the end of its turn."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Ancestral Shield",
-										"entries": [
-											"Beginning at 6th level, the guardian spirits that aid you can provide protection for your allies. If you are raging and an ally you can see within 30 feet of you takes bludgeoning, piercing, or slashing damage, you can use your reaction to transfer your resistance to those damage types to the ally. The resistance applies to the incoming damage. Until the start of your next turn, the ally keeps the resistance and you lack it, unless you also have it from a source other than rage."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Consult the Spirits",
-										"entries": [
-											"At 10th level, you gain the ability to consult with your ancestral spirits. Right before you make an Intelligence or a Wisdom check, you can give yourself advantage on the check. You can use this feature three times, and you regain expended uses when you finish a long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Vengeful Ancestors",
-										"entries": [
-											"At 14th level, your ancestral spirits grow powerful enough to strike your foes. When you or an ally you can see within 30 feet of you is damaged by a melee attack while you're raging, you can use your reaction to cause the attacker to take 2d8 force damage from the spirits."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UABarbarianPrimalPaths",
-					"shortName": "Ancestral Guardian (UA)"
-				},
-				{
-					"name": "Path of the Ancestral Guardian v2 (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Path of the Ancestral Guardian v2",
-								"entries": [
-									"Some barbarians hail from cultures that revere their ancestors. These tribes teach that the warriors of the past linger on in the world as mighty spirits who can guide and protect the living. When barbarians who follow this path rage, they cross the barrier into the spirit world and call on these guardian spirits for aid.",
-									"Barbarians who draw on their ancestral guardians fight to protect their tribes and their allies. With the spirits' help, they can hinder their foes even as they strike powerful blows against them.",
-									"In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell epic sagas of victories against terrible monsters and other fearsome rivals.",
-									{
-										"type": "entries",
-										"name": "Ancestral Protectors",
-										"entries": [
-											"Starting when you choose this path at 3rd level, spectral warriors appear when you rage. These warriors distract a foe you designate and hinder its attempts to evade you. While you're raging, the first creature you hit with an attack on your turn becomes the target of these warriors. Until the start of your next turn or until your rage ends, that target has disadvantage on any attack roll that doesn't target you, and creatures other than you have resistance to the damage of the creature's attacks."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Ancestral Shield",
-										"entries": [
-											"Beginning at 6th level, the guardian spirits that aid you can provide protection for your allies. If you are raging and a creature you can see within 30 feet of you takes damage, you can use your reaction and reduce that damage by 2d8. When you reach certain levels in this class, you can reduce the damage by more: by 3d8 at 10th level and by 4d8 at 14th level."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Consult the Spirits",
-										"entries": [
-											"At 10th level, you gain the ability to consult with your ancestral spirits and use them to scout far-off lands. When you do so, you cast the {@spell clairvoyance} spell, without needing a spell slot. Rather than creating a spherical sensor, the spell invisibly summons one of your ancestral spirits to the chosen location. Wisdom is your spellcasting ability for the spell. After you cast the spell in this way, you can't do so again until you finish a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Vengeful Ancestors",
-										"entries": [
-											"At 14th level, your ancestral spirits grow powerful enough to strike foes that dare harm those that you protect. When you use your Spirit Shield Ability to protect a creature damaged by an attack, the attacker takes the same amount of damage that the Spirit Shield protects."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UARevisedSubclasses",
-					"shortName": "Ancestral Guardian v2 (UA)"
-				},
-				{
-					"name": "Path of the Storm Herald (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Path of the Storm Herald",
-								"entries": [
-									"Typical barbarians harbor a fury that dwells within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn instead to transform their rage into a mantle of primal magic that swirls around them. When in a fury, a barbarian of this path taps into nature to create powerful, magical effects.",
-									"Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect the natural realm. Other storm heralds hone their craft in elite lodges founded in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.",
-									{
-										"type": "entries",
-										"name": "Storm of Fury",
-										"entries": [
-											"When you select this path at 3rd level, choose one of the following options: desert, sea, or tundra. The environment you choose shapes the nature of the storm you conjure when you rage. While raging, you emanate an aura in a 10-foot radius. The effects of this aura depend on your chosen environment.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Desert",
-														"entries": [
-															"Any enemy that ends its turn in your aura takes fire damage equal to 2 + your barbarian level divided by 4."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Sea",
-														"entries": [
-															"At the end of each of your turns, you can choose a creature in your aura other than yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your proficiency bonus + your Constitution modifier. The target takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. This damage increases to 3d6 at 10th level and to 4d6 at 15th level."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Tundra",
-														"entries": [
-															"Any enemy that ends its turn in your aura takes cold damage equal to 2 + your barbarian level divided by 4."
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Storm Soul",
-										"entries": [
-											"At 6th level, your link to the power of the storm grants you additional abilities based on the environment you chose at 3rd level.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Desert",
-														"entries": [
-															"You gain resistance to fire damage and don't suffer the effects of extreme heat."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Sea",
-														"entries": [
-															"You gain resistance to lightning damage and can breathe underwater."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Tundra",
-														"entries": [
-															"Tundra. You gain resistance to cold damage and don't suffer the effects of extreme cold."
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Shield of the Storm",
-										"entries": [
-											"At 10th level, you learn to use your mastery of the storm to protect your allies. While you are raging, allies within your aura gain the benefits of your Storm Soul feature."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Raging Storm",
-										"entries": [
-											"At 14th level, the power of the storm you channel grows mightier.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Desert",
-														"entries": [
-															"The ground around you becomes like shifting sand. Any enemy that attempts to move more than 5 feet per turn on the ground while in your aura must make a Strength saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the creature's speed drops to 0 until the start of its next turn."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Sea",
-														"entries": [
-															"Roaring winds tear through the area around you. Any creature in your aura that you hit with an attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Tundra",
-														"entries": [
-															"The air around you coldly slows your foes. The area within your aura is difficult terrain for your enemies."
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UABarbarianPrimalPaths",
-					"shortName": "Storm Herald (UA)"
-				},
-				{
-					"name": "Path of the Zealot (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Path of the Zealot",
-								"entries": [
-									"Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots\u2014warriors who channel their rage into powerful displays of divine power.",
-									"A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.",
-									{
-										"type": "entries",
-										"name": "Divine Fury",
-										"entries": [
-											"Starting when you choose this path at 3rd level, you can channel divine fury when you start to rage. If you do so, you become cloaked in an aura of divine power until the rage ends. At the end of each of your turns for that duration, each creature within 5 feet of you takes damage equal to 1d6 + half your barbarian level. The damage is necrotic or radiant; you choose the type of damage when you gain this feature."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Warrior of the Gods",
-										"entries": [
-											"At 3rd level, your soul is marked for endless battle. If a spell would have the sole effect of restoring you to life (but not undeath), the caster does not need material components to cast the spell on you."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Zealous Focus",
-										"entries": [
-											"At 6th level, the divine power that fuels your rage can shield you from harm. If you fail a saving throw while raging, you can instead succeed on that saving throw as a reaction. However, doing so immediately ends your rage, and you can't rage again until you finish a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Zealous Presence",
-										"entries": [
-											"At 10th level, you learn to channel divine power to inspire zealotry in others. As an action, you howl in fury and unleash a battle cry infused with divine energy. Every ally within 60 feet of you gains advantage on attack rolls and saving throws until the start of your next turn.",
-											"Once you use this feature, you can't use it again until you finish a long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Rage Beyond Death",
-										"entries": [
-											"Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows.",
-											"While raging, having 0 hit points doesn't knock you {@condition unconscious}. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don't die until your rage ends."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UABarbarianPrimalPaths",
-					"shortName": "Zealot (UA)"
-				},
-				{
 					"name": "Path of the Ancestral Guardian",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Path of the Ancestral Guardian",
+								"name": "先祖守衛之途[Path of the Ancestral Guardian]",
 								"entries": [
-									"Some barbarians hail from cultures that revere their ancestors. These tribes teach that the warriors of the past linger in the world as mighty spirits, who can guide and protect the living. When a barbarian who follows this path rages, the barbarian contacts the spirit world and calls on these guardian spirits for aid.",
-									"Barbarians who draw on their ancestral guardians can better fight to protect their tribes and their allies. In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell sagas of victories against terrible monsters and other fearsome rivals.",
+									"一些野蠻人來自敬畏祖先的文化。這些部落告訴我們，過去的勇士們作為強大的靈魂在世界上徘徊，他們能夠引導和保護活著的人。當一個野蠻人沿著這條路狂怒時，野蠻人就會接觸精神世界，並向這些守護精神尋求幫助。",
+									"運用先祖守護的野蠻人可以更好地戰鬥以保護他們的部落和盟友。為了加強與祖先的守護者的聯繫，遵循這條道路的野蠻人會在身上紋上精緻的紋身來紀念他們祖先的功績。這些紋身講述了戰勝可怕的怪物和其他可怕的對手的傳奇故事。",
 									{
 										"type": "entries",
-										"name": "Ancestral Protectors",
+										"name": "先祖守護[Ancestral Protectors]",
 										"entries": [
-											"Starting when you choose this path at 3rd level, spectral warriors appear when you enter your rage. While you're raging, the first creature you hit with an attack on your turn becomes the target of the warriors, which hinder its attacks. Until the start of your next turn, that target has disadvantage on any attack roll that isn't against you, and when the target hits a creature other than you with an attack, that creature has resistance to the damage dealt by the attack. The effect on the target ends early if your rage ends."
+											"從你在3級時選擇此道途開始，精魂戰士會在你狂暴時出現。當你處於狂暴狀態，你的回合內你攻擊命中的第一個生物會成為戰士的目標。直到你的下一個回合開始，目標對你以外的目標的攻擊骰取劣勢，若目標在一次攻擊中擊中了除你以外的生物，該生物對那次攻擊有傷害抗力。若你的狂暴結束，此效果也隨之提前結束。"
 										]
 									}
 								]
@@ -1172,10 +808,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Spirit Shield",
+										"name": "精魂之盾[Spirit Shield]",
 										"entries": [
-											"Beginning at 6th level, the guardian spirits that aid you can provide supernatural protection to those you defend. If you are raging and another creature you can see within 30 feet of you takes damage, you can use your reaction to reduce that damage by 2d6.",
-											"When you reach certain levels in this class, you can reduce the damage by more: by 3d6 at 10th level and by 4d6 at 14th level."
+											"從6級開始，衛士之魂會幫助你為你的盟友提供超自然保護。若你處於狂暴，而一個處於你周圍30英尺內的，你能看到的其他生物受到傷害，你可以用一個反應動作來降低2d6的傷害。",
+											"當你達到這一範型的更高等級，你可以防止更多的傷害：10級3d6，14級4d6。"
 										]
 									}
 								]
@@ -1186,10 +822,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Consult the Spirits",
+										"name": "問道精魂[Consult the Spirits]",
 										"entries": [
-											"At 10th level, you gain the ability to consult with your ancestral spirits. When you do so, you cast the {@spell augury} or {@spell clairvoyance} spell, without using a spell slot or material components. Rather than creating a spherical sensor, this use of {@spell clairvoyance} invisibly summons one of your ancestral spirits to the chosen location. Wisdom is your spellcasting ability for these spells.",
-											"After you cast either spell in this way, you can't use this feature again until you finish a short or long rest."
+											"在10級時，你得到和你的先祖之魂進行交流的能力。當你使用此能力，你可以不消耗法術位和材料成分使用一次 {@spell 卜筮[Augury]} 或 {@spell 鷹眼術[Clairvoyance]}。這個法術會在指定位置創造一個無形的先祖之魂，取代法術描述裏的球形探測器。感知是你的施法主屬性。",
+											"使用此能力施法後，直到短休息或者長休息你才可以重新使用。"
 										]
 									}
 								]
@@ -1200,9 +836,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Vengeful Ancestors",
+										"name": "先祖復仇[Vengeful Ancestors]",
 										"entries": [
-											"At 14th level, your ancestral spirits grow powerful enough to retaliate. When you use your Spirit Shield to reduce the damage of an attack, the attacker takes an amount of force damage equal to the damage that your Spirit Shield prevents."
+											"在14級時，你的先祖之魂變得強大到足以打擊傷害你所保護之人的敵人。當你使用精魂之盾保護生物、降低一次攻擊的傷害時，攻擊者受到精魂之盾所降低的等量力場[force]傷害。"
 										]
 									}
 								]
@@ -1217,39 +853,39 @@
 					"subclassFeatures": [
 						[
 							{
-								"name": "Path of the Storm Herald",
+								"name": "風暴先驅道途[Path of the Storm Herald]",
 								"entries": [
-									"All barbarians harbor a fury within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn to transform that rage into a mantle of primal magic, which swirls around them. When in a fury, a barbarian of this path taps into the forces of nature to create powerful magical effects.",
-									"Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. Other storm heralds hone their craft in lodges in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.",
+									"所有的野蠻人內心都藏著怒火。他們的憤怒賦予他們卓越的力量、耐久性和速度。追隨風暴使者之路的野蠻人學會了將憤怒轉化為原始魔法的外衣，並在他們周圍盤旋。當憤怒的時候，這條路的野蠻人利用自然的力量創造強大的魔法效果。",
+									"風暴先驅通常是一群精英，他們與德魯伊、遊騎兵和其他發誓保護自然的人一起訓練。其他的風暴先驅們通常會在被風暴破壞的地區、世界盡頭的冰凍地帶、或者在最炎熱的沙漠深處磨練自己的技藝。",
 									{
 										"type": "entries",
-										"name": "Storm Aura",
+										"name": "風暴靈光[Storm Aura]",
 										"entries": [
-											"Starting at 3rd level, you emanate a stormy, magical aura while you rage. The aura extends 10 feet from you in every direction, but not through total cover.",
-											"Your aura has an effect that activates when you enter your rage, and you can activate the effect again on each of your turns as a bonus action. Choose desert, sea, or tundra. Your aura's effect depends on that chosen environment, as detailed below. You can change your environment choice whenever you gain a level in this class.",
-											"If your aura's effects require a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
+											"當你在3級選擇此道途時，當處於狂暴時，你散發出一個10英尺半徑的靈光，但無法穿透全掩護。",
+											"你的靈光效果擁有一個由你進入狂暴時所激活的效果，你在每個自己的回合也可以用一個附贈動作來激活該效果。從下述選項中選擇一個：沙漠，海洋，或凍原，此靈光的效果基於你選擇的環境類型。每當你在此職業中獲得級別提升時，你可以改變所選環境。",
+											"如果你的光環效果需要進行豁免，DC等於8+你的熟練加值+你的體質調整。",
 											{
 												"type": "options",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Desert",
+														"name": "沙漠[Desert]",
 														"entries": [
-															"When this effect is activated, all other creatures in your aura take 2 fire damage each. The damage increases when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level."
+															"當這個效果被激活時，你的靈光中所有其他生物都會受到2點火焰傷害。當你在這個職業達到一定等級時，傷害增加——在5級時增加到3，10級時增加到4，15級時增加到5，20級時增加到6。"
 														]
 													},
 													{
 														"type": "entries",
-														"name": "Sea",
+														"name": "海洋[Sea]",
 														"entries": [
-															"When this effect is activated, you can choose one other creature you can see in your aura. The target must make a Dexterity saving throw. The target takes 1d6 lightning damage on a failed save, or half as much damage on a successful one. The damage increases when you reach certain levels in this class, increasing to 2d6 at 10th level, 3d6 at 15th level, and 4d6 at 20th level."
+															"當這個效果被激活時，你可以選擇一個處於靈光中且你能看到的其他生物。目標必須通過一個敏捷豁免，否則受到1d6閃電傷害，豁免成功則傷害減半。當你在這個職業達到一定等級時，傷害增加——10級增加到2d6，15級增加到3d6，20級增加到4d6。​"
 														]
 													},
 													{
 														"type": "entries",
-														"name": "Tundra",
+														"name": "凍原[Tundra]",
 														"entries": [
-															"When this effect is activated, each creature of your choice in your aura gains 2 temporary hit points, as icy spirits inure it to suffering. The temporary hit points increase when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level."
+															"當這個效果被激活時，靈光中每個你選擇的生物獲得2點臨時生命，這是因為寒冰精魂使它習慣於受苦。當你在這個職業達到一定等級時，臨時生命增加——在5級時增加到3，10級時增加到4，15級時增加到5，20級時增加到6。"
 														]
 													}
 												]
@@ -1264,31 +900,31 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Storm Soul",
+										"name": "風暴之魂[Storm Soul]",
 										"entries": [
-											"At 6th level, the storm grants you benefits even when your aura isn't active. The benefits are based on the environment you chose for your Storm Aura.",
+											"在6級時，風暴在你不激活靈光時也能給你帶來增益。增益效果基於你選擇風暴靈光的環境類型。",
 											{
 												"type": "options",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Desert",
+														"name": "沙漠[Desert]",
 														"entries": [
-															"You gain resistance to fire damage, and you don't suffer the effects of extreme heat, as described in the Dungeon Master's Guide. Moreover, as an action, you can touch a flammable object that isn't being worn or carried by anyone else and set it on fire."
+															"你得到對火焰[fire]傷害的抗性，並不會受到極端高溫的效果影響（見城主手冊）。此外，以一個動作，你可以觸摸一個沒有被他人穿戴或攜帶的易燃物體，並且點燃它。"
 														]
 													},
 													{
 														"type": "entries",
-														"name": "Sea",
+														"name": "海洋[Sea]",
 														"entries": [
-															"You gain resistance to lightning damage, and you can breathe underwater. You also gain a swimming speed of 30 feet."
+															"你得到對閃電[lightning]傷害的抗性，並能在水下呼吸。你還獲得了30尺的遊泳速度。"
 														]
 													},
 													{
 														"type": "entries",
-														"name": "Tundra",
+														"name": "凍原[Tundra]",
 														"entries": [
-															"You gain resistance to cold damage, and you don't suffer the effects of extreme cold, as described in the Dungeon Master's Guide. Moreover, as an action, you can touch water and turn a 5-foot cube of it into ice, which melts after 1 minute. This action fails if a creature is in the cube."
+															"得到對寒冷[cold]傷害的抗性，並不會受到極端低溫的效果影響（見城主手冊）。此外，以一個動作，你可以觸摸水並且把5立方英尺的水凍結成冰，這種冰將會在1分鐘後融化。如果有生物處於該立方空間中，你的行動將會失敗。"
 														]
 													}
 												]
@@ -1303,9 +939,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Shielding Storm",
+										"name": "風暴之盾[Shielding Storm]",
 										"entries": [
-											"At 10th level, you learn to use your mastery of the storm to protect others. Each creature of your choice has the damage resistance you gained from the Storm Soul feature while the creature is in your Storm Aura."
+											"在10級時，你學會了運用你的風暴的掌控力來保護你的盟友。處於你靈光內的、你選擇的生物得到你的風暴之魂特性所帶來的傷害抗性。"
 										]
 									}
 								]
@@ -1316,31 +952,31 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Raging Storm",
+										"name": "狂怒風暴[Raging Storm]",
 										"entries": [
-											"At 14th level, the power of the storm you channel grows mightier, lashing out at your foes. The effect is based on the environment you chose for your Storm Aura.",
+											"在14級時，你能引導的風暴之力變得更加強大，足以打擊你的敵人。效果基於你為風暴靈光選擇的環境類型。",
 											{
 												"type": "options",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Desert",
+														"name": "沙漠[Desert]",
 														"entries": [
-															"Immediately after a creature in your aura hits you with an attack, you can use your reaction to force that creature to make a Dexterity saving throw. On a failed save, the creature takes fire damage equal to half your barbarian level."
+															"當處於你靈光中的生物在一次攻擊命中你後，你可以用你的反應迫使該生物立刻做一次敏捷豁免。豁免失敗則受到等於你野蠻人等級一半數值的火焰傷害。"
 														]
 													},
 													{
 														"type": "entries",
-														"name": "Sea",
+														"name": "海洋[Sea]",
 														"entries": [
-															"When you hit a creature in your aura with an attack, you can use your reaction to force that creature to make a Strength saving throw. On a failed save, the creature is knocked {@condition prone}, as if struck by a wave."
+															"任何處於你靈光中的生物若被你以一次攻擊擊中，你可以用你的反應迫使該生物進行一次力量豁免，否則如同被波浪拍打般被擊倒在地，變為{@condition 倒地[Prone]}狀態。"
 														]
 													},
 													{
 														"type": "entries",
-														"name": "Tundra",
+														"name": "凍原[Tundra]",
 														"entries": [
-															"Whenever the effect of your Storm Aura is activated, you can choose one creature you can see in the aura. That creature must succeed on a Strength saving throw, or its speed is reduced to 0 until the start of your next turn, as magical frost covers it."
+															"每當你的風暴靈光激活時，你可以選擇一個你可以看見的、處於靈光裏的生物。該生物必須通過一次力量檢定，否則其速度降為0，直到你的下一個回合開始，如同魔法的冰霜凍結了它。"
 														]
 													}
 												]
@@ -1359,22 +995,22 @@
 					"subclassFeatures": [
 						[
 							{
-								"name": "Path of the Zealot",
+								"name": "狂熱道途[Path of the Zealot]",
 								"entries": [
-									"Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots\u2014warriors who channel their rage into powerful displays of divine power.",
-									"A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.",
+									"一些神靈激勵他們的追隨者們投身於殘酷的戰鬥狂怒中。這些野蠻人是狂熱的戰士，他們引導自己的憤怒轉化為強大的神賜力量。",
+									"在DND世界中有許多神祇都會鼓勵自己的追隨者尋求狂熱者道途。最著名的是費倫的Tempus，以及灰鷹的海克斯托（Hextor）和Erythnul。一般來說，那些培養狂熱者的神祇往往是偏向於戰鬥、破壞和暴力等神職。當然，不是所有（這樣的）神都是邪惡，但只有少數是例外。",
 									{
 										"type": "entries",
-										"name": "Divine Fury",
+										"name": "神性之怒[Divine Fury]",
 										"entries": [
-											"Starting when you choose this path at 3rd level, you can channel divine fury into your weapon strikes. While you're raging, the first creature you hit on each of your turns with a weapon attack takes extra damage equal to 1d6 + half your barbarian level. The extra damage is necrotic or radiant; you choose the type of damage when you gain this feature."
+											"從你在3級選擇此道途開始，你可以引導神性之怒註入武器打擊中。當你處於狂暴中，你在自己回合中用武器攻擊命中的第一個生物會受到額外傷害，數值等於1d6+你野蠻人等級的一半。此傷害的類型為黯蝕[necrotic]或光耀[radiant]；你在你得到此特性時選擇它的類型。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Warrior of the Gods",
+										"name": "神之勇者[Warrior of the Gods]",
 										"entries": [
-											"At 3rd level, your soul is marked for endless battle. If a spell, such as {@spell raise dead}, has the sole effect of restoring you to life (but not undeath), the caster doesn't need material components to cast the spell on you."
+											"在3級時，你的靈魂被無盡的戰鬥所烙印。若一個法術（例如死者復活）——只具有讓你起死回生（但不能是不死生物）的效果，該施法者在對你施展法術時不需要材料成分。"
 										]
 									}
 								]
@@ -1385,9 +1021,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Fanatical Focus",
+										"name": "狂熱專注[Fanatical Focus]",
 										"entries": [
-											"Starting at 6th level, the divine power that fuels your rage can protect you. If you fail a saving throw while you're raging, you can reroll it, and you must use the new roll. You can use this ability only once per rage."
+											"在6級時，驅使你憤怒的神力也能庇護你免遭損害。若你在狂暴時未通過一次豁免檢定，你可以重新投擲該豁免檢定，但你必須接受第二次投擲的數值。你每次狂暴只能使用此能力一次。"
 										]
 									}
 								]
@@ -1398,10 +1034,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Zealous Presence",
+										"name": "狂熱存在[Zealous Presence]",
 										"entries": [
-											"At 10th level, you learn to channel divine power to inspire zealotry in others. As a bonus action, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you that can hear you gain advantage on attack rolls and saving throws until the start of your next turn.",
-											"Once you use this feature, you can't use it again until you finish a long rest."
+											"在10級時，你學會了引導神力，讓其他人也被狂熱所感染。以一個附贈動作，你憤怒的怒吼並釋放出一道蘊含神聖能量的戰吼。選擇至多10個距離你60尺以內並且能聽到你吼叫的其他生物，直到你的下個回合開始，在攻擊檢定和豁免檢定中獲得優勢。",
+											"一旦你使用了此特性，你不能再次使用它，直到你完成了一次長休息。"
 										]
 									}
 								]
@@ -1412,10 +1048,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Rage beyond Death",
+										"name": "怒不畏死[Rage beyond Death]",
 										"entries": [
-											"Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows.",
-											"While you're raging, having 0 hit points doesn't knock you {@condition unconscious}. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don't die until your rage ends, and you die then only if you still have 0 hit points."
+											"從14級開始，驅使你狂暴的神力允許你忽視致命的打擊。",
+											"當處於狂暴時，具有0點生命值不會讓你{@condition 昏迷[Unconscious]}。你仍然必須進行死亡豁免檢定，而你在0生命值下受到傷害時承受正常的效果。但是，若你因為未通過死亡豁免檢定而即將死去，你拒絕死亡直到你的狂暴結束，如果你狂暴結束時還是0生命值你直接死亡。"
 										]
 									}
 								]
