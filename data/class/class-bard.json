@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "Bard",
+			"name": "吟遊詩人[Bard]",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -388,47 +388,47 @@
 			"classFeatures": [
 				[
 					{
-						"name": "Bardic Inspiration",
+						"name": "吟遊激勵[Bardic Inspiration]",
 						"entries": [
-							"You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.",
-							"Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.",
-							"You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.",
-							"Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level."
+							"你使用你的詩詞以及音樂來賜給他人靈感。這能力適用於你的附贈行動中，60尺之內的一種生物，那生物追加一個吟遊激勵骰，d6。",
+							"這生物在10分鐘內能夠在能力值檢定、攻擊檢定或赦免檢定使用一次d6遊激勵骰。這生物可在骰d20之後做這決定，這也只能在DM的成功或失敗判定前做這決定。",
+							"使用吟遊激勵骰後，此骰就不能在使用(一個生物只能有一顆骰)。這能力使用的數量為你的魅力加值(最小值是1次)。使用完後需要長休來回充吟遊靈感。",
+							"吟遊激勵骰會因等級調升，5 等 d8 、 10 等 d10 、 15 等 d12。"
 						]
 					},
 					{
-						"name": "Spellcasting",
+						"name": "​施法[Spellcasting]",
 						"entries": [
-							"You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See chapter 10 for the general rules of spellcasting and chapter 11 for the bard spell list.",
+							"你習得用音樂和意志來解構、分解、再構造現實的力量。你的法術是你複雜指令的一部分，可以進行調諧來適應各種情況。具體請參見第十章尋求基本施法規則，參閱第十一章的吟遊詩人法術列表。",
 							{
 								"type": "entries",
-								"name": "Cantrips",
+								"name": "戲法[Cantrips]",
 								"entries": [
-									"You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level."
+									"你獲得2項小法術，從吟遊詩人法術列表選擇。隨著你升級你將學會自選的額外吟遊詩人小法術，如吟遊詩人法術表所示。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spell Slots",
+								"name": "法術位[Spell Slots]",
 								"entries": [
-									"The Bard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-									"For example, if you know the 1st-level spell {@spell cure wounds} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell cure wounds} using either slot."
+									"吟遊詩人表顯示了你有多少法術位來施展你的一級以上法術。要施放其中一個法術，你必須使用該法術等級或更高的一個法術位。當你完成一個長休後，你會重新獲得所有法術位。",
+									"例如，如果你知道一級法術{@spell 治療傷勢[Cure Wounds]}，並且有一個一級和二級法術位可以使用，那麼您可以使用任意一個位來施放{@spell 治療傷勢[Cure Wounds]}。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spells Known of 1st Level and Higher",
+								"name": "一級及以上的法術[Spells Known of 1st Level and Higher]",
 								"entries": [
-									"You know four 1st-level spells of your choice from the bard spell list.",
-									"You learn an additional bard spell of your choice at each level except 12th, 16th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.",
-									"Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots."
+									"１級時，你從詩人法術列表裏選擇４個法術作為自己的已知法術。",
+									"除了第12、第16、第19和第20級，你可以在每個等級學習額外的吟遊詩人法術。每一個法術都必須是你有法術位的級別。例如，當你3級時，你可以學習1級或2級的新法術。",
+									"額外的，當你在本職業獲得１個新職業等級時，你可以從吟遊詩人法術列表裏選擇１個新的法術來代替一個舊的詩人已知法術。新法術必須有可以被施展的法術位。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Ability",
+								"name": "施法能力值[Spellcasting Ability]",
 								"entries": [
-									"Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.",
+									"你的吟遊詩人法術的魔法能力值是魅力。抵抗你的法術的難度(DC)等同 8 + 你的熟練加值 + 你的魅力調整值。你的法術的攻擊加值為你的熟練加值 + 你的魅力調整值。",
 									{
 										"type": "abilityDc",
 										"name": "Spell",
@@ -447,16 +447,16 @@
 							},
 							{
 								"type": "entries",
-								"name": "Ritual Casting",
+								"name": "儀式施法[Ritual Casting]",
 								"entries": [
-									"You can cast any bard spell you know as a ritual if that spell has the ritual tag."
+									"你可以用儀式來施吟遊詩人的儀式法術。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Focus",
+								"name": "施法法器[Spellcasting Focus]",
 								"entries": [
-									"You can use a musical instrument (found in chapter 5) as a spellcasting focus for your bard spells."
+									"你可以使用你的樂器，來做為你施放吟遊詩人法術的法器。"
 								]
 							}
 						]
@@ -464,69 +464,69 @@
 				],
 				[
 					{
-						"name": "Jack of All Trades",
+						"name": "全能高手[Jack of All Trades]",
 						"entries": [
-							"Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+							"第二級後，你可將一半的熟練加值(下折)加在你未熟練的能力檢定之中。"
 						]
 					},
 					{
-						"name": "Song of Rest (d6)",
+						"name": "紓壓曲[Song of Rest] (d6)",
 						"entries": [
-							"Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra 1d6 hit points.",
-							"The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level."
+							"第二級後，你可以在短休時使用音樂或吟詩還幫助你的盟友治療。聽的到你的生物如果這時需要回血，那他可以格外的多1d6的回血骰。",
+							"紓壓曲骰會隨著等級調升： 9 等 1d8 、13 等 1d10 、17 等 1d12。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Bard College",
+						"name": "吟遊學院[Bard College]",
 						"entries": [
-							"At 3rd level, you delve into the advanced techniques of a bard college of your choice from the list of available colleges. Your choice grants you features at 3rd level and again at 6th and 14th level."
+							"三級時，你專精於你研究的詩人學院，你可以選擇學院。你的學院使你擁有特殊的技巧，在你 3、6、以及14級時給你額外的特性。"
 						],
 						"gainSubclassFeature": true
 					},
 					{
-						"name": "Expertise",
+						"name": "專精[Expertise]",
 						"entries": [
-							"At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
-							"At 10th level, you can choose another two skill proficiencies to gain this benefit."
+							"第三級後，你可以選擇兩種以熟練的技能，當你需要做技能檢定時，這兩個技能所屬的技能熟練加值會加一倍(X2)。",
+							"第十級後，你可以再選擇另外兩種以熟練的技能。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達４級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Bardic Inspiration (d8)",
+						"name": "吟遊激勵[Bardic Inspiration] (d8)",
 						"entries": [
-							"At 5th level, your Bardic Inspiration die changes to a d8."
+							"５級時，你的吟遊激勵骰改為 d8。"
 						]
 					},
 					{
-						"name": "Font of Inspiration",
+						"name": "靈感回充[Font of Inspiration]",
 						"entries": [
-							"Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest."
+							"５級時，吟遊激勵骰在短休或長休後都能全部恢復。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Countercharm",
+						"name": "反制迷惑[Countercharm]",
 						"entries": [
-							"At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being {@condition frightened} or {@condition charmed}. A creature must be able to hear you to gain this benefit. The performance ends early if you are {@condition incapacitated} or silenced or if you voluntarily end it (no action required)."
+							"６級時，你可以使用你的音樂或詩詞來干擾他人的心靈引響。使用一個回合，你將開始表演至此回合結束。這段時間內你與30尺內的盟友都可在{@condition 恐慌[Frightened]}或{@condition 迷惑[Charmed]}赦免上得到優勢。生物必須要聽的到你。此加成會因{@condition 乏力[Incapacitated]}、安靜或自願解除(不須動作)而消失。"
 						]
 					},
 					{
-						"name": "Bard College feature",
+						"name": "吟遊學院特性[Bard College feature]",
 						"entries": [
-							"At 6th level, you gain a feature from your Bard College."
+							"６級時，你從你的學院得到新的特性。"
 						],
 						"gainSubclassFeature": true
 					}
@@ -534,125 +534,125 @@
 				[],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達８級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Song of Rest (d8)",
+						"name": "紓壓曲[Song of Rest] (d8)",
 						"entries": [
-							"At 9th level, the extra hit points gained from Song of Rest increases to 1d8."
+							"９級時，紓壓取恢復的生命增加為 1d8 。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Bardic Inspiration (d10)",
+						"name": "吟遊激勵[Bardic Inspiration] (d10)",
 						"entries": [
-							"At 10th level, your Bardic Inspiration die changes to a d10."
+							"１０級時，你的吟遊激勵骰改為 d10。"
 						]
 					},
 					{
-						"name": "Expertise",
+						"name": "專精[Expertise]",
 						"entries": [
-							"At 10th level, you can choose another two skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies."
+							"１０級時，你可以選擇兩種以熟練的技能，當你需要做技能檢定時，這兩個技能所屬的技能熟練加值會加一倍(X2)。"
 						]
 					},
 					{
-						"name": "Magical Secrets",
+						"name": "魔法秘密[Magical Secrets]",
 						"entries": [
-							"By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.",
-							"The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.",
-							"You learn two additional spells from any class at 14th level and again at 18th level."
+							"１０級後，你對法術知識更加了解。你可以選擇其他職業任何兩種法術包括此級獲得的法術。法術一定要在你可施展的環數內，或是戲法。",
+							"所選擇的法術視為吟遊詩人的法術，也可將這法術寫在吟遊詩人法術欄上。",
+							"你分別在１４級跟１８級都可以額外多學兩種其他職業法術。"
 						]
 					}
 				],
 				[],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達１２級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Song of Rest (d10)",
+						"name": "紓壓曲[Song of Rest] (d10)",
 						"entries": [
-							"At 13th level, the extra hit points gained from Song of Rest increases to 1d10."
+							"１３級時，紓壓取恢復的生命增加為 1d10 。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Magical Secrets",
+						"name": "魔法秘密[Magical Secrets]",
 						"entries": [
-							"At 14th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.",
-							"The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table."
+							"１４級後，你對法術知識更加了解。你可以選擇其他職業任何兩種法術包括此級獲得的法術。法術一定要在你可施展的環數內，或是戲法。",
+							"所選擇的法術視為吟遊詩人的法術，也可將這法術寫在吟遊詩人法術欄上。"
 						]
 					},
 					{
-						"name": "Bard College feature",
+						"name": "吟遊學院特性[Bard College feature]",
 						"entries": [
-							"At 14th level, you gain a feature from your Bard College."
+							"１４級時，你從你的學院得到新的特性。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Bardic Inspiration (d12)",
+						"name": "吟遊激勵[Bardic Inspiration] (d12)",
 						"entries": [
-							"At 15th level, your Bardic Inspiration die changes to a d12."
+							"１５級時，你的吟遊激勵骰改為 d12。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達１６級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Song of Rest (d12)",
+						"name": "紓壓曲[Song of Rest] (d12)",
 						"entries": [
-							"At 17th level, the extra hit points gained from Song of Rest increases to 1d12."
+							"１７級時，紓壓取恢復的生命增加為 1d12 。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Magical Secrets",
+						"name": "魔法秘密[Magical Secrets]",
 						"entries": [
-							"At 18th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.",
-							"The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table."
+							"１８級後，你對法術知識更加了解。你可以選擇其他職業任何兩種法術包括此級獲得的法術。法術一定要在你可施展的環數內，或是戲法。",
+							"所選擇的法術視為吟遊詩人的法術，也可將這法術寫在吟遊詩人法術欄上。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達１９級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Superior Inspiration",
+						"name": "激勵專精[Superior Inspiration]",
 						"entries": [
-							"At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use."
+							"第20級後，當每次做先攻檢定時，如果你沒有吟遊激勵骰，那你會恢復一個吟遊激勵骰。"
 						]
 					}
 				]

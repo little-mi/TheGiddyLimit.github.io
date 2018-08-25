@@ -1701,8 +1701,8 @@ SourceUtil = {
 		return (shortName !== undefined && shortName !== null && source !== undefined && source !== null) &&
 			(
 				(shortName === "Sun Soul" && source === SRC_SCAG) ||
-				(shortName === "Mastermind" && source === SRC_SCAG) ||
-				(shortName === "Swashbuckler" && source === SRC_SCAG) ||
+				//(shortName === "Mastermind" && source === SRC_SCAG) ||
+				//(shortName === "Swashbuckler" && source === SRC_SCAG) ||
 				(shortName === "Storm" && source === SRC_SCAG) ||
 				(shortName === "Deep Stalker Conclave" && source === SRC_UATRR)
 			);
@@ -2938,7 +2938,7 @@ function addListShowHide () {
 		<div class="col-xs-12" id="showsearch">
 			<button class="btn btn-block btn-default btn-xs" type="button">Show Search</button>
 			<br>
-		</div>	
+		</div>
 	`;
 
 	const toInjectHide = `
