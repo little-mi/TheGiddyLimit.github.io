@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "Fighter",
+			"name": "戰士[Fighter]",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -397,76 +397,52 @@
 			"classFeatures": [
 				[
 					{
-						"name": "Fighting Style",
+						"name": "戰鬥風格[Fighting Style]",
 						"entries": [
-							"You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+							"你專精於一種戰鬥風格。從以下選項擇一：",
 							{
 								"type": "options",
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Archery",
+										"name": "箭術[Archery]",
 										"entries": [
-											"You gain a +2 bonus to attack rolls you make with ranged weapons."
+											"你以遠程武器所作的攻擊骰獲得 +2 加值。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Close Quarters Shooter",
+										"name": "防禦[Defense]",
 										"entries": [
-											"When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks."
-										],
-										"source": "UALightDarkUnderdark"
-									},
-									{
-										"type": "entries",
-										"name": "Defense",
-										"entries": [
-											"While you are wearing armor, you gain a +1 bonus to AC."
+											"當你穿載護甲時，你的護甲等級 +1。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Dueling",
+										"name": "決鬥[Dueling]",
 										"entries": [
-											"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+											"當你用單手持用一柄近戰武器並沒有持用其他武器時，你在這武器的傷害骰上獲得 +2 加值。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Great Weapon Fighting",
+										"name": "巨大武器[Great Weapon Fighting]",
 										"entries": [
-											"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
+											"當你用雙手握持一柄近戰武器時，你在傷害骰上投出的1 或 2 都可以重投，但必需採用新的結果。這柄武器必需有雙手或可雙手特性。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Mariner",
+										"name": "守護[Protection]",
 										"entries": [
-											"As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC."
-										],
-										"source": "UAWaterborneAdventures"
-									},
-									{
-										"type": "entries",
-										"name": "Protection",
-										"entries": [
-											"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+											"當有你可以看見的目標攻擊一名位處你 5 尺內的並非你自己的目標時，你可以用你的反應使這攻擊骰帶劣勢，但你必需握持著一面盾牌。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Tunnel Fighter",
+										"name": "雙武器[Two-Weapon Fighting]",
 										"entries": [
-											"As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach."
-										],
-										"source": "UALightDarkUnderdark"
-									},
-									{
-										"type": "entries",
-										"name": "Two-Weapon Fighting",
-										"entries": [
-											"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+											"當你進行雙武器戰鬥時，你可以將你的能力調整值加到第二次攻擊的傷害。"
 										]
 									}
 								]
@@ -474,183 +450,183 @@
 						]
 					},
 					{
-						"name": "Second Wind",
+						"name": "回氣[Second Wind]",
 						"entries": [
-							"You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.",
-							"Once you use this feature, you must finish a short or long rest before you can use it again."
+							"你擁有一些有限的力量蓄備，可以用來保護自已免受傷害。你可以在你的回合中以一個附贈動作恢復等同 1d10 + 你的戰士等級 的生命值。",
+							"當你使用此能力後，你必需完成一次小休或長休才能再次使用這能力。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Action Surge",
+						"name": "動作如潮[Action Surge]",
 						"entries": [
-							"Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.",
-							"Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
+							"從 2 級起，你可以短暫地驅策自已超越正常的自我物理界限。在你的回合，在你使用一次動作跟可能進行的附贈動作之後，還可以額外進行一次動作。",
+							"當你使用此能力後，你必需完成一次小休或長休才能再次使用這能力。從 17 級起，你可以在休息前使用這項能力兩次，不過不能在同一回合內使用兩次。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Martial Archetype",
+						"name": "武術範型[Martial Archetype]",
 						"entries": [
-							"At 3rd level, you choose an archetype from the list available that you strive to emulate in your combat styles and techniques. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level."
+							"在 3 級時，你獲得所選的武術範型。下面會詳細說明每一種武術範型。你的選擇會在 7、10、15、18級時再次賦予你能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達４級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Extra Attack",
+						"name": "額外攻擊[Extra Attack]",
 						"entries": [
-							"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
-							"The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+							"從 5 級起，每當你在自己的回合採取攻擊動作時，你可以攻擊兩次。",
+							"當你逹到 11 級時，你可以攻擊三次。當你逹到 20 級時，你可以攻擊四次。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 6th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達６級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Martial Archetype feature",
+						"name": "武術範型[Martial Archetype]",
 						"entries": [
-							"At 7th level, you gain a feature granted by your Martial Archetype."
+							"在 7 級時，你獲得所選的武術範型賦予你新能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達８級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Indomitable",
+						"name": "不屈[Indomitable]",
 						"entries": [
-							"Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.",
-							"You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level."
+							"從 9 級起，當你豁免失敗時你可以重投。如果你這樣做，你必需採用新的結果，並且你必需完成一次長休才能再次使用這能力。",
+							"從13 級起，你可以在長休前使用這項能力兩次。17級起三次。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Martial Archetype feature",
+						"name": "武術範型[Martial Archetype]",
 						"entries": [
-							"At 10th level, you gain a feature granted by your Martial Archetype."
+							"在 10 級時，你獲得所選的武術範型賦予你新能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Extra Attack (2)",
+						"name": "額外攻擊[Extra Attack] (2)",
 						"entries": [
-							"At 11th level, you can attack three times whenever you take the Attack action on your turn."
+							"從 11 級起，每當你在自己的回合採取攻擊動作時，你可以攻擊三次。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達１２級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Indomitable (two uses)",
+						"name": "不屈[Indomitable]  (two uses)",
 						"entries": [
-							"At 13th level, you can use Indomitable twice between long rests."
+							"從 13 級起，你可以在長休前使用這項能力兩次。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 14th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達１４級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Martial Archetype feature",
+						"name": "武術範型[Martial Archetype]",
 						"entries": [
-							"At 15th level, you gain a feature granted by your Martial Archetype."
+							"在 15 級時，你獲得所選的武術範型賦予你新能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達１６級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Action Surge (two uses)",
+						"name": "動作如潮[Action Surge] (two uses)",
 						"entries": [
-							"At 17th level, you can use Action Surge twice before a rest, but only once on the same turn."
+							"從 17 級起，你可以在休息前使用這項能力兩次，不過不能在同一回合內使用兩次。"
 						]
 					},
 					{
-						"name": "Indomitable (three uses)",
+						"name": "不屈[Indomitable]  (three uses)",
 						"entries": [
-							"At 17th level, you can use Indomitable three times between long rests."
+							"從 17 級起，你可以在長休前使用這項能力三次。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Martial Archetype feature",
+						"name": "武術範型[Martial Archetype]",
 						"entries": [
-							"At 18th level, you gain a feature granted by your Martial Archetype."
+							"在 18 級時，你獲得所選的武術範型賦予你新能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "能力值提升[Ability Score Improvement]",
 						"entries": [
-							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"當你到達１９級，你可以讓你選擇的一個能力值提升２點或者選擇的兩項能力值提升１點。通常情況下，你不能將你的屬性值用此特性提升到２０以上。",
+							"如果你的 DM 允許習得專長，你可以改為獲得一個專長。"
 						]
 					}
 				],
 				[
 					{
-						"name": "Extra Attack (3)",
+						"name": "額外攻擊[Extra Attack] (3)",
 						"entries": [
-							"At 20th level, you can attack four times whenever you take the Attack action on your turn."
+							"從 20 級起，每當你在自己的回合採取攻擊動作時，你可以攻擊四次。"
 						]
 					}
 				]
@@ -662,14 +638,14 @@
 					"subclassFeatures": [
 						[
 							{
-								"name": "Champion",
+								"name": "勇士[Champion]",
 								"entries": [
-									"The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
+									"典型的勇士將純綷的肉體力量鍛鍊到極限。踏上此路的人進行嚴苛訓練，同時讓身體保持最佳狀態，二者合一打出最致命的攻擊。",
 									{
 										"type": "entries",
-										"name": "Improved Critical",
+										"name": "改進重擊[Improved Critical]",
 										"entries": [
-											"Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20."
+											"從 3 級起，你的武器攻擊在 19-20 的骰面上逹成爆擊。"
 										]
 									}
 								]
@@ -680,10 +656,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Remarkable Athlete",
+										"name": "運動健將[Remarkable Athlete]",
 										"entries": [
-											"Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.",
-											"In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier."
+											"從 7 級起，你可以將你的一半熟練加值（往上取整）加到你所作的任何力量、敏捷、體魄檢定，只要本來沒有熟練加值。",
+											"另外，當你跑跳遠時，你可以覆蓋的距離增加等同你的力量調整值的尺數。"
 										]
 									}
 								]
@@ -694,9 +670,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Additional Fighting Style",
+										"name": "額外戰鬥風格[Additional Fighting Style]",
 										"entries": [
-											"At 10th level, you can choose a second option from the Fighting Style class feature."
+											"於 10 級時，你可以從戰鬥風格職業特性獲取第二個選項。"
 										]
 									}
 								]
@@ -707,9 +683,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Superior Critical",
+										"name": "卓越重擊[Superior Critical]",
 										"entries": [
-											"Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20."
+											"從 15 級起，你的武器攻擊在 18-20 的骰面上逹成爆擊。"
 										]
 									}
 								]
@@ -720,9 +696,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Survivor",
+										"name": "生還者[Survivor]",
 										"entries": [
-											"At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points."
+											"在 18 級時，你差不多領悟戰鬥耐力的真諦。於你的每回合開始時，如果你的生命值在上限的一半或以下，你恢復 5 + 你的體魄調整值 的生命值。當你的生命值是 0 時你不獲得此效益。"
 										]
 									}
 								]
@@ -737,30 +713,30 @@
 					"subclassFeatures": [
 						[
 							{
-								"name": "Battle Master",
+								"name": "戰鬥大師[Battle Master]",
 								"entries": [
-									"Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.",
+									"戰鬥大師選擇磨煉列代先輩傳承下來的戰鬥技巧。對於戰鬥大師而言，戰鬥是一門學問。這門學問不止包括戰鬥本身，還包括鑄造武器和書法等等。並非每個戰士都能適應戰鬥大師范型對學習歷史，理論和藝術的要求，但能做到的則人人都是技藝精熟，知識豐富的多面手。",
 									{
 										"type": "entries",
-										"name": "Student of War",
+										"name": "戰爭學徒[Student of War]",
 										"entries": [
-											"At 3rd level, you gain proficiency with one type of artisan's tools of your choice."
+											"３級時，選擇一種匠人工具[artisan's tools]，你獲得對這種工具的擅長。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Combat Superiority",
+										"name": "卓越戰技[Combat Superiority]",
 										"entries": [
-											"When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.",
+											"在你選擇此范型的３級時，你習得戰技並獲得驅動戰技的卓越骰。",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Maneuvers",
+														"name": "戰技[Maneuvers]",
 														"entries": [
-															"You learn three maneuvers of your choice, which are listed under \"Maneuvers\" below. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.",
-															"You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one."
+															"你習得３種戰技，詳見後文。戰技強化了你的攻擊。你在每一次攻擊時只能應用一種戰技。",
+															"你在７級，１０級和１５級時均習得兩種新戰技。當習得新戰技時，你還可以額外替換一個已經習得的戰技。"
 														]
 													}
 												]
@@ -770,10 +746,10 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Superiority Dice",
+														"name": "卓越骰[Superiority Dice]",
 														"entries": [
-															"You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.",
-															"You gain another superiority die at 7th level and one more at 15th level."
+															"你擁有四個ｄ８卓越骰。卓越骰一經使用即消耗，在短休息或長休息後恢復。",
+															"你的卓越骰在７級和１５級時各增加一顆。"
 														]
 													}
 												]
@@ -783,9 +759,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Saving Throws",
+														"name": "豁免[Saving Throws]",
 														"entries": [
-															"Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:",
+															"某些戰技可以通過豁免檢定抵抗。",
 															{
 																"type": "abilityDc",
 																"name": "Maneuver",
@@ -802,16 +778,16 @@
 									},
 									{
 										"type": "options",
-										"name": "Battle Master: Maneuvers",
+										"name": "戰鬥大師：戰技[Battle Master: Maneuvers]",
 										"entries": [
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Commander's Strike",
+														"name": "指揮官奇襲[Commander's Strike]",
 														"entries": [
-															"When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll."
+															"當你在自己的回合進行攻擊動作時，你可以放棄一次攻擊，同時使用附贈動作指揮一名盟友攻擊。當你使用此戰技時，消耗一個卓越骰並選擇一名能看到你或聽到你聲音的盟友，他可以馬上使用反應進行一次武器攻擊。將卓越骰加在這次攻擊的傷害骰上。"
 														]
 													}
 												]
@@ -821,9 +797,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Disarming Attack",
+														"name": "繳械擊[Disarming Attack]",
 														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
+															"當你的武器攻擊命中敵人時，你可以消耗一個卓越骰以嘗試繳械該目標，使其丟棄手中持有的一件物品。將卓越骰加在此次攻擊的傷害骰上。該目標必須通過一次力量豁免，失敗則丟棄手中持有的一件物品（由你選擇）。被丟棄的物品掉落在該生物腳下。"
 														]
 													}
 												]
@@ -833,9 +809,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Distracting Strike",
+														"name": "擾亂擊[Distracting Strike]",
 														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
+															"當你的武器攻擊命中敵人時，你可以消耗一個卓越骰以擾亂該目標，令你的盟友有機可乘。對該目標的下一次攻擊骰具有優勢。這次攻擊必須由除你之外的生物在你的下一回合開始前發動。將卓越骰加在此次攻擊的傷害骰上。"
 														]
 													}
 												]
@@ -845,9 +821,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Evasive Footwork",
+														"name": "靈巧步法[Evasive Footwork]",
 														"entries": [
-															"When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving."
+															"當你移動時，你可以消耗一個卓越骰。在你移動期間，將卓越骰加在你的ＡＣ上。"
 														]
 													}
 												]
@@ -857,10 +833,10 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Feinting Attack",
+														"name": "詭詐擊[Feinting Attack]",
 														"entries": [
-															"You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll this turn against that creature. If that attack hits, add the superiority die to the attack's damage roll.",
-															"The advantage is lost if not used on the turn you gain it."
+															"在你的回合，你可以消耗一個卓越骰，同時使用附贈動作虛晃一招。選擇５尺內的一名生物，你對該生物的下一次攻擊骰具有優勢。",
+															"如果攻擊命中，將卓越骰加在此次攻擊的傷害骰上。"
 														]
 													}
 												]
@@ -870,9 +846,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Goading Attack",
+														"name": "挑釁擊[Goading Attack]",
 														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
+															"當你的武器攻擊命中敵人時，你可以消耗一個卓越骰以嘗試挑釁該目標。將卓越骰加在此次攻擊的傷害骰上。該目標必須通過一次感知豁免，失敗則在攻擊除你之外的生物的攻擊骰上承受劣勢，直到到你的下回合結束。"
 														]
 													}
 												]
@@ -882,9 +858,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Lunging Attack",
+														"name": "突刺[Lunging Attack]",
 														"entries": [
-															"When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll."
+															"你的回合，當你近戰攻擊時，你可以消耗一個卓越骰以令你這次攻擊的觸及增加５尺。如果攻擊命中，將卓越骰加在此次攻擊的傷害骰上。"
 														]
 													}
 												]
@@ -894,9 +870,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Maneuvering Attack",
+														"name": "靈動擊[Maneuvering Attack]",
 														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
+															"當你的武器攻擊命中敵人時，你可以消耗一個卓越骰以令你的盟友移動到更有利的位置。將卓越骰加在此次攻擊的傷害骰上。選擇一個能看到你或聽到你聲音的盟友，他可以使用反映移動至多等於他速度一半的距離。這次移動不會引發被你攻擊的敵人的借機攻擊。"
 														]
 													}
 												]
@@ -906,9 +882,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Menacing Attack",
+														"name": "恐嚇擊[Menacing Attack]",
 														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is {@condition frightened} of you until the end of your next turn."
+															"當你的武器攻擊命中敵人時，你可以消耗一個卓越骰以嘗試恐嚇該目標。將卓越骰加在此次攻擊的傷害骰上。該目標必須通過一次感知豁免，失敗則對你{@condition 恐慌[Frightened]}，直到你的下回合結束。"
 														]
 													}
 												]
@@ -918,9 +894,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Parry",
+														"name": "招架[Parry]",
 														"entries": [
-															"When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier."
+															"當其他生物的近戰攻擊對你造成傷害時，你可以消耗一個卓越骰以減少傷害。減少的數值為卓越骰結果＋你的敏捷調整值。"
 														]
 													}
 												]
@@ -930,9 +906,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Precision Attack",
+														"name": "精准擊[Precision Attack]",
 														"entries": [
-															"When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."
+															"當你用武器攻擊時，你可以消耗一個卓越骰以將其結果加在這次攻擊的命中骰上。你可以在投攻擊骰之前或之後使用此戰技，但必須在任何攻擊效果生效之前決定。"
 														]
 													}
 												]
@@ -942,9 +918,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Pushing Attack",
+														"name": "斥力擊[Pushing Attack]",
 														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."
+															"當你的武器攻擊命中敵人時，你可以消耗一個卓越骰以嘗試將該目標推開。將卓越骰加在這次攻擊的傷害骰上。如果該目標體型為大型或更小，則他必須通過一次力量豁免，失敗則被推開１５尺。"
 														]
 													}
 												]
@@ -954,9 +930,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Rally",
+														"name": "鼓舞[Rally]",
 														"entries": [
-															"On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier."
+															"在你的回合，你可以使用一個附贈動作並消耗一顆卓越骰以鼓舞一名盟友的士氣。選擇一名能看到你或聽到你聲音的盟友，他獲得卓越骰結果＋你的魅力調整值點臨時生命值。"
 														]
 													}
 												]
@@ -966,9 +942,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Riposte",
+														"name": "反擊[Riposte]",
 														"entries": [
-															"When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
+															"當某生物攻擊你卻失手時，你可以使用反應並消耗一顆卓越骰反擊他。你對該生物進行一次攻擊，將卓越骰加在這次攻擊的傷害骰上。"
 														]
 													}
 												]
@@ -978,9 +954,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Sweeping Attack",
+														"name": "橫掃[Sweeping Attack]",
 														"entries": [
-															"When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack."
+															"當你的近戰武器攻擊命中敵人時，你可以消耗一顆卓越骰以嘗試連帶攻擊附近的另一個生物。選擇你觸及范圍內距離你的初始目標不超過５尺的一名生物，如果你原本的攻擊骰足以命中第二個目標，則它受到等同於你卓越骰結果的傷害。此傷害與你原本攻擊的傷害類型相同。"
 														]
 													}
 												]
@@ -990,9 +966,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Trip Attack",
+														"name": "摔絆擊[Trip Attack]",
 														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target {@condition prone}."
+															"當你的武器攻擊命中敵人時，你可以消耗一個卓越骰以嘗試擊倒該目標。將卓越骰加在這次攻擊的傷害骰上。如果該目標體型為大型或更小，則他必須通過一次力量豁免，失敗即{@condition 倒地[Prone]}。"
 														]
 													}
 												]
@@ -1007,33 +983,33 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Additional Maneuvers",
+										"name": "額外戰技[Additional Maneuvers]",
 										"entries": [
-											"At 7th level, you learn two additional maneuvers of your choice."
+											"7級時，你學習兩個你所選的戰技。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Additional Superiority Die",
+										"name": "額外卓越骰[Additional Superiority Die]",
 										"entries": [
-											"You gain another superiority die at 7th level."
+											"7級時，你多獲得一個卓越骰。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Know Your Enemy",
+										"name": "知己知彼[Know Your Enemy]",
 										"entries": [
-											"If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:",
+											"從７級起，如果你在戰鬥外觀察某生物或與之互動達１分鐘，則你可以獲知一些關於他能力的情報。從下表中選擇兩項，ＤＭ將告訴你在這兩項上你是強於該生物，弱於該生物，或是與之相仿。",
 											{
 												"type": "list",
 												"items": [
-													"Strength score",
-													"Dexterity score",
-													"Constitution score",
-													"Armor Class",
-													"Current hit points",
-													"Total class levels (if any)",
-													"Fighter class levels (if any)"
+													"力量值",
+													"敏捷值",
+													"體魄值",
+													"ＡＣ",
+													"當前生命值",
+													"總職業等級（如果有）",
+													"戰士職業等級（如果有）"
 												]
 											}
 										]
@@ -1046,16 +1022,16 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Additional Maneuvers",
+										"name": "額外戰技[Additional Maneuvers]",
 										"entries": [
-											"At 10th level, you learn two additional maneuvers of your choice."
+											"10級時，你學習兩個你所選的戰技。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Improved Combat Superiority (d10)",
+										"name": "改進卓越骰[Improved Combat Superiority] (d10)",
 										"entries": [
-											"At 10th level, your superiority dice turn into d10s."
+											"10級時，你的卓越骰調整為 d10 。"
 										]
 									}
 								]
@@ -1066,23 +1042,23 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Additional Maneuvers",
+										"name": "額外戰技[Additional Maneuvers]",
 										"entries": [
-											"At 15th level, you learn two additional maneuvers of your choice."
+											"15級時，你學習兩個你所選的戰技。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Additional Superiority Die",
+										"name": "額外卓越骰[Additional Superiority Die]",
 										"entries": [
-											"You gain another superiority die at 15th level."
+											"15級時，你多獲得一個卓越骰。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Relentless",
+										"name": "無情[Relentless]",
 										"entries": [
-											"Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die."
+											"從１５級起，如果在骰先攻時你沒有可用的卓越骰，則你恢復１顆。"
 										]
 									}
 								]
@@ -1093,9 +1069,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Improved Combat Superiority (d12)",
+										"name": "改進卓越骰[Improved Combat Superiority] (d12)",
 										"entries": [
-											"At 18th level, your superiority dice turn into d12s."
+											"18級時，你的卓越骰調整為 d12 。"
 										]
 									}
 								]
@@ -1106,318 +1082,27 @@
 					"shortName": "Battle Master"
 				},
 				{
-					"name": "Cavalier (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Cavalier",
-								"entries": [
-									"The archetypal Cavalier excels at mounted combat. Usually born to nobility and raised in a royal court, a Cavalier is equally at home leading a cavalry charge or exchanging witty repartee at a state dinner.",
-									{
-										"type": "entries",
-										"name": "Bonus Proficiencies",
-										"entries": [
-											"When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: Animal Handling, Insight, Performance, or Persuasion. You can choose to gain one tool proficiency in place of one skill proficiency."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Born to the Saddle",
-										"entries": [
-											"At 3rd level, you have advantage on saving throws made to avoid falling off your mount. If you fall off your mount, you always land on your feet if you are capable of taking actions. Mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Combat Superiority",
-										"entries": [
-											"At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Superiority Dice",
-														"entries": [
-															"You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.",
-															"You gain another superiority die at 7th level and one more at 15th level."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Using Superiority Dice",
-														"entries": [
-															"You can expend superiority dice to gain a number of different benefits:",
-															{
-																"type": "list",
-																"items": [
-																	"When you make a check to influence or control a creature you are riding, you can expend one superiority die to add it to the check. You apply this bonus after making the check but before learning if it was successful.:",
-																	"When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.",
-																	"When you make an attack with a lance while mounted, you can expend one superiority die to add it to your damage roll. In addition, the target of the attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}.:",
-																	"If either you or your mount is hit by an attack while you are mounted, you can expend one superiority die as a reaction, adding the number rolled to your or your mount's AC. If the attack still hits, you or your mount take half damage from it."
-																]
-															}
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Ferocious Charger",
-										"entries": [
-											"At 7th level, you gain additional benefits when you use superiority dice to increase your damage when you attack with a lance. You can expend up to two superiority dice on the attack, adding both to the damage roll. If you spend two dice, the target has disadvantage on its Strength saving throw to avoid being knocked {@condition prone}."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Improved Combat Superiority",
-										"entries": [
-											"At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Relentless",
-										"entries": [
-											"Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Improved Combat Superiority",
-										"entries": [
-											"At 18th level, your superiority dice turn into d12s."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAKitsOfOld",
-					"shortName": "Cavalier (UA)"
-				},
-				{
-					"name": "Cavalier v2 (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Cavalier v2",
-								"entries": [
-									"The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Drawn to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.",
-									{
-										"type": "entries",
-										"name": "Bonus Proficiencies",
-										"entries": [
-											"When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Born to the Saddle",
-										"entries": [
-											"Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not {@condition incapacitated}.",
-											"Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Combat Superiority",
-										"entries": [
-											"At 3rd level, you gain a set of combat abilities, referred to as maneuvers, which are fueled by special dice called superiority dice.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Superiority Dice",
-														"entries": [
-															"You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all your expended superiority dice when you finish a short or long rest.",
-															"You gain another superiority die at 7th level and one more at 15th level."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Maneuvers",
-														"entries": [
-															"Maneuvers. You spend your superiority dice on your maneuvers. You can use more than one maneuver per turn, but no more than one maneuver per attack. You know the maneuvers detailed under \"Maneuvers\" below."
-														]
-													}
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Maneuvers",
-										"entries": [
-											"The maneuvers are presented in alphabetical order.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Control Mount",
-														"entries": [
-															"When you make a Wisdom (Animal Handling) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the d20, but before applying the results of the check."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Precision Attack",
-														"entries": [
-															"When you make a weapon attack against a creature, you can expend one superiority die, roll it, and add it to the attack roll. You can use this ability before or after rolling the d20, but before any of the effects of the attack are applied."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Trip Attack",
-														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. Roll the die, and add it to the attack's damage roll. If the target is Large or smaller, it must also succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Warding Maneuver",
-														"entries": [
-															"If you or a creature within 5 feet of you is hit by an attack, you can expend one superiority die as a reaction if you're wielding a weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage."
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Ferocious Charger",
-										"entries": [
-											"At 7th level, you gain additional benefits when you use your Trip Attack maneuver. You can expend up to two superiority dice on it, adding both dice to the damage roll. When you spend two dice in this way, the target has disadvantage on its Strength saving throw to avoid being knocked {@condition prone}."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Improved Combat Superiority",
-										"entries": [
-											"At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Relentless",
-										"entries": [
-											"Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain one superiority die."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Improved Combat Superiority",
-										"entries": [
-											"At 18th level, your superiority dice turn into d12s."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UARevisedClassOptions",
-					"shortName": "Cavalier v2 (UA)"
-				},
-				{
 					"name": "Eldritch Knight",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Eldritch Knight",
+								"name": "魔能騎士[Eldritch Knight]",
 								"entries": [
-									"The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic\u2014abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.",
+									"魔能騎士將肉體訓練與魔法研究相融合。他們使用類似法師的魔法技巧，但更注重兩個學派：防護和塑能。防護系法術為魔能騎士提供保護；塑能系法術可以同時攻擊多個敵人，讓魔能騎士在戰場上更加全面。魔能騎士只能掌握較少的法術，因此無需使用法術書。",
 									{
 										"type": "entries",
-										"name": "Spellcasting",
+										"name": "施法[Spellcasting]",
 										"entries": [
-											"When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.",
+											"３級時，你學會將武技與魔法結合使用。施法規則請參考第１０章。法師法術列表請參考第１１章。",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Spell Slots",
+														"name": "法術位[Spell Slots]",
 														"entries": [
-															"The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-															"For example, if you know the 1st-level spell {@spell shield} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell shield} using either slot."
+															"魔能騎士施法能力表列出了你擁有的法術位數量。要施展一個法術，你必須消耗一個不低於法術環數的法術位。被消耗的法術位在長休息之後恢復。",
+															"例如，如果你學習了１環法術護盾術，並且有一個可用的１環法術位和一個可用的２環法術位，你可以用兩者之一施展{@spell 護盾術[shield]} 。"
 														]
 													}
 												]
@@ -1427,12 +1112,12 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Spells Known of 1st-Level and Higher",
+														"name": "一級及以上的法術[Spells Known of 1st-Level and Higher]",
 														"entries": [
-															"You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.",
-															"The Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
-															"The spells you learn at 8th, 14th, and 20th level can come from any school of magic.",
-															"Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic."
+															"你習得三個法師１環法術，其中兩個必須從防護系和塑能系中選擇。",
+															"魔能騎士施法能力表中的可知法術一欄列出了你習得法術的等級和數量。你只能選擇防護系或塑能系法術，且法術環數不能超過你最高法術位環數。例如，如果你在魔能騎士達到７級，你可以學習一個新的１環法術或２環法術。",
+															"你在８級，１４級和２０級學會的法術可以來自任何學派。",
+															"每次你提升魔能騎士等級時，可以將你習得的一個法術法術替換為另一個法師法術。這個新法術環數不能超過你最高法術位環數，且必須從防護系或塑能系選擇（除非你替換的是８級，１４級或２０級習得的法術）。"
 														]
 													}
 												]
@@ -1442,9 +1127,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Spellcasting Ability",
+														"name": "施法能力值[Spellcasting Ability]",
 														"entries": [
-															"Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+															"你通過研究和記憶學習魔法，因此智力是你施展法師法術的關鍵屬性。當法術指向施法關鍵屬性時，你使用智力。此外，當決定你法師法術的豁免ＤＣ和攻擊檢定時，也使用智力調整值。",
 															{
 																"type": "abilityDc",
 																"name": "Spell",
@@ -1467,11 +1152,11 @@
 									},
 									{
 										"type": "entries",
-										"name": "Weapon Bond",
+										"name": "武器聯結[Weapon Bond]",
 										"entries": [
-											"At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.",
-											"Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are {@condition incapacitated}. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.",
-											"You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two."
+											"３級時，你習得一種在你和你的武器間建立魔法聯結的儀式。儀式耗時１小時，且可以在短休息時進行。儀式過程中武器必須在你身邊。儀式結束時，你碰觸該武器，完成聯結。",
+											"聯結建立後，只要你不處於{@condition 乏力[Incapacitated]}狀態，使用聯結武器就不會被繳械。如果聯結武器和你處於同一位面，則你可以以一個附贈動作召喚它到你手中。",
+											"你至多可以與兩把武器建立聯結，但一個附贈動作只能召喚一把武器。如果你試圖和第三把武器建立聯結，則必須與已經聯結的一把武器取消聯結。"
 										]
 									}
 								]
@@ -1482,9 +1167,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "War Magic",
+										"name": "戰鬥施法[War Magic]",
 										"entries": [
-											"Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action."
+											"從７級起，當你使用動作釋放戲法時，可以以附贈動作進行一次武器攻擊。"
 										]
 									}
 								]
@@ -1495,9 +1180,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Eldritch Strike",
+										"name": "魔能打擊[Eldritch Strike]",
 										"entries": [
-											"At 10th level, you learn how to make your weapon strikes undercut a creature's resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
+											"１０級時，你習得用武器攻擊削弱敵人對你法術抵抗能力的方法。當你的武器攻擊命中敵人後，直到你的下回合結束之前，該生物對你的下一個法術的豁免骰承受劣勢。"
 										]
 									}
 								]
@@ -1508,9 +1193,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Arcane Charge",
+										"name": "秘法沖鋒[Arcane Charge]",
 										"entries": [
-											"At 15th level, you gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action."
+											"１５級時，當你使用動作如潮時，可以傳送至多３０尺。傳送的目的地必須對你可見且未被佔據。你可以在使用動作如潮提供的額外動作之前或之後傳送。"
 										]
 									}
 								]
@@ -1521,9 +1206,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Improved War Magic",
+										"name": "精通戰鬥施法[Improved War Magic]",
 										"entries": [
-											"Starting at 18th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action."
+											"１８級起，當你使用動作釋放法術時，可以以附贈動作進行一次武器攻擊。"
 										]
 									}
 								]
@@ -1534,151 +1219,29 @@
 					"shortName": "Eldritch Knight"
 				},
 				{
-					"name": "Monster Hunter (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Monster Hunter",
-								"entries": [
-									"As an archetypal Monster Hunter, you are an expert at defeating supernatural threats. Typically mentored by an older, experienced Monster Hunter, you learn to overcome a variety of unnatural defenses and attacks, including those of undead, lycanthropes, and other creatures of horror.",
-									{
-										"type": "entries",
-										"name": "Bonus Proficiencies",
-										"entries": [
-											"When you choose this archetype at 3rd level, you gain proficiency in three of the following skills of your choice: Arcana, History, Insight, Investigation, Nature, or Perception. You can choose to gain proficiency with thieves' tools in place of one skill choice."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Combat Superiority",
-										"entries": [
-											"At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Superiority Dice",
-														"entries": [
-															"You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest. You gain another superiority die at 7th level and one more at 15th level."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Using Superiority Dice",
-														"entries": [
-															"You can expend superiority dice to gain a number of different benefits:",
-															{
-																"type": "list",
-																"items": [
-																	"When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.",
-																	"When you damage a creature with a weapon attack, you can expend one superiority die to add it to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution saving throw to maintain concentration, it has disadvantage on that save.",
-																	"When you make an Intelligence, a Wisdom, or a Charisma saving throw, you can expend one superiority die to add it to the roll. You can use this feature only before you learn if the save succeeded or failed.",
-																	"When you make a Wisdom (Perception) check to detect a hidden creature or object, or a Wisdom (Insight) check to determine if someone is lying to you, you can expend one superiority die to add it to the roll. You can use this feature after seeing the total but before learning if you succeeded or failed."
-																]
-															}
-														]
-													}
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Hunter's Mysticism",
-										"entries": [
-											"At 3rd level, your study of the supernatural gives you a limited ability to use magic. You can cast {@spell detect magic} as a ritual. You can cast {@spell protection from evil and good}, but you cannot cast it again with this feature until you finish a long rest. Wisdom is your spellcasting ability for these spells.",
-											"In addition, you gain the ability to speak one of the following languages of your choice: Abyssal, Celestial, or Infernal."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Monster Slayer",
-										"entries": [
-											"At 7th level, whenever you expend superiority dice to add to a damage roll, you can expend up to two dice instead of just one, adding both to the roll. Both dice are expended as normal. If the target of your attack is an aberration, a fey, a fiend, or an undead, you deal maximum damage with both dice, instead of rolling them."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Improved Combat Superiority",
-										"entries": [
-											"At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Relentless",
-										"entries": [
-											"Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Improved Combat Superiority",
-										"entries": [
-											"At 18th level, your superiority dice turn into d12s."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAGothicHeroes",
-					"shortName": "Monster Hunter (UA)"
-				},
-				{
 					"name": "Purple Dragon Knight (Banneret)",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Purple Dragon Knight (Banneret)",
+								"name": "紫龍騎士[Purple Dragon Knight] (Banneret)",
 								"entries": [
-									"Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond the kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to guide them in defeating evildoers.",
-									"A Purple Dragon Knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band.",
-									"A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.",
+									"​紫龍騎士是來自科米爾王國的戰士。他們承諾守護王國的傳承，對抗王國領土內的邪惡。他們的任務是作為漫遊騎士巡遊祖國的土地，他們依靠判斷力、英勇無畏、對騎士精神的忠貞來指引他們擊敗邪惡勢力。",
+									"一名紫龍騎士通過在戰鬥中的英勇表現激發其他人的戰力。在一個小村莊內僅有一名騎士也足以讓一些獸人們和土匪們不隨便打這個村子的主意。一名孤獨的騎士是一名技藝嫻熟的戰士，但是如果一名騎士領導著一隊盟友，即使是裝備最差的民兵也會轉變成一個激昂的戰鬥團隊。",
+									"紫龍騎士們用行動而非言語證明自己。他們永遠作為先頭部隊沖鋒在隊伍的最前方，用他們無畏的戰鬥喚醒友軍的勇氣和信念，正如他們自己所一直擁有的那樣。",
 									{
 										"type": "entries",
-										"name": "Restriction: Knighthood",
+										"name": "限制：限定騎士[Restriction: Knighthood]",
 										"entries": [
-											"Purple Dragon Knights are tied to a specific order of Cormyrean knighthood.",
-											"Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights."
+											"紫龍騎士是一個特殊的、與科米爾地區的騎士綁定的範型。",
+											"爵位 如果你想把它用在其他的戰役模組或者是除了紫龍騎士團以外的軍閥模型中，把爵位當做是這些範型的通用限制。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Rallying Cry",
+										"name": "重整姿態[Rallying Cry]",
 										"entries": [
-											"When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.",
-											"When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you."
+											"從3級起，你學會了如何激勵你的盟友來對抗傷害。",
+											"當你使用你的回氣能力，你可以選擇在你60尺範圍內最多3個盟友，他們每個人都恢復等同於你的戰士等級的生命值。他們必須要能看到或者聽到你的聲音才能獲得這個好處。"
 										]
 									}
 								]
@@ -1689,11 +1252,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Royal Envoy",
+										"name": "皇家特使[Royal Envoy]",
 										"entries": [
-											"A Purple Dragon Knight serves as an envoy of the Cormyrean crown. Knights of high standing are expected to conduct themselves with grace.",
-											"At 7th level, you gain proficiency in the Persuasion skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, or Performance.",
-											"Your proficiency bonus is doubled for any ability check you make that uses Persuasion. You receive this benefit regardless of the skill proficiency you gain from this feature."
+											"一位紫龍騎士擔任科米爾王國的使者。人們期望身居高位的騎士舉止優雅。",
+											"從7級起，你熟練於說服[proficient]技能。如果你已經對這項技能熟練，你可以選擇以下列表中的一項技能熟練：馴養動物[Animal Handling]，洞悉[Insight]，威嚇[Intimidation]，表演[Performance]。",
+											"你在進行魅力（說服）檢定時可以將雙倍的熟練值加在上面。你始終獲得這個好處，不管你是否從這個能力中得到了對於說服技能的熟練。"
 										]
 									}
 								]
@@ -1704,10 +1267,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Inspiring Surge",
+										"name": "振奮之潮[Inspiring Surge]",
 										"entries": [
-											"Starting at 10th level, when you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you.",
-											"Starting at 18th level, you can choose two allies within 60 feet of you, rather than one."
+											"從10級起，每當你使用你的動作如潮能力時，你可以選擇一個在你周圍60尺內的盟友，他可以立刻用他的反應進行一次近戰或者遠程武器攻擊。他必須要能看見或者聽見你的聲音才能獲得這個好處。",
+											"從18級起，你可以選擇兩個盟友。"
 										]
 									}
 								]
@@ -1718,9 +1281,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Bulwark",
+										"name": "意志壁壘[Bulwark]",
 										"entries": [
-											"Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't {@condition incapacitated}, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll."
+											"從15級起，你可以延展你的不屈能力作用於你的盟友。每當你決定用不屈重投智力，感知或者魅力豁免並且你未處於失能狀態，你可以選擇一個在你60尺距離內對同樣的效果豁免失敗的盟友。如果他能看見你或者聽見你的聲音，他可以重投豁免骰。他必須采用新的結果。"
 										]
 									}
 								]
@@ -1731,9 +1294,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Inspiring Surge",
+										"name": "振奮之潮[Inspiring Surge]",
 										"entries": [
-											"Starting at 18th level, you can choose two allies within 60 feet of you, rather than one."
+											"從18級起，你可以選擇兩個盟友，而不是一個。"
 										]
 									}
 								]
@@ -1744,869 +1307,35 @@
 					"shortName": "Purple Dragon Knight (Banneret)"
 				},
 				{
-					"name": "Scout (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Scout",
-								"entries": [
-									"The archetypal Scout excels at finding safe passage through dangerous regions. Scouts usually favor light armor and ranged weapons, but they are comfortable using heavier gear when faced with intense fighting.",
-									{
-										"type": "entries",
-										"name": "Bonus Proficiencies",
-										"entries": [
-											"When you choose this archetype at 3rd level, you gain proficiency in three of the following skills of your choice: Acrobatics, Athletics, Investigation, Medicine, Nature, Perception, Stealth, or Survival. You can choose to gain proficiency with thieves' tools in place of one skill choice."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Combat Superiority",
-										"entries": [
-											"At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Superiority Dice",
-														"entries": [
-															"You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest. You gain another superiority die at 7th level and one more at 15th level."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Using Superiority Dice",
-														"entries": [
-															"You can expend superiority dice to gain a number of different benefits:",
-															{
-																"type": "list",
-																"items": [
-																	"When you make a check that allows you to apply your proficiency in Athletics, Nature, Perception, Stealth, or Survival, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.",
-																	"When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.",
-																	"If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it."
-																]
-															}
-														]
-													}
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Natural Explorer",
-										"entries": [
-											"You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
-											"While traveling for an hour or more in your favored terrain, you gain the following benefits:",
-											{
-												"type": "list",
-												"items": [
-													"Difficult terrain doesn't slow your group's travel.",
-													"Your group can't become lost except by magical means.",
-													"Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
-													"If you are traveling alone, you can move stealthily at a normal pace.",
-													"When you forage, you find twice as much food as you normally would.",
-													"While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
-												]
-											},
-											"You choose additional favored terrain types at 7th and 15th level."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Additional Superiority Die",
-										"entries": [
-											"You gain another superiority die at 7th level."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Improved Combat Superiority",
-										"entries": [
-											"At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Relentless",
-										"entries": [
-											"Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Additional Superiority Die",
-										"entries": [
-											"You gain another superiority die at 15th level."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Improved Combat Superiority",
-										"entries": [
-											"At 18th level, your superiority dice turn into d12s."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAKitsOfOld",
-					"shortName": "Scout (UA)"
-				},
-				{
-					"name": "Arcane Archer (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Arcane Archer",
-								"entries": [
-									"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Among elves, Arcane Archers are some of their most elite warriors. These archers stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
-									{
-										"type": "entries",
-										"name": "Arcane Arrow",
-										"entries": [
-											"When you choose this archetype at 3rd level, you learn to channel magic into your attacks with a longbow or shortbow.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Create Magic Arrow",
-														"entries": [
-															"As a bonus action on your turn, you can create one magic arrow in your hand. The arrow lasts until the end of the turn or until it hits or misses a target. You can fire the arrow from a shortbow or longbow. The arrow is a magic weapon that deals an additional 2d6 force damage on a hit.",
-															"You have two uses of this feature, and you regain all expended uses of it when you finish a short or long rest."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Arcane Shot",
-														"entries": [
-															"When you gain this feature, you learn two Arcane Shot options of your choice (see the Arcane Shots section below). Whenever you create a magic arrow with this feature, you can apply the benefits of one of your Arcane Shot options to that arrow.",
-															"You gain an additional Arcane Shot option of your choice at 7th, 10th, 15th, and 18th level."
-														]
-													}
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Archer's Lore",
-										"entries": [
-											"At 3rd level, you learn a few skills relating to the typical duties of an Arcane Archer. You learn to understand magical theory and develop survival skills for wandering the wilds.",
-											"You gain proficiency in two of the following skills of your choice: Arcana, Athletics, Nature, Perception, Stealth, and Survival."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Arcane Shots",
-										"entries": [
-											"The Arcane Arrow feature lets you choose Arcane Shot options at certain levels. The options are presented here in alphabetical order. These are all magical effects.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Beguiling Arrow",
-														"entries": [
-															"Your enchantment magic causes this arrow to temporarily beguile its target. Choose one of your allies within 30 feet of the target. If the arrow hits the target, the target can't attack the chosen ally or include that ally in a harmful area of effect until the end of your next turn. The target ignores this effect if it is immune to the {@condition charmed} condition. This effect also ends if the chosen ally deals any damage to the target."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Brute Bane Arrow",
-														"entries": [
-															"You weave necromantic magic into your arrow. If a creature is hit by the arrow, any bludgeoning, piercing, or slashing damage dealt by the creature's attacks is halved until the end of your next turn."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Bursting Arrow",
-														"entries": [
-															"You imbue your arrow with a blast of force energy drawn from the school of evocation. If you hit a creature with this arrow, each creature within 10 feet of it takes 2d6 force damage."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Defending Arrow",
-														"entries": [
-															"You use abjuration magic to weave a charm that disrupts your enemy's magic. A creature hit by this arrow suffers disadvantage on the next attack roll it makes before the end of your next turn."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Grasping Arrow",
-														"entries": [
-															"When this arrow strikes its target, conjuration magic creates grasping, thorny brambles that wrap around the target. The target hit by the arrow takes a -10 penalty to speed, and it takes 2d6 slashing damage if it moves 1 foot or more without teleporting. The target or any creature that can touch it can use its action to try to remove the brambles, which requires a successful DC 10 Strength check. Otherwise, the brambles last for 1 minute."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Piercing Arrow",
-														"entries": [
-															"You use transmutation magic to transform your arrow into an ethereal dart that passes through its targets. When you attack with this arrow, it fires forward in a line that is 1 foot wide and 30 feet long. You make a separate attack using your Arcane Arrow against each creature in that line."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Seeking Arrow",
-														"entries": [
-															"Using divination magic, you grant your arrow the ability to seek out your target, allowing the arrow to curve and twist its path in search of its prey. As an action, choose one creature you have seen in the past minute, and make a ranged attack against it, using the Arcane Arrow. The arrow flies around corners if necessary, and this attack ignores three-quarters cover, half cover, and disadvantage caused by the target being out of sight or being at long range. The attack automatically misses if the target is out of the weapon's range or if there is no path large enough for the arrow to travel to the target. If the arrow hits its target, you know it, but you don't learn the target's location unless it's within your line of sight."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Shadow Arrow",
-														"entries": [
-															"You weave illusion magic into your arrow, causing it to occlude your foe's vision with grasping shadows. Until the end of your next turn, the target hit by the arrow can't see more than 30 feet away."
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Conjure Arrows",
-										"entries": [
-											"At 7th level, you learn a minor but useful magical trick. As an action, you can conjure 20 nonmagical arrows. The arrows appear in your hand or in a container, such as a quiver, on your body. The arrows remain for 10 minutes or until you use this feature again; they then vanish."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Extra Arcane Shot",
-										"entries": [
-											"At 7th level, you learn an additional Arcane Shot option."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Extra Arcane Shot",
-										"entries": [
-											"At 10th level, you learn an additional Arcane Shot option."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Ever-Ready Arrow",
-										"entries": [
-											"Starting at 15th level, you can conjure forth a magic-infused arrow more often than before. One minute after expending your last remaining use of Arcane Arrow, you regain one use of it."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Extra Arcane Shot",
-										"entries": [
-											"At 15th level, you learn an additional Arcane Shot option."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Deadly Arrow",
-										"entries": [
-											"At 18th level, your Arcane Arrow's bonus damage increases to 4d6 force damage."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Extra Arcane Shot",
-										"entries": [
-											"At 18th level, you learn an additional Arcane Shot option."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAFighter",
-					"shortName": "Arcane Archer (UA)"
-				},
-				{
-					"name": "Arcane Archer v2 (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Arcane Archer v2",
-								"entries": [
-									"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Among elves, Arcane Archers are some of their most elite warriors. These archers stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
-									{
-										"type": "entries",
-										"name": "Magic Arrow",
-										"entries": [
-											"When you choose this archetype at 3rd level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it a magic arrow, with a +1 bonus to the attack and damage rolls. The magic fades from the arrow immediately after it hits or misses its target."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Arcane Arrow",
-										"entries": [
-											"At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see the \"Arcane Shot Options\" section below).",
-											"Once per turn when you fire a magic arrow from a shortbow or longbow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.",
-											"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Archer's Lore",
-										"entries": [
-											"At 3rd level, you learn magical theory or some of the secrets of nature\u2014typical for practitioners of this elven martial tradition. You gain proficiency in either the Arcana or Nature skill."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Arcane Shot",
-										"entries": [
-											"The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.",
-											"If an option requires a saving throw, your Arcane Shot save DC equals 8 + your proficiency bonus + your Intelligence modifier.",
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Banishing Arrow",
-														"entries": [
-															"You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. If the arrow hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
-															"After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Brute Bane Arrow",
-														"entries": [
-															"You weave necromantic magic into your arrow. If your arrow hits a creature, the target takes an extra 2d6 necrotic damage and must make a Constitution saving throw. On a failed save, the damage of the target's attacks is halved until the next turn.",
-															"The necrotic damage increases to 4d6 when you reach 18th level with this class."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Bursting Arrow",
-														"entries": [
-															"You imbue your arrow with a blast of force energy drawn from the school of evocation. If the arrow hits a creature, the target and each creature within 10 feet of it takes 2d6 force damage.",
-															"The force damage increases to 4d6 when you reach 18th level with this class."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Grasping Arrow",
-														"entries": [
-															"When this arrow strikes its target, conjuration magic creates grasping, thorny brambles that wrap around the target. If the arrow hits a creature, the target takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.",
-															"The poison and slashing damage both increase to 4d6 when you reach 18th level in this class."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Mind-Scrambling Arrow",
-														"entries": [
-															"Your enchantment magic causes this arrow to temporarily beguile its target. Choose one of your allies within 30 feet of the target. If the arrow hits a creature, the target takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or it can't attack the chosen ally or include that ally in a harmful area of effect until the start of your next turn. This effect ends early if the chosen ally deals any damage to the target.",
-															"The psychic damage increases to 4d6 when you reach 18th level in this class."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Piercing Arrow",
-														"entries": [
-															"You use transmutation magic to transform your arrow into an ethereal dart that passes through its targets. You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the arrow fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.",
-															"The piercing damage increases to 2d6 when you reach 18th level in this class."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Seeking Arrow",
-														"entries": [
-															"Using divination magic, you grant your arrow the ability to seek out your target, allowing the arrow to curve and twist its path in search of its prey. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. On a failed save, it takes damage as if it were hit by the arrow, plus an extra 1d6 force damage, and you learn the target's current location. On a successful save, the target takes half as much damage, and you don't learn its location.",
-															"The force damage increases to 2d6 when you reach 18th level in this class."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Shadow Arrow",
-														"entries": [
-															"You weave illusion magic into your arrow, causing it to occlude your foe's vision with grasping shadows. If the arrow hits a creature, the target takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.",
-															"The psychic damage increases to 4d6 when you reach 18th level in this class."
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Curving Shot",
-										"entries": [
-											"At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Extra Arcane Shot",
-										"entries": [
-											"At 7th level, you learn an additional Arcane Shot option."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Extra Arcane Shot",
-										"entries": [
-											"At 10th level, you learn an additional Arcane Shot option."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Ever-Ready Shot",
-										"entries": [
-											"Starting at 15th level, your magical archery is ever available to you when you need it most. If you roll initiative and have no uses of Arcane Shot remaining, you regain one use of it."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Extra Arcane Shot",
-										"entries": [
-											"At 15th level, you learn an additional Arcane Shot option."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Extra Arcane Shot",
-										"entries": [
-											"At 18th level, you learn an additional Arcane Shot option."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UARevisedSubclasses",
-					"shortName": "Arcane Archer v2 (UA)"
-				},
-				{
-					"name": "Knight (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Knight",
-								"entries": [
-									"The Knight is a colossus on the battlefield who can shrug off attacks and protect allies from harm. Knights fight from the saddle when they can, and in combat they are expected to seek out and lock down the mightiest of the enemy's forces. On adventures, they are the armored bulwark that strives to keep the rest of the party safe.",
-									{
-										"type": "entries",
-										"name": "Born to the Saddle",
-										"entries": [
-											"Starting at 3rd level, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed. In addition, you have advantage on saving throws made to avoid falling off your mount. If you fall off it, you can automatically land on your feet if you aren't {@condition incapacitated} and you fall less than 10 feet."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Implacable Mark",
-										"entries": [
-											"At 3rd level, you excel at foiling attacks and protecting your allies by menacing your foes. When you hit a creature with a melee weapon attack, the target is marked by you until the end of your next turn. A creature ignores this effect if the creature can't be {@condition frightened}.",
-											"The marked target has disadvantage on any attack roll against a creature other than you or someone else who marked it.",
-											"If a target marked by you is within 5 feet of you on its turn and it moves at least 1 foot or makes an attack that suffers disadvantage from this feature, you can make one melee weapon attack against it using your reaction. This attack roll has advantage, and if it hits, the attack's weapon deals extra damage to the target equal to your fighter level.",
-											"You can make this special attack even if you have already expended your reaction this round, but not if you have already used your reaction this turn. You can make this attack three times, and you regain all expended uses of it when you finish a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Noble Cavalry",
-										"entries": [
-											"At 7th level, you gain proficiency in two of the following skills of your choice: Animal Handling, History, Insight, Persuasion, or Religion. Alternatively, you learn one language of your choice."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Hold the Line",
-										"entries": [
-											"At 10th level, you master the ability to harass and slow your enemies. As a reaction when a creature moves at least 1 foot within 5 feet of you, you can make one melee weapon attack against that creature. If you hit, the attack's weapon deals extra damage to the target equal to half your fighter level, and the target's speed is reduced to 0 until the end of this turn."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Rapid Strike",
-										"entries": [
-											"Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Defender's Blade",
-										"entries": [
-											"At 18th level, you respond to danger with extraordinary vigilance. You can use your reaction for an opportunity attack even if you have already expended your reaction this round, but not if you have already used your reaction this turn.",
-											"In addition, you gain a +1 bonus to AC while wearing heavy armor."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAFighter",
-					"shortName": "Knight (UA)"
-				},
-				{
-					"name": "Samurai (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Samurai",
-								"entries": [
-									"The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai's willpower is nearly unbreakable, and the enemies in a Samurai's path have two choices: yield or die fighting.",
-									{
-										"type": "entries",
-										"name": "Fighting Spirit",
-										"entries": [
-											"Starting at 3rd level, the might of your willpower can shield you and help you strike true. As a bonus action on your turn, you can give yourself two benefits: advantage on all attack rolls and resistance to bludgeoning, piercing, and slashing damage. These benefits last until the end of your next turn.",
-											"You can use this feature three times. You regain all expended uses of it when you finish a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Elegant Courtier",
-										"entries": [
-											"Starting at 7th level, your discipline and attention to detail allow you to excel in social situations that require strict adherence to etiquette. You can add your Wisdom modifier to any Charisma check you make to persuade or please a noble or anyone else of high social station.",
-											"You also gain proficiency in the History, Insight, or Persuasion skill (choose one). Alternatively, you learn one language of your choice."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Unbreakable Will",
-										"entries": [
-											"At 10th level, your superior willpower allows you to shrug off mind-assaulting effects. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you gain proficiency in Intelligence or Charisma saving throws (choose one)."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Rapid Strike",
-										"entries": [
-											"Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Strength Before Death",
-										"entries": [
-											"Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that would reduce you to 0 hit points, you can delay that damage and immediately take a bonus turn, interrupting the current turn. You don't take the damage until the bonus turn ends. It is possible to do things, such as gaining resistance, that change how much of that damage you take.",
-											"Once you use this feature, you can't use it again until you finish a long rest."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAFighter",
-					"shortName": "Samurai (UA)"
-				},
-				{
-					"name": "Sharpshooter (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Sharpshooter",
-								"entries": [
-									"The Sharpshooter is a master of ranged combat. An excellent sniper and eagle-eyed scout, this fighter is a perilous foe who can defeat an entire war band so long as they are kept at range.",
-									{
-										"type": "entries",
-										"name": "Steady Aim",
-										"entries": [
-											"Beginning when you choose this archetype at 3rd level, your aim becomes deadly. As a bonus action on your turn, you can take careful aim at a creature you can see that is within range of a ranged weapon you're wielding. Until the end of this turn, your ranged attacks with that weapon gain two benefits against the target:",
-											{
-												"type": "list",
-												"items": [
-													"The attacks ignore half and three-quarters cover.",
-													"On each hit, the weapon deals additional damage to the target equal to 2 + half your fighter level."
-												]
-											},
-											"You can use this feature three times. You regain all expended uses of it when you finish a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Careful Eyes",
-										"entries": [
-											"Starting at 7th level, you excel at picking out hidden enemies and other threats. You can take the Search action as a bonus action.",
-											"You also gain proficiency in the Perception, Investigation, or Survival skill (choose one)."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Close-Quarters Shooting",
-										"entries": [
-											"At 10th level, you learn to handle yourself in close combat. Making a ranged attack roll while within 5 feet of an enemy doesn't impose disadvantage on your roll.",
-											"In addition, if you hit a creature within 5 feet of you with a ranged attack on your turn, that creature can't take reactions until the end of this turn."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Rapid Strike",
-										"entries": [
-											"Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Snap Shot",
-										"entries": [
-											"Starting at 18th level, you are ever ready to spring into action. If you take the Attack action on your first turn of a combat, you can make one additional ranged weapon attack as part of that action."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAFighter",
-					"shortName": "Sharpshooter (UA)"
-				},
-				{
 					"name": "Arcane Archer",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Arcane Archer",
+								"name": "魔射手[Arcane Archer]",
 								"entries": [
-									"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
+									"一位魔射手會學習能將魔法註入到攻擊中並產生超自然效果的獨特精靈箭技。魔射手是精靈中最精銳的戰士。他們會駐足守望精靈國土的邊界，著重留意那些入侵者並在那些怪物和入侵者來到精靈的居住地之前用註魔箭矢擊敗他們。在這數個世紀之間，這種精靈箭技已經被其他能夠在魔法和箭藝中找到平衡的種族習得。",
 									{
 										"type": "entries",
-										"name": "Arcane Archer Lore",
+										"name": "魔射手學識[Arcane Archer Lore]",
 										"entries": [
-											"At 3rd level, you learn magical theory or some of the secrets of nature\u2014typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the {@spell prestidigitation} or the {@spell druidcraft} cantrip."
+											"在3級時，你作為精靈軍事傳統的研習者學會了魔法理論或者自然知識。你從奧秘或者自然中選擇一個技能獲得熟練，而且從{@spell 魔法技倆[Prestidigitation]}或者{@spell 德魯伊伎倆[Druidcraft]}中選擇一個戲法並學會。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Arcane Shot",
+										"name": "奧術射擊[Arcane Shot]",
 										"entries": [
-											"At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see \"Arcane Shot Options\" below).",
-											"Once per turn when you fire an arrow from a shortbow or longbow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.",
-											"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
+											"在3級時，你學會在射擊時施放一些特殊的魔法效果。當你獲得這個特性時，你學會兩種你選擇的奧術射擊選項（見奧術射擊選項欄）。",
+											"每個回合，當你以一個攻擊動作的一部分來用短弓或者長弓射出魔法箭時，你可以為你的魔法箭挑選一個你擁有的奧術射擊選項。你可以在魔法箭擊中一名角色時決定是否使用該選項，除非該選項不包括一個攻擊骰。你擁有兩次使用該特性的機會，而且你在完成一次短休或長休後重新獲得所有被消耗的的使用次數。",
+											"你會獲得一個額外的你選擇的奧術射擊選項當你到達一定戰士等級時：7級，10級，15級和18級。所有的選項在你成為18級戰士時都會提升。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Arcane Shot Options",
+										"name": "奧術射擊選項[Arcane Shot Options]",
 										"entries": [
-											"The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.",
-											"If an option requires a saving throw, your Arcane Shot save DC is calculated as follows:",
+											"奧術射擊特性允許你在對應等級選擇選項。以下選項以字母順序排列，而且每一個選項都對應一個魔法學派。",
+											"如果選項要求豁免骰，你的奧術射擊DC等同於8+你的熟練調整值+你的智力調整值。",
 											{
 												"type": "abilityDc",
 												"name": "Arcane Shot",
@@ -2622,10 +1351,10 @@
 														"entries": [
 															{
 																"type": "entries",
-																"name": "Banishing Arrow",
+																"name": "放逐箭[Banishing Arrow]",
 																"entries": [
-																	"You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must also succeed on a Charisma saving throw or be banished. While banished in this way, the target's speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
-																	"After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it."
+																	"你嘗試用你的防護魔法來暫時放逐你的目標到一片屬於精靈沃野的無害區域。被這發箭擊中的角色必須通過一個魅力豁免或者被放逐。當被這種方式放逐時，目標速度降為0，變為失能。在他的回合結束時，目標在他被放逐前的位置出現。如果該位置被占據，則他在最近的未被占據空間出現。",
+																	"當你的戰士等級到18級時，目標被箭擊中時還會受到2d6的力場傷害。"
 																]
 															}
 														]
@@ -2635,10 +1364,10 @@
 														"entries": [
 															{
 																"type": "entries",
-																"name": "Beguiling Arrow",
+																"name": "欺詐箭[Beguiling Arrow]",
 																"entries": [
-																	"Your enchantment magic causes this arrow to temporarily beguile its target. The creature hit by the arrow takes an extra 2d6 psychic damage, and choose one of your allies within 30 feet of the target. The target must succeed on a Wisdom saving throw, or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
-																	"The psychic damage increases to 4d6 when you reach 18th level in this class."
+																	"你的附魔魔法會讓箭暫時欺騙目標。被這發箭擊中的角色會額外受到2d6的精神傷害，而且選擇距離目標30尺內的一名隊友。目標必須成功通過一個感知豁免，或者被選擇的隊友魅惑直到你的下一個回合開始。這個效果會提前結束如果被選擇的隊友攻擊，傷害被魅惑的目標或者強迫其投豁免。",
+																	"當你的戰士等級到18級時該精神傷害增加到4d6。"
 																]
 															}
 														]
@@ -2648,10 +1377,10 @@
 														"entries": [
 															{
 																"type": "entries",
-																"name": "Bursting Arrow",
+																"name": "爆裂箭[Bursting Arrow]",
 																"entries": [
-																	"You imbue your arrow with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take 2d6 force damage each.",
-																	"The force damage increases to 4d6 when you reach 18th level in this class."
+																	"將從塑能魔法中汲取的力場能量註入到箭中，這股能量會在你攻擊後爆炸。當箭擊中目標後，目標和其10尺內所有的角色都受到2d6的力場傷害。",
+																	"當你的戰士等級到18級時該力場傷害增加到4d6。"
 																]
 															}
 														]
@@ -2661,10 +1390,10 @@
 														"entries": [
 															{
 																"type": "entries",
-																"name": "Enfeebling Arrow",
+																"name": "雕零箭[Enfeebling Arrow]",
 																"entries": [
-																	"You weave necromantic magic into your arrow. The creature hit by the arrow takes an extra 2d6 necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.",
-																	"The necrotic damage increases to 4d6 when you reach 18th level in this class."
+																	"你在你的箭上施展死靈魔法。被這發箭擊中的角色會額外受到2d6的黯蝕傷害。目標必須成功通過一個體質豁免，或者他的武器攻擊造成的傷害在你的下一個回合開始之前減半。",
+																	"當你的戰士等級到18級時該黯蝕傷害增加到4d6。"
 																]
 															}
 														]
@@ -2674,10 +1403,10 @@
 														"entries": [
 															{
 																"type": "entries",
-																"name": "Grasping Arrow",
+																"name": "纏繞箭[Grasping Arrow]",
 																"entries": [
-																	"When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the arrow takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.",
-																	"The poison damage and slashing damage both increase to 4d6 when you reach 18th level in this class."
+																	"當這次攻擊擊中目標時，咒法魔法會創造一團緊抓著的毒性荊棘來困住目標。被這發箭擊中的角色會額外受到2d6的毒性傷害，他的速度減少10尺，當他在每個回合第一次不使用傳送移動1尺以上的距離時他會受到2d6的揮砍傷害。這個目標或其他能觸碰到荊棘的角色可以使用一個動作，以一個成功對抗你的奧術射擊DC的力量（體能）檢定來解除荊棘。否則，荊棘會在1分鐘後或者你再次使用該選項時結束。",
+																	"當你的戰士等級到18級時該毒性和揮砍傷害增加到4d6。"
 																]
 															}
 														]
@@ -2687,10 +1416,10 @@
 														"entries": [
 															{
 																"type": "entries",
-																"name": "Piercing Arrow",
+																"name": "穿透箭[Piercing Arrow]",
 																"entries": [
-																	"You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the arrow shoots forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.",
-																	"The piercing damage increases to 2d6 when you reach 18th level in this class."
+																	"你使用你的變化系魔法使你的箭變得虛無縹緲。當你使用該選項時，你不用為該次攻擊投攻擊骰，取而代之，這只箭會在消失前劃出一條一尺寬30尺長的直線。這只箭會無害地穿過物品且無視遮蔽。每一個在這條直線上的生物都必須通過一個敏捷豁免。如果失敗，生物會受到如同被這只箭擊中的傷害和額外1d6的穿刺傷害。如果成功，傷害減半。",
+																	"當你的戰士等級到18級時該穿刺傷害增加到2d6。"
 																]
 															}
 														]
@@ -2700,10 +1429,10 @@
 														"entries": [
 															{
 																"type": "entries",
-																"name": "Seeking Arrow",
+																"name": "追蹤箭[Seeking Arrow]",
 																"entries": [
-																	"Using divination magic, you grant your arrow the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. Otherwise, the arrow disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the arrow, plus an extra 1d6 force damage, and you learn the target's current location. On a successful save, the target takes half as much damage, and you don't learn its location.",
-																	"The force damage increases to 2d6 when you reach 18th level in this class."
+																	"使用預言魔法，你賦予你的箭自尋目標的能力。當你使用該選項時，你不用為該次攻擊投攻擊骰，取而代之，選擇一名在過去的1分鐘裏你見過的角色。如果需要的話，這只箭會立刻掉頭飛向那名角色，且忽視四分之三和半遮蔽。如果目標在箭的射程範圍內且中間路程適合箭飛行至目標，目標必須做一個敏捷豁免。否則，箭會在飛行到最大距離後消失。如果豁免失敗，角色會受到如同被這只箭擊中的傷害和額外1d6的穿刺傷害，而且你得知目標的確切位置。如果成功，傷害減半且你無法得知其方位。",
+																	"當你的戰士等級到18級時該穿刺傷害增加到2d6。"
 																]
 															}
 														]
@@ -2713,10 +1442,10 @@
 														"entries": [
 															{
 																"type": "entries",
-																"name": "Shadow Arrow",
+																"name": "暗影箭[Shadow Arrow]",
 																"entries": [
-																	"You weave illusion magic into your arrow, causing it to occlude your foe's vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.",
-																	"The psychic damage increases to 4d6 when you reach 18th level in this class."
+																	"你施加幻術魔法到你的箭上，使其能用暗影蒙蔽敵人的視野。被這發箭擊中的角色會額外受到2d6的精神傷害，而且目標必須成功通過一個感知豁免，或者無法看見5尺之外的任何事物直到你的下一個回合開始。",
+																	"當你的戰士等級到18級時該精神傷害增加到4d6。"
 																]
 															}
 														]
@@ -2733,23 +1462,23 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Magic Arrow",
+										"name": "魔法箭矢[Magic Arrow]",
 										"entries": [
-											"At 7th level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target."
+											"在7級時，你學會在箭矢中灌註魔法。無論何時你用短弓或者長弓射出普通箭，你都可以為了讓它能夠克服對非魔法攻擊傷害的抗性和免疫而將其轉變為魔法箭矢。這個魔法會在箭擊中或未命中目標後立刻消失。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Curving Shot",
+										"name": "曲線射擊[Curving Shot]",
 										"entries": [
-											"At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target."
+											"在7級時，你學會如何引導偏離的箭矢到新的目標上。當你使用了魔法箭矢投攻擊骰且未命中時，你能夠使用一個附贈動作來指定一個距離原本目標60尺內的不同目標重投攻擊骰。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Additional Arcane Shot Option",
+										"name": "額外奧術射擊選項[Additional Arcane Shot Option]",
 										"entries": [
-											"You gain an additional Arcane Shot option of your choice when you reach 7th level."
+											"7級時，你增加一個你所選的奧術射擊選項。"
 										]
 									}
 								]
@@ -2760,9 +1489,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Additional Arcane Shot Option",
+										"name": "額外奧術射擊選項[Additional Arcane Shot Option]",
 										"entries": [
-											"You gain an additional Arcane Shot option of your choice when you reach 10th level."
+											"10級時，你增加一個你所選的奧術射擊選項。"
 										]
 									}
 								]
@@ -2773,16 +1502,16 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Ever-Ready Shot",
+										"name": "預備射擊[Ever-Ready Shot]",
 										"entries": [
-											"Starting at 15th level, your magical archery is available whenever battle starts. If you roll initiative and have no uses of Arcane Shot remaining, you regain one use of it."
+											"15級起，無論戰鬥何時開始你都有魔法箭術可用。如果你投了先攻骰且沒有任何奧術射擊使用次數，你重新獲得一次使用機會。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Additional Arcane Shot Option",
+										"name": "額外奧術射擊選項[Additional Arcane Shot Option]",
 										"entries": [
-											"You gain an additional Arcane Shot option of your choice when you reach 15th level."
+											"15級時，你增加一個你所選的奧術射擊選項。"
 										]
 									}
 								]
@@ -2793,9 +1522,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Additional Arcane Shot Option",
+										"name": "額外奧術射擊選項[Additional Arcane Shot Option]",
 										"entries": [
-											"You gain an additional Arcane Shot option of your choice when you reach 18th level. Each option also improves when you become an 18th-level fighter."
+											"18級時，你增加一個你所選的奧術射擊選項，你所有的奧術射擊也在此時強化。"
 										]
 									}
 								]
@@ -2810,32 +1539,32 @@
 					"subclassFeatures": [
 						[
 							{
-								"name": "Cavalier",
+								"name": "騎兵[Cavalier]",
 								"entries": [
-									"The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Compelled to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.",
+									"這種泛型擅長乘騎作戰。他們通常出身於貴族，成長在宮廷，騎兵往往在家族中領導騎兵隊沖鋒陷陣或在國家慶典中擔任儀仗或守衛。他們學習如何在沖鋒時保護他人不受傷害，經常以保護者的身份服務於他們的長官或者弱者。他們被強迫去懲奸除惡或取得榮耀，他們中的一些戰士會為了在冒險中提升自己而離開了他們的安逸生活。",
 									{
 										"type": "entries",
-										"name": "Bonus Proficiency",
+										"name": "額外熟練[Bonus Proficiency]",
 										"entries": [
-											"When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice."
+											"當你在3級選擇這個泛型時，你選擇一下技能中的一個並獲得其熟練：動物馴服[Animal Handling]，歷史[History]，洞察[Insight]，表演[Performance]和勸說[Persuasion]。或者，你學會一門你選擇的語言。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Born to the Saddle",
+										"name": "生而為騎[Born to the Saddle]",
 										"entries": [
-											"Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not {@condition incapacitated}.",
-											"Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed."
+											"3級起，你作為騎兵的資質是顯而易見的。在進行避免從你坐騎上摔下的豁免檢定中，你獲得優勢。若你從你的坐騎上摔落且摔落不超過10尺，你能夠雙腳著陸如果你沒有{@condition 乏力[Incapacitated]}。",
+											"最後，騎上或離開一個角色只需要你5尺的移動力，而非你速度的一半。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Unwavering Mark",
+										"name": "堅定之印[Unwavering Mark]",
 										"entries": [
-											"Starting at 3rd level, you can menace your foes, foiling their attacks and punishing them for harming others. When you hit a creature with a melee weapon attack, you can mark the creature until the end of your next turn. This effect ends early if you are {@condition incapacitated} or you die, or if someone else marks the creature.",
-											"While it is within 5 feet of you, a creature marked by you has disadvantage on any attack roll that doesn't target you.",
-											"In addition, if a creature marked by you deals damage to anyone other than you, you can make a special melee weapon attack against the marked creature as a bonus action on your next turn. You have advantage on the attack roll, and if it hits, the attack's weapon deals extra damage to the target equal to half your fighter level.",
-											"Regardless of the number of creatures you mark, you can make this special attack a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+											"從3級起，你能夠恐嚇你的敵人，抑制他們的攻擊並懲罰他們。當你以一次近戰武器攻擊擊中一名敵人時，你可以標記他直到你的下一個回合，如果你{@condition 乏力[Incapacitated]}，死亡或者有其他人標記該敵人，這個效果會提前結束。",
+											"在你的5尺之內，該名被你標記的敵人的攻擊骰承受劣勢如果他的攻擊不是以你為目標。",
+											"額外的，如果該敵人對除你之外的人造成了傷害，在你的下一個回合你可以用一個附贈動作對該敵人進行一次特殊近戰攻擊，你這次攻擊骰有優勢，且如果擊中，攻擊武器對目標額外造成等同於你戰士等級一半的傷害。",
+											"無論你標記了多少名角色，你能夠使用的特殊攻擊次數等同於你的力量調整值（至少為1），而且你在長休後重新獲得所有被消耗的特殊攻擊次數。"
 										]
 									}
 								]
@@ -2846,10 +1575,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Warding Maneuver",
+										"name": "防護戰術[Warding Maneuver]",
 										"entries": [
-											"At 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can roll 1d8 as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.",
-											"You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+											"7級起，你學會如何抵禦對你，你的坐騎和你附近角色的直接攻擊。如果你或者在你5尺之內對你可視的一名角色被一次攻擊擊中，你能以一個反應投一個1d8如果你手持一把近戰武器或者一面盾牌，將骰值加入被攻擊角色的AC中，如果這次攻擊仍然擊中，被攻擊目標對這次攻擊傷害有抗性。",
+											"你能夠使用該特性的次數等同於你的體質調整值（至少為1），而且你在長休後重新獲得所有被消耗的使用次數。"
 										]
 									}
 								]
@@ -2860,9 +1589,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Hold the Line",
+										"name": "堅守戰線[Hold the Line]",
 										"entries": [
-											"At 10th level, you become a master of locking down your enemies. Creatures provoke an opportunity attack from you when they move 5 feet or more while within your reach, and if you hit a creature with an opportunity attack, the target's speed is reduced to 0 until the end of the current turn."
+											"0級起，你成為了封鎖敵人的大師。目標會承受來自於你的借機攻擊當他們在你的攻擊範圍裏移動了5尺以上的距離，而且如果你用借機攻擊擊中敵人，敵人的移動速度降為0直到當前回合結束。"
 										]
 									}
 								]
@@ -2873,9 +1602,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Ferocious Charger",
+										"name": "野蠻沖撞[Ferocious Charger]",
 										"entries": [
-											"Starting at 15th level, you can run down your foes, whether you're mounted or not. If you move at least 10 feet in a straight line right before attacking a creature and you hit it with the attack, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}. You can use this feature only once on each of your turns."
+											"從15級起，你能夠沖擊你的敵人。無論你是否乘騎，如果你在攻擊一名角色前至少直線移動10尺且這次攻擊成功，目標必須通過一個力量豁免（DC8+你的熟練調整值+你的力量調整值）或者{@condition 倒地[Prone]}，每到你的回合你都可以使用一次該特性。"
 										]
 									}
 								]
@@ -2886,9 +1615,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Vigilant Defender",
+										"name": "警戒守衛[Vigilant Defender]",
 										"entries": [
-											"Starting at 18th level, you respond to danger with extraordinary vigilance. In combat, you get a special reaction that you can take once on every creature's turn, except your turn. You can use this special reaction only to make an opportunity attack, and you can't use it on the same turn that you take your normal reaction."
+											"18級起，你能用你的特殊警戒來造成傷害。戰鬥中，你獲得一個你可以在除你自己的回合以外的回合各使用一次的特殊反應，該特殊反應只能進行一次借機攻擊，你不能在同一回合使用特殊反應和普通反應。"
 										]
 									}
 								]
@@ -2903,22 +1632,22 @@
 					"subclassFeatures": [
 						[
 							{
-								"name": "Samurai",
+								"name": "武士[Samurai]",
 								"entries": [
-									"The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai's resolve is nearly unbreakable, and the enemies in a Samurai's path have two choices: yield or die fighting.",
+									"武士是一種以堅決的戰鬥意誌擊潰對手的戰士。他的信念幾乎堅不可摧，擋著他道的敵人只有兩種選擇：不是投降，就是求死。",
 									{
 										"type": "entries",
-										"name": "Bonus Proficiency",
+										"name": "額外熟練[Bonus Proficiency]",
 										"entries": [
-											"When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice."
+											"當你在3級選擇該泛型時，你獲得以下你選擇的技能熟練：歷史[History]、察言觀色[Insight]、表演[Performance]和說服[Persuasion]。或者，你學會一門你選擇的語言。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Fighting Spirit",
+										"name": "戰意[Fighting Spirit]",
 										"entries": [
-											"Starting at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on your turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so, you also gain 5 temporary hit points. The number of temporary hit points increases when you reach certain levels in this class, increasing to 10 at 10th level and 15 at 15th level.",
-											"You can use this feature three times, and you regain all expended uses of it when you finish a long rest."
+											"3級起，你在戰鬥中的氣勢能保護你並幫助你精準攻擊。在你的回合以一個附贈動作，直到當前回合結束前你的武器攻擊骰有優勢。當你這麽做時，你還獲得5點臨時生命。臨時生命的數值會在你到達一定戰士等級時增加，在10級時增加到10點，在15級時增加到15點。",
+											"你能使用該特性3次，你在完成一次長休後重新獲得所有的使用次數。"
 										]
 									}
 								]
@@ -2929,10 +1658,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Elegant Courtier",
+										"name": "雅臣[Elegant Courtier]",
 										"entries": [
-											"Starting at 7th level, your discipline and attention to detail allow you to excel in social situations. Whenever you make a Charisma (Persuasion) check, you gain a bonus to the check equal to your Wisdom modifier.",
-											"Your self-control also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+											"7級起，你對於細節的嚴謹和專註讓你能勝任各種公共場合。當你進行魅力（勸說）檢定時，你獲得等同於你的感知調整值的額外加值。",
+											"你的自控能力也讓你獲得了感知豁免的熟練。如果你已經有這項熟練，你獲得智力或者魅力的豁免熟練來代替（自選）。"
 										]
 									}
 								]
@@ -2943,9 +1672,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Tireless Spirit",
+										"name": "不懈[Tireless Spirit]",
 										"entries": [
-											"Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use."
+											"10級起，當你投先攻且沒有剩余的戰意使用次數時，你重新獲得一次使用機會。"
 										]
 									}
 								]
@@ -2956,9 +1685,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Rapid Strike",
+										"name": "燕返[Rapid Strike]",
 										"entries": [
-											"Starting at 15th level, you learn to trade accuracy for swift strikes. If you take the Attack action on your turn and have advantage on an attack roll against one of the targets, you can forgo the advantage for that roll to make an additional weapon attack against that target, as part of the same action. You can do so no more than once per turn."
+											"15級起，你學會如何將精準轉化為迅捷。如果你在這回合進行攻擊動作且對目標的一個攻擊骰有優勢，你可以放棄那個優勢骰轉而對目標進行一次額外的武器攻擊，作為同一個動作的一部分。每個回合你都只能使用一次該特性。"
 										]
 									}
 								]
@@ -2969,10 +1698,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Strength before Death",
+										"name": "生死流轉[Strength before Death]",
 										"entries": [
-											"Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that reduces you to 0 hit points and doesn't kill you outright, you can use your reaction to delay falling {@condition unconscious}, and you can immediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall {@condition unconscious} if you still have 0 hit points.",
-											"Once you use this feature, you can't use it again until you finish a long rest."
+											"18級起，你的戰意能延緩死亡的到來。如果你受到會將你的生命值降到0且不會完全殺死你的傷害，你可以使用你的反應來延緩倒地昏迷，而且你立刻獲得一個額外的回合並打斷當前回合。當你在這個額外回合為0生命值時，承受傷害仍舊如往常一樣造成死亡豁免失敗，而且失敗3個死亡豁免仍舊會殺死你。當這個額外回合結束時，如果你還是0生命值，你倒下並{@condition 昏迷[Unconscious]}。",
+											"你使用這個特性後，你在完成一次長休前不能再次使用。"
 										]
 									}
 								]
@@ -2981,412 +1710,6 @@
 					],
 					"source": "XGE",
 					"shortName": "Samurai"
-				},
-				{
-					"name": "Brute (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Brute",
-								"entries": [
-									"Brutes are simple warriors who rely on mighty attacks and their own durability to overcome their enemies. Some brutes combine this physical might with tactical cunning. Others just hit things until those things stop hitting back.",
-									{
-										"type": "entries",
-										"name": "Brute Force",
-										"entries": [
-											"Starting at 3rd level, you're able to strike with your weapons with especially brutal force. Whenever you hit with a weapon that you're proficient with and deal damage, the weapon's damage increases by an amount based on your level in this class, as shown on the Brute Bonus Damage table.",
-											{
-												"type": "table",
-												"caption": "Brute Bonus Damage",
-												"colLabels": [
-													"Fighter Level",
-													"Damage Increase"
-												],
-												"colStyles": [
-													"col-xs-6 text-align-center",
-													"col-xs-6 text-align-center"
-												],
-												"rows": [
-													[
-														"3rd",
-														"1d4"
-													],
-													[
-														"10th",
-														"1d6"
-													],
-													[
-														"16th",
-														"1d8"
-													],
-													[
-														"20th",
-														"1d10"
-													]
-												]
-											}
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"name": "Brutish Durability",
-										"type": "entries",
-										"entries": [
-											"Beginning at 7th level, your toughness allows you to shrug off assaults that would devastate others.",
-											"Whenever you make a saving throw, roll 1d6 and add the die to your saving throw total. If applying this bonus to a death saving throw increases the total to 20 or higher, you gain the benefits of rolling a 20 on the d20."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"name": "Additional Fighting Style",
-										"type": "entries",
-										"entries": [
-											"At 10th level, you can choose a second option from the Fighting Style feature."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"name": "Devastating Critical",
-										"type": "entries",
-										"entries": [
-											"Starting at 15th level, when you score a critical hit with a weapon attack, you gain a bonus to that weapon's damage roll equal to your level in this class."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"name": "Survivor",
-										"type": "entries",
-										"entries": [
-											"At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns in combat, you regain hit points equal to 5 + your Constitution modifier (minimum of 1 hit point). You don't gain this benefit if you have 0 hit points or if you have more than half of your hit points left."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAThreeSubclasses",
-					"shortName": "Brute (UA)"
-				},
-				{
-					"name": "Warlord (Livestream)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Warlord (Livestream)",
-								"entries": [
-									"{@i Transcribed on 2018-03-28. [Square bracketed text] denotes transcriber's annotations.}",
-									{
-										"type": "entries",
-										"name": "Tactical Focus",
-										"entries": [
-											"At 3rd level, your tactical acumen allows you to study an area of a battlefield and provide direction to your allies that can tilt a battle in your favor.",
-											"As a bonus action or as part of the attack action, you can select an area on the ground that measures 10 feet on each side. This area is your tactical focus. It remains your tactical focus until you use this ability again or you are unable to take actions.",
-											"When you select an area as your tactical focus, you choose one of your tactics to apply to that area. You gain three tactics at 3rd level. You gain an additional tactic at 7th and 15 level. Each time you complete a long rest, you can swap on of your tactics for a different one.",
-											{
-												"type": "options",
-												"name": "Tactics",
-												"entries": [
-													"The stratagems are presented in alphabetical order.",
-													{
-														"type": "entries",
-														"name": "Advance",
-														"entries": [
-															"You and your allies can move 10 ft. in your tactical focus for every 5 feet of movement expended there. {@i [Changed during stream to \"You and your allies can basically teleport into your focus. Movement on allies turn.\" Specifically, the movement is not made as a reaction\u2014your allies can use their movement on their turn(s) to move towards the focus, and gain bonuses to speed or other effects (for example, ignoring difficult terrain, or movement does not provoke opportunity attacks) to aid and incentivize this. Additionally, this may replace \"Cover That Flank\" in future.]}"
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Clear the area",
-														"entries": [
-															"If an ally hits a creature in your tactical focus with an attack, the ally can move that creature 5 ft. in addition to the attack's other effects."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Cover That Flank",
-														"entries": [
-															"When a hostile creature that you can see enters your tactical focus, up to three target creatures of your choice that can see the creature can use a reaction to move up to their speed. The targets must end their movement in the tactical focus. A target creature that ends this movement adjacent to the triggering creature regains its reaction."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Get Down",
-														"entries": [
-															"If an allied creature in your tactical focus must make a Dexterity saving throw it can use its reaction to move up to its speed. If this movement takes it out of the range or area of the effect that caused the saving throw, it is no longer subjected to the effect. {@i [In future, this may be changed to instead give advantage on the saving throw, or require the creature to drop prone, or cancel the creature's next move.]}"
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Form Shield Wall",
-														"entries": [
-															"Allies in your tactical focus gain a +2 bonus to AC while they are adjacent to an ally using a shield. {@i [In future, this will likely be changed to benefit only creatures not already wielding a shield, and to affect each creature at most once.]}"
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Reorder Ranks",
-														"entries": [
-															"Allies in your tactical focus do not provoke opportunity attacks while they are within 5 feet of an ally. In addition, you and your allies can end movement in an ally's space. That ally immediately moves so that you do not occupy the same space, but it must end that move at least partially occupying your tactical focus. {@i [Noted as requiring cleanup.]}"
-														]
-													}
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Tactician's Insight",
-										"entries": [
-											"Starting at 3rd level, you can grant your allies useful tactical insights while they are in the area of your tactical focus.",
-											"You gain a number of uses of insight based on your fighter level.",
-											"As a bonus action or as a part of an attack action you grant insight to yourself or allies in your tactical focus. You grant this benefit to yourself and as many allies as you wish in your focus, but you cannot expend more uses than you currently have {@i [or more than the maximum in the table below. A creature can receive more than one Tactician's Insight when you take this action.]}",
-											"A creature that gains your insight can use it in two ways. It can regain hit points immediately upon receiving it. Roll 2d10 and the creature regains that many hit points. If the creature would gain hit points that place it above its maximum, it gains the difference as temporary hit points.",
-											"Alternatively, a creature can save the insight to use when it hits with an attack. It increases the attack's damage by 2d10.",
-											"You regain expended uses of Tactician's Insight when you complete a long rest.",
-											{
-												"type": "table",
-												"caption": "Tactician's Insight",
-												"colLabels": [
-													"Fighter Level",
-													"Uses",
-													"Maximum",
-													"Gambits"
-												],
-												"colStyles": [
-													"col-xs-4 text-align-center",
-													"col-xs-2 text-align-center",
-													"col-xs-2 text-align-center",
-													"col-xs-2 text-align-center",
-													"col-xs-2 text-align-center"
-												],
-												"rows": [
-													[
-														"3",
-														2,
-														1,
-														0
-													],
-													[
-														"4-6",
-														3,
-														1,
-														0
-													],
-													[
-														"7-9",
-														7,
-														2,
-														3
-													],
-													[
-														"10-12",
-														9,
-														2,
-														4
-													],
-													[
-														"13-15",
-														14,
-														3,
-														5
-													],
-													[
-														"16-18",
-														16,
-														3,
-														6
-													],
-													[
-														"19-20",
-														20,
-														4,
-														7
-													]
-												]
-											}
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Additional Tactic",
-										"entries": [
-											"At 7th level, you learn an additional tactic of your choice."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Tactical Gambits",
-										"entries": [
-											"Starting at 7th level, your tactical cunning allows you to seize the moment in battle.",
-											"At 7th level, you learn two gambits. You learn an additional gambit at 10th and 18th level.",
-											"You use a gambit as an action. You can use your gambits a number of times based on your fighter level.",
-											"Each time you complete a long rest, you regain all expended uses of your gambits and can swap one of your gambits for a different one.",
-											{
-												"type": "entries",
-												"name": "Saving Throws",
-												"entries": [
-													"A gambit sometimes requires a saving throw. The saving throw DC is calculated as follows:",
-													{
-														"type": "abilityDc",
-														"name": "Gambit",
-														"attributes": [
-															"int"
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Gambits",
-												"entries": [
-													"The gambits are presented in alphabetical order.",
-													{
-														"type": "entries",
-														"name": "Aggressive Advance",
-														"entries": [
-															"You and your allies howl in rage and glower at your foes, making a display that sends fear into their hearts.",
-															"Hostile creatures within 60 feet of you that can see you must make a Wisdom saving throw. On a failed save, a creature is frightened of your tactical focus. A creature frightened by this effect can repeat the saving throw at the end of each of its turns, ending the effect on a successful save. As part of this gambit, you may take the attack action. {@i [In future, may be changed to require you or an ally to be present within the focus.]}"
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Cut Them Down!",
-														"entries": [
-															"You direct your allies to strike with perfect timing. Landing blows just as your enemies are of balance to send them tumbling to the ground.",
-															"Until the end of your next turn, hostile creatures in your tactical focus that you can see must make Strength saves each time they are hit by an attack. On a failed save, they are knocked prone. As part of this gambit, you may take the attack action."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Luring Gambit",
-														"entries": [
-															"You entangle your weapon with a chose foe, luring it to duel you as your allies close in for the kill.",
-															"As part of this gambit, you may take the attack action. If you hit a creature with a weapon attack during your turn, it must make a Wisdom saving throw. On a failed save, your allies are invisible to it until the end of your next turn."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Pile On",
-														"entries": [
-															"You direct your allies' attacks against a target, each blow building on the next to build a devastating result. Select a creature in your tactical focus that you can see. At the start of your next turn, that creature must make a Constitution saving throw if you or an ally has hit it with an attack since you used this ability. It suffers disadvantage on the saving throw if it has been hit by three or more attacks {@i [in future, this may be changed to \"hit by three or more creatures\"]}. On a failed saving throw, the creature is stunned until the end of your next turn.",
-															"As part of this gambit, you may take the attack action."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Pincer Movement",
-														"entries": [
-															"With precise timing, you order your allies to charge into the enemy, dealing body checks that leave your foes entangles and helpless.",
-															"Up to two allies that can see or hear you can use their reactions to move up to their speed. Any creature adjacent to both of your allies or to you and one of the chosen allies at the end of their movement must make a Strength saving throw or become restrained until the end of your next turn. As part of this gambit, you may take the attack action."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Vexing Maneuvers",
-														"entries": [
-															"With precise movements, you and your allies dash around the foes to leave them confused and unable to pick out their most dangerous targets.",
-															"Each enemy in your tactical focus that you can see must make an Intelligence saving throw. On a failed save, it cannot leave your tactical focus using its move until the end of your next turn. As part of this gambit you may take the attack action."
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Additional Gambit",
-										"entries": [
-											"At 10th level, you learn an additional gambit of your choice."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Lead from the Front",
-										"entries": [
-											"At 10th level you strike with a cunning insight that allows your allies to make effective follow up attacks.",
-											"If you hit a creature with a weapon attack, it has disadvantage on all saving throws against your gambits until the end of your next turn."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Additional Tactic",
-										"entries": [
-											"At 15th level, you learn an additional tactic of your choice."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Tactical Maneuvers",
-										"entries": [
-											"At 15th level, you can provide leadership that allows your allies to move in perfect harmony.",
-											"In place of moving, you can instead allow up to three allies who can see or hear you to move up to half their speed. The chosen allies must be capable of taking actions in order to move in this manner."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Additional Gambit",
-										"entries": [
-											"At 18th level, you learn an additional gambit of your choice."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Perfect Coordination",
-										"entries": [
-											"Starting at 18th level, you gain the ability to unleash a devastating combination of your allies' abilities. As a bonus action, select up to five allies who can see or hear you. They can use their reactions to immediately take actions.",
-											"Once you use this ability, you cannot use it again until you complete a long rest."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "Stream",
-					"shortName": "Warlord (Stream)"
 				}
 			],
 			"fluff": [
