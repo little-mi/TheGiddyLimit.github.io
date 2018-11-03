@@ -5070,23 +5070,23 @@
 			]
 		},
 		{
-			"name": "Anthropologist",
+			"name": "人類學家[Anthropologist]",
 			"source": "ToA",
 			"page": 191,
-			"skillProficiencies": "Insight, Religion",
+			"skillProficiencies": "洞悉[Insight], 宗教[Religion]",
 			"entries": [
 				{
-					"name": "Skill Proficiencies",
+					"name": "技能熟練",
 					"type": "entries",
 					"entries": [
-						"Insight, Religion"
+						"洞悉[Insight], 宗教[Religion]"
 					]
 				},
 				{
 					"name": "Languages",
 					"type": "entries",
 					"entries": [
-						"Two of your choice"
+						"兩個所選語言"
 					]
 				},
 				{
@@ -5100,7 +5100,7 @@
 					"name": "Cultural Chameleon",
 					"type": "entries",
 					"entries": [
-						"Before becoming an adventurer, you spent much of your adult life away from your homeland, living among people different from your kin. You came to understand these foreign cultures and the ways of their people, who eventually treated you as one of their own. One culture had more of an influence on you than any other, shaping your beliefs and customs Choose a race whose culture you've adopted, or roll on the Adopted Culture table.",
+						"在成為一個冒險者之前，你花費了很多的時間在你的家鄉外旅行，你對於其他種族的風土名情較為了解，你了解一種文化，你已經接受了他們的風土名情，或用骰的。",
 						{
 							"type": "table",
 							"colLabels": [
@@ -5149,10 +5149,10 @@
 					]
 				},
 				{
-					"name": "Feature: Adept Linguist",
+					"name": "Feature: 嫻熟的語言學家[Adept Linguist]",
 					"type": "entries",
 					"entries": [
-						"You can communicate with humanoids who don't speak any language you know. You must observe the humanoids interacting with one another for at least 1 day, after which you learn a handful of important words, expressions, and gestures - enough to communicate on a rudimentary level."
+						"你可以與不會說任何你熟悉的語言的類人生物進行交流。 你必須觀察人形生物相互作用至少1天，之後你會學到一些重要的單詞，表達和手勢 - 足以在初級水平上進行交流。"
 					],
 					"data": {
 						"isFeature": true
@@ -5162,12 +5162,12 @@
 					"name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
-						"Anthropologists leave behind the societies into which they were born to discover what life is like in other parts of the world. They seek to see how other races and civilizations survive - or why they did not. Some anthropologists are driven by intellectual curiosity, while others want the fame and recognition that comes with being the first to discover a new people, a lost tribe, or the truth about an ancient empire's downfall.",
+						"人類學家離開了他們出生的社會，發現了世界其他地方的生活。 他們試圖了解其他種族和文明如何生存 - 或者他們為什麼滅亡。 一些人類學家受到了求知欲的驅使，而其他人則希望成為第一個發現者，失落的部落或關於古代帝國垮台的真相來藉此得到名聲和認可。",
 						{
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Personality Trait"
+								"個性"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -5176,27 +5176,27 @@
 							"rows": [
 								[
 									"1",
-									"I prefer the company of those who aren't like me, including people of other races"
+									"我更喜歡那些與我不同的，包括其他種族的人。"
 								],
 								[
 									"2",
-									"I'm a stickler when it comes to observing proper etiquette and local customs"
+									"在觀察正確的禮儀和當地風俗時，我是一個堅持不懈的人"
 								],
 								[
 									"3",
-									"I would rather observe than meddle"
+									"我寧願觀察而不是插手"
 								],
 								[
 									"4",
-									"By living among violent people, I have become desensitized to violence."
+									"通過生活在暴力的人群中，我已經變得對暴力行為不敏感了。"
 								],
 								[
 									"5",
-									"I would risk life and limb to discover a new culture or unravel the secrets of a dead one."
+									"我會冒生命危險去發現一種新的文化或解開他們的秘密。"
 								],
 								[
 									"6",
-									"When I arrive at a new settlement for the first time, I must learn all its customs."
+									"當我第一次到達新的定居點時，我必須學習它的所有習俗。"
 								]
 							]
 						},
@@ -5204,7 +5204,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Ideal"
+								"理念"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -5213,27 +5213,27 @@
 							"rows": [
 								[
 									"1",
-									"Discovery. I want to be the first person to discover a lost culture. (Any)"
+									"發現。 我想成為第一個發現失落文化的人。 （任何）"
 								],
 								[
 									"2",
-									"Distance. One must not interfere with the affairs of another culture - even one in need of aid. (Lawful)"
+									"保持距離。 人們不能干涉另一種文化的事務 - 即使是需要援助的文化。（守序）"
 								],
 								[
 									"3",
-									"Knowledge. By understanding other races and cultures, we learn to understand ourselves. (Any)"
+									"知識。 通過了解其他種族和文化，我們學會了解自己。 （任何）"
 								],
 								[
 									"4",
-									"Power. Common people crave strong leadership, and I do my utmost to provide it. (Lawful)"
+									"權力。 普通人渴望強有力的領導，我竭盡全力提供。（守序）"
 								],
 								[
 									"5",
-									"Protection. I must do everything possible to save a society facing extinction. (Good)"
+									"保護。 我必須盡一切可能拯救面臨滅絕的社會。 （善良）"
 								],
 								[
 									"6",
-									"Indifferent. Life is cruel. What's the point in saving people if they're going to die anyway? (Chaotic)"
+									"無動於衷。 生活是殘酷的。 如果他們還要死的話，拯救人們有什麼意義呢？ （混亂）"
 								]
 							]
 						},
@@ -5241,7 +5241,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Bond"
+								"羈絆"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -5250,27 +5250,27 @@
 							"rows": [
 								[
 									"1",
-									"My mentor gave me a journal filled with lore and wisdom. Losing it would devastate me."
+									"我的導師給了我一本充滿傳說和智慧的日記。 失去它會毀了我。"
 								],
 								[
 									"2",
-									"Having lived among the people of a primeval tribe or clan, I long to return and see how they are faring."
+									"我曾經在一個原始部落或氏族的人民中生活過，我渴望回來看看他們是如何發展的。"
 								],
 								[
 									"3",
-									"Years ago, tragedy struck the members of an isolated society I befriended, and I will honor them."
+									"多年前，一場悲劇毀滅了與我友好的一個偏遠部落，我將永遠緬懷他們。"
 								],
 								[
 									"4",
-									"I want to learn more about a particular humanoid culture that fascinates me."
+									"我想更多地了解一個令我著迷的特定類人種族文化。"
 								],
 								[
 									"5",
-									"I seek to avenge a clan, tribe, kingdom, or empire that was wiped out."
+									"我試圖為一個被消滅的氏族，部落，王國或帝國報仇。"
 								],
 								[
 									"6",
-									"I have a trinket that I believe is the key to finding a long-lost society."
+									"我有一個飾品，我認為這是找到一個遠古文明的關鍵。"
 								]
 							]
 						},
@@ -5278,7 +5278,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Flaw"
+								"缺陷"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -5287,27 +5287,27 @@
 							"rows": [
 								[
 									"1",
-									"Boats make me seasick."
+									"我會暈船。"
 								],
 								[
 									"2",
-									"I talk to myself, and I don't make friends easily."
+									"我自言自語，所以我不容易交到朋友。"
 								],
 								[
 									"3",
-									"I believe that I'm intellectually superior to people from other cultures and have much to teach them."
+									"我相信我比其他文化背景的人更聰明，我有很多東西可以教給他們。"
 								],
 								[
 									"4",
-									"I've picked up some unpleasant habits living among goblins, lizardfolk, or orcs."
+									"我在跟哥布林，蜥蜴人和獸人生活時養成了一些很糟糕的生活習慣。"
 								],
 								[
 									"5",
-									"I complain about everything."
+									"我會抱怨每件事。"
 								],
 								[
 									"6",
-									"I wear a tribal mask and never take it off."
+									"我戴著部落面具，從不摘下它。"
 								]
 							]
 						}
