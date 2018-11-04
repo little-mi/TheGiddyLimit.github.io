@@ -5316,30 +5316,30 @@
 			]
 		},
 		{
-			"name": "Archaeologist",
+			"name": "考古學家[Archaeologist]",
 			"source": "ToA",
 			"page": 192,
-			"skillProficiencies": "History, Survival",
+			"skillProficiencies": "歷史[History], 求生[Survival]",
 			"entries": [
 				{
 					"name": "Skill Proficiencies",
 					"type": "entries",
 					"entries": [
-						"History, Survival"
+						"歷史[History], 求生[Survival]"
 					]
 				},
 				{
 					"name": "Tool Proficiencies",
 					"type": "entries",
 					"entries": [
-						"Cartographer's tools or navigator's tools"
+						"製圖工具[Cartographer's tools]或導航工具[navigator's tools]"
 					]
 				},
 				{
 					"name": "Languages",
 					"type": "entries",
 					"entries": [
-						"One of your choice"
+						"一個所選語言"
 					]
 				},
 				{
@@ -5350,10 +5350,10 @@
 					]
 				},
 				{
-					"name": "Dust Digger",
+					"name": "廢土深掘者[Dust Digger]",
 					"type": "entries",
 					"entries": [
-						"Prior to becoming an adventurer, you spent most of your young life crawling around in the dust, pilfering relics of questionable value from crypts and ruins. Though you managed to sell a few of your discoveries and earn enough coin to buy proper adventuring gear, you have held onto an item that has great emotional value to you. Roll on the Signature Item table to see what you have, or choose an item from the table.",
+						"在成為一名冒險家之前，你的大部分年輕生活都在挖掘東西，從墓穴和廢墟中竊取有價值的遺物。 雖然你設法出售了一些你的發現並賺取足夠的硬幣來購買適當的冒險裝備，但你已經擁有了一件對你具有極大情感價值的物品。 骰 Signature Item table 以查看你擁有的內容，或從表格中選擇一個項目。",
 						{
 							"type": "table",
 							"colLabels": [
@@ -5402,10 +5402,10 @@
 					]
 				},
 				{
-					"name": "Feature: Historical Knowledge",
+					"name": "Feature: 歷史知識[Historical Knowledge]",
 					"type": "entries",
 					"entries": [
-						"When you enter a ruin or dungeon, you can correctly ascertain its original purpose and determine its builders, whether those were dwarves, elves, humans, yuan-ti, or some other known race. In addition, you can determine the monetary value of art objects more than a century old."
+						"當你進入一個遺跡或地下城時，你可以正確地確定它的最初目的並確定它的建造者，無論是矮人，精靈，人類，蛇人，或其他一些已知的種族。 此外，你可以確定超過一個世紀的藝術品的貨幣價值。"
 					],
 					"data": {
 						"isFeature": true
@@ -5415,7 +5415,7 @@
 					"name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
-						"Few archaeologists can resist the lure of an unexplored ruin or dungeon, particularly if such a site is the source of legends or is rumored to contain the treasures and relics of wizards, warlords, or royalty. Some archaeologists plunder for wealth or fame, while others consider it their calling to illuminate the past or keep the world's greatest treasures from falling into the wrong hands. Whatever their motivations, archaeologists combine the qualities of a scrappy historian with the self-made heroism of a treasure-hunting scoundrel.",
+						"很少有考古學家可以抗拒未探索的遺跡或地下城的誘惑，特別是如果這樣的遺址是傳說的來源或傳聞中包含法師，軍閥或皇室的寶藏和遺物。 一些考古學家為了財富或名望而掠奪，而另一些考古學家則認為讓被埋藏的遺跡重見天日或阻止偉大的遺物落入錯誤的人手裡是偉大的天命。 無論他們的動機是什麼，考古學家都將一位鬥志豐富的歷史學家的品質與尋寶行為的自製英雄主義相結合。",
 						{
 							"type": "table",
 							"colLabels": [
