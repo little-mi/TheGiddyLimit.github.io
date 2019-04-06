@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 
 <head>
 	<!--5ETOOLS_VERSION-->
@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>CR Calc - 5etools</title>
+	<title>CR 計算機 - 5etools</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -22,8 +22,8 @@
 <header class="hidden-xs hidden-sm">
 	<div class="container">
 
-		<h1>CR Calculator</h1>
-		<p>Put in the values and press calculate.</p>
+		<h1>CR 計算機</h1>
+		<p>填寫參數然後按下計算--就這麼簡單!</p>
 	</div>
 </header>
 <nav class="container" id="navigation">
@@ -35,29 +35,28 @@
 	<form id="crcalc" autocomplete="off">
 		<div class="row">
 			<div class="col-sm-6">
-				<div id="croutput">Waiting for calculation...</div>
+				<div id="croutput">正在計算...</div>
 				<br/>
-				<input type="button" id="reset" value="Reset">
-				<h4>Instructions</h4>
+				<input type="button" id="reset" value="重置">
+				<h4>說明</h4>
 				<ol>
-					<li>Enter expected CR of creature.</li>
-					<li>Fill in the HP, AC, and other defensive attributes of creature.</li>
-					<li>Fill in offensives attributes of creature. DPR is averaged over three rounds!</li>
-					<li>Click which special Monster Features it has.</li>
-					<li>Done!</li>
+					<li>輸入你預期此生物的CR是多少。</li>
+					<li>輸入HP、AC，和其他防禦屬性值。</li>
+					<li>輸入此生物的攻擊屬性值。 DPR是指至少3回合(包含)的平均!</li>
+					<li>點擊此生物擁有的特殊能力。</li>
+					<li>完成!</li>
 				</ol>
 				<p>
-					<small>Be sure to read the <em>Dungeon Master's Guide</em> section on monster creation, pages 273
-						through 283. You can click on the table to the right to fill in values for a given and adjust to
-						taste. You can hover over the individual labels for a short description of how each attribute
-						contributes to a monster's CR. You can also hover over each feature description to see how that
-						feature affects the calculations.
+					<small>先確定你已經讀過<em>地下城主指南(Dungeon Master's Guide)</em> 的第273頁到第
+						283頁("創建怪物"段落)。單擊右側的表格以填寫參數/數值並根據需要進行
+						調整。將鼠標停在各個標籤上，以獲得該屬性如何影響怪物的CR。
+						你還可以將鼠標停在每個數值的說明上，以查看那個數值對計算的影響。
 					</small>
 				</p>
 				<hr>
-				<label for="expectedcr" style="font-size: 1em;">Expected CR:
+				<label for="expectedcr" style="font-size: 1em;">此生物的CR:
 					<span class="explanation">
-							CR calculation begins by determining what you want the final CR of the monster to be.
+							CR 計算機一開始就會先確定你想要的生物的最終CR。
 						</span>
 				</label>
 				<span class="inputwrap">
@@ -65,17 +64,17 @@
 					</span><br/>
 			</div>
 			<div class="col-sm-6">
-				<h4>Monster Statistics by Challenge Rating</h4>
+				<h4>按挑戰等級(即CR)劃分的怪物統計數據</h4>
 				<table id="msbcr">
 					<tr>
 						<th>CR</th>
-						<th>XP</th>
-						<th>Prof.<br/>Bonus</th>
-						<th>Armor<br/>Class</th>
-						<th>Hit<br/>Points</th>
-						<th>Attack<br/>Bonus</th>
-						<th>Damage/<br/>Round</th>
-						<th>Save<br/>DC</th>
+						<th>經驗值</th>
+						<th>熟練<br/>加成</th>
+						<th>防禦<br/>等級</th>
+						<th>生命<br/>值</th>
+						<th>攻擊<br/>加成</th>
+						<th>每回合<br/>的傷害</th>
+						<th>豁免骰<br/>DC</th>
 					</tr>
 				</table>
 			</div>
@@ -83,38 +82,40 @@
 		<hr>
 		<div class="row">
 			<div class="col-sm-6">
-				<input type="button" id="calculate" value="Calculate" style="display: none;">
-				<h4>Defensive</h4>
-				<label for="hp">Hit Points:
+				<input type="button" id="calculate" value="計算" style="display: none;">
+				<h4>防禦類</h4>
+				<label for="hp">生命值:
 					<span class="explanation">
-							A creature's hit points determine its defensive CR before it is adjusted by its AC.
+							一個生物的生命值在防禦方面決定了他的CR，優先度大於他的AC調整值。
 						</span>
 				</label>
 				<input type="number" id="hp" placeholder="Average HP" value="1" min="0" max="850"><br/>
-				<label for="ac">Armor Class:
+				<label for="ac">防禦等級(AC):
 					<span class="explanation">
-							A creature's AC adjusts its defensive CR.
+							一個生物的AC會影響到他防禦方面的CR。
 						</span>
 				</label>
 				<input type="number" id="ac" placeholder="AC" value="13" min="1" max="40">
 			</div>
 			<div class="col-sm-6">
-				<h4>Offensive</h4>
-				<label for="dpr">Damage Per Round:
+				<h4>攻擊類</h4>
+				<label for="dpr">每回合傷害:
 					<span class="explanation">
-							A creature's damage per round (DPR) determines its offensive CR, which is offset by its attack bonus or save DC. DPR is determined by averaging its maximum damage output (taking the average of dice rolls, ignoring critics and accuracy) over three rounds. Areas of effect are treated as though they hit two creatures, which fail any involved saving throws.
+							一個生物每回合的傷害(DPR)會影響到他攻擊方面的CR。也會抵銷攻擊加成或者豁免骰的DC. DPR由他最大輸出值的平均決定(骰子可能投出的最大值，無視爆擊和調整值)
+						至少平均3回合 範圍攻擊被視為擊中了兩個生物，並以皆未通過豁免計算。
 						</span>
 				</label>
+				
 				<input type="number" id="dpr" placeholder="Average DPR" value="1" min="0" max="320"><br/>
-				<label for="attackbonus">Attack Bonus/Save DC:
+				<label for="attackbonus">攻擊加成/豁免骰的DC:
 					<span class="explanation">
-							A creature's attack bonus or save DC adjusts its offensive CR.
+							一個生物的攻擊加成或豁免骰的DC會影響到他攻擊方面的CR。
 						</span>
 				</label>
 				<input type="number" id="attackbonus" placeholder="Attack Bonus" value="3" min="-5" max="19"><br/>
-				<label for="saveinstead">Use Saves?
+				<label for="saveinstead">使用豁免骰?
 					<span class="explanation">
-							If a creature's damage output is more dependent on save-based abilities, its save DC is used for adjusting its offensive CR instead of its attack bonus.
+							如果一個生物的傷害輸出更依賴於豁免骰，則其豁免DC比起攻擊加值會更優先用於調整其攻擊方面的CR。
 						</span>
 				</label>
 				<input type="checkbox" id="saveinstead" value="0">
@@ -123,65 +124,65 @@
 		<hr>
 		<div class="row">
 			<div class="col-sm-6">
-				<label for="size">Size:
+				<label for="size">體型:
 					<span class="explanation">
-							A creature's size determines the size of its individual hit dice.
+							一個生物的體型決定了他的個人命中骰的大小。
 						</span>
 				</label>
 				<span class="inputwrap">
 						<select id="size">
-							<option value="Tiny">Tiny</option>
-							<option value="Small">Small</option>
-							<option value="Medium" selected>Medium</option>
-							<option value="Large">Large</option>
-							<option value="Huge">Huge</option>
-							<option value="Gargantuan">Gargantuan</option>
+							<option value="Tiny">微型(Tiny)</option>
+							<option value="Small">小型(Small)</option>
+							<option value="Medium" selected>中型(Medium)</option>
+							<option value="Large">大型(Large)</option>
+							<option value="Huge">巨型(Huge)</option>
+							<option value="Gargantuan">超巨型(Gargantuan)</option>
 						</select>
 					</span><br/>
-				<label for="hd">Hit Dice:
+				<label for="hd">血量骰:
 					<span class="explanation">
-							Unlike player characters, the number of hit dice an NPC gets is completely arbitrary. Adjust this amount to taste.
+							不像玩家，你可以任意決定NPC的血量骰數量。
 						</span>
 				</label>
 				<span class="inputwrap">
 						<input type="number" id="hd" value="1" min="1" max="999"><span id="hdval">d8</span>
 					</span><br/>
-				<label for="con">Constitution:
+				<label for="con">體質修正:
 					<span class="explanation">
-							A creature's HP is increases by its Constitution modifier for each hit die it has.
+							生物的HP根據每個血量骰增加其體質修正值。
 						</span>
 				</label>
 				<input type="number" id="con" value="10" min="1" max="30"><br/>
-				<input type="button" id="calculatehp" value="Calculate Average HP" style="display: none;">
+				<input type="button" id="calculatehp" value="計算平均HP" style="display: none;">
 			</div>
 			<div class="col-sm-6">
-				<label for="vulnerabilities">Vulnerabilities:
+				<label for="vulnerabilities">劣勢能力:
 					<span class="explanation">
-							If a creature is vulnerable to common damage types (especially bludgeoning, piercing, and slashing damage), its effective hit points are halved.
+							如果一個生物對一種常見的傷害類型為劣勢(特別像鈍擊、穿刺和劈砍傷害)，它的有效生命值減半.
 						</span>
 				</label>
 				<input type="checkbox" id="vulnerabilities"><br/>
-				<label for="resistances">Resistances/Immunities:
+				<label for="resistances">抗性/豁免:
 					<span class="explanation">
-							A monster's HP is multiplied based on the resistances and immunities has to common damage types (non-magical bludgeoning, piercing, and slashing chief among them).
+							一個生物的HP會根據其擁有的抗性和豁免加值輔以常見的傷害類型做出調整（主要是非魔法傷害的鈍擊、穿刺和劈砍傷害）。
 						</span>
 				</label>
 				<span class="inputwrap">
 						<select id="resistances">
-							<option value="0" selected>None</option>
-							<option value="res">Resistances</option>
-							<option value="imm">Immunities</option>
+							<option value="0" selected>無</option>
+							<option value="res">抗性</option>
+							<option value="imm">豁免</option>
 						</select>
 					</span><br/>
-				<label for="flying">Flying at CRs 0-9:
+				<label for="flying">可飛行:
 					<span class="explanation">
-							A monster's effective AC is increased by 2 if it can fly and deal damage at range, though only if its expected challenge rating is 10 or lower.
+							如果一個生物會飛而且能用範圍攻擊那它的AC會增加2，儘管挑戰等級低於10。
 						</span>
 				</label>
 				<input type="checkbox" id="flying"><br/>
-				<label for="saveprofs">Save Proficiencies:
+				<label for="saveprofs">豁免骰或熟練數量:
 					<span class="explanation">
-							Increase a creature's effective AC by 2 if it has 3 or 4 saving throw proficiencies, or by 4 if it has 5 or 6.
+							如果一個生物有3~4個豁免骰或熟練項那它的AC會增加2，若是5~6個則會增加4.
 						</span>
 				</label>
 				<span class="inputwrap">
@@ -197,18 +198,18 @@
 	<hr>
 	<div class="row">
 		<div class="col-sm-12" id="monsterfeatures">
-			<h4>Monster Features</h4>
+			<h4>生物的特殊能力選單</h4>
 			<table>
 				<tr>
-					<th>Use?</th>
-					<th>Name</th>
-					<th style="white-space: nowrap">Example Monster</th>
-					<th>Feature Description</th>
+					<th>是否擁有?</th>
+					<th>名稱</th>
+					<th style="white-space: nowrap">範例</th>
+					<th>能力描述</th>
 				</tr>
 			</table>
 			<p>
-				<small><em>Note: Not all monster features are covered here. The DMG has specific instructions on how to
-					manage other features.</em></small>
+				<small><em>注意:此處並未列出所有特殊能力，DMG{地下城主指南(Dungeon Master's Guide)}
+					有對於如何使用其他功能的具體說明。</em></small>
 			</p>
 		</div>
 	</div>
